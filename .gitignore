@@ -1,0 +1,5 @@
+# ignore ide files
+.idea/
+
+# Ignore IntelliJ project files
+*.iml

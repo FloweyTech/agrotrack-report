@@ -6,23 +6,24 @@
 
 <strong>Ingeniería de Software - 2025-2</strong><br>
 <strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
+<strong>NRC: 7349</strong><br>
 <strong>Profesor: Efraín Ricardo Bautista Ubillús</strong><br>
 
 <br><strong>Informe del Trabajo Final</strong><br><br>
 
 <strong>Startup: GITECH </strong><br>
-<strong>Producto: -</strong><br>
+<strong>Producto: AgroTrack</strong><br>
 
 
 
 ### Team Members:
 
-| Member                               |   Code    |
-|--------------------------------------|:---------:|
+|                Member                |   Code    |
+|:------------------------------------:|:---------:|
 | Almandroz Carbajal Pierina Marysabel |    ...    |
-| Amaro Villar Anjali                  | 20221G044 |
-| Jara Benites Quique Vladimir         |    ...    |
-| Quintanilla Pozo Gonzalo Samuel      |    ...    |
-| Vilca Saboya Diego Alejandro         |    ...    |
+|         Amaro Villar Anjali          | 20221G044 |
+|     Jara Benites Quique Vladimir     |    ...    |
+|   Quintanilla Pozo Gonzalo Samuel    |    ...    |
+|     Vilca Saboya Diego Alejandro     |    ...    |
 
 </div>
