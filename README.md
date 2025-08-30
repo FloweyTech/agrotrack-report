@@ -4,7 +4,7 @@
 
 <img alt="upc-logo" src="/assets/images/UPC_logo_transparente.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2025-2</strong><br>
+<strong>Ingeniería de Software - 2025-20</strong><br>
 <strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
 <strong>NRC: 7349</strong><br>
 <strong>Profesor: Efraín Ricardo Bautista Ubillús</strong><br>
@@ -33,6 +33,14 @@
 
 # Registro de Versiones del Informe
 
+| Versión | Fecha | Autor | Descripción de modificación |
+|---------|-------|-------|-----------------------------|
+|         |       |       |                             |
+|         |       |       |                             |
+|         |       |       |                             |
+|         |       |       |                             |
+|         |       |       |                             |
+|         |       |       |                             |
 
 # Project Report Collaboration Insights
 
@@ -124,9 +132,23 @@
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3**
+**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+| Criterio específico                                                    | Acciones realizadas | Conclusiones |
+|------------------------------------------------------------------------|---------------------|--------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   |                     |              |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. |                     |              |
+
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
-#### 1.1.1. Descripción de la Startup
+#### 1.1.1. Descripción de la Startup    
 #### 1.1.2. Perfiles de integrantes del equipo
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
