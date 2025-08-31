@@ -33,14 +33,14 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
+| Versión | Fecha      | Autor        | Descripción de modificación                   |
+|---------|------------|--------------|-----------------------------------------------|
+| 1.0     | 26/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
 
 # Project Report Collaboration Insights
 
