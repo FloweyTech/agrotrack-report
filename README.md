@@ -11,7 +11,7 @@
 
 <br><strong>Informe del Trabajo Final</strong><br><br> 
 
-<strong>Startup: GITECH </strong><br>
+<strong>Startup: FloweyTech </strong><br>
 <strong>Producto: AgroTrack</strong><br>
 
 
@@ -233,7 +233,29 @@ Sin embargo, existe un potencial de mejora: un 36,6% de los agricultores de subs
 Estas cifras muestran que gran parte de la agricultura en el país carece de herramientas digitales que faciliten la organización y la trazabilidad. En este contexto, AgroTrack puede ser una solución útil al permitir que agricultores y agrónomos registren información, organicen sus actividades y generen reportes que respalden la calidad de la producción, mejorando la productividad y el acceso a mercados más competitivos.
 
 ### 1.2.2. Lean UX Process
+
+El **Lean UX Process** es una metodología ágil que se centra en la colaboración, la experimentación rápida y el aprendizaje validado. En este proyecto se utiliza este enfoque para comprender las experiencias y problemáticas de agricultores y agrónomos, validando hipótesis mediante prototipos y retroalimentación constante.
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro sistema busca facilitar a los agricultores el registro de sus actividades agrícolas para mejorar la organización de su producción.
+
+Hemos observado que muchos agricultores llevan sus registros de forma manual o dispersa, lo que dificulta el seguimiento de sus cultivos y la planificación futura.
+
+**¿Cómo podemos lograr que los agricultores registren y gestionen sus actividades de manera más ordenada y confiable?**
+
+El producto tiene como objetivo apoyar a los agrónomos con datos de campo que respalden sus recomendaciones técnicas.
+
+Actualmente, los agrónomos no reciben información actualizada ni centralizada, lo que afecta la precisión de sus decisiones.
+
+**¿Cómo podemos mejorar el acceso de los agrónomos a información confiable y en tiempo real para optimizar la asesoría técnica?**
+
+Nuestro servicio está orientado a que los agricultores con parcelas reducidas optimicen la planificación de sus cultivos.
+
+Sin embargo, observamos que muchos productores carecen de información organizada para proyectar rendimientos y tomar decisiones de siembra eficientes.
+
+**¿Cómo podemos ayudar a los agricultores a planificar sus cultivos de forma más clara y estructurada para mejorar su productividad?**
+
 ##### 1.2.2.2. Lean UX Assumptions
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 ##### 1.2.2.4. Lean UX Canvas
