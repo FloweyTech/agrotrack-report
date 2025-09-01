@@ -346,6 +346,17 @@ El producto debe tener un diseño visual simple y claro, con iconos intuitivos y
 
 
 ##### 1.2.2.4. Lean UX Canvas
+
+El Lean UX Canvas es una herramienta visual que permite alinear al equipo en torno a problemas, usuarios e hipótesis de manera ágil. En este proyecto se utilizó para comprender mejor a los agricultores y agrónomos, identificar sus necesidades y definir cómo Agrotrack puede generar valor real en su trabajo diario.
+
+Aquí se presenta el Lean UX Canvas desarrollado para Agrotrack:
+
+**Figura 1. Lean UX Canvas de Agrotrack**
+
+![Lean UX Canvas](./assets/images/screenshots/lean-ux-canvas.png)
+
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/cFdpMVVSM1czSlJINm93ZFcyN3R0VWNrKyt1ZVA3K3NNa1BBNHhRdDJsQzFTcjRQbTVSRm1YMzBqaUswUnFieHQ3dHJsbk93eWVVVkovak9aeStNY2EvcDg3VGJkSDlsU1BUbVpLT3U1N3AxekZweHhDb1E0c1h6VjQxa0FxN3h3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=945675870248)
+
 ## 1.3. Segmentos objetivo
 
 # Capítulo II: Requirements Elicitation & Analysis
