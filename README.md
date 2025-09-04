@@ -24,7 +24,7 @@
 |         Amaro Villar Anjali          | 20221G044 |
 |     Jara Benites Quique Vladimir     |    ...    |
 |   Quintanilla Pozo Gonzalo Samuel    |    ...    |
-|     Vilca Saboya Diego Alejandro     |    ...    |
+|     Vilca Saboya Diego Alejandro     | 20231A778 |
 
 
 
