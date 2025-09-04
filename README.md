@@ -141,10 +141,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio específico                                                    | Acciones realizadas | Conclusiones |
-|------------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   |                     |              |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. |                     |              |
+| Criterio específico                                                             | Acciones realizadas | Conclusiones |
+|---------------------------------------------------------------------------------|---------------------|--------------|
+| Comunica oralmente con <br> efectividad a diferentes rangos<br> de audiencia.   |                     |              |
+| Comunica por escrito con <br> efectividad a diferentes rangos<br> de audiencia. |                     |              |
 
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
@@ -173,6 +173,40 @@ del ABET – EAC - Student Outcome 3.
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture Event Storming
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue <br>
+realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso <br>
+
+**1. Open:**<br>
+En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden <br>
+en el negocio) escribiendo en los post-its naranjas.
+
+![Step 1 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-1.png)
+
+**2. Explore:** <br>
+Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos,<br>
+identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
+
+![Step 2 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-2.png)
+
+**3. Close:** <br>
+En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados,junto con aspectos que <br>
+debíamos investigar más a fondo o descartar según el alcance definido.
+
+![Step 3 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-3.png)
+
+Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
+
+![Final events of Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-final-events.png)
+
+Finalmente, se presenta el Big Picture Event Storming:
+
+![Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming.png)
+
+[Enlace del Miro donde se realizó el Big Picture Event Storming](https://miro.com/app/board/uXjVJOtE1kQ=/?share_link_id=250621093579)
+
+Este proceso permitió al equipo obtener una visión de alto nivel de los principales eventos del negocio, identificar puntos <br>
+críticos y definir prioridades para las siguientes etapas del proyecto
+
 ### 2.5. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
