@@ -188,6 +188,12 @@ del ABET – EAC - Student Outcome 3.
 | Aprender nuevas tecnologías                                | Media                   | Alta                     |
 
 #### 2.3.3. User Journey Mapping
+##### User Journey Mapping - Agricultor
+
+<img alt="User Journey Mapping Agricultor" src="https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585" />
+
+[Ver Completo](https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585)
+
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture Event Storming
 ### 2.5. Ubiquitous Language
