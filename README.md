@@ -22,7 +22,7 @@
 |:------------------------------------:|:---------:|
 | Almandroz Carbajal Pierina Marysabel |    ...    |
 |         Amaro Villar Anjali          | 20221G044 |
-|     Jara Benites Quique Vladimir     |    ...    |
+|     Jara Benites Quique Vladimir     |  202022365   |
 |   Quintanilla Pozo Gonzalo Samuel    |    ...    |
 |     Vilca Saboya Diego Alejandro     |    ...    |
 
@@ -170,6 +170,23 @@ del ABET – EAC - Student Outcome 3.
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 #### 2.3.2. User Task Matrix
+##### User Task Matrix - Agricultor
+| **Tareas / Tasks**                                         | **Frecuencia**          | **Importancia**          |
+| ---------------------------------------------------------- |-------------------------|--------------------------|
+| Organizar actividades de la parcela según clima/temporada  | Alta                    | Alta                     |
+| Planificar siembra y cosecha                               | Alta                    | Alta                     |
+| Planificar y ejecutar riego                                | Alta                    | Muy Alta                 |
+| Registrar información de cultivos (siembra, gastos, abono) | Media                   | Alta                     |
+| Monitorear crecimiento de plantas (observación directa)    | Alta                    | Alta                     |
+| Controlar fertilizantes y pesticidas                       | Media                   | Muy Alta                 |
+| Coordinar actividades familiares para evitar duplicidad    | Media                   | Media                    |
+| Recopilar información del clima                            | Media                   | Alta                     |
+| Consultar a agrónomos u otros agricultores                 | Baja                    | Media                    |
+| Control de gastos y rendimiento                            | Media                   | Alta                     |
+| Manejo de plagas                                           | Media                   | Alta                     |
+| Uso de celular/aplicaciones de apoyo                       | Media                   | Media                    |
+| Aprender nuevas tecnologías                                | Media                   | Alta                     |
+
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture Event Storming
