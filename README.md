@@ -188,13 +188,24 @@ del ABET – EAC - Student Outcome 3.
 | Aprender nuevas tecnologías                                | Media                   | Alta                     |
 
 #### 2.3.3. User Journey Mapping
+
+En el proceso de desarrollo de AgroTrack, realizamos un detallado user journey mapping para comprender las experiencias y necesidades de los agricultores peruanos. Analizamos cada etapa de su labor, desde la planificación de la siembra hasta la cosecha y gestión de recursos, identificando obstáculos y oportunidades de mejora. Este enfoque nos permitió diseñar una solución que se integra de manera efectiva en la rutina diaria del agricultor, optimizando la gestión agrícola y mejorando la productividad en el sector agropecuario peruano
+
 ##### User Journey Mapping - Agricultor
 
 <img alt="User Journey Mapping Agricultor" src="https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585" />
 
-[Ver Completo](https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585)
+[Ver Imagen](https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585)
 
 #### 2.3.4. Empathy Mapping
+
+En esta parte, se exhibirán los Empathy Maps basados en los User Personas creados, considerando los dos segmentos objetivos. La utilización de estos mapas de empatía será beneficiosa, ya que nos permitirá comprender con mayor profundidad a nuestros clientes, lo que a su vez nos posibilitará mejorar diversos aspectos de la aplicación.
+
+##### Empathy Map - Agricultor
+
+<img alt="Empathy Map Agricultor" src="https://github.com/user-attachments/assets/77357a79-be28-4c51-a647-312cf5503bbf" />
+
+[Ver Imagen](https://github.com/user-attachments/assets/77357a79-be28-4c51-a647-312cf5503bbf)
 ### 2.4. Big Picture Event Storming
 ### 2.5. Ubiquitous Language
 
