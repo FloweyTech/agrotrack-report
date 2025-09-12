@@ -221,6 +221,13 @@ En esta parte, se exhibirán los Empathy Maps basados en los User Personas cread
 ## Capítulo III: Requirements Specification
 ### 3.1. User Stories
 ### 3.2. Impact Mapping
+En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiendo de las metas comerciales establecidas para el user persona agricultor. Se han identificado los impactos deseados, los entregables necesarios y se han relacionado con las historias de usuario correspondientes.
+
+##### Impact Mapping - Agricultor
+
+<img alt="Impact Mapping Agricultor" src="https://github.com/user-attachments/assets/07e4a54e-41c1-47c3-ad1b-3aa92e45e995" />
+
+[Ver Imagen](https://github.com/user-attachments/assets/07e4a54e-41c1-47c3-ad1b-3aa92e45e995)
 ### 3.3. Product Backlog
 
 ## Capítulo IV: Product Design
