@@ -20,7 +20,7 @@
   
 |                Member                |   Code    |
 |:------------------------------------:|:---------:|
-| Almandroz Carbajal Pierina Marysabel |    ...    |
+| Almandroz Carbajal Pierina Marysabel | 202316845 |
 |         Amaro Villar Anjali          | 20221G044 |
 |     Jara Benites Quique Vladimir     |    ...    |
 |   Quintanilla Pozo Gonzalo Samuel    |    ...    |
