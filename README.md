@@ -170,6 +170,23 @@ del ABET – EAC - Student Outcome 3.
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 #### 2.3.2. User Task Matrix
+##### User Task Matrix - Agrónomos
+
+| Tarea                                                      | Frecuencia | Importancia |
+|-------------------------------------------------------------|------------|-------------|
+| Diagnosticar estado del suelo y recomendar análisis         | Media      | Alta        |
+| Diseñar plan de siembra (cultivos por temporada)            | Media      | Muy Alta    |
+| Elaborar plan de fertilización y nutrición vegetal          | Media      | Alta        |
+| Monitorear plagas y enfermedades (visitas técnicas/campo)   | Alta       | Muy Alta    |
+| Recomendar productos fitosanitarios adecuados               | Alta       | Alta        |
+| Asesorar en riego y uso eficiente del agua                  | Alta       | Alta        |
+| Capacitar a agricultores en buenas prácticas agrícolas      | Media      | Media       |
+| Registrar datos técnicos de ensayos y evaluaciones          | Media      | Alta        |
+| Generar reportes técnicos para productores/empresas         | Media      | Muy Alta    |
+| Analizar información climática y proyectar riesgos          | Media      | Alta        |
+| Investigar y aplicar nuevas tecnologías (agrotech, drones)  | Baja       | Media       |
+| Coordinar con instituciones/agencias para apoyo técnico     | Baja       | Media       |
+
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture Event Storming
