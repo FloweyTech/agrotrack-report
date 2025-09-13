@@ -320,7 +320,6 @@ capturar la atencion de nuestro usuarios, tanto agricultores como agrónomos.
 Las historias de usuario son una herramienta clave para traducir las necesidades de los usuarios en requisitos funcionales. Su formulación clara y orientada al usuario facilita la comunicación con el equipo de desarrollo
 y asegura que el producto final se alinee con las expectativas del cliente. Para el proyecto AgroTrack, este enfoque nos permite definir los requisitos de la aplicación de manera precisa y planificar su desarrollo de forma eficiente.
 
-Sí, puedo tomar toda esa información y organizarla en una tabla HTML como lo solicitaste. Aquí está toda la información estructurada en el formato de tabla que me pediste.
 ### User Story
 <table>
 <thead>
