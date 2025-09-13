@@ -188,6 +188,11 @@ del ABET – EAC - Student Outcome 3.
 | Coordinar con instituciones/agencias para apoyo técnico     | Baja       | Media       |
 
 #### 2.3.3. User Journey Mapping
+Durante el desarrollo de AgroTrack, aplicamos un user journey mapping orientado a la experiencia de los agrónomos. Nos centramos en comprender cómo estos profesionales recopilan información del campo, analizan variables agronómicas y transforman esos datos en estrategias productivas. El proceso incluyó la observación de sus interacciones con productores, la toma de decisiones técnicas y la elaboración de planes de manejo agrícola.
+##### User Jorney Mapping- Agronomos 
+![Customer Journey Map](assets/images/costumer_journey_Map.png)
+
+
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture Event Storming
 ### 2.5. Ubiquitous Language
