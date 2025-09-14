@@ -150,6 +150,7 @@ del ABET – EAC - Student Outcome 3.
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup    
 #### 1.1.2. Perfiles de integrantes del equipo
+
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 #### 1.2.2. Lean UX Process
@@ -190,10 +191,13 @@ del ABET – EAC - Student Outcome 3.
 #### 2.3.3. User Journey Mapping
 Durante el desarrollo de AgroTrack, aplicamos un user journey mapping orientado a la experiencia de los agrónomos. Nos centramos en comprender cómo estos profesionales recopilan información del campo, analizan variables agronómicas y transforman esos datos en estrategias productivas. El proceso incluyó la observación de sus interacciones con productores, la toma de decisiones técnicas y la elaboración de planes de manejo agrícola.
 ##### User Jorney Mapping- Agronomos 
-![Customer Journey Map](assets/images/costumer_journey_Map.png)
+[Customer Journey Map](assets/maps/journey_map.png)
 
 
 #### 2.3.4. Empathy Mapping
+##### Empathy Map- Agrónomos
+[Empathy map](assets/maps/empathy_map.png)
+
 ### 2.4. Big Picture Event Storming
 ### 2.5. Ubiquitous Language
 
