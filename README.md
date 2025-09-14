@@ -301,7 +301,7 @@ En este octavo paso, el equipo identifico sistemas externos, en este caso solo s
 
 **Step 9: Aggregates**  
 ![Step 9 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-9.png)  
-En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en cosas como los read models, policies, eventos y commands.
+En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en los read models, policies, eventos y commands.
 
 
 **Step 10: Bounded Contexts**  
