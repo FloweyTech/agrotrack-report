@@ -619,15 +619,189 @@ Mariana Huamán es una ingeniera agrónoma joven que trabaja en zonas rurales de
 ## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
+En este capítulo se presenta el diseño del producto AgroTrack, una plataforma orientada a la gestión agrícola que aplica UX/UI Design para garantizar una experiencia clara, simple y funcional para agrónomos y agricultores. El diseño se apoya en las User Stories definidas previamente, así como en el Impact Mapping, para construir un sistema coherente y centrado en las necesidades reales de los usuarios.
+
 ## 4.1. Style Guidelines
+Los lineamientos de estilo de AgroTrack buscan unificar la identidad visual y la comunicación del producto en todos sus puntos de contacto. Para ello se estableció un repositorio común que contiene tipografías, paleta de colores, íconos e isotipos, asegurando consistencia en cada pantalla de la aplicación y en la landing page.
+
 ### 4.1.1. General Style Guidelines
+
+La identidad visual de AgroTrack ha sido diseñada para transmitir confianza, innovación y cercanía con el sector agrícola, cualidades fundamentales en una herramienta digital que busca modernizar la gestión de parcelas y tareas dentro de organizaciones agronómicas. El estilo visual se inspira en principios de simplicidad, accesibilidad y consistencia, permitiendo que tanto agrónomos como agricultores —incluso aquellos con poca experiencia digital— puedan interactuar con la plataforma de manera intuitiva en su versión web y móvil.
+
+AgroTrack es una solución desarrollada para responder a la necesidad de optimizar la gestión agrícola mediante el uso de tecnología, asegurando una experiencia centrada en el usuario y adaptable a distintos perfiles y roles. La plataforma integra procesos de monitoreo, asignación de tareas, generación de reportes y alertas, con un enfoque accesible y práctico.
+
+**Branding Overview**
+
+El nombre AgroTrack combina dos conceptos centrales: “Agro”, que representa el mundo agrícola y natural, y “Track”, que hace referencia al seguimiento, monitoreo y control de procesos. Este nombre fue elegido por su simplicidad, fácil recordación y por reflejar con claridad la misión del producto: ayudar a supervisar y gestionar de manera eficiente la actividad agrícola.
+
+**Logo and Isotype**
+
+El logotipo de AgroTrack utiliza una tipografía sans serif moderna y limpia, acompañada de un detalle distintivo: la letra “G” presente en el nombre se encuentra estilizada con una hoja, símbolo que refuerza la conexión entre naturaleza y tecnología. Los colores elegidos en el logo también son parte del branding: el verde transmite confianza y crecimiento, mientras que el naranja representa dinamismo e innovación.
+El diseño ha sido concebido para adaptarse a diferentes formatos y tamaños, garantizando legibilidad tanto en pantallas digitales como en material impreso. Además, se dispone de un isotipo independiente (la “A” con hoja), ideal para aplicaciones móviles, íconos y favicon.
+
+![logo](assets/images/style-guidelines/logo.png)
+
+Colores
+
+La paleta cromática de AgroTrack fue diseñada para transmitir confianza, frescura e innovación, valores que reflejan el propósito de la plataforma. El verde oscuro (#203629) constituye el color principal, asociado a la naturaleza, la estabilidad y la seguridad, generando en los usuarios la sensación de estar trabajando con una herramienta sólida y confiable. El verde medio (#3E7C3B) aporta vitalidad y cercanía, evocando crecimiento y esperanza en los procesos agrícolas, mientras que el naranja (#F58220) introduce dinamismo y energía, resaltando las acciones principales y motivando a los usuarios a interactuar con el sistema. Estos colores se equilibran con el blanco (#FFFFFF), que aporta limpieza y claridad, reforzando la legibilidad y transmitiendo simplicidad en la experiencia de uso. Como apoyo, se incorporan tonos grises (#2B2B2B, #5E5E5E y #D9D9D9), que aportan sobriedad y permiten mantener la interfaz ordenada, junto con colores de estado como verde éxito (#2E7D32), amarillo advertencia (#F9A825), rojo error (#D32F2F) y azul informativo (#1976D2), los cuales garantizan que cada notificación o alerta sea reconocida de manera inmediata. En conjunto, esta paleta brinda al usuario una experiencia visual profesional, fresca y clara, alineada con la misión de AgroTrack de modernizar la gestión agrícola de forma accesible y confiable.
+
+![colors](assets/images/style-guidelines/colors.png)
+
+**Tipografía**
+
+La tipografía seleccionada para AgroTrack busca equilibrar modernidad, claridad y accesibilidad, con el fin de transmitir profesionalismo sin perder cercanía con los usuarios del sector agrícola. Para ello se han definido dos familias tipográficas principales: Poppins y Montserrat, ambas provenientes de Google Fonts por su amplia disponibilidad y compatibilidad en entornos web y móviles.
+
+Poppins es utilizada principalmente en títulos y encabezados. Su diseño geométrico, limpio y con un toque contemporáneo le da fuerza a los mensajes importantes, ayudando a destacar la información clave en cada pantalla. Gracias a sus pesos en SemiBold y Bold, aporta jerarquía y transmite confianza, guiando la atención del usuario de manera natural.
+
+Por otro lado, Montserrat se emplea en textos de cuerpo, descripciones y elementos de interfaz. Su estructura sencilla y legible facilita la lectura en distintos tamaños de pantalla, desde dispositivos móviles hasta monitores de escritorio. Los pesos Regular y Medium aseguran fluidez y comodidad en la experiencia de uso, evitando la fatiga visual en sesiones prolongadas.
+
+La combinación de ambas fuentes refuerza la identidad visual de AgroTrack al proyectar una imagen profesional, clara y accesible. Mientras que Poppins aporta dinamismo y protagonismo, Montserrat contribuye con sobriedad y legibilidad, generando un balance perfecto entre impacto visual y facilidad de uso. Esta elección tipográfica está orientada a un público diverso, incluyendo agrónomos, agricultores y administradores, quienes requieren una plataforma intuitiva y confiable.
+
+![typography](assets/images/style-guidelines/typography.png)
+
 ### 4.1.2. Web Style Guidelines
+
+En esta sección explicaremos y mostraremos de manera referencial las decisiones sobre los estándares visuales y de interacción aplicados a las interfaces web responsivas de AgroTrack, desarrolladas con Angular y la biblioteca de componentes Angular Material.
+
+Las decisiones tomadas buscan garantizar una experiencia de usuario coherente, accesible y visualmente armónica en todos los dispositivos. Además, se aprovecharán los componentes nativos que ofrece Angular Material, los cuales nos permiten construir una interfaz moderna y consistente con el resto del ecosistema de la aplicación.
+
+
+- **Buttons:** Para las acciones principales dentro de la plataforma (crear parcela, iniciar monitoreo, generar reportes, etc.) se utilizarán los componentes Button de Angular Material. Estos botones, en sus distintas variantes (filled, outlined, text), se personalizarán con la paleta de colores definida: naranja (#F58220) para las acciones primarias y verde medio (#3E7C3B) para las secundarias. Esto permitirá guiar al usuario de forma intuitiva hacia las acciones más relevantes en cada vista.
+
+![buttons](assets/images/style-guidelines/buttons.png)
+
+- **Cards:** Para presentar información agrupada de manera visual y ordenada, se emplearán los componentes Card de Angular Material. Las cards serán utilizadas en diversas secciones de la aplicación, como la vista de Parcelas, donde cada tarjeta mostrará el nombre, tipo de cultivo y estado de monitoreo, o en la sección de Planes de suscripción, donde se expondrán las características y beneficios de cada plan. Gracias a su flexibilidad, las cards permiten integrar títulos, subtítulos, imágenes e incluso botones de acción en un mismo contenedor estilizado.
+
+![cards](assets/images/style-guidelines/cards.png)
+
+- **Forms:** La recolección de datos es fundamental en AgroTrack, por lo que se utilizarán los componentes Form Field y Input de Angular Material para crear formularios claros y accesibles. Estos formularios serán empleados en diversas funcionalidades, como el registro de nuevas parcelas, la configuración de alertas o la actualización del perfil del usuario. Se aplicarán las validaciones necesarias para asegurar la integridad de los datos ingresados, utilizando mensajes de error personalizados y estilos visuales que indiquen claramente los campos obligatorios o con errores.
+
+![forms](assets/images/style-guidelines/forms.png)
+
 ## 4.2. Information Architecture
+
+La arquitectura de información de AgroTrack busca garantizar que los usuarios encuentren de manera clara y rápida las funcionalidades necesarias para gestionar sus actividades agrícolas. El diseño está orientado a ofrecer una experiencia simple, intuitiva y coherente, tanto en la aplicación web como en la landing page, evitando la sobrecarga de información y priorizando la usabilidad.
+
+Las decisiones tomadas en esta sección están alineadas con los principios de accesibilidad y con la naturaleza del público objetivo: agrónomos y agricultores que requieren una plataforma práctica, que reduzca tiempos y facilite el control de parcelas, tareas y reportes.
+
 ### 4.2.1. Organization Systems
+
+En AgroTrack la organización de la información busca que los usuarios —agrónomos y agricultores— puedan localizar fácilmente lo que necesitan, ya sea para planificar, registrar o monitorear. Se aplicarán diferentes sistemas de organización dependiendo del tipo de contenido:
+
+- **Jerárquica (Visual Hierarchy):**
+Se utilizará en el dashboard principal, donde se debe destacar lo más relevante: número de parcelas activas, tareas pendientes y alertas climáticas. La jerarquía guiará la mirada del usuario desde los indicadores más importantes hasta los detalles secundarios, como botones de acción o enlaces de apoyo.
+
+
+- **Matriz (Grid):**
+Se aplicará en la vista de Parcelas, donde cada parcela se mostrará como una tarjeta individual con datos resumidos (nombre, cultivo asignado, responsable y estado de monitoreo). Esta organización permite que los usuarios naveguen de forma visual y ordenada entre múltiples parcelas, identificando rápidamente la que necesitan sin tener que recorrer menús extensos.
+
+
+- **Secuencial (Step-by-step):**
+Se usará en procesos guiados, como registrar una nueva parcela, asignar un agricultor o configurar umbrales de cultivo. El flujo paso a paso evita errores y ayuda a los usuarios con menor experiencia digital a completar sus tareas sin dificultad.
+
+
+- **Por tópicos:**
+El contenido se organizará en módulos temáticos como Organización, Parcelas, Tareas y Reportes. Esto facilita que los usuarios accedan directamente al tipo de información que buscan sin perderse en secciones irrelevantes.
+
+
+- **Según audiencia (roles):**
+AgroTrack diferencia las vistas según el rol. Un agrónomo tiene acceso a herramientas de gestión y configuración (usuarios, reportes, umbrales), mientras que un agricultor ve opciones más operativas (tareas asignadas, registros de cultivos y condiciones ambientales).
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado en AgroTrack está diseñado para ser intuitivo, breve y cercano al vocabulario agrícola. Se busca que las etiquetas comuniquen con pocas palabras la función de cada sección, evitando tecnicismos innecesarios y facilitando la adopción por parte de usuarios con distintos niveles de experiencia digital.
+
+Las etiquetas se dividen según los dos perfiles principales de la plataforma: agrónomos (gestión y supervisión) y agricultores (ejecución de tareas y registro de datos).
+
+**Agrónomo (enfoque de gestión y control)**
+
+* Panel de Control: vista general con indicadores clave como parcelas activas, tareas pendientes y alertas recientes.
+* Organización: gestión de miembros (invitar, asignar o remover agricultores).
+* Parcelas: listado de todas las parcelas registradas con acceso al detalle de cada una.
+* Cultivos: catálogo de cultivos existentes y opción de registrar nuevos.
+* Tareas: planificación, asignación y seguimiento de labores agrícolas.
+* Alertas: configuración de umbrales climáticos y recepción de notificaciones.
+* Reportes: generación de reportes detallados por parcela o generales de la organización.
+
+**Agricultor (enfoque operativo y de ejecución)**
+
+* Panel: vista principal con las tareas asignadas y notificaciones inmediatas.
+* Mis Parcelas: parcelas en las que está involucrado, con acceso al registro de datos del cultivo.
+* Tareas: lista de tareas pendientes con la opción de aceptarlas, iniciarlas o marcarlas como completadas.
+* Registros: formulario para ingresar datos fenológicos (hojas, botones) y condiciones ambientales (temperatura, humedad).
+* Materiales: espacio para reportar y controlar insumos utilizados en cada labor.
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Con el fin de aumentar la visibilidad de **AgroTrack** en buscadores y ofrecer una navegación más clara y optimizada, se han definido un conjunto de **SEO Tags y Meta Tags** que acompañarán tanto a la landing page como a la aplicación web. Estas etiquetas cumplen un papel esencial en el **posicionamiento en motores de búsqueda**, la **adaptación a distintos dispositivos** y la correcta interpretación del contenido por parte de navegadores y servicios externos.
+
+Cada etiqueta tiene un rol específico:
+- **Title:** se muestra en la pestaña del navegador y aparece como título principal en los resultados de búsqueda.
+- **Description:** ofrece un resumen breve y atractivo de la página, pensado para captar al usuario en segundos.
+- **Author:** identifica al equipo responsable de la solución.
+- **Viewport:** asegura que el contenido se ajuste a todo tipo de pantallas, desde móviles hasta monitores de escritorio.
+- **Charset:** define el sistema de codificación de caracteres, en este caso UTF-8, garantizando compatibilidad global.
+- **Keywords:** lista de palabras clave que facilitan la clasificación de la página por los motores de búsqueda.
+
+### Landing Page SEO Tags and Meta Tags
+
+- **Title:** "AgroTrack - Plataforma inteligente para la gestión agrícola"
+- **Description:** "AgroTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar."
+- **Author:** "Equipo AgroTrack"
+- **Viewport:** configurado para ofrecer una experiencia fluida en móviles, tablets y computadoras.
+- **Charset:** UTF-8 para soportar distintos alfabetos y símbolos.
+- **Keywords:** "agricultura digital, agrotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo"
+
+```html
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AgroTrack - Plataforma inteligente para la gestión agrícola</title>
+      <meta name="description" content="AgroTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar.">
+      <meta name="keywords" content="agricultura digital, agrotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo">
+      <meta name="author" content="Equipo AgroTrack">
+    </head>
+```
+#### Web Application SEO Tags and Meta Tags
+
+* **Title:** "AgroTrack App - Panel digital para agrónomos y agricultores"
+* **Description:** "Gestiona tu trabajo agrícola con AgroTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo."
+* **Author:** "Equipo AgroTrack"
+* **Viewport:** preparado para que la aplicación sea completamente responsiva y usable en móviles, tablets y PC.
+* **Charset:** UTF-8 como estándar de compatibilidad.
+* **Keywords:** "agrotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas"
+
+````html
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AgroTrack App - Panel digital para agrónomos y agricultores</title>
+      <meta name="description" content="Gestiona tu trabajo agrícola con AgroTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo.">
+      <meta name="keywords" content="agrotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas">
+      <meta name="author" content="Equipo AgroTrack">
+    </head>
+````
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de AgroTrack se basa en mecanismos de filtrado y selección dentro de cada módulo, en lugar de un buscador global. Este enfoque facilita el acceso rápido a información específica y mantiene la simplicidad de la aplicación.
+
+* Parcelas: filtros por nombre, cultivo y responsable asignado.
+* Tareas: filtros por estado (pendiente, en ejecución, completada), prioridad y fecha de vencimiento.
+* Registros: organización cronológica de datos fenológicos y ambientales, con posibilidad de acotar por rango de fechas.
+* Reportes: criterios de selección por parcela o periodo de tiempo.
+
+Este sistema asegura que los usuarios puedan acceder de manera ágil a los datos que requieren, evitando la saturación de la interfaz con funciones innecesarias.
+
 ### 4.2.5. Navigation Systems
+
+El sistema de navegación de AgroTrack se ha diseñado con base en los principios de claridad, consistencia y adaptabilidad, de modo que los usuarios puedan desplazarse con facilidad tanto en la landing page como en la aplicación web. Ambas experiencias están desarrolladas bajo un enfoque responsive design, lo que garantiza que la navegación sea fluida en distintos tamaños de pantalla (computadora, tablet o móvil).
+
+* **Landing Page:** cuenta con un menú superior fijo que da acceso a las secciones principales: Inicio, Funcionalidades, Planes y Contacto. Este menú acompaña al usuario durante todo el recorrido, facilitando la exploración sin importar en qué parte de la página se encuentre.
+
+* **Aplicación Web:** utiliza una barra lateral de navegación con accesos directos a las secciones clave: Panel de Control, Organización, Parcelas, Tareas, Alertas y Reportes. En vistas más específicas se integran breadcrumbs, que permiten al usuario mantener el contexto y regresar fácilmente a niveles superiores de la aplicación.
+
+Este sistema asegura que la experiencia de navegación sea clara y consistente, reduciendo la curva de aprendizaje y facilitando la orientación del usuario en todo momento.
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
