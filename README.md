@@ -264,6 +264,61 @@ Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias par
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Design-Level Event Storming
+En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.  
+
+**Step 1: Unstructured Exploration**  
+![Step 1 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-1.png)  
+En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.
+
+**Step 2: Timelines**  
+![Step 2 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-2.png)  
+En este segundo paso, el equipo ordeno los eventos de dominio en el orden que ocurren en el dominio empresarial.  
+Se tuvo en cuenta los happy path y luego se agregaron los escenarios alternativos.
+
+**Step 3: Pain Points**  
+![Step 3 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-3.png)  
+En este tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.
+
+**Step 4: Pivotal Points**  
+![Step 4 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-4.png)  
+En este cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.
+
+**Step 5: Commands**  
+![Step 5 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-5.png)  
+En este quinto paso, el equipo añadió comandos que desencadenen eventos o el flujo de eventos, junto a sus actores.
+
+**Step 6: Policies**  
+![Step 6 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-6.png)  
+En este sexto paso, el equipo añadió policies, que son reglas de negocio que hace que se ejecuten comandos sin la necesidad de un actor.
+
+**Step 7: Read Models**  
+![Step 7 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-7.png)  
+En este séptimo paso, el equipo añadió read models, que son como la vista de datos que el usuario usa para tomar la decisión de ejecutar un comando.
+
+**Step 8: External Systems**  
+![Step 8 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-8.png)  
+En este octavo paso, el equipo identifico sistemas externos, en este caso solo se tiene uno que es la API que usaremos para el consumo de datos climáticos. 
+
+**Step 9: Aggregates**  
+![Step 9 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-9.png)  
+En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en cosas como los read models, policies, eventos y commands.
+
+
+**Step 10: Bounded Contexts**  
+![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)  
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
+[Ver en Miro](https://miro.com/app/board/uXjVJKW5IPg=/?share_link_id=208743433890)
+
+
+
+
+
+
+
+
+
+
+
 #### 4.6.2. Software Architecture Context Diagram
 #### 4.6.3. Software Architecture Container Diagrams
 #### 4.6.4. Software Architecture Components Diagrams
