@@ -317,6 +317,22 @@ capturar la atencion de nuestro usuarios, tanto agricultores como agrónomos.
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+
+
+
+
+
+
+
+
+#### 2.3.2. User Task Matrix
+#### 2.3.3. User Journey Mapping
+#### 2.3.4. Empathy Mapping
+### 2.4. Big Picture Event Storming
+### 2.5. Ubiquitous Language
+
+## Capítulo III: Requirements Specification
+### 3.1. User Stories
 Las historias de usuario son una herramienta clave para traducir las necesidades de los usuarios en requisitos funcionales. Su formulación clara y orientada al usuario facilita la comunicación con el equipo de desarrollo
 y asegura que el producto final se alinee con las expectativas del cliente. Para el proyecto AgroTrack, este enfoque nos permite definir los requisitos de la aplicación de manera precisa y planificar su desarrollo de forma eficiente.
 
@@ -1000,7 +1016,7 @@ And muestra qué falta para la activación.
 </tr>
 </tbody>
 </table>
- 
+
 ### Technical Story
 <table>
 <thead>
@@ -1429,20 +1445,6 @@ And muestra qué falta para la activación.
 </tbody>
 </table>
 
-
-
-
-
-
-
-#### 2.3.2. User Task Matrix
-#### 2.3.3. User Journey Mapping
-#### 2.3.4. Empathy Mapping
-### 2.4. Big Picture Event Storming
-### 2.5. Ubiquitous Language
-
-## Capítulo III: Requirements Specification
-### 3.1. User Stories
 ### 3.2. Impact Mapping
 ### 3.3. Product Backlog
 
