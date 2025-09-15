@@ -230,6 +230,49 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 [Ver Imagen](https://github.com/user-attachments/assets/07e4a54e-41c1-47c3-ad1b-3aa92e45e995)
 ### 3.3. Product Backlog
 
+
+| # Orden | User Story Id | Título                              | Descripción                                                                 | Story Points |
+|---------|---------------|-------------------------------------|-----------------------------------------------------------------------------|--------------|
+| 1       | US24          | Registrar cuenta                   | Como usuario nuevo, deseo registrar mi cuenta con correo y contraseña para acceder a la plataforma. | 3 |
+| 2       | US25          | Iniciar sesión                     | Como usuario registrado, deseo iniciar sesión con mis credenciales para entrar de forma segura. | 2 |
+| 3       | US26          | Recuperar cuenta                   | Como usuario, deseo recuperar mi cuenta mediante correo de recuperación para restablecer el acceso. | 3 |
+| 4       | US27          | Completar perfil                   | Como usuario recién registrado, deseo completar mi perfil inicial para terminar de configurar mi cuenta. | 2 |
+| 5       | US28          | Editar perfil                      | Como usuario, deseo editar mi perfil en cualquier momento para mantener mis datos actualizados. | 2 |
+| 6       | US29          | Adquirir suscripción               | Como usuario, deseo adquirir un plan de suscripción para habilitar funcionalidades según mi plan. | 5 |
+| 7       | US30          | Activar cuenta                     | Como usuario, deseo que mi cuenta se active automáticamente al cumplir los requisitos (registro, perfil y suscripción). | 3 |
+| 8       | US01          | Crear organización                 | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas. | 5 |
+| 9       | US02          | Invitar miembro a organización     | Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización. | 5 |
+| 10      | US03          | Remover agricultor de organización | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día. | 3 |
+| 11      | US04          | Crear parcela                      | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo. | 5 |
+| 12      | US05          | Modificar parcela                  | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos. | 3 |
+| 13      | US06          | Definir tipo de cultivo            | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo. | 5 |
+| 14      | US07          | Asignar agricultor a parcela       | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables. | 3 |
+| 15      | US08          | Añadir recomendaciones agronómicas | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores. | 3 |
+| 16      | US09          | Iniciar monitoreo                  | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos. | 2 |
+| 17      | US10          | Registrar datos de la planta       | Como Agricultor, deseo registrar cantidad de hojas y botones para llevar control fenológico. | 3 |
+| 18      | US11          | Registrar condiciones ambientales  | Como Agricultor, deseo registrar humedad y temperatura para monitorear la parcela. | 3 |
+| 19      | US12          | Editar/eliminar registro           | Como Agricultor, deseo editar o eliminar un registro para corregir errores. | 2 |
+| 20      | US13          | Alertas climáticas automáticas     | Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos. | 5 |
+| 21      | US14          | Alertas por umbrales de cultivo    | Como Agrónomo, deseo configurar umbrales para generar alertas internas. | 5 |
+| 22      | US15          | Crear checklist                    | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela. | 3 |
+| 23      | US16          | Crear tarea                        | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo. | 5 |
+| 24      | US17          | Aceptar e iniciar tarea            | Como Agricultor, deseo aceptar e iniciar una tarea para registrar que empecé a ejecutarla. | 3 |
+| 25      | US18          | Completar tarea y checklist        | Como Agricultor, deseo completar una tarea y checklist para cerrar la labor. | 3 |
+| 26      | US19          | Modificar/cancelar tarea           | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas. | 3 |
+| 27      | US20          | Registrar materiales de tarea      | Como Agricultor, deseo registrar/editar/eliminar materiales usados en la tarea. | 2 |
+| 28      | US21          | Solicitar reporte de parcela       | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño. | 5 |
+| 29      | US22          | Solicitar reporte general          | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales. | 5 |
+| 30      | US23          | Generar/descargar reporte          | Como Agrónomo, deseo generar y descargar reportes para compartirlos. | 3 |
+| 31      | US31          | Landing Page – Página principal    | Como visitante, deseo ver una página de inicio clara y atractiva, para entender el propósito de la aplicación y animarme a registrarme. | 3 |
+| 32      | US32          | Landing Page – Características     | Como visitante, deseo conocer las características principales de la plataforma, para evaluar si me conviene usarla. | 2 |
+| 33      | US33          | Landing Page – Planes de suscripción | Como visitante, deseo ver los planes de suscripción disponibles, para decidir cuál se ajusta a mis necesidades. | 2 |
+| 34      | US34          | Landing Page – Contacto/Soporte   | Como visitante, deseo encontrar información de contacto o soporte, para resolver dudas antes de registrarme. | 2 |
+| 35      | TECH01        | Integración con API de clima       | Historia técnica: implementar integración con OpenWeatherMap para obtener datos climáticos. | 5 |
+| 36      | TECH02        | Configuración de base de datos     | Historia técnica: configurar la base de datos para almacenar información de usuarios, parcelas y registros. | 5 |
+| 37      | TECH03        | Autenticación segura               | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales. | 5 |
+| 38      | TECH04        | Infraestructura IoT inicial        | Historia técnica: configurar la comunicación de sensores IoT con la plataforma. | 8 |
+
+
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
@@ -251,6 +294,7 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Design-Level Event Storming
+
 #### 4.6.2. Software Architecture Context Diagram
 #### 4.6.3. Software Architecture Container Diagrams
 #### 4.6.4. Software Architecture Components Diagrams
