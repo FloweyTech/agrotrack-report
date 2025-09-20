@@ -460,12 +460,35 @@ A continuación se presentará el sprint planning para esta primera entrega, don
 | Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                 |
 | Prepared By                          | Diego Vilca                                                                                                                                                                                                                                                                                                                                                             |
 | Attendees <br> (to planning meeting) | Pierina Almandroz, Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca                                                                                                                                                                                                                                                                                         |
-| **Sprint Goal & User Stories         |                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                         |
 | Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las <br> funcionalidades y características de AgroTrack a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre qué es AgroTrack para nuestros segmentos objetivo. <br> Esto se confirmará cuando los usuarios accedan a la landing page y naveguen por sus secciones. |
-| Sprint 1 Velocity                    | 18                                                                                                                                                                                                                                                                                                                                                                      |
-| Sum of story points                  | 18                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 1 Velocity                    | 9                                                                                                                                                                                                                                                                                                                                                                       |
+| Sum of story points                  | 9                                                                                                                                                                                                                                                                                                                                                                       |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
+Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Hero** <br> L/C | **About us** <br> L/C | **Benefits** <br> L/C | **Testimonials** <br> L/C | **Pricing** <br> L/C | **Contact** <br> L/C | **Footer** <br> L/C | 
+|:------------------------------------------:|:-------------------:|:-----------------:|:---------------------:|:---------------------:|:-------------------------:|:--------------------:|:--------------------:|:-------------------:|
+|              **Amaro Anjali**              |      njlmrvllr      |         L         |           C           |           C           |             C             |          C           |          C           |          C          |
+|           **Almandroz Pierina**            |     pierinaaa29     |         C         |           C           |           C           |             C             |          C           |          C           |          L          |
+|          **Quintanilla Gonzalo**           |       GoldQP        |         C         |           C           |           C           |             L             |          L           |          C           |          C          |
+|              **Jara Quique**               |   QuiqueVladimir    |         C         |           C           |           C           |             C             |          C           |          L           |          C          |
+|              **Vilca Diego**               |       diesoks       |         C         |           L           |           L           |             C             |          C           |          C           |          C          |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
 ##### 5.2.1.3. Sprint Backlog 1
 ##### 5.2.1.4. Development Evidence for Sprint Review
 ##### 5.2.1.5. Execution Evidence for Sprint Review
