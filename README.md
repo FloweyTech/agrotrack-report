@@ -204,6 +204,8 @@ Durante el desarrollo de AgroTrack, aplicamos un user journey mapping orientado 
 ## Capítulo III: Requirements Specification
 ### 3.1. User Stories
 ### 3.2. Impact Mapping
+#### Impact map- Agrónomos
+<img src="assets/maps/Impact map 1.png"  style="width:500px; height:auto;">
 ### 3.3. Product Backlog
 
 ## Capítulo IV: Product Design
