@@ -33,14 +33,15 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
-|         |       |       |                             |
+| Versión | Fecha      | Autor             | Descripción de modificación                                                                 |
+|---------|------------|-------------------|---------------------------------------------------------------------------------------------|
+| tb1     | 19/09/2025 | Anjali Amaro      | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.        |
+| tb1     | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
+| tb1     | 19/09/2025 | Vladimir Jara     | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping. |
+| tb1       | 19/09/2025 | Pierina Almandroz | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.           |
+| tb1     | 19/09/2025 | Diego Vilca       | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.           |
+| tb1     | 19/09/2025 | Equipo completo   | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                      |
+
 
 # Project Report Collaboration Insights
 
