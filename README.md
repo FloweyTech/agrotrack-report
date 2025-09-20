@@ -476,6 +476,32 @@ Durante el Sprint 1 se implementó la Landing Page de la solución, la cual incl
 
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+
+## Execution Evidence for Sprint Review
+
+Durante el **Sprint 1** se implementó la **Landing Page** de la plataforma AgroTrack, cumpliendo con los objetivos definidos en el Sprint Backlog.  
+La Landing Page constituye el primer punto de interacción con los usuarios, mostrando de forma clara los valores de la plataforma, los servicios ofrecidos, testimonios de usuarios y los planes de suscripción disponibles.
+
+El desarrollo se centró en:
+- Diseño responsive y navegación entre secciones.
+- Secciones implementadas: *Hero, Nosotros, Servicios, Testimonios, Precios, Contacto*.
+- Integración de soporte multilenguaje (ES/EN).
+- Formulario de contacto funcional.
+
+A continuación, se presentan capturas de las principales vistas desarrolladas:
+
+<img alt="Image" src="https://github.com/user-attachments/assets/9fd5ff6a-7670-4a81-b2da-cd625d2ac1d6" />
+<img alt="Image" src="https://github.com/user-attachments/assets/9685e05f-cd57-4a9c-a654-00dfa9a2fa9d" />
+<img alt="Image" src="https://github.com/user-attachments/assets/135c9622-9ba8-4ab1-9899-618525185ddc" />
+<img alt="Image" src="https://github.com/user-attachments/assets/23bb5a6f-6616-4c79-9492-db761cd5a6fb" />
+<img alt="Image" src="https://github.com/user-attachments/assets/2a777d98-ddee-4e0f-b0d9-28addd6024b2" />
+<img alt="Image" src="https://github.com/user-attachments/assets/8dda7799-b19f-421b-af0b-d0b17a4903d7" />
+<img alt="Image" src="https://github.com/user-attachments/assets/b55356f2-43f3-4b39-9095-50b39bfa3c62" />
+
+Asimismo, se elaboró un **video demostrativo** que muestra la navegación de la Landing Page y explica cada una de las secciones implementadas:  
+[Ver video demostrativo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202022365_upc_edu_pe/ETGoEZHf2JlClWlI9DkI1w4BlR7cDdKXE8q9u66pBi4wWA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YV4TeU)
+
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
