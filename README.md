@@ -310,6 +310,46 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+**User goal:** Registro de cuenta    
+**User Persona:** Agrónomo o Agricultor  
+![AgroTrack Wireflow 1](./assets/images/web-app-wireflows/agrotrack-wireflow-1.png)  
+**Explicación del flujo:**  
+El flujo comienza en donde el usuario debe registrar su cuenta, debe ingresar sus datos correspondientes e indicar su rol, finalmente presiona el botón de crear cuenta para luego ser dirigido a la web application.
+
+**User goal:** Creación de organización  
+**User Persona:** Agrónomo  
+![AgroTrack Wireflow 2](./assets/images/web-app-wireflows/agrotrack-wireflow-2.png)  
+**Explicación del flujo:**  
+Este flujo comienza en la sección de organización donde por defecto el agrónomo no tendrá una organización creada, entonces presiona el botón de crear organización y luego rellena los campos del formulario para luego darle a crear, donde luego le mostrarán una vista de todas sus organizaciones.
+
+**User goal:** Creación de parcela  
+**User Persona:** Agrónomo  
+![AgroTrack Wireflow 3](./assets/images/web-app-wireflows/agrotrack-wireflow-3.png)  
+**Explicación del flujo:**  
+Este flujo comienza en el dashboard de organización donde el usuario en la sección de parcela presiona el botón crear para luego rellenar los campos de información de su nueva parcela y una vez completado observa todas sus parcelas pertenecientes a esa organización.
+
+**User goal:** Creación de tareas  
+**User Persona:** Agrónomo  
+![AgroTrack Wireflow 4](./assets/images/web-app-wireflows/agrotrack-wireflow-4.png)  
+**Explicación del flujo:**  
+Este flujo empieza dentro de una parcela, donde el usuario puede ver las listas de tareas asignadas a ese parcela, y luego crea otra tarea rellenando los campos de información para que luego la vea en la vista de tareas dentro de la parcela. 
+
+**User goal:** Registro de ambiente de parcelas  
+**User Persona:** Agricultor  
+![AgroTrack Wireflow 5](./assets/images/web-app-wireflows/agrotrack-wireflow-5.png)  
+**Explicación del flujo:**  
+Este flujo empieza desde la vista de registro de ambiente, como no tienen ninguno creado, le da a crear y le aparece un formulario donde rellena los datos del registro del ambiente para luego darle a confirmar y ver todos sus registros de ambientes.
+
+**User goal:** Registro de control sobre cultivos  
+**User Persona:** Agricultor  
+![AgroTrack Wireflow 6](./assets/images/web-app-wireflows/agrotrack-wireflow-6.png)  
+**Explicación del flujo:**  
+Este flujo empieza desde la vista de parcela, donde se presiona el botón de registrar observación de cultivo, luego de rellenar le da a Enviar y luego podrá ver las tareas que le asignó agricultor
+
+
+
+
 #### 4.4.2. Web Applications Mock-ups
 #### 4.4.3. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
