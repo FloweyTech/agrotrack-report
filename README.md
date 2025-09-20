@@ -259,6 +259,9 @@ Durante el desarrollo de AgroTrack, aplicamos un user journey mapping orientado 
 #### 4.4.2. Web Applications Mock-ups
 #### 4.4.3. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
+#### Mock ups video explicativo
+[Ver archivo en Google Drive](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
+
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Design-Level Event Storming
 #### 4.6.2. Software Architecture Context Diagram
