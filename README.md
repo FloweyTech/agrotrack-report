@@ -539,7 +539,15 @@ A continuación, se presentan capturas del proceso de despliegue y del resultado
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+## Team Collaboration Insights for Sprint Review
 
+Durante el Sprint 1, el equipo trabajó siguiendo la estrategia **Gitflow**, creando ramas específicas por cada *feature* (ejemplo: `feature/hero`, `feature/contact`, `feature/benefits`, `feature/pricing`, `feature/testimonials`, `feature/footer`, `feature/about-us`).  
+Estas ramas fueron integradas progresivamente en `develop` y, tras la validación correspondiente, se consolidaron en la rama principal `main`.
+
+A continuación se presentan los **analíticos de GitHub**, que muestran la participación del equipo en commits, ramas y merges durante el Sprint. Estas evidencias confirman la colaboración activa de todos los miembros:
+
+<img alt="Image" src="https://github.com/user-attachments/assets/83219a66-058b-47ea-99ad-c8728ce254d7" />
+<img alt="Image" src="https://github.com/user-attachments/assets/20526c60-16a7-41fd-98c1-9bec2311f570" />
 
 # Conclusiones
 
