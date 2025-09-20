@@ -2352,9 +2352,6 @@ Este flujo empieza en el dashboard de organización, el usuario da en el botón 
 Este flujo empieza en el dashboard de organización, el usuario selecciona el botón lista de tareas,y le sale las tareas que creo, presiona el botón Crear tarea, rellena los datos necesarios y le da confirmar, luego le muestra su nueva tarea junto a las demás.
 
 
-
-
-
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
