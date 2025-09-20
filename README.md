@@ -230,7 +230,6 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 [Ver Imagen](https://github.com/user-attachments/assets/07e4a54e-41c1-47c3-ad1b-3aa92e45e995)
 ### 3.3. Product Backlog
 
-
 | # Orden | User Story Id | Título                              | Descripción                                                                 | Story Points |
 |---------|---------------|-------------------------------------|-----------------------------------------------------------------------------|--------------|
 | 1       | US24          | Registrar cuenta                   | Como usuario nuevo, deseo registrar mi cuenta con correo y contraseña para acceder a la plataforma. | 3 |
@@ -271,6 +270,14 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 | 36      | TECH02        | Configuración de base de datos     | Historia técnica: configurar la base de datos para almacenar información de usuarios, parcelas y registros. | 5 |
 | 37      | TECH03        | Autenticación segura               | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales. | 5 |
 | 38      | TECH04        | Infraestructura IoT inicial        | Historia técnica: configurar la comunicación de sensores IoT con la plataforma. | 8 |
+
+### Product Backlog – Tablero Trello
+
+A continuación se muestra el enlace al tablero de Trello donde se gestiona el Product Backlog, junto con una captura de pantalla representativa:
+
+[Ver tablero en Trello](https://trello.com/b/lT4rJti6/agrotrack-product-backlog)
+
+<img alt="Product Backlog Trello" src="https://github.com/user-attachments/assets/108ac434-9e1f-4197-aa32-0a535e27213e" width="900"/>
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
@@ -431,8 +438,43 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
   </tr>
 </table>
 
-
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1 se implementó la Landing Page de la solución, la cual incluyó la creación de las secciones principales: página inicial, características, planes de suscripción y contacto. El desarrollo se realizó en el repositorio público https://github.com/FloweyTech/agrotrack-landing-page.git, utilizando un flujo de ramas basado en feature branches.
+
+## Development Evidence – Sprint 1
+
+| Repository | Branch                 | Commit Id | Commit Message                                      | Commit Message Body                                                                 | Committed on (Date) |
+|------------|------------------------|-----------|-----------------------------------------------------|--------------------------------------------------------------------------------------|---------------------|
+| FloweyTech/agrotrack-landing-page | develop                | c61eb92   | merge: integrate feature/contact into develop        | Integración de la sección de contacto en la rama develop.                            | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 577bf53   | fix: resolve merge conflicts                         | Resolución de conflictos tras fusión de ramas.                                       | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 8095364   | merge: integrate feature/testimonials into develop   | Integración de la sección de testimonios.                                            | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 33b430a   | merge: integrate feature/pricing into develop        | Integración de la sección de precios.                                                | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 6a32eba   | merge: integrate feature/footer into develop         | Integración de la sección de pie de página.                                          | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | b5e80f6   | merge: integrate feature/benefits into develop       | Integración de la sección de beneficios.                                             | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | b546f88   | merge: integrate feature/about-us into develop       | Integración de la sección "Sobre nosotros".                                          | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 69a84cd   | merge: integrate feature/here into develop           | Integración de la sección hero en develop.                                           | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/hero           | f85e590   | feat: add hero section with content and translations | Sección principal con contenido en español e inglés.                                 | 20/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/contact        | 9490767   | feat: add contact section                            | Implementación del formulario de contacto.                                           | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/footer         | 68319     | feat(footer): add social media links                 | Agregado de enlaces a redes sociales en el pie de página.                            | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/pricing        | 312b8d3   | feat: add pricing language                           | Archivos de idioma para la sección de precios.                                       | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/pricing        | 7d75931   | feat: add pricing section in html                    | Implementación de la sección de precios en HTML.                                     | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/benefits       | 09c0f86   | feat: add i18n for benefits section                  | Internacionalización de la sección de beneficios.                                    | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/benefits       | 2808ed0   | feat: add benefits section                           | Implementación de la sección de beneficios.                                          | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/testimonials   | 0d13d22   | feat: add testimonials language                      | Archivos de idioma para la sección de testimonios.                                   | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/about-us       | 22e7558   | feat: add i18n for about us section                  | Internacionalización de la sección “Sobre nosotros”.                                 | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/testimonials   | 06c594a   | feat: add testimonials section in html               | Implementación de la sección de testimonios en HTML.                                 | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | feature/about-us       | cf2c348   | feat: add about us section                           | Implementación de la sección “Sobre nosotros”.                                       | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 48dddbe   | merge: integrate feature/initial-structure into dev  | Integración de la estructura inicial del proyecto.                                   | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 30d810d   | feat: add comments for navigation sections           | Comentarios en archivos de idioma para navegación.                                   | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 38ad3d7   | feat: add initial css styles and language support    | Estilos iniciales en CSS y soporte multilenguaje.                                    | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 295e88b   | feat: add internationalization support               | Configuración de soporte de internacionalización.                                    | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 8625c6f   | remove .idea from repository                         | Eliminación de archivos innecesarios (.idea).                                        | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | 1b1f675   | feat: add initial html structure                     | Estructura inicial en HTML.                                                          | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | develop                | f3aaaf1   | feat: Add .gitignore to exclude IDE and project files| Configuración de .gitignore.                                                         | 19/09/2025 |
+| FloweyTech/agrotrack-landing-page | main                  | b148470   | Initial commit                                       | Configuración inicial del repositorio.                                               | 19/09/2025 |
+
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
