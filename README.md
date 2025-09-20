@@ -876,6 +876,7 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 El diagrama de base de datos de AgroTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
 
+![Database Diagram](assets/images/agrotrack-databe.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -1107,11 +1108,43 @@ Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama
 
 # Conclusiones
 
+**Validación del Problema y la Solución**
+
+* Se confirmó la necesidad real en el sector agrícola peruano de herramientas digitales accesibles para la gestión de parcelas y cultivos
+* AgroTrack se posicionó exitosamente como una solución que equilibra simplicidad tecnológica con conocimiento agrícola especializado
+* Las entrevistas con 6 usuarios validaron las dificultades en la gestión manual y la apertura hacia soluciones digitales intuitivas
+
+**Comprensión Profunda del Usuario**
+
+* Los User Personas desarrollados reflejan con precisión las características demográficas, tecnológicas y de comportamiento identificadas
+* Se confirmó que tanto agricultores como agrónomos valoran especialmente funcionalidades como alertas climáticas, recordatorios de tareas y reportes simplificados
+* La investigación reveló la importancia de balancear funcionalidades avanzadas con simplicidad de uso
+
+**Arquitectura de Información Efectiva**
+* Se estableció una organización clara del contenido basada en sistemas jerárquicos, matriciales y por audiencia
+* El sistema de etiquetado emplea vocabulario cercano al sector agrícola, reduciendo barreras de entrada
+* Se implementaron estrategias SEO apropiadas para maximizar la visibilidad en buscadores especializados
+
+**Diseño Visual Coherente**
+* Se desarrolló una identidad visual que transmite confianza, naturaleza e innovación
+* Los lineamientos de estilo aseguran consistencia visual entre la landing page y futuras funcionalidades
+* Se priorizó la accesibilidad considerando las limitaciones tecnológicas del público objetivo
+
+**Fundamentos Técnicos Establecidos**
+
+* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable
+* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto
+* Se establecieron procesos claros de desarrollo y documentación para futuras entregas
+
+Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
-
+El desarrollo del Sprint 1 demostró la capacidad del equipo para transformar el diseño en código funcional, aplicando buenas prácticas de desarrollo, control de versiones con Git y despliegue continuo. La documentación técnica generada facilita el mantenimiento y la colaboración futura.
 Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. https://doi.org/10.1071/CP21759
+## Impacto en el Aprendizaje
+# Anexos
 
-# Anexos  
-  
+
+
+
