@@ -348,10 +348,43 @@ Este flujo empieza desde la vista de registro de ambiente, como no tienen ningun
 Este flujo empieza desde la vista de parcela, donde se presiona el botón de registrar observación de cultivo, luego de rellenar le da a Enviar y luego podrá ver las tareas que le asignó agricultor
 
 
-
-
 #### 4.4.2. Web Applications Mock-ups
 #### 4.4.3. Web Applications User Flow Diagrams
+
+**User goal:** Acceder a la web application  
+**User Persona:** Agricultor o Agrónomo  
+![AgroTrack Userflow 1](./assets/images/web-app-userflows/userflow-1.png)  
+**Explicación del flujo:**  
+Este flujo empieza desde la vista de registrar cuenta, donde el usuario rellena los datos necesarios para luego dar el botón de crear cuenta, donde lo redirige a la vista de inicio de sesión donde coloca su cuenta creada y finalmente accede a la web application.
+
+**User goal:** Crear Organización  
+**User Persona:** Agrónomo  
+![AgroTrack Userflow 2](./assets/images/web-app-userflows/userflow-2.png)  
+**Explicación del flujo:**  
+Este flujo empieza en la vista de organización, el usuario no tiene ninguna y por eso le muestra que no tienen ninguna organización, el usuario presiona crear una organización y rellena los datos necesarios para luego confirmar y ver todas sus organizaciones.
+
+**User goal:** Registro de ambiente  
+**User Persona:** Agricultor    
+![AgroTrack Userflow 3](./assets/images/web-app-userflows/userflow-3.png)  
+**Explicación del flujo:**   
+Este flujo empieza en la vista de registro de ambiente, el usuario no tienen ninguno y presiona el botón registrar, luego rellena los datos correspondientes sobre el ambiente de la parcela seleccionada
+
+**User goal:** Creación de parcelas  
+**User Persona:** Agrónomo  
+![AgroTrack Userflow 4](./assets/images/web-app-userflows/userflow-4.png)  
+**Explicación del flujo:**  
+Este flujo empieza en el dashboard de organización, el usuario da en el botón de vista completa, le sale que no tiene ninguna parcela y creada y presiona el botón de añadir una, rellena los datos necesarios y luego confirma, al final se le muestra todas sus parcelas.
+
+**User goal:** Creación de Tareas  
+**User Persona:** Agrónomo  
+![AgroTrack Userflow 4](./assets/images/web-app-userflows/userflow-5.png)  
+**Explicación del flujo:**  
+Este flujo empieza en el dashboard de organización, el usuario selecciona el botón lista de tareas,y le sale las tareas que creo, presiona el botón Crear tarea, rellena los datos necesarios y le da confirmar, luego le muestra su nueva tarea junto a las demás.
+
+
+
+
+
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
 #### 4.6.1. Design-Level Event Storming
