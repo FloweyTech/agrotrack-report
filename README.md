@@ -173,24 +173,20 @@ del ABET – EAC - Student Outcome 3.
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture Event Storming
-En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue <br>
-realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso <br>
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:  
 
-**1. Open:**<br>
-En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden <br>
-en el negocio) escribiendo en los post-its naranjas.
+**1. Open:**  
+En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden en el negocio) escribiendo en los post-its naranjas.  
 
 ![Step 1 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-1.png)
 
-**2. Explore:** <br>
-Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos,<br>
-identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
+**2. Explore:**  
+Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos, identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.  
 
 ![Step 2 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-2.png)
 
-**3. Close:** <br>
-En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados,junto con aspectos que <br>
-debíamos investigar más a fondo o descartar según el alcance definido.
+**3. Close:**  
+En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados, junto con aspectos que debíamos investigar más a fondo o descartar según el alcance definido.  
 
 ![Step 3 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-3.png)
 
@@ -200,12 +196,11 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 Finalmente, se presenta el Big Picture Event Storming:
 
-![Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming.png)
+![Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming.png)  
 
-[Enlace del Miro donde se realizó el Big Picture Event Storming](https://miro.com/app/board/uXjVJOtE1kQ=/?share_link_id=250621093579)
+[Enlace del Miro donde se realizó el Big Picture Event Storming](https://miro.com/app/board/uXjVJOtE1kQ=/?share_link_id=250621093579)  
 
-Este proceso permitió al equipo obtener una visión de alto nivel de los principales eventos del negocio, identificar puntos <br>
-críticos y definir prioridades para las siguientes etapas del proyecto
+Este proceso permitió al equipo obtener una visión de alto nivel de los principales eventos del negocio, identificar puntos críticos y definir prioridades para las siguientes etapas del proyecto
 
 ### 2.5. Ubiquitous Language
 
@@ -227,7 +222,7 @@ Conjunto de plantas de un mismo tipo sembradas en una parcela.
 Ejemplar individual o muestra representativa de un cultivo en una parcela.  
 Se utiliza para registrar observaciones específicas como altura o cantidad de hojas.
 
-**Organization(Organización)**    
+**Organization(Organización)**      
 Espacio de trabajo colaborativo entre el agrónomo y varios agricultores asignados en varias parcelas
 
 **Monitoring(Monitoreo)**  
@@ -323,21 +318,20 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.  
 
 **Step 1: Unstructured Exploration**  
-![Step 1 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-1.png)  
-En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.
+![Step 1 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-1.png)    
+En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.  
 
 **Step 2: Timelines**  
-![Step 2 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-2.png)  
-En este segundo paso, el equipo ordeno los eventos de dominio en el orden que ocurren en el dominio empresarial.  
-Se tuvo en cuenta los happy path y luego se agregaron los escenarios alternativos.
+![Step 2 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-2.png)    
+En este segundo paso, el equipo ordeno los eventos de dominio en el orden que ocurren en el dominio empresarial. Además, se tuvo en cuenta los happy path y luego se agregaron los escenarios alternativos.
 
 **Step 3: Pain Points**  
 ![Step 3 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-3.png)  
-En este tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.
+En este tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.  
 
 **Step 4: Pivotal Points**  
 ![Step 4 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-4.png)  
-En este cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.
+En este cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.  
 
 **Step 5: Commands**  
 ![Step 5 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-5.png)  
@@ -348,7 +342,7 @@ En este quinto paso, el equipo añadió comandos que desencadenen eventos o el f
 En este sexto paso, el equipo añadió policies, que son reglas de negocio que hace que se ejecuten comandos sin la necesidad de un actor.
 
 **Step 7: Read Models**  
-![Step 7 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-7.png)  
+![Step 7 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-7.png)   
 En este séptimo paso, el equipo añadió read models, que son como la vista de datos que el usuario usa para tomar la decisión de ejecutar un comando.
 
 **Step 8: External Systems**  
@@ -364,16 +358,6 @@ En este noveno paso, el equipo antes de agregar los agregados, discutió bastant
 ![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)  
 En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
 [Ver en Miro](https://miro.com/app/board/uXjVJKW5IPg=/?share_link_id=208743433890)
-
-
-
-
-
-
-
-
-
-
 
 #### 4.6.2. Software Architecture Context Diagram
 #### 4.6.3. Software Architecture Container Diagrams
