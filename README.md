@@ -216,25 +216,28 @@ Durante el desarrollo de AgroTrack, aplicamos un user journey mapping orientado 
 
 ### 3.3. Product Backlog
 
-| Orden | User Story Id | Título                           | Descripción                                                                 | Story Points |
-|-------|---------------|----------------------------------|-----------------------------------------------------------------------------|--------------|
-| 1     | US01          | Crear organización              | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas. | 5 |
-| 2     | US02          | Invitar miembro a organización  | Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización. | 5 |
-| 3     | US03          | Remover agricultor              | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día. | 3 |
-| 4     | US04          | Crear parcela                   | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo. | 5 |
-| 5     | US05          | Modificar parcela               | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos. | 3 |
-| 6     | US06          | Definir tipo de cultivo         | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo. | 5 |
-| 7     | US07          | Asignar agricultor a parcela    | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables. | 3 |
-| 8     | US08          | Añadir recomendaciones          | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores. | 3 |
-| 9     | US09          | Iniciar monitoreo               | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos. | 2 |
-| 10    | US13          | Alertas climáticas automáticas  | Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos. | 5 |
-| 11    | US14          | Alertas por umbrales de cultivo | Como Agrónomo, deseo configurar umbrales para generar alertas internas. | 5 |
-| 12    | US15          | Crear checklist                 | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela. | 3 |
-| 13    | US16          | Crear tarea                     | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo. | 5 |
-| 14    | US19          | Modificar/cancelar tarea        | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas. | 3 |
-| 15    | US21          | Solicitar reporte de parcela    | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño. | 5 |
-| 16    | US22          | Solicitar reporte general       | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales. | 5 |
-| 17    | US23          | Generar/descargar reporte       | Como Agrónomo, deseo generar y descargar reportes para compartirlos. | 3 |
+## 3.3 Product Backlog – Rol Agrónomos
+
+| Orden | User Story Id | Título                        | Descripción                                                                                 | Story Points |
+|-------|---------------|-------------------------------|---------------------------------------------------------------------------------------------|--------------|
+| 1     | US01          | Crear organización            | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas.           | 5            |
+| 2     | US02          | Invitar miembro a organización| Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización.                | 5            |
+| 3     | US03          | Remover agricultor            | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día.               | 3            |
+| 4     | US04          | Crear parcela                 | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo.            | 5            |
+| 5     | US05          | Modificar parcela             | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos.               | 3            |
+| 6     | US06          | Definir tipo de cultivo       | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo.| 5           |
+| 7     | US07          | Asignar agricultor a parcela  | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables.         | 3            |
+| 8     | US08          | Añadir recomendaciones        | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores.   | 3            |
+| 9     | US09          | Iniciar monitoreo             | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos.| 2            |
+| 10    | US13          | Alertas climáticas automáticas| Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos.                       | 5            |
+| 11    | US14          | Alertas por umbrales de cultivo| Como Agrónomo, deseo configurar umbrales para generar alertas internas.                     | 5            |
+| 12    | US15          | Crear checklist               | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela.           | 3            |
+| 13    | US16          | Crear tarea                   | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo.    | 5            |
+| 14    | US19          | Modificar/cancelar tarea      | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas.                      | 3            |
+| 15    | US21          | Solicitar reporte de parcela  | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño.            | 5            |
+| 16    | US22          | Solicitar reporte general     | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales. | 5     |
+| 17    | US23          | Generar/descargar reporte     | Como Agrónomo, deseo generar y descargar reportes para compartirlos.                        | 3            |
+
 
 
 ## Capítulo IV: Product Design
