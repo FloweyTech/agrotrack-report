@@ -1,0 +1,412 @@
+@startuml
+
+title Agrotrack - Class Diagram
+
+' ================= IAM CONTEXT =================
+package "IAM Bounded Context"{
+
+    class User <<Aggregate Root>>{
+        - userId : UserId
+        - email : String
+        - passwordHash : String
+        - status : UserStatus
+        - role : Role
+        + assignRole(r : Role) : void
+    }
+
+    enum Role <<Enum>> {
+        - AGRONOMIST
+        - FARMER
+    }
+
+    enum AccountStatus <<Enum>> {
+        - ACTIVE
+        - INACTIVE
+        - SUSPENDED
+    }
+
+}
+
+' ================== PROFILE CONTEXT ==================
+package "Profile Bounded Context"{
+
+    class Profile <<Aggregate Root>>{
+        - profileId : ProfileId
+        - userId : UserId
+        - personName : PersonName
+        - photoUrl : String
+        + completeProfile(data) : void
+        + editProfile(data) : void
+
+    }
+
+    class PersonName <<ValueObject>> {
+        - firstName : String
+        - lastName : String
+    }
+}
+
+' =============== ORGANIZATION CONTEXT ===============
+package "Organization Bounded Context"{
+
+    class Organization <<Aggregate Root>>{
+        - organizationId : OrganizationId
+        - organizationName: String
+        - status : OrgStatus
+        - maxPlots : Int
+        - members : List<ProfileId>
+        - subscription : Subscription
+        + rename(newName : String) : void
+        + configureLimit(limit : Int) : void
+        + activate() : void
+        + deactivate() : void
+        + addMember(profileId : ProfileId) : void
+        + removeMember(profileId : ProfileId) : void
+        + hasMember(profileId : ProfileId) : boolean
+        + acquireSubscription(plan : SubscriptionPlan) : void
+        + cancelSubscription() : void
+    }
+
+    enum OrgStatus <<Enum>> {
+        - ACTIVE
+        - INACTIVE
+    }
+
+    class OrganizationId <<ValueObject>> {
+        - value : Integer
+    }
+
+    Organization --> OrganizationId
+    PlantType --> PlantTypeId
+    Subscription --> SubscriptionId
+
+    class Plot <<Aggregate Root>> {
+        - plotId : PlotId
+        - plotName : String
+        - size : SizeArea
+        - plantType : PlantType
+        - location : String
+        - orgId : OrganizationId
+        + assignPlantType(type : PlantType) : void
+        + rename(newName : String) : void
+        + resize(newSize : Float) : void
+
+    }
+
+    class PlantType <<Entity>> {
+        - plantTypeId : PlantTypeId
+        - name : String
+        - description : String
+        - predefined : Boolean
+        - plantTypes: PlantTypes
+        + isPredefined() : Boolean
+    }
+
+    enum PlantTypes <<Enum>> {
+        - POTATO
+        - CORN
+        - WHEAT
+        - BARLEY
+        - COFFEE
+        - RICE
+        - TOMATO
+        - LETTUCE
+        - CARROT
+    }
+
+    class PlantTypeId <<ValueObject>> {
+        - value : Integer
+    }
+
+    class SizeArea <<ValueObject>> {
+        - sizeArea : Float
+    }
+
+    class Subscription <<Entity>>{
+        - subscriptionId : SubscriptionId
+        - plan : SubscriptionPlan
+        - startDate : DateTime
+        - expiresAt : DateTime
+        - status : SubscriptionStatus
+        - subscriptionPrice : Money
+    }
+
+    class SubscriptionId <<ValueObject>> {
+        - value : Integer
+    }
+
+    enum SubscriptionPlan <<Enum>> {
+        - AgroStart
+        - AgroSmart
+        - AgroExpert
+    }
+
+    enum SubscriptionStatus <<Enum>> {
+        - ACTIVE
+        - EXPIRED
+        - CANCELED
+    }
+
+}
+
+' ================== MONITORING AND CONTROL CONTEXT ==================
+package "Monitoring and Control Bounded Context"{
+
+    class PlantSamplingSession <<Aggregate Root>> {
+        - planSamplingSessionId : PlantSamplingSessionId
+        - plotId : PlotId
+        - sampledAt : DateTime
+        - observations : List<PlantObservation>
+        - average : SampleAverage
+        + addObservation(data : PlantObservationData) : PlantObservationId
+        + updateObservation(id : PlantObservationId, data : PlantObservationData) : void
+        + removeObservation(id : PlantObservationId) : void
+        + computeAverages() : SampleAverage
+    }
+
+    class PlantSamplingSessionId <<ValueObject>> {
+        - value : Integer
+    }
+    class PlantObservationId <<ValueObject>> {
+        - value : Integer
+    }
+    PlantSamplingSession --> PlantSamplingSessionId
+    PlantObservation --> PlantObservationId
+
+    class PlantObservation <<Entity>> {
+        - id : Integer
+        - heightCm : Decimal
+        - leafCount : Int
+        - fruitCount : Int
+        - notes : String
+    }
+
+    class SampleAverage <<ValueObject>> {
+        - avgHeightCm : Decimal
+        - avgLeafCount : Decimal
+        - avgFruitCount : Decimal
+    }
+
+    class EnvironmentalReading <<AggregateRoot>> {
+        - id : Integer
+        - plotId : PlotId
+        - type : ReadingType
+        - value : Decimal
+        - unit : String
+        - measuredAt : DateTime
+        + record(value : Decimal, unit : String, at : DateTime) : void
+        + evaluate() : void
+    }
+
+    class EnvironmentalReadingId <<ValueObject>> {
+        - value : Integer
+    }
+    EnvironmentalReading --> EnvironmentalReadingId
+
+    enum ReadingType <<Enum>> {
+        - TEMPERATURE
+        - HUMIDITY
+        - PH
+    }
+
+    class Threshold <<Entity>> {
+        - id: Integer
+        - minValue : Decimal
+        - maxValue : Decimal
+        - type : ReadingType
+    }
+
+    class Alert <<Aggregate Root>> {
+        - id: Integer
+        - plotId : PlotId
+        - type : AlertType
+        - severity : Severity
+        - message : String
+        - triggeredAt : DateTime
+    }
+
+    class AlertId <<ValueObject>> {
+        - value : Integer
+    }
+    Alert --> AlertId
+
+    enum AlertType <<Enum>> {
+        - HUMIDITY
+        - TEMPERATURE
+        - PH
+        - WEATHER
+    }
+
+    enum Severity <<Enum>> {
+        - INFO
+        - WARNING
+        - CRITICAL
+    }
+
+    class Checklist <<AggregateRoot>> {
+        - id: Integer
+        - plotId : PlotId
+        - createdBy : ProfileId
+        - createdAt : DateTime
+        - tasks : List<Task>
+        - status : ChecklistStatus
+        + addTask(title : String, description : String) : Task
+        + removeTask(task : Task) : void
+        + completeTask(tas : Task) : void
+        + completeChecklist() : void
+    }
+    class ChecklistId <<ValueObject>> {
+        - value : Integer
+    }
+    Checklist --> ChecklistId
+
+    enum ChecklistStatus <<Enum>> {
+        - ACTIVE
+        - COMPLETED
+        - CANCELLED
+    }
+
+    class Task <<Entity>> {
+        - id: Integer
+        - title : String
+        - description : String
+        - assigneeId : ProfileId
+        - dateRange : DateRange
+        - status : TaskStatus
+        - material: List<MaterialUsed>
+        + assignTo(profileId : ProfileId) : void
+        + reschedule(newSchedule : DateRange) : void
+        + updateStatus(newStatus : TaskStatus) : void
+    }
+    class TaskId <<ValueObject>> {
+        - value : Integer
+    }
+    Task --> TaskId
+
+    enum TaskStatus <<Enum>> {
+        - PENDING
+        - IN_PROGRESS
+        - COMPLETED
+        - CANCELLED
+    }
+
+    class MaterialUsed <<ValueObject>> {
+        - name : String
+        - quantity : Decimal
+        - unit : String
+    }
+
+    class DateRange <<ValueObject>> {
+        - start : DateTime
+        - end : DateTime
+    }
+}
+
+
+' ================ REPORTS BOUNDED CONTEXT ==================
+package "Reports Bounded Context"{
+
+    class Report <<AggregateRoot>> {
+        - reportId : ReportId
+        - requestedBy : ProfileId
+        - status : ReportStatus
+        - plotId : PlotId
+        - type : ReportType
+        - periodStart : DateTime
+        - periodEnd : DateTime
+        - generatedAt : DateTime
+        - content : byte[]
+        + request(type : ReportType, plotId : PlotId, dates) : void
+        + generate(data) : Report
+        + markFailed(reason : String) : void
+    }
+
+   class ReportId <<ValueObject>> {
+        - value : Integer
+    }
+
+    enum ReportType <<Enum>> {
+        - PARCEL
+        - GENERAL
+    }
+
+    enum ReportStatus <<Enum>> {
+        - REQUESTED
+        - PROCESSING
+        - GENERATED
+        - FAILED
+    }
+}
+
+' ================== SHARED CONTEXT ==================
+package "Shared Bounded Context"{
+
+    class UserId <<ValueObject>> {
+        - value : Integer
+    }
+
+    class PlotId <<ValueObject>> {
+        - value : Integer
+    }
+
+    class ProfileId <<ValueObject>> {
+        - value : Integer
+    }
+
+    class Money <<Value Object>> {
+    -amount : BigDecimal
+    -currency : Currency
+    +add(other)
+    +multiply(multiplier)
+    }
+
+}
+
+' Relaciones de Iam Context
+User ..> Role : has
+User ..> AccountStatus : has
+' Relaciones de Profile Context
+Profile "1" --> "1" PersonName : has
+Profile ..> UserId : references
+
+' Relaciones de Organization Context
+Organization ..> ProfileId : manages
+Organization "1" *-- "1" Subscription : has
+Subscription "1" *-- "1" SubscriptionPlan : has
+Subscription "1" *-- "1" SubscriptionStatus : has
+Plot "1" *-- "1" PlantType : has
+Plot "1" --> "1" SizeArea : has
+PlantType "1" --> "1..*" PlantTypes : manages
+Subscription *--> "1" Money
+
+' Relaciones de Monitoring and Control Context
+PlantSamplingSession "1" *-- "1..*" PlantObservation
+PlantSamplingSession "1" --> "1" SampleAverage : computes
+PlantSamplingSession ..> PlotId : references
+
+EnvironmentalReading ..> PlotId : references
+EnvironmentalReading "1" --> "1" ReadingType : typeOf
+EnvironmentalReading ..> Threshold : evaluates
+Threshold --> ReadingType : defines
+
+Alert ..> PlotId : references
+Alert --> AlertType : typeOf
+Alert --> Severity : level
+
+Organization "1" *-- "1" OrgStatus
+
+Checklist "1" *-- "1..*" Task : contains
+Checklist "1" --> "1" ChecklistStatus : has
+Checklist ..> PlotId : references
+Checklist ..> ProfileId : createdBy
+Task "1" *-- "1..*" MaterialUsed : uses
+Task "1" --> "1" TaskStatus : has
+Task "1" --> "1" DateRange : scheduled
+
+' Relaciones de Reports Context
+Report "1" --> "1" ReportStatus : has
+Report "1" --> "1" ReportType : typeOf
+Report ..> PlotId : references
+Report --> ReportId : has
+
+@enduml
