@@ -272,7 +272,6 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 | 37      | TECH03        | Autenticación segura               | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales. | 5 |
 | 38      | TECH04        | Infraestructura IoT inicial        | Historia técnica: configurar la comunicación de sensores IoT con la plataforma. | 8 |
 
-
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
@@ -314,6 +313,125 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 ##### 5.2.1.1. Sprint Planning 1
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 ##### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal de este Sprint es **diseñar, implementar y desplegar el Landing Page** de la plataforma, de modo que los usuarios puedan conocer la propuesta de valor, características, planes de suscripción y medios de contacto. Esto permitirá la primera validación con usuarios interesados y sentará las bases de comunicación del producto.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / To-Review / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US31</td>
+    <td>Landing Page – Página principal</td>
+    <td>T1</td>
+    <td>Diseñar estructura de la página</td>
+    <td>Crear wireframe simple con encabezado, cuerpo y pie de página.</td>
+    <td>4</td>
+    <td>Equipo UX</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US31</td>
+    <td>Landing Page – Página principal</td>
+    <td>T2</td>
+    <td>Implementar página principal</td>
+    <td>Desarrollar HTML/CSS base de la página principal.</td>
+    <td>6</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US32</td>
+    <td>Landing Page – Características</td>
+    <td>T3</td>
+    <td>Redactar sección de características</td>
+    <td>Elaborar contenido con puntos clave de la plataforma.</td>
+    <td>2</td>
+    <td>PO/Equipo</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US32</td>
+    <td>Landing Page – Características</td>
+    <td>T4</td>
+    <td>Implementar sección de características</td>
+    <td>Codificar la sección en la web app.</td>
+    <td>4</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US33</td>
+    <td>Landing Page – Planes de suscripción</td>
+    <td>T5</td>
+    <td>Diseñar sección de planes</td>
+    <td>Definir estructura visual de planes con beneficios y precios.</td>
+    <td>3</td>
+    <td>Equipo UX</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US33</td>
+    <td>Landing Page – Planes de suscripción</td>
+    <td>T6</td>
+    <td>Implementar sección de planes</td>
+    <td>Programar en frontend con estructura responsive.</td>
+    <td>5</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US34</td>
+    <td>Landing Page – Contacto/Soporte</td>
+    <td>T7</td>
+    <td>Redactar información de contacto</td>
+    <td>Crear contenido con correo, soporte y redes sociales.</td>
+    <td>2</td>
+    <td>PO/Equipo</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US34</td>
+    <td>Landing Page – Contacto/Soporte</td>
+    <td>T8</td>
+    <td>Implementar sección de contacto</td>
+    <td>Agregar formulario básico o enlaces de contacto en la web app.</td>
+    <td>4</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T9</td>
+    <td>Configuración de hosting/despliegue</td>
+    <td>Preparar entorno y publicar el Landing Page en hosting/web server.</td>
+    <td>6</td>
+    <td>DevOps</td>
+    <td>To-do</td>
+  </tr>
+</table>
+
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
