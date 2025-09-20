@@ -137,14 +137,15 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **ABET – EAC - Student Outcome 3**
 **Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias.*
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 3.
+## ABET – EAC - Student Outcome 3  
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.  
 
-| Criterio específico                                                    | Acciones realizadas | Conclusiones |
-|------------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   |                     |              |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. |                     |              |
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.  
+
+| Criterio específico                                                    | Acciones realizadas                                                                                 | Conclusiones |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | - Grabación de videos explicativos sobre el proyecto y su funcionalidad.<br>- Presentación del proyecto en el Foro de Innovación frente a docentes y compañeros.<br>- Defensa de entregables con retroalimentación en tiempo real.<br>- Ensayos previos de presentación para mejorar la claridad y seguridad en la comunicación. | A través de la grabación de videos y presentaciones en vivo, el equipo demostró la capacidad de transmitir ideas de forma clara y ordenada. Se evidenció un proceso de adaptación del lenguaje técnico a uno más accesible para diferentes audiencias (docentes, pares y público externo). Además, se reforzó la seguridad y la coherencia al hablar, mostrando un progreso significativo en la comunicación oral. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | - Elaboración del informe técnico del proyecto con estructura académica formal.<br>- Documentación en GitHub (README, product backlog, impact mapping).<br>- Redacción de reportes parciales y finales.<br>- Uso de esquemas y tablas para sintetizar información compleja y facilitar su comprensión. | La documentación escrita permitió que distintos grupos de interés comprendieran los avances y resultados del proyecto. Se logró mantener una comunicación clara, precisa y formal, que se ajustó tanto a requerimientos académicos como a entornos de desarrollo tecnológico. El grupo desarrolló habilidades para estructurar la información de forma ordenada, coherente y profesional. |
 
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
