@@ -256,8 +256,7 @@ Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias par
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 **Landing Page para Desktop Browser**  
-En esta sección se presenta los wireframes de la versión Desktop de la landing page, donde se observa la estructura que tiene como el Header o el Hero section para llamar a nuestros segmentos objetivos.  
-Esta cumple con los principios de arquitectura de la información y diseño inclusivo con la opción de cambiar de idioma.  
+En esta sección se presenta los wireframes de la versión Desktop de la landing page, donde se observa la estructura que tiene como el Header o el Hero section para llamar a nuestros segmentos objetivos. Así mismo, esta cumple con los principios de arquitectura de la información y diseño inclusivo con la opción de cambiar de idioma.  
 ![Landing Page Wireframe 1](./assets/images/landing-page-wireframes/landing-page-wireframe-1.png)  
 
 ![Landing Page Wireframe 2](./assets/images/landing-page-wireframes/landing-page-wireframe-2.png)  
