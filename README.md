@@ -284,7 +284,7 @@ A continuación, se muestra la landing page visualizada desde un navegador web e
 
 #### 4.3.2. Landing Page Mock-up
 
-En esta sección se presenta los mock-ups de nuestra landing page, donde se refleja el cumplimiento de nuestra guía estilos, arquitectura de información mediante las secciones del header y diseño inclusivo con la opción de cambiar de idioma.
+En esta sección se presenta los mock-ups de nuestra landing page, donde se refleja el cumplimiento de nuestra guía estilos, arquitectura de información mediante las secciones del header y diseño inclusivo con la opción de cambiar de idioma.  
 **Landing Page Mock-up para Desktop Browser**  
 ![Landing Page Desktop Mockup 1](./assets/images/landing-page-mockups/landing-page-mockup-1.png)    
 
