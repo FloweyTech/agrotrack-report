@@ -257,7 +257,7 @@ Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias par
 #### 4.3.1. Landing Page Wireframe
 **Landing Page para Desktop Browser**  
 En esta sección se presenta los wireframes de la versión Desktop de la landing page, donde se observa la estructura que tiene como el Header o el Hero section para llamar a nuestros segmentos objetivos.  
-Esta cumple con lo definido en nuestra guía de estilos y refleja los principios de arquitectura de la información y diseño inclusivo con la opción de cambiar de idioma.  
+Esta cumple con los principios de arquitectura de la información y diseño inclusivo con la opción de cambiar de idioma.  
 ![Landing Page Wireframe 1](./assets/images/landing-page-wireframes/landing-page-wireframe-1.png)  
 
 ![Landing Page Wireframe 2](./assets/images/landing-page-wireframes/landing-page-wireframe-2.png)  
@@ -282,9 +282,37 @@ A continuación, se muestra la landing page visualizada desde un navegador web e
 
 ![Landing Page Mobile Wireframe 6](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-6.png)
 
-
-
 #### 4.3.2. Landing Page Mock-up
+
+En esta sección se presenta los mock-ups de nuestra landing page, donde se refleja el cumplimiento de nuestra guía estilos, arquitectura de información mediante las secciones del header y diseño inclusivo con la opción de cambiar de idioma.
+**Landing Page Mock-up para Desktop Browser**  
+![Landing Page Desktop Mockup 1](./assets/images/landing-page-mockups/landing-page-mockup-1.png)    
+
+![Landing Page Desktop Mockup 2](./assets/images/landing-page-mockups/landing-page-mockup-2.png)  
+
+![Landing Page Desktop Mockup 3](./assets/images/landing-page-mockups/landing-page-mockup-3.png)  
+
+![Landing Page Desktop Mockup 4](./assets/images/landing-page-mockups/landing-page-mockup-4.png)  
+
+![Landing Page Desktop Mockup 5](./assets/images/landing-page-mockups/landing-page-mockup-5.png)  
+
+![Landing Page Desktop Mockup 6](./assets/images/landing-page-mockups/landing-page-mockup-6.png)  
+
+**Landing Page Mock-up para Mobile Browser**  
+![Landing Page Mobile Mockup 1](./assets/images/landing-page-mockups/landing-page-mobile-mockup-1.png)
+
+![Landing Page Mobile Mockup 2](./assets/images/landing-page-mockups/landing-page-mobile-mockup-2.png)
+
+![Landing Page Mobile Mockup 3](./assets/images/landing-page-mockups/landing-page-mobile-mockup-3.png)
+
+![Landing Page Mobile Mockup 4](./assets/images/landing-page-mockups/landing-page-mobile-mockup-4.png)
+
+![Landing Page Mobile Mockup 5](./assets/images/landing-page-mockups/landing-page-mobile-mockup-5.png)
+
+![Landing Page Mobile Mockup 6](./assets/images/landing-page-mockups/landing-page-mobile-mockup-6.png)
+
+![Landing Page Mobile Mockup 7](./assets/images/landing-page-mockups/landing-page-mobile-mockup-7.png)
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 #### 4.4.2. Web Applications Wireflow Diagrams
