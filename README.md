@@ -503,8 +503,43 @@ Asimismo, se elaboró un **video demostrativo** que muestra la navegación de la
 
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1, el alcance principal fue la implementación de la Landing Page, por lo que no se desarrollaron servicios de backend asociados a la lógica de negocio. Sin embargo, se dejó preparado el repositorio de Web Services con estructura inicial de documentación en OpenAPI/Swagger, lo que permitirá en futuros sprints integrar endpoints de autenticación, gestión de organizaciones y registro de parcelas.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review}
+
+## Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 1** se realizó el despliegue de la **Landing Page** en **GitHub Pages**, utilizando el repositorio [FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page).  
+El despliegue se configuró mediante **GitHub Actions con Jekyll** para la rama `main`, lo que permite la publicación automática de la aplicación cada vez que se realizan cambios en el repositorio.
+
+### 🔹 Proceso seguido
+1. Ingresar al repositorio en GitHub.
+2. Acceder a la pestaña **Settings** y luego a la sección **Pages**.
+3. Seleccionar **GitHub Actions → Jekyll** como método de despliegue.
+4. Configurar el archivo del workflow en `.github/workflows/`.
+5. Ejecutar el workflow y esperar la confirmación de despliegue exitoso.
+6. Abrir la URL pública generada por GitHub Pages.
+
+**URL del despliegue:**  
+[https://floweytech.github.io/agrotrack-landing-page/](https://floweytech.github.io/agrotrack-landing-page/)
+
+### 🔹 Evidencias
+A continuación, se presentan capturas del proceso de despliegue y del resultado final:
+
+  
+<img alt="Image" src="https://github.com/user-attachments/assets/cc34ab12-425d-43a2-8eac-06c080ee73c1" />  
+<img alt="Image" src="https://github.com/user-attachments/assets/981e6283-3bfa-4df5-9474-0bf70fe38173" />  
+<img alt="Image" src="https://github.com/user-attachments/assets/f44eaf97-a50b-4aab-b843-49f5059d77cb" />  
+<img alt="Image" src="https://github.com/user-attachments/assets/af606610-41f8-4038-b5d2-1342bcc1c03d" />  
+<img alt="Image" src="https://github.com/user-attachments/assets/4c7f13db-551f-4cf7-ada9-82f8afe1aef0" />  
+<img alt="Image" src="https://github.com/user-attachments/assets/e98b722f-022c-4947-9053-54e453b0e105" />  
+<img alt="Image" src="https://github.com/user-attachments/assets/dd87334a-983e-4e34-bf82-c77601eb3853" />
+<img alt="Image" src="https://github.com/user-attachments/assets/9ce42096-4c45-4a10-bd13-28758a6dfc33" />
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
 
 # Conclusiones
 
