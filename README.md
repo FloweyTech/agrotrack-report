@@ -255,6 +255,35 @@ Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias par
 #### 4.2.5. Navigation Systems
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
+**Landing Page para Desktop Browser**  
+En esta sección se presenta los wireframes de la versión Desktop de la landing page, donde se observa la estructura que tiene como el Header o el Hero section para llamar a nuestros segmentos objetivos.  
+Esta cumple con lo definido en nuestra guía de estilos y refleja los principios de arquitectura de la información y diseño inclusivo con la opción de cambiar de idioma.  
+![Landing Page Wireframe 1](./assets/images/landing-page-wireframes/landing-page-wireframe-1.png)  
+
+![Landing Page Wireframe 2](./assets/images/landing-page-wireframes/landing-page-wireframe-2.png)  
+
+![Landing Page Wireframe 3](./assets/images/landing-page-wireframes/landing-page-wireframe-3.png)  
+
+![Landing Page Wireframe 4](./assets/images/landing-page-wireframes/landing-page-wireframe-4.png)  
+
+![Landing Page Wireframe 5](./assets/images/landing-page-wireframes/landing-page-wireframe-5.png)  
+
+**Landing Page para Mobile Browser**  
+A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil.
+![Landing Page Mobile Wireframe 1](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-1.png)  
+
+![Landing Page Mobile Wireframe 2](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-2.png)
+
+![Landing Page Mobile Wireframe 3](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-3.png)
+
+![Landing Page Mobile Wireframe 4](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-4.png)
+
+![Landing Page Mobile Wireframe 5](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-5.png)
+
+![Landing Page Mobile Wireframe 6](./assets/images/landing-page-wireframes/landing-page-mobile-wireframe-6.png)
+
+
+
 #### 4.3.2. Landing Page Mock-up
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
