@@ -874,12 +874,226 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
 
+El diagrama de base de datos de AgroTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
+
+
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas de software seleccionadas para dar soporte a las distintas fases del ciclo de vida del producto digital. Se incluyen sus nombres, objetivos específicos dentro del proyecto y los enlaces de acceso o descarga, diferenciando entre soluciones SaaS y aplicaciones instalables.
+
+* ### Gestión de Proyectos y Tareas
+
+| **Herramienta**     | **Uso principal**                                                                                        | **Enlace / Ruta de Acceso**                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Trello**          | Organización de tareas y entregables mediante tableros ágiles, tanto a nivel individual como por módulo. | [https://trello.com](https://trello.com)                 |
+| **Pivotal Tracker** | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y predicción.        | [https://pivotaltracker.com](https://pivotaltracker.com) |
+
+
+* ### Gestión de Requisitos
+
+| **Herramienta**     | **Uso principal**                                                                                        | **Enlace / Ruta de Acceso**                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Trello**          | Organización de tareas y entregables mediante tableros ágiles, tanto a nivel individual como por módulo. | [https://trello.com](https://trello.com)                 |
+| **Pivotal Tracker** | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y predicción.        | [https://pivotaltracker.com](https://pivotaltracker.com) |
+
+* ### Diseño de Experiencia y UI/UX
+
+| **Herramienta** | **Uso principal**                                                            | **Enlace / Ruta de Acceso**                      |
+| --------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Figma**       | Diseño colaborativo de wireframes, mockups y prototipos navegables.          | [https://figma.com](https://figma.com)           |
+| **Lucidchart**  | Elaboración de user flows, wireflows y diagramas de procesos o arquitectura. | [https://lucidchart.com](https://lucidchart.com) |
+| **UXPressia**   | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.         | [https://uxpressia.com](https://uxpressia.com)   |
+| **Miro**        | Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be).  | [https://miro.com](https://miro.com)             |
+
+* ### Pruebas de Software
+
+| **Herramienta** | **Uso principal**                                                                                                                |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Gherkin**     | Lenguaje para definir criterios de aceptación de **User Stories** en un formato entendible por todos los integrantes del equipo. |
+
+
+* ### Desarrollo de Software
+
+| **Herramienta / Tecnología** | **Uso principal**                                                                                        | **Enlace / Ruta de Descarga**                                                                          |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **WebStorm**                 | Desarrollo de la landing page con HTML5, CSS3, JavaScript y Tailwind CSS.                                | [https://www.jetbrains.com/webstorm](https://www.jetbrains.com/webstorm)                               |
+| **IntelliJ IDEA**            | Creación y edición del archivo README.md para la documentación del proyecto.                             | [https://www.jetbrains.com/idea](https://www.jetbrains.com/idea)                                       |
+| **HTML5**                    | Lenguaje de marcado para estructurar el contenido de la landing page.                                    | [https://developer.mozilla.org/docs/Web/HTML](https://developer.mozilla.org/docs/Web/HTML)             |
+| **CSS3**                     | Lenguaje de estilos para definir la apariencia visual de la landing page.                                | [https://developer.mozilla.org/docs/Web/CSS](https://developer.mozilla.org/docs/Web/CSS)               |
+| **JavaScript**               | Lenguaje de programación para manipular el DOM e implementar la internacionalización en la landing page. | [https://developer.mozilla.org/docs/Web/JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) |
+
+* ### Diseño de Arquitectura de Software
+
+| **Herramienta**     | **Uso principal**                                                                             | **Enlace / Ruta de Acceso**                                |
+| ------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Structurizr DSL** | Modelado de arquitectura con el enfoque C4, mediante la técnica *Diagrams-as-Code*.           | [https://structurizr.com/dsl](https://structurizr.com/dsl) |
+| **PlantUML**        | Creación de diagramas UML a partir de texto, compatible con Markdown y documentación técnica. | [https://plantuml.com](https://plantuml.com)               |
+| **Vertabelo**       | Diseño visual y profesional de bases de datos relacionales.                                   | [https://vertabelo.com](https://vertabelo.com)             |
+
+* ### Despliegue de Software
+| **Herramienta / Plataforma** | **Uso principal**                                    | **Enlace / Ruta de Acceso**                        |
+| ---------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| **Netlify**                  | Despliegue automático y gratuito de la landing page. | [https://www.netlify.com](https://www.netlify.com) |
+
+* ### Documentación de Software
+
+| **Herramienta / Recurso** | **Uso principal**                                                                                      | **Enlace / Ruta de Acceso**                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| **IntelliJ IDEA**         | Edición y mantenimiento del archivo README.md asociado a la documentación del proyecto.                | [https://www.jetbrains.com](https://www.jetbrains.com)                                                             |
+| **GitHub**                | Repositorio con control de versiones, utilizado además como espacio de documentación en issues y PRs.  | [https://github.com](https://github.com)                                                                           |
+| **Git**                   | Sistema distribuido de control de versiones para la gestión del código fuente.                         | [https://git-scm.com](https://git-scm.com)                                                                         |
+| **GitFlow Workflow**      | Modelo de ramificación para mantener el código y la documentación organizados.                         | [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model) |
+| **Conventional Commits**  | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [https://www.conventionalcommits.org](https://www.conventionalcommits.org)                                         |
+
 ### 5.1.2. Source Code Management
+
+El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Demy. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
+
+#### Repositorios del Proyecto
+
+| **Producto**            | **Repositorio GitHub**                                                                                                                                   |
+|-------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                     |
+| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
+| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+
+#### Modelo GitFlow
+Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
+
+* main: contiene las versiones estables listas para producción.
+* develop: integra nuevas funcionalidades antes de pasar al entorno de producción.
+
+  | **Tipo de rama** | **Uso principal**                                | **Convención de nombres**      | **Ejemplo**               |
+  | ---------------- | ------------------------------------------------ | ------------------------------ | ------------------------- |
+  | **feature**      | Desarrollo de funcionalidades nuevas.            | `feature/<nombre-descriptivo>` | `feature/sprint1-salim`   |
+  | **release**      | Preparación de una versión previa al despliegue. | `release/vX.Y.Z`               | `release/v1.0.0`          |
+  | **hotfix**       | Corrección rápida de errores en producción.      | `hotfix/<problema>`            | `hotfix/fix-crash-navbar` |
+
+#### Versionado Semántico
+
+Se implementará el esquema Semantic Versioning 2.0.0, con el formato:
+
+**MAJOR.MINOR.PATCH**
+
+* **MAJOR**: cambios incompatibles con versiones anteriores.
+
+* **MINOR**: incorporación de nuevas funciones compatibles.
+
+* **PATCH**: corrección de errores o mejoras menores.
+
+#### Conventional Commits
+
+Los mensajes de commit seguirán el estándar Conventional Commits para asegurar trazabilidad y generar changelogs automáticos.
+
+**Formato general:**
+<tipo>(opcional-scope): descripción breve
+
+* Tipos de commit definidos:
+
+* feat: nueva funcionalidad
+
+* fix: corrección de errores
+
+* docs: cambios en documentación
+
+* style: ajustes de formato (espacios, comas, etc.)
+
+* refactor: modificaciones de código sin impacto en funciones o errores
+
+* test: adición o modificación de pruebas
+
+* chore: tareas de mantenimiento o generales
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones. Todas las variables, funciones, clases, archivos y elementos estarán en inglés.
+
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**Google TypeScript Style Guide**
+
+Basado en el [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html), se adoptan las siguientes reglas para mantener un código limpio y coherente:
+
+Nombres y sintaxis:
+- **camelCase** para variables, funciones y parámetros.
+- **PascalCase** para clases, interfaces, enums y tipos.
+- Constantes con `UPPER_CASE_WITH_UNDERSCORES` si son globales.
+
+Módulos y imports:
+- Preferir **imports explícitos y ordenados**: primero bibliotecas externas, luego internas.
+- Evitar `default exports`, usar siempre `export const` o `export class`.
+
+Tipado y declaraciones:
+- Siempre tipar explícitamente los parámetros y valores de retorno de funciones.
+- Evitar `any` excepto cuando sea estrictamente necesario.
+- Usar `readonly` para propiedades que no deben cambiarse.
+- Interfaces en lugar de `type` cuando sea posible.
+
+Buenas prácticas:
+- Preferir `const` sobre `let`, y evitar `var`.
+- Evitar usar `this` fuera de clases.
+- No mezclar funciones y lógica en componentes — delegar a servicios.
+
+**Angular**
+
+Seguiremos las prácticas recomendadas por la [Angular Style Guide](https://angular.io/guide/styleguide) como:
+
+Componentes:
+- Nombres en **PascalCase** y con sufijo `Component` (ej. `UserCardComponent`).
+- Archivos HTML y CSS se mantienen separados (`templateUrl`, `styleUrls`).
+- Evitar lógica compleja en los templates: delegar a métodos o servicios.
+
+Buenas prácticas en general:
+- Evitar lógica de negocio en los componentes.
+- Usar `async` en el HTML en lugar de suscribirse manualmente.
+- Nombres de selectors en **kebab-case** (`app-user-card`).
+
+**Pruebas / Gherkin**
+
+En caso de usar Gherkin (para especificaciones o pruebas): <br>
+- Usaremos el formato Given When And Then
+
 ### 5.1.4. Software Deployment Configuration 
+
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](./assets/images/screenshots/deployment-1.png)
+2. **Autorizar a Netlify** <br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+   ![Screenshot 2 del Deployment](./assets/images/screenshots/deployment-2.png)
+3. **Escoger tu deploy** <br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+   ![Screenshot 3 del Deployment](./assets/images/screenshots/deployment-3.png)
+4. **Escoger tu repositorio** <br>
+   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+   ![Screenshot 4 del Deployment](./assets/images/screenshots/deployment-4.png)
+5. **Configurar el despliegue** <br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+   ![Screenshot 5 del Deployment](./assets/images/screenshots/deployment-5.png)
+6. **Seguir configurando** <br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+   ![Screenshot 6 del Deployment](./assets/images/screenshots/deployment-6.png)
+7**Despliegue listo** <br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+   ![Screenshot 8 del Deployment](./assets/images/screenshots/deployment-7.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+[Link de la Landing Page](https://agrotrack-landing.netlify.app/)
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
