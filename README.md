@@ -28,8 +28,11 @@
 
 
 
-<strong> Setiembre 2025</strong><br>
+<strong> Octubre 2025</strong><br>
 </div>
+
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -42,9 +45,62 @@
 | tb1       | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
 | tb1       | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
----
+Enlace para acceder al repositorio del reporte del proyecto: [*Ver en GitHub*](https://github.com/FloweyTech/agrotrack-report)
+
+**TB1**
+Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
+
+| Integrante                            | Tareas Realizadas                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | Registro de entrevista User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Web Applications Prototyping.                                                                                                                                                                                                                                    |
+| Amaro Villar Anjali                   | Capítulo I, Diseño de entrevistas, Registro de tres entrevistas, análisis de entrevistas, User Personas, Capítulo IV, Class Diagrams, Database Diagram, Capítulo V.                                                                                                                                                                                                                                                      |
+| Jara Benites Quique Vladimir	         | Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. |                                                                                                                                                    
+| Quintanilla Pozo Gonzalo Samuel	      | Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups.                                                                                                                                                                                                                                                                                 |
+| Vilca Saboya Diego Alejandro	         | Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators.                                                                                                                                                                              | 
+
+
+
+**GitHub Collaboration Insights**
+
+En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de _merge_ realizados.
+Todas las ramas fueron gestionadas siguiendo el flujo de trabajo GitFlow, adaptado para una organización que utiliza un sistema de control de versiones.
+
+Los integrantes son: 
+
+| Integrante                            | Usuario GitHub |
+|---------------------------------------|----------------|
+| Almandroz Carbajal Pierina Marysabel	 | pierinaaa29    | 
+| Amaro Villar Anjali                   | njlmrvllr      |
+| Jara Benites Quique Vladimir	         | QuiqueVladimir |
+| Quintanilla Pozo Gonzalo Samuel	      | GoldQP         |
+| Vilca Saboya Diego Alejandro	         | diesoks        |
+
+Las principales ramas del repositorio son las siguientes:
+
+* `main`: Rama principal que contiene la versión estable del proyecto.
+* `develop`: Rama de desarrollo donde se integran las nuevas características antes de ser fusionadas a `main`.
+* `feature/sprintX-pierina`: Rama utilizada por Pierina para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-anjali`: Rama utilizada por Anjali para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-quique`: Rama utilizada por Quique para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-gonzalo`: Rama utilizada por Gonzalo para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-diego`: Rama utilizada por Diego para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `realese/vX.X.X`: Rama creada para preparar versiones candidatas al reporte final, siguiendo Semantic Versioning 2.0.0. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
+* `hotfix/urgent-fix`: Rama utilizada para aplicar correcciones urgentes a la rama `main` en caso de detectar errores críticos.
+
+**TB1**
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+![NetworkGraphTB1](assets/images/reportInsights/networkTb1.png)
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+![Contributorstb1](assets/images/reportInsights/ContributorsTb1.png)
+
 
 # Contenido
 
