@@ -18,13 +18,13 @@
 
 ### Team Members:
   
-|                Member                |      Code      |
-|:------------------------------------:|:--------------:|
-| Almandroz Carbajal Pierina Marysabel |      ...       |
-|         Amaro Villar Anjali          |   20221G044    |
-|     Jara Benites Quique Vladimir     |      ...       |
-|   Quintanilla Pozo Gonzalo Samuel    |   202315007    |
-|     Vilca Saboya Diego Alejandro     |   20231A778    |
+|                Member                |     Code     |
+|:------------------------------------:|:------------:|
+| Almandroz Carbajal Pierina Marysabel |  202316845   |
+|         Amaro Villar Anjali          |  20221G044   |
+|     Jara Benites Quique Vladimir     |     ...      |
+|   Quintanilla Pozo Gonzalo Samuel    | 202315007    |
+|     Vilca Saboya Diego Alejandro     |  20231A778   |
 
 
 
