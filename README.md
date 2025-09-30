@@ -18,13 +18,13 @@
 
 ### Team Members:
   
-|                Member                |     Code     |
-|:------------------------------------:|:------------:|
-| Almandroz Carbajal Pierina Marysabel |  202316845   |
-|         Amaro Villar Anjali          |  20221G044   |
-|     Jara Benites Quique Vladimir     |     ...      |
-|   Quintanilla Pozo Gonzalo Samuel    | 202315007    |
-|     Vilca Saboya Diego Alejandro     |  20231A778   |
+|                Member                |        Code        |
+|:------------------------------------:|:------------------:|
+| Almandroz Carbajal Pierina Marysabel |     202316845      |
+|         Amaro Villar Anjali          |     20221G044      |
+|     Jara Benites Quique Vladimir     |     202022365      |
+|   Quintanilla Pozo Gonzalo Samuel    |     202315007      |
+|     Vilca Saboya Diego Alejandro     |     20231A778      |
 
 
 
@@ -160,7 +160,7 @@ del ABET – EAC - Student Outcome 3.
 
 |                                                        Miembro                                                        |                                                                                                                                                                                                                                                      Descripción                                                                                                                                                                                                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                           <img src="assets/images/ members/anjali-amaro.jpg" width="300"/>                            | **Anjali Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona organizada y responsable, con el objetivo de fomentar un ambiente colaborativo y productivo dentro de mi equipo. Contribuyo con dedicación y compromiso para alcanzar los mejores resultados, apoyándome en mis habilidades técnicas en documentación y en el uso de GitHub para una gestión eficiente de proyectos. |
+|                            <img src="assets/images/members/anjali-amaro.jpg" width="300"/>                            | **Anjali Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona organizada y responsable, con el objetivo de fomentar un ambiente colaborativo y productivo dentro de mi equipo. Contribuyo con dedicación y compromiso para alcanzar los mejores resultados, apoyándome en mis habilidades técnicas en documentación y en el uso de GitHub para una gestión eficiente de proyectos. |
 | <img width="840" alt="Image" src="https://github.com/user-attachments/assets/6d1cfa51-0c26-4df6-b34c-f94ec2f9f5bb" /> |                                                                                    **Quique Vladimir Jara Benites - u202022365** <br> Estudiante de sexto ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones                                                                                     | 
 |                               <img src="assets/images/members/diego.jpg" width="300"/>                                |                                                                   **Diego Vilca Saboya \-  U20231A778** <br> Mi nombre es Diego Vilca, tengo 19 años y actualmente curso el 6to ciclo de la carrera de Ingeniería de Software. Me gusta fomentar la comunicación en el equipo y contribuir con mis habilidades de captura de requisitos, Domain Driven Design y software architecture junto con herramientas de control de versiones como GitHub.**                                                                   | 
 |                              <img src="assets/images/members/gonzalo.jpg" width="300"/>                               |                                                                                                  **Gonzalo Samuel Quintanilla Pozo \- U202315007**   <br> Soy estudiante de la carrera de Ingenieria de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Pyhton. Tengo experiencia desarrollando paginas web                                                                                                   | 
@@ -758,6 +758,8 @@ Mariana Huamán es una ingeniera agrónoma joven que trabaja en zonas rurales de
 
 ### 2.3.2. User Task Matrix
 
+##### User Task Matrix - Agricultores
+
 | **Tareas / Tasks**                                         | **Frecuencia**          | **Importancia**          |
 |------------------------------------------------------------|-------------------------|--------------------------|
 | Organizar actividades de la parcela según clima/temporada  | Alta                    | Alta                     |
@@ -774,6 +776,25 @@ Mariana Huamán es una ingeniera agrónoma joven que trabaja en zonas rurales de
 | Uso de celular/aplicaciones de apoyo                       | Media                   | Media                    |
 | Aprender nuevas tecnologías                                | Media                   | Alta                     |
 
+
+##### User Task Matrix - Agrónomos
+
+| Tarea                                                      | Frecuencia | Importancia |
+|-------------------------------------------------------------|------------|-------------|
+| Diagnosticar estado del suelo y recomendar análisis         | Media      | Alta        |
+| Diseñar plan de siembra (cultivos por temporada)            | Media      | Muy Alta    |
+| Elaborar plan de fertilización y nutrición vegetal          | Media      | Alta        |
+| Monitorear plagas y enfermedades (visitas técnicas/campo)   | Alta       | Muy Alta    |
+| Recomendar productos fitosanitarios adecuados               | Alta       | Alta        |
+| Asesorar en riego y uso eficiente del agua                  | Alta       | Alta        |
+| Capacitar a agricultores en buenas prácticas agrícolas      | Media      | Media       |
+| Registrar datos técnicos de ensayos y evaluaciones          | Media      | Alta        |
+| Generar reportes técnicos para productores/empresas         | Media      | Muy Alta    |
+| Analizar información climática y proyectar riesgos          | Media      | Alta        |
+| Investigar y aplicar nuevas tecnologías (agrotech, drones)  | Baja       | Media       |
+| Coordinar con instituciones/agencias para apoyo técnico     | Baja       | Media       |
+
+
 ### 2.3.3. User Journey Mapping
 
 En el proceso de desarrollo de AgroTrack, realizamos un detallado user journey mapping para comprender las experiencias y necesidades de los agricultores peruanos. Analizamos cada etapa de su labor, desde la planificación de la siembra hasta la cosecha y gestión de recursos, identificando obstáculos y oportunidades de mejora. Este enfoque nos permitió diseñar una solución que se integra de manera efectiva en la rutina diaria del agricultor, optimizando la gestión agrícola y mejorando la productividad en el sector agropecuario peruano
@@ -784,6 +805,11 @@ En el proceso de desarrollo de AgroTrack, realizamos un detallado user journey m
 
 [Ver Imagen](https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585)
 
+##### User Journey Mapping - Agronomo
+
+<img src="assets/maps/journey_map.png"  style="width:500px; height:auto;">
+
+[Customer Journey Map](assets/maps/journey_map.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -794,6 +820,11 @@ En esta parte, se exhibirán los Empathy Maps basados en los User Personas cread
 <img alt="Empathy Map Agricultor" src="https://github.com/user-attachments/assets/77357a79-be28-4c51-a647-312cf5503bbf" />
 
 [Ver Imagen](https://github.com/user-attachments/assets/77357a79-be28-4c51-a647-312cf5503bbf)
+
+##### Empathy Map- Agrónomos
+<img src="assets/maps/empathy_map.png"  style="width:500px; height:auto;">
+
+[Empathy map](assets/maps/empathy_map.png)
 
 ## 2.4. Big Picture Event Storming
 En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
@@ -1983,48 +2014,46 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 [Ver Imagen](https://github.com/user-attachments/assets/07e4a54e-41c1-47c3-ad1b-3aa92e45e995)
 
 ## 3.3. Product Backlog
-
-| # Orden   | User Story Id | Título                               | Descripción                                                                                                                             | Story Points |
-|-----------|---------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1         | US24          | Registrar cuenta                     | Como usuario nuevo, deseo registrar mi cuenta con correo y contraseña para acceder a la plataforma.                                     | 3            |
-| 2         | US25          | Iniciar sesión                       | Como usuario registrado, deseo iniciar sesión con mis credenciales para entrar de forma segura.                                         | 2            |
-| 3         | US26          | Recuperar cuenta                     | Como usuario, deseo recuperar mi cuenta mediante correo de recuperación para restablecer el acceso.                                     | 3            |
-| 4         | US27          | Completar perfil                     | Como usuario recién registrado, deseo completar mi perfil inicial para terminar de configurar mi cuenta.                                | 2            |
-| 5         | US28          | Editar perfil                        | Como usuario, deseo editar mi perfil en cualquier momento para mantener mis datos actualizados.                                         | 2            |
-| 6         | US29          | Adquirir suscripción                 | Como usuario, deseo adquirir un plan de suscripción para habilitar funcionalidades según mi plan.                                       | 5            |
-| 7         | US30          | Activar cuenta                       | Como usuario, deseo que mi cuenta se active automáticamente al cumplir los requisitos (registro, perfil y suscripción).                 | 3            |
-| 8         | US01          | Crear organización                   | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas.                                                       | 5            |
-| 9         | US02          | Invitar miembro a organización       | Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización.                                                            | 5            |
-| 10        | US03          | Remover agricultor de organización   | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día.                                                           | 3            |
-| 11        | US04          | Crear parcela                        | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo.                                                        | 5            |
-| 12        | US05          | Modificar parcela                    | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos.                                                           | 3            |
-| 13        | US06          | Definir tipo de cultivo              | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo.                                          | 5            |
-| 14        | US07          | Asignar agricultor a parcela         | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables.                                                     | 3            |
-| 15        | US08          | Añadir recomendaciones agronómicas   | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores.                                               | 3            |
-| 16        | US09          | Iniciar monitoreo                    | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos.                                           | 2            |
-| 17        | US10          | Registrar datos de la planta         | Como Agricultor, deseo registrar cantidad de hojas y botones para llevar control fenológico.                                            | 3            |
-| 18        | US11          | Registrar condiciones ambientales    | Como Agricultor, deseo registrar humedad y temperatura para monitorear la parcela.                                                      | 3            |
-| 19        | US12          | Editar/eliminar registro             | Como Agricultor, deseo editar o eliminar un registro para corregir errores.                                                             | 2            |
-| 20        | US13          | Alertas climáticas automáticas       | Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos.                                                                   | 5            |
-| 21        | US14          | Alertas por umbrales de cultivo      | Como Agrónomo, deseo configurar umbrales para generar alertas internas.                                                                 | 5            |
-| 22        | US15          | Crear checklist                      | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela.                                                       | 3            |
-| 23        | US16          | Crear tarea                          | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo.                                                | 5            |
-| 24        | US17          | Aceptar e iniciar tarea              | Como Agricultor, deseo aceptar e iniciar una tarea para registrar que empecé a ejecutarla.                                              | 3            |
-| 25        | US18          | Completar tarea y checklist          | Como Agricultor, deseo completar una tarea y checklist para cerrar la labor.                                                            | 3            |
-| 26        | US19          | Modificar/cancelar tarea             | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas.                                                                  | 3            |
-| 27        | US20          | Registrar materiales de tarea        | Como Agricultor, deseo registrar/editar/eliminar materiales usados en la tarea.                                                         | 2            |
-| 28        | US21          | Solicitar reporte de parcela         | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño.                                                        | 5            |
-| 29        | US22          | Solicitar reporte general            | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales.                                     | 5            |
-| 30        | US23          | Generar/descargar reporte            | Como Agrónomo, deseo generar y descargar reportes para compartirlos.                                                                    | 3            |
-| 31        | US31          | Landing Page – Página principal      | Como visitante, deseo ver una página de inicio clara y atractiva, para entender el propósito de la aplicación y animarme a registrarme. | 3            |
-| 32        | US32          | Landing Page – Características       | Como visitante, deseo conocer las características principales de la plataforma, para evaluar si me conviene usarla.                     | 2            |
-| 33        | US33          | Landing Page – Planes de suscripción | Como visitante, deseo ver los planes de suscripción disponibles, para decidir cuál se ajusta a mis necesidades.                         | 2            |
-| 34        | US34          | Landing Page – Contacto/Soporte      | Como visitante, deseo encontrar información de contacto o soporte, para resolver dudas antes de registrarme.                            | 2            |
-| 35        | TECH01        | Integración con API de clima         | Historia técnica: implementar integración con OpenWeatherMap para obtener datos climáticos.                                             | 5            |
-| 36        | TECH02        | Configuración de base de datos       | Historia técnica: configurar la base de datos para almacenar información de usuarios, parcelas y registros.                             | 5            |
-| 37        | TECH03        | Autenticación segura                 | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales.                                      | 5            |
-| 38        | TECH04        | Infraestructura IoT inicial          | Historia técnica: configurar la comunicación de sensores IoT con la plataforma.                                                         | 8            |
-
+| # Orden | User Story Id | Título                               | Descripción                                                                                                                             | Story Points |
+|---------|---------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US31          | Landing Page – Página principal      | Como visitante, deseo ver una página de inicio clara y atractiva, para entender el propósito de la aplicación y animarme a registrarme. | 3            |
+| 2       | US32          | Landing Page – Características       | Como visitante, deseo conocer las características principales de la plataforma, para evaluar si me conviene usarla.                     | 2            |
+| 3       | US33          | Landing Page – Planes de suscripción | Como visitante, deseo ver los planes de suscripción disponibles, para decidir cuál se ajusta a mis necesidades.                         | 2            |
+| 4       | US34          | Landing Page – Contacto/Soporte      | Como visitante, deseo encontrar información de contacto o soporte, para resolver dudas antes de registrarme.                            | 2            |
+| 5       | US01          | Crear organización                   | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas.                                                       | 5            |
+| 6       | US02          | Invitar miembro a organización       | Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización.                                                            | 5            |
+| 7       | US03          | Remover agricultor de organización   | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día.                                                           | 3            |
+| 8       | US04          | Crear parcela                        | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo.                                                        | 5            |
+| 9       | US05          | Modificar parcela                    | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos.                                                           | 3            |
+| 10      | US06          | Definir tipo de cultivo              | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo.                                          | 5            |
+| 11      | US07          | Asignar agricultor a parcela         | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables.                                                     | 3            |
+| 12      | US08          | Añadir recomendaciones agronómicas   | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores.                                               | 3            |
+| 13      | US09          | Iniciar monitoreo                    | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos.                                           | 2            |
+| 14      | US10          | Registrar datos de la planta         | Como Agricultor, deseo registrar cantidad de hojas y botones para llevar control fenológico.                                            | 3            |
+| 15      | US11          | Registrar condiciones ambientales    | Como Agricultor, deseo registrar humedad y temperatura para monitorear la parcela.                                                      | 3            |
+| 16      | US12          | Editar/eliminar registro             | Como Agricultor, deseo editar o eliminar un registro para corregir errores.                                                             | 2            |
+| 17      | US13          | Alertas climáticas automáticas       | Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos.                                                                   | 5            |
+| 18      | US14          | Alertas por umbrales de cultivo      | Como Agrónomo, deseo configurar umbrales para generar alertas internas.                                                                 | 5            |
+| 19      | US15          | Crear checklist                      | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela.                                                       | 3            |
+| 20      | US16          | Crear tarea                          | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo.                                                | 5            |
+| 21      | US17          | Aceptar e iniciar tarea              | Como Agricultor, deseo aceptar e iniciar una tarea para registrar que empecé a ejecutarla.                                              | 3            |
+| 22      | US18          | Completar tarea y checklist          | Como Agricultor, deseo completar una tarea y checklist para cerrar la labor.                                                            | 3            |
+| 23      | US19          | Modificar/cancelar tarea             | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas.                                                                  | 3            |
+| 24      | US20          | Registrar materiales de tarea        | Como Agricultor, deseo registrar/editar/eliminar materiales usados en la tarea.                                                         | 2            |
+| 25      | US21          | Solicitar reporte de parcela         | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño.                                                        | 5            |
+| 26      | US22          | Solicitar reporte general            | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales.                                     | 5            |
+| 27      | US23          | Generar/descargar reporte            | Como Agrónomo, deseo generar y descargar reportes para compartirlos.                                                                    | 3            |
+| 28      | US24          | Registrar cuenta                     | Como usuario nuevo, deseo registrar mi cuenta con correo y contraseña para acceder a la plataforma.                                     | 3            |
+| 29      | US25          | Iniciar sesión                       | Como usuario registrado, deseo iniciar sesión con mis credenciales para entrar de forma segura.                                         | 2            |
+| 30      | US26          | Recuperar cuenta                     | Como usuario, deseo recuperar mi cuenta mediante correo de recuperación para restablecer el acceso.                                     | 3            |
+| 31      | US27          | Completar perfil                     | Como usuario recién registrado, deseo completar mi perfil inicial para terminar de configurar mi cuenta.                                | 2            |
+| 32      | US28          | Editar perfil                        | Como usuario, deseo editar mi perfil en cualquier momento para mantener mis datos actualizados.                                         | 2            |
+| 33      | US29          | Adquirir suscripción                 | Como usuario, deseo adquirir un plan de suscripción para habilitar funcionalidades según mi plan.                                       | 5            |
+| 34      | US30          | Activar cuenta                       | Como usuario, deseo que mi cuenta se active automáticamente al cumplir los requisitos (registro, perfil y suscripción).                 | 3            |
+| 35      | TECH02        | Configuración de base de datos       | Historia técnica: configurar la base de datos para almacenar información de usuarios, parcelas y registros.                             | 5            |
+| 36      | TECH03        | Autenticación segura                 | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales.                                      | 5            |
+| 37      | TECH01        | Integración con API de clima         | Historia técnica: implementar integración con OpenWeatherMap para obtener datos climáticos.                                             | 5            |
+| 38      | TECH04        | Infraestructura IoT inicial          | Historia técnica: configurar la comunicación de sensores IoT con la plataforma.                                                         | 8            |
 ### Product Backlog – Tablero Trello
 
 A continuación se muestra el enlace al tablero de Trello donde se gestiona el Product Backlog, junto con una captura de pantalla representativa:
@@ -2353,6 +2382,10 @@ Este flujo empieza en el dashboard de organización, el usuario selecciona el bo
 
 
 ## 4.5. Web Applications Prototyping
+
+#### Mock ups video explicativo
+[Ver archivo en Google Drive](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.  
