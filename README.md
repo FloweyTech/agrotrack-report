@@ -2512,21 +2512,6 @@ El diagrama representa una visión general del sistema Agrotrack, organizado en 
 
 ![Class Diagram](assets/images/software-architecture/class-diagram.png)
 
-
-### IAM Bounded Context
-
-Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
-
-![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
-
-
-### Profile Bounded Context
-
-Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
-
-![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
-
-
 ### Organization Bounded Context
 
 Este diagrama corresponde al Organization Bounded Context, encargado de estructurar y administrar las organizaciones dentro del sistema. Aquí, el agregado principal Organization gestiona el nombre, estado, miembros, número máximo de parcelas y la suscripción activa. A su vez, las Plot representan las parcelas asociadas a la organización, con atributos como tamaño, ubicación y tipo de cultivo. Los cultivos se definen mediante la entidad PlantType, que puede vincularse a una lista de tipos predefinidos como papa, maíz, trigo, café, entre otros. Finalmente, el modelo incluye la entidad Subscription, que permite a la organización acceder a planes (AgroStart, AgroSmart, AgroExpert) y mantener control sobre la vigencia y estado de la suscripción. En conjunto, este contexto regula tanto la estructura organizacional como la gestión de recursos y servicios contratados.
@@ -2545,6 +2530,17 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 ![Class Diagram - Reports](assets/images/software-architecture/report-diagram.png)
 
+### Profile Bounded Context
+
+Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
+
+![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
+
+### IAM Bounded Context
+
+Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
+
+![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
@@ -2629,11 +2625,13 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**            | **Repositorio GitHub**                                                                                                                                   |
-|-------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                     |
+| **Producto**            | **Repositorio GitHub**                                                                                       |
+|-------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
 | **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
 | **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+| **Web Application**     | []                                                                                                           |
+
 
 #### Modelo GitFlow
 Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
