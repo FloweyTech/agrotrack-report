@@ -3104,7 +3104,7 @@ Esta primera entrega ha sentado las bases necesarias para desarrollar una soluci
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
-El desarrollo del Sprint 1 demostró la capacidad del equipo para transformar el diseño en código funcional, aplicando buenas prácticas de desarrollo, control de versiones con Git y despliegue continuo. La documentación técnica generada facilita el mantenimiento y la colaboración futura.
+
 Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. https://doi.org/10.1071/CP21759
 
 # Anexos
