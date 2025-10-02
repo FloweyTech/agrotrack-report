@@ -152,7 +152,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
         - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
         - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
         - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
@@ -181,14 +181,14 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
         - [5.2.2. Sprint 2](#522-sprint-2)
-            - [5.2.2.1.Sprint Planning 2.](#5221-sprint-planning-2)
+            - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
             - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
-            - [5.2.2.3.Sprint Backlog 2.](#5223-sprint-backlog-2)
-            - [5.2.2.4.Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
-            - [5.2.2.5.Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-            - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
-            - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+            - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -3057,17 +3057,17 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
-#### 5.2.2.3.Sprint Backlog 2.
+#### 5.2.2.3. Sprint Backlog 2.
 
-#### 5.2.2.4.Development Evidence for Sprint Review.
+#### 5.2.2.4. Development Evidence for Sprint Review.
 
-#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
 
-#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.2.7.  Deployment Evidence for Sprint Review.
 
-#### 5.2.2.8.Team Collaboration Insights during Sprint
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
 
 # Conclusiones
