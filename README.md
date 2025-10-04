@@ -2373,6 +2373,10 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+**Panorama completo de los Wireframes Desktop**
+![AgroTrack_WireFrames](./assets/images/web-app-wireframes/wireframes-1.jpeg)
+**Panorama completo de los Wireframes Mobile**
+![AgroTrack_WireFrames_Mobile](assets/images/web-app-wireframes/wireframes-mobile.jpeg)
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 **User goal:** Registro de cuenta    
@@ -2413,6 +2417,7 @@ Este flujo empieza desde la vista de parcela, donde se presiona el botón de reg
 
 
 ### 4.4.2. Web Applications Mock-ups
+
 ### 4.4.3. Web Applications User Flow Diagrams
 
 **User goal:** Acceder a la web application  
