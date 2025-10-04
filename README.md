@@ -2413,37 +2413,68 @@ Este flujo empieza desde la vista de parcela, donde se presiona el botón de reg
 
 
 ### 4.4.2. Web Applications Mock-ups
+
 **Web App Mock-ups**
+
 ![Mockup](assets/web-mockups/inciosesion.png)
+
 ![Mockup](assets/web-mockups/main.png)
+
 ![Mockup](assets/web-mockups/create.png)
+
 ![Mockup](assets/web-mockups/crop.png)
+
 ![Mockup](assets/web-mockups/edit.png)
+
 ![Mockup](assets/web-mockups/organization.png)
+
 ![Mockup](assets/web-mockups/plot.png)
+
 ![Mockup](assets/web-mockups/registration.png)
+
 ![Mockup](assets/web-mockups/add.png)
 
+
 **Web App Mock-ups Mobile**
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Home.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Iniciar%20Sesion-1.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Iniciar%20Sesion.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-1.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-2.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-3.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Subscripción-1.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2028.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2029.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2030.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2031.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2032.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2033.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2034.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2035.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2036.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2037.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2038.jpg)
+
 ![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2039.jpg)
 
 ### 4.4.3. Web Applications User Flow Diagrams
