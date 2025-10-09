@@ -4037,26 +4037,37 @@ Captura de pantalla del Web Application:
 
 # Conclusiones
 
-**Implementación de buenas prácticas en el desarrollo**
+**Implementación de buenas prácticas en el desarrollo**  
 Durante este Sprint se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener. Además, se incorporaron principios de diseño responsivo para asegurar una experiencia fluida en distintos dispositivos y resoluciones.
 
-**Enfoque centrado en el usuario**
+**Enfoque centrado en el usuario**  
 Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend.
 
-**Lecciones aprendidas durante el proceso**
+**Lecciones aprendidas durante el proceso**  
 A lo largo del Sprint se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes serán aplicados en los próximos ciclos para mejorar la eficiencia, reducir retrabajos y asegurar el cumplimiento de los objetivos establecidos.
 
-**Integración técnica y modularidad**
+**Integración técnica y modularidad**  
 Se avanzó en la organización del proyecto por contextos funcionales, separando componentes, servicios y recursos según su dominio. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se comenzaron a aplicar principios de arquitectura limpia y diseño orientado a componentes.
 
-**Colaboración y revisión entre pares**
+**Colaboración y revisión entre pares**  
 Durante el Sprint se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica también ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
 
-**Fundamentos Técnicos Establecidos**
+**Validación de la arquitectura y flujos principales**  
+La integración de los módulos IAM, Organization y Report permitió validar la arquitectura propuesta y los flujos principales de la plataforma. El uso de una Fake API en Azure facilitó la simulación de datos y la verificación temprana de los procesos clave.
 
-* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable
-* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto
-* Se establecieron procesos claros de desarrollo y documentación para futuras entregas
+**Gestión ágil y trabajo colaborativo**  
+El equipo aplicó metodologías ágiles, organizando el trabajo en sprints y utilizando herramientas como Trello y Pivotal Tracker para la gestión de tareas. Esto permitió una mejor visibilidad del avance y una rápida adaptación ante cambios o bloqueos.
+
+**Despliegue y automatización**  
+El despliegue exitoso en Netlify y GitHub Pages garantiza accesibilidad y actualizaciones automáticas, lo que agiliza la entrega continua y la validación con usuarios reales.
+
+**Documentación y trazabilidad**  
+Se establecieron procesos claros de documentación y convenciones en los mensajes de commit, lo que facilita la trazabilidad y el mantenimiento del proyecto a largo plazo.
+
+**Fundamentos Técnicos Establecidos**
+* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable.
+* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto.
+* Se establecieron procesos claros de desarrollo y documentación para futuras entregas.
 
 Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
 # Bibliografía
