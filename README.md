@@ -4028,6 +4028,12 @@ Captura de pantalla del Web Application:
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+| Integrante                      | Actividad                                              |
+|---------------------------------|--------------------------------------------------------|
+| Amaro Villar Anjali             | Orgnanization Context - Monitoring and Control Context |
+| Jara Benites Quique Vladimir    | IAM Context - Report Context                           |	 
+| Quintanilla Pozo Gonzalo Samuel | Report Context                                         |
+| Vilca Saboya Diego Alejandro	   | Profile Context and NotfoundPage                       |
 
 # Conclusiones
 
