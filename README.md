@@ -18,33 +18,114 @@
 
 ### Team Members:
   
-|                Member                |     Code     |
-|:------------------------------------:|:------------:|
-| Almandroz Carbajal Pierina Marysabel |  202316845   |
-|         Amaro Villar Anjali          |  20221G044   |
-|     Jara Benites Quique Vladimir     |     ...      |
-|   Quintanilla Pozo Gonzalo Samuel    | 202315007    |
-|     Vilca Saboya Diego Alejandro     |  20231A778   |
+|                Member                |        Code        |
+|:------------------------------------:|:------------------:|
+| Almandroz Carbajal Pierina Marysabel |     202316845      |
+|         Amaro Villar Anjali          |     20221G044      |
+|     Jara Benites Quique Vladimir     |     202022365      |
+|   Quintanilla Pozo Gonzalo Samuel    |     202315007      |
+|     Vilca Saboya Diego Alejandro     |     20231A778      |
 
 
 
-<strong> Setiembre 2025</strong><br>
+<strong> Octubre 2025</strong><br>
 </div>
+
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
+**TB1**
+
 | Versión   | Fecha      | Autor               | Descripción de modificación                                                                     |
 |-----------|------------|---------------------|-------------------------------------------------------------------------------------------------|
-| tb1       | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
-| tb1       | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
-| tb1       | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
-| tb1       | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
-| tb1       | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
-| tb1       | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+| tP        | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
+| tP     | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
+| tP     | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
+| tP     | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
+| tP     | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
+| tP      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+
+**TP**
+
+| Versión | Fecha       | Autor               | Descripción de modificación                                                                 |
+|---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
+| tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
+| tP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web |
+| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web |
+| tP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1 y |
+| tP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web |
+| tP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web |
+
+
+
+
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
 
----
+Enlace para acceder al repositorio del reporte del proyecto: [*Ver en GitHub*](https://github.com/FloweyTech/agrotrack-report)
+
+**TB1**
+Para el desarrollo del TB cada participante del equipo realizo las siguientes tareas:
+
+| Integrante                            | Tareas Realizadas                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | Registro de entrevista User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Web Applications Prototyping.                                                                                                                                                                                                                                    |
+| Amaro Villar Anjali                   | Capítulo I, Diseño de entrevistas, Registro de tres entrevistas, análisis de entrevistas, User Personas, Capítulo IV, Class Diagrams, Database Diagram, Capítulo V.                                                                                                                                                                                                                                                      |
+| Jara Benites Quique Vladimir	         | Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. |                                                                                                                                                    
+| Quintanilla Pozo Gonzalo Samuel	      | Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups.                                                                                                                                                                                                                                                                                 |
+| Vilca Saboya Diego Alejandro	         | Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators.                                                                                                                                                                              | 
+
+**TP**  
+
+| Integrante                            | Tareas Realizadas                                                                                                                                                    |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | AGREGAR                                                                                                                                                              |
+| Amaro Villar Anjali                   | AGREGAR                                                                                                                                                              |
+| Jara Benites Quique Vladimir	         | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2, Elaboracion diagramas c4 extendidos de modulos Report e IAM |                                                                                                                                                    
+| Quintanilla Pozo Gonzalo Samuel	      | AGREGAR                                                                                                                                                              |
+| Vilca Saboya Diego Alejandro	         | AGREGAR                                                                                                                                                              | 
+
+
+**GitHub Collaboration Insights**
+
+En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de _merge_ realizados.
+Todas las ramas fueron gestionadas siguiendo el flujo de trabajo GitFlow, adaptado para una organización que utiliza un sistema de control de versiones.
+
+Los integrantes son: 
+
+| Integrante                            | Usuario GitHub |
+|---------------------------------------|----------------|
+| Almandroz Carbajal Pierina Marysabel	 | pierinaaa29    | 
+| Amaro Villar Anjali                   | njlmrvllr      |
+| Jara Benites Quique Vladimir	         | QuiqueVladimir |
+| Quintanilla Pozo Gonzalo Samuel	      | GoldQP         |
+| Vilca Saboya Diego Alejandro	         | diesoks        |
+
+Las principales ramas del repositorio son las siguientes:
+
+* `main`: Rama principal que contiene la versión estable del proyecto.
+* `develop`: Rama de desarrollo donde se integran las nuevas características antes de ser fusionadas a `main`.
+* `feature/sprintX-pierina`: Rama utilizada por Pierina para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-anjali`: Rama utilizada por Anjali para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-quique`: Rama utilizada por Quique para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-gonzalo`: Rama utilizada por Gonzalo para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `feature/sprintX-diego`: Rama utilizada por Diego para el desarrollo de la tareas correspondientes a un determinado sprint.
+* `realese/vX.X.X`: Rama creada para preparar versiones candidatas al reporte final, siguiendo Semantic Versioning 2.0.0. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
+* `hotfix/urgent-fix`: Rama utilizada para aplicar correcciones urgentes a la rama `main` en caso de detectar errores críticos.
+
+**TB1**
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+![NetworkGraphTB1](assets/images/reportInsights/networkTb1.png)
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+![Contributorstb1](assets/images/reportInsights/ContributorsTb1.png)
+
 
 # Contenido
 
@@ -96,7 +177,7 @@
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
         - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
         - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
         - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
@@ -124,6 +205,15 @@
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 2](#522-sprint-2)
+            - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
+            - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -141,10 +231,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio específico                                                             | Acciones realizadas | Conclusiones |
-|---------------------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con <br> efectividad a diferentes rangos<br> de audiencia.   |                     |              |
-| Comunica por escrito con <br> efectividad a diferentes rangos<br> de audiencia. |                     |              |
+| **Criterio específico**                                                    | **Acciones realizadas (reformuladas)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br><br>**Pierina**<br>**TB1:** Trabajar en los mapas de experiencia, empatía e impacto me ayudó a comprender cómo presentar ideas visuales con un enfoque centrado en el usuario.<br>**TP:** Exponer los prototipos y wireframes me permitió mejorar mi fluidez al comunicar procesos de diseño ante distintos públicos.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br><br>**Pierina**<br>**TB1:** Documentar los mapas de experiencia, empatía e impacto me ayudó a escribir con claridad sobre el proceso de diseño centrado en el usuario.<br>**TP:** Redactar la documentación de prototipos y wireframes me ayudó a sintetizar información visual en un texto accesible y ordenado.<br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.                                                        | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.                  |
+
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -160,7 +251,7 @@ del ABET – EAC - Student Outcome 3.
 
 |                                                        Miembro                                                        |                                                                                                                                                                                                                                                      Descripción                                                                                                                                                                                                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                           <img src="assets/images/ members/anjali-amaro.jpg" width="300"/>                            | **Anjali Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona organizada y responsable, con el objetivo de fomentar un ambiente colaborativo y productivo dentro de mi equipo. Contribuyo con dedicación y compromiso para alcanzar los mejores resultados, apoyándome en mis habilidades técnicas en documentación y en el uso de GitHub para una gestión eficiente de proyectos. |
+|                            <img src="assets/images/members/anjali-amaro.jpg" width="300"/>                            | **Anjali Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona organizada y responsable, con el objetivo de fomentar un ambiente colaborativo y productivo dentro de mi equipo. Contribuyo con dedicación y compromiso para alcanzar los mejores resultados, apoyándome en mis habilidades técnicas en documentación y en el uso de GitHub para una gestión eficiente de proyectos. |
 | <img width="840" alt="Image" src="https://github.com/user-attachments/assets/6d1cfa51-0c26-4df6-b34c-f94ec2f9f5bb" /> |                                                                                    **Quique Vladimir Jara Benites - u202022365** <br> Estudiante de sexto ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones                                                                                     | 
 |                               <img src="assets/images/members/diego.jpg" width="300"/>                                |                                                                   **Diego Vilca Saboya \-  U20231A778** <br> Mi nombre es Diego Vilca, tengo 19 años y actualmente curso el 6to ciclo de la carrera de Ingeniería de Software. Me gusta fomentar la comunicación en el equipo y contribuir con mis habilidades de captura de requisitos, Domain Driven Design y software architecture junto con herramientas de control de versiones como GitHub.**                                                                   | 
 |                              <img src="assets/images/members/gonzalo.jpg" width="300"/>                               |                                                                                                  **Gonzalo Samuel Quintanilla Pozo \- U202315007**   <br> Soy estudiante de la carrera de Ingenieria de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Pyhton. Tengo experiencia desarrollando paginas web                                                                                                   | 
@@ -758,6 +849,8 @@ Mariana Huamán es una ingeniera agrónoma joven que trabaja en zonas rurales de
 
 ### 2.3.2. User Task Matrix
 
+##### User Task Matrix - Agricultores
+
 | **Tareas / Tasks**                                         | **Frecuencia**          | **Importancia**          |
 |------------------------------------------------------------|-------------------------|--------------------------|
 | Organizar actividades de la parcela según clima/temporada  | Alta                    | Alta                     |
@@ -774,6 +867,25 @@ Mariana Huamán es una ingeniera agrónoma joven que trabaja en zonas rurales de
 | Uso de celular/aplicaciones de apoyo                       | Media                   | Media                    |
 | Aprender nuevas tecnologías                                | Media                   | Alta                     |
 
+
+##### User Task Matrix - Agrónomos
+
+| Tarea                                                      | Frecuencia | Importancia |
+|-------------------------------------------------------------|------------|-------------|
+| Diagnosticar estado del suelo y recomendar análisis         | Media      | Alta        |
+| Diseñar plan de siembra (cultivos por temporada)            | Media      | Muy Alta    |
+| Elaborar plan de fertilización y nutrición vegetal          | Media      | Alta        |
+| Monitorear plagas y enfermedades (visitas técnicas/campo)   | Alta       | Muy Alta    |
+| Recomendar productos fitosanitarios adecuados               | Alta       | Alta        |
+| Asesorar en riego y uso eficiente del agua                  | Alta       | Alta        |
+| Capacitar a agricultores en buenas prácticas agrícolas      | Media      | Media       |
+| Registrar datos técnicos de ensayos y evaluaciones          | Media      | Alta        |
+| Generar reportes técnicos para productores/empresas         | Media      | Muy Alta    |
+| Analizar información climática y proyectar riesgos          | Media      | Alta        |
+| Investigar y aplicar nuevas tecnologías (agrotech, drones)  | Baja       | Media       |
+| Coordinar con instituciones/agencias para apoyo técnico     | Baja       | Media       |
+
+
 ### 2.3.3. User Journey Mapping
 
 En el proceso de desarrollo de AgroTrack, realizamos un detallado user journey mapping para comprender las experiencias y necesidades de los agricultores peruanos. Analizamos cada etapa de su labor, desde la planificación de la siembra hasta la cosecha y gestión de recursos, identificando obstáculos y oportunidades de mejora. Este enfoque nos permitió diseñar una solución que se integra de manera efectiva en la rutina diaria del agricultor, optimizando la gestión agrícola y mejorando la productividad en el sector agropecuario peruano
@@ -784,6 +896,11 @@ En el proceso de desarrollo de AgroTrack, realizamos un detallado user journey m
 
 [Ver Imagen](https://github.com/user-attachments/assets/315bd4d5-3bd8-4f3c-be87-297735872585)
 
+##### User Journey Mapping - Agronomo
+
+<img src="assets/maps/journey_map.png"  style="width:500px; height:auto;">
+
+[Customer Journey Map](assets/maps/journey_map.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -794,6 +911,11 @@ En esta parte, se exhibirán los Empathy Maps basados en los User Personas cread
 <img alt="Empathy Map Agricultor" src="https://github.com/user-attachments/assets/77357a79-be28-4c51-a647-312cf5503bbf" />
 
 [Ver Imagen](https://github.com/user-attachments/assets/77357a79-be28-4c51-a647-312cf5503bbf)
+
+##### Empathy Map- Agrónomos
+<img src="assets/maps/empathy_map.png"  style="width:500px; height:auto;">
+
+[Empathy map](assets/maps/empathy_map.png)
 
 ## 2.4. Big Picture Event Storming
 En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
@@ -1984,46 +2106,46 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 
 ## 3.3. Product Backlog
 
-| # Orden   | User Story Id | Título                               | Descripción                                                                                                                             | Story Points |
-|-----------|---------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1         | US24          | Registrar cuenta                     | Como usuario nuevo, deseo registrar mi cuenta con correo y contraseña para acceder a la plataforma.                                     | 3            |
-| 2         | US25          | Iniciar sesión                       | Como usuario registrado, deseo iniciar sesión con mis credenciales para entrar de forma segura.                                         | 2            |
-| 3         | US26          | Recuperar cuenta                     | Como usuario, deseo recuperar mi cuenta mediante correo de recuperación para restablecer el acceso.                                     | 3            |
-| 4         | US27          | Completar perfil                     | Como usuario recién registrado, deseo completar mi perfil inicial para terminar de configurar mi cuenta.                                | 2            |
-| 5         | US28          | Editar perfil                        | Como usuario, deseo editar mi perfil en cualquier momento para mantener mis datos actualizados.                                         | 2            |
-| 6         | US29          | Adquirir suscripción                 | Como usuario, deseo adquirir un plan de suscripción para habilitar funcionalidades según mi plan.                                       | 5            |
-| 7         | US30          | Activar cuenta                       | Como usuario, deseo que mi cuenta se active automáticamente al cumplir los requisitos (registro, perfil y suscripción).                 | 3            |
-| 8         | US01          | Crear organización                   | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas.                                                       | 5            |
-| 9         | US02          | Invitar miembro a organización       | Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización.                                                            | 5            |
-| 10        | US03          | Remover agricultor de organización   | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día.                                                           | 3            |
-| 11        | US04          | Crear parcela                        | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo.                                                        | 5            |
-| 12        | US05          | Modificar parcela                    | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos.                                                           | 3            |
-| 13        | US06          | Definir tipo de cultivo              | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo.                                          | 5            |
-| 14        | US07          | Asignar agricultor a parcela         | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables.                                                     | 3            |
-| 15        | US08          | Añadir recomendaciones agronómicas   | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores.                                               | 3            |
-| 16        | US09          | Iniciar monitoreo                    | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos.                                           | 2            |
-| 17        | US10          | Registrar datos de la planta         | Como Agricultor, deseo registrar cantidad de hojas y botones para llevar control fenológico.                                            | 3            |
-| 18        | US11          | Registrar condiciones ambientales    | Como Agricultor, deseo registrar humedad y temperatura para monitorear la parcela.                                                      | 3            |
-| 19        | US12          | Editar/eliminar registro             | Como Agricultor, deseo editar o eliminar un registro para corregir errores.                                                             | 2            |
-| 20        | US13          | Alertas climáticas automáticas       | Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos.                                                                   | 5            |
-| 21        | US14          | Alertas por umbrales de cultivo      | Como Agrónomo, deseo configurar umbrales para generar alertas internas.                                                                 | 5            |
-| 22        | US15          | Crear checklist                      | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela.                                                       | 3            |
-| 23        | US16          | Crear tarea                          | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo.                                                | 5            |
-| 24        | US17          | Aceptar e iniciar tarea              | Como Agricultor, deseo aceptar e iniciar una tarea para registrar que empecé a ejecutarla.                                              | 3            |
-| 25        | US18          | Completar tarea y checklist          | Como Agricultor, deseo completar una tarea y checklist para cerrar la labor.                                                            | 3            |
-| 26        | US19          | Modificar/cancelar tarea             | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas.                                                                  | 3            |
-| 27        | US20          | Registrar materiales de tarea        | Como Agricultor, deseo registrar/editar/eliminar materiales usados en la tarea.                                                         | 2            |
-| 28        | US21          | Solicitar reporte de parcela         | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño.                                                        | 5            |
-| 29        | US22          | Solicitar reporte general            | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales.                                     | 5            |
-| 30        | US23          | Generar/descargar reporte            | Como Agrónomo, deseo generar y descargar reportes para compartirlos.                                                                    | 3            |
-| 31        | US31          | Landing Page – Página principal      | Como visitante, deseo ver una página de inicio clara y atractiva, para entender el propósito de la aplicación y animarme a registrarme. | 3            |
-| 32        | US32          | Landing Page – Características       | Como visitante, deseo conocer las características principales de la plataforma, para evaluar si me conviene usarla.                     | 2            |
-| 33        | US33          | Landing Page – Planes de suscripción | Como visitante, deseo ver los planes de suscripción disponibles, para decidir cuál se ajusta a mis necesidades.                         | 2            |
-| 34        | US34          | Landing Page – Contacto/Soporte      | Como visitante, deseo encontrar información de contacto o soporte, para resolver dudas antes de registrarme.                            | 2            |
-| 35        | TECH01        | Integración con API de clima         | Historia técnica: implementar integración con OpenWeatherMap para obtener datos climáticos.                                             | 5            |
-| 36        | TECH02        | Configuración de base de datos       | Historia técnica: configurar la base de datos para almacenar información de usuarios, parcelas y registros.                             | 5            |
-| 37        | TECH03        | Autenticación segura                 | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales.                                      | 5            |
-| 38        | TECH04        | Infraestructura IoT inicial          | Historia técnica: configurar la comunicación de sensores IoT con la plataforma.                                                         | 8            |
+| # Orden | User Story Id | Título                               | Descripción                                                                                                                             | Story Points |
+|---------|---------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US31          | Landing Page – Página principal      | Como visitante, deseo ver una página de inicio clara y atractiva, para entender el propósito de la aplicación y animarme a registrarme. | 3            |
+| 2       | US32          | Landing Page – Características       | Como visitante, deseo conocer las características principales de la plataforma, para evaluar si me conviene usarla.                     | 2            |
+| 3       | US33          | Landing Page – Planes de suscripción | Como visitante, deseo ver los planes de suscripción disponibles, para decidir cuál se ajusta a mis necesidades.                         | 2            |
+| 4       | US34          | Landing Page – Contacto/Soporte      | Como visitante, deseo encontrar información de contacto o soporte, para resolver dudas antes de registrarme.                            | 2            |
+| 5       | US01          | Crear organización                   | Como Agrónomo, deseo crear una organización para centralizar miembros y parcelas.                                                       | 5            |
+| 6       | US02          | Invitar miembro a organización       | Como Agrónomo, deseo invitar a un Agricultor para sumarlo a mi organización.                                                            | 5            |
+| 7       | US03          | Remover agricultor de organización   | Como Agrónomo, deseo eliminar a un agricultor para mantener el equipo al día.                                                           | 3            |
+| 8       | US04          | Crear parcela                        | Como Agrónomo, deseo crear una parcela para gestionar el cultivo y su monitoreo.                                                        | 5            |
+| 9       | US05          | Modificar parcela                    | Como Agrónomo, deseo modificar una parcela para mantener los datos correctos.                                                           | 3            |
+| 10      | US06          | Definir tipo de cultivo              | Como Agrónomo, deseo definir el tipo de cultivo en una parcela para personalizar el monitoreo.                                          | 5            |
+| 11      | US07          | Asignar agricultor a parcela         | Como Agrónomo, deseo asignar un agricultor a una parcela para definir responsables.                                                     | 3            |
+| 12      | US08          | Añadir recomendaciones agronómicas   | Como Agrónomo, deseo añadir recomendaciones en una parcela para guiar a los agricultores.                                               | 3            |
+| 13      | US09          | Iniciar monitoreo                    | Como Agrónomo, deseo iniciar el monitoreo de una parcela para habilitar el registro de datos.                                           | 2            |
+| 14      | US10          | Registrar datos de la planta         | Como Agricultor, deseo registrar cantidad de hojas y botones para llevar control fenológico.                                            | 3            |
+| 15      | US11          | Registrar condiciones ambientales    | Como Agricultor, deseo registrar humedad y temperatura para monitorear la parcela.                                                      | 3            |
+| 16      | US12          | Editar/eliminar registro             | Como Agricultor, deseo editar o eliminar un registro para corregir errores.                                                             | 2            |
+| 17      | US13          | Alertas climáticas automáticas       | Como Agrónomo, deseo recibir alertas de clima para anticipar riesgos.                                                                   | 5            |
+| 18      | US14          | Alertas por umbrales de cultivo      | Como Agrónomo, deseo configurar umbrales para generar alertas internas.                                                                 | 5            |
+| 19      | US15          | Crear checklist                      | Como Agrónomo, deseo crear un checklist para estandarizar labores en una parcela.                                                       | 3            |
+| 20      | US16          | Crear tarea                          | Como Agrónomo, deseo crear una tarea con responsable y fecha para planificar el trabajo.                                                | 5            |
+| 21      | US17          | Aceptar e iniciar tarea              | Como Agricultor, deseo aceptar e iniciar una tarea para registrar que empecé a ejecutarla.                                              | 3            |
+| 22      | US18          | Completar tarea y checklist          | Como Agricultor, deseo completar una tarea y checklist para cerrar la labor.                                                            | 3            |
+| 23      | US19          | Modificar/cancelar tarea             | Como Agrónomo, deseo modificar o cancelar tareas para replanificarlas.                                                                  | 3            |
+| 24      | US20          | Registrar materiales de tarea        | Como Agricultor, deseo registrar/editar/eliminar materiales usados en la tarea.                                                         | 2            |
+| 25      | US21          | Solicitar reporte de parcela         | Como Agrónomo, deseo solicitar un reporte de parcela para analizar su desempeño.                                                        | 5            |
+| 26      | US22          | Solicitar reporte general            | Como Agrónomo, deseo solicitar un reporte general de la organización para ver indicadores globales.                                     | 5            |
+| 27      | US23          | Generar/descargar reporte            | Como Agrónomo, deseo generar y descargar reportes para compartirlos.                                                                    | 3            |
+| 28      | US24          | Registrar cuenta                     | Como usuario nuevo, deseo registrar mi cuenta con correo y contraseña para acceder a la plataforma.                                     | 3            |
+| 29      | US25          | Iniciar sesión                       | Como usuario registrado, deseo iniciar sesión con mis credenciales para entrar de forma segura.                                         | 2            |
+| 30      | US26          | Recuperar cuenta                     | Como usuario, deseo recuperar mi cuenta mediante correo de recuperación para restablecer el acceso.                                     | 3            |
+| 31      | US27          | Completar perfil                     | Como usuario recién registrado, deseo completar mi perfil inicial para terminar de configurar mi cuenta.                                | 2            |
+| 32      | US28          | Editar perfil                        | Como usuario, deseo editar mi perfil en cualquier momento para mantener mis datos actualizados.                                         | 2            |
+| 33      | US29          | Adquirir suscripción                 | Como usuario, deseo adquirir un plan de suscripción para habilitar funcionalidades según mi plan.                                       | 5            |
+| 34      | US30          | Activar cuenta                       | Como usuario, deseo que mi cuenta se active automáticamente al cumplir los requisitos (registro, perfil y suscripción).                 | 3            |
+| 35      | TECH02        | Configuración de base de datos       | Historia técnica: configurar la base de datos para almacenar información de usuarios, parcelas y registros.                             | 5            |
+| 36      | TECH03        | Autenticación segura                 | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales.                                      | 5            |
+| 37      | TECH01        | Integración con API de clima         | Historia técnica: implementar integración con OpenWeatherMap para obtener datos climáticos.                                             | 5            |
+| 38      | TECH04        | Infraestructura IoT inicial          | Historia técnica: configurar la comunicación de sensores IoT con la plataforma.                                                         | 8            |
 
 ### Product Backlog – Tablero Trello
 
@@ -2279,6 +2401,10 @@ En esta sección se presenta los mock-ups de nuestra landing page, donde se refl
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+**Panorama completo de los Wireframes Desktop**
+![AgroTrack_WireFrames](./assets/images/web-app-wireframes/wireframes-1.jpeg)
+**Panorama completo de los Wireframes Mobile**
+![AgroTrack_WireFrames_Mobile](assets/images/web-app-wireframes/wireframes-mobile.jpeg)
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 **User goal:** Registro de cuenta    
@@ -2319,6 +2445,70 @@ Este flujo empieza desde la vista de parcela, donde se presiona el botón de reg
 
 
 ### 4.4.2. Web Applications Mock-ups
+
+**Web App Mock-ups**
+
+![Mockup](assets/web-mockups/inciosesion.png)
+
+![Mockup](assets/web-mockups/main.png)
+
+![Mockup](assets/web-mockups/create.png)
+
+![Mockup](assets/web-mockups/crop.png)
+
+![Mockup](assets/web-mockups/edit.png)
+
+![Mockup](assets/web-mockups/organization.png)
+
+![Mockup](assets/web-mockups/plot.png)
+
+![Mockup](assets/web-mockups/registration.png)
+
+![Mockup](assets/web-mockups/add.png)
+
+
+**Web App Mock-ups Mobile**
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Home.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Iniciar%20Sesion-1.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Iniciar%20Sesion.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-1.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-2.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-3.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Subscripción-1.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2028.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2029.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2030.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2031.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2032.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2033.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2034.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2035.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2036.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2037.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2038.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2039.jpg)
+
 ### 4.4.3. Web Applications User Flow Diagrams
 
 **User goal:** Acceder a la web application  
@@ -2353,6 +2543,10 @@ Este flujo empieza en el dashboard de organización, el usuario selecciona el bo
 
 
 ## 4.5. Web Applications Prototyping
+
+#### Mock ups video explicativo
+[Ver archivo en Google Drive](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.  
@@ -2416,27 +2610,32 @@ La SPA se comunica con la API de AgroTrack, que a su vez realiza consultas a la 
  
 ![Component Diagram](assets/images/software-architecture/component-diagram.png)
 
+#### Bounded Contex Reports
+
+El módulo **Report** permite a los agrónomos generar, visualizar y exportar reportes de rendimiento agrícola y condiciones ambientales.  
+En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake API* y los procesa mediante la capa *Report Controller*, para luego renderizarlos en la interfaz web a través de componentes gráficos.
+
+![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
+#### Bounded Contex IAM
+
+El módulo **IAM (Identity and Access Management)** gestiona la autenticación, registro y control de acceso de usuarios.  
+El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
+
+![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
+#### Bounded Contex Profile
+
+#### Bounded Contex Organization
+
+#### Bounded Contex Monitoring and Control
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
 El diagrama representa una visión general del sistema Agrotrack, organizado en distintos bounded contexts que delimitan responsabilidades y entidades clave. En él se observa cómo los usuarios gestionan sus cuentas y perfiles, cómo las organizaciones administran parcelas, planes de suscripción y tipos de cultivos, y cómo se articulan los procesos de monitoreo y control mediante checklists, tareas, lecturas ambientales y alertas. Además, se incluyen objetos compartidos que permiten mantener coherencia en la identificación y manejo de valores comunes. En conjunto, este modelo refleja la estructura conceptual del dominio y la interacción entre sus principales componentes.
 
 ![Class Diagram](assets/images/software-architecture/class-diagram.png)
-
-
-### IAM Bounded Context
-
-Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
-
-![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
-
-
-### Profile Bounded Context
-
-Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
-
-![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
-
 
 ### Organization Bounded Context
 
@@ -2456,6 +2655,17 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 ![Class Diagram - Reports](assets/images/software-architecture/report-diagram.png)
 
+### Profile Bounded Context
+
+Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
+
+![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
+
+### IAM Bounded Context
+
+Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
+
+![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
@@ -2536,15 +2746,17 @@ En esta sección se describen las herramientas de software seleccionadas para da
 
 ### 5.1.2. Source Code Management
 
-El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Demy. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
+El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Agrotrack. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
 
 #### Repositorios del Proyecto
 
-| **Producto**            | **Repositorio GitHub**                                                                                                                                   |
-|-------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                     |
+| **Producto**            | **Repositorio GitHub**                                                                                       |
+|-------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
 | **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
 | **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+| **Web Application**     | []                                                                                                           |
+
 
 #### Modelo GitFlow
 Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
@@ -2672,7 +2884,7 @@ En caso de usar Gherkin (para especificaciones o pruebas): <br>
    Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
    ![Screenshot 5 del Deployment](./assets/images/screenshots/deployment-5.png)
 6. **Seguir configurando** <br>
-   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy agrotrack".
    ![Screenshot 6 del Deployment](./assets/images/screenshots/deployment-6.png)
 7**Despliegue listo** <br>
    Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
@@ -2955,30 +3167,874 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 <img alt="Image" src="https://github.com/user-attachments/assets/83219a66-058b-47ea-99ad-c8728ce254d7" />
 <img alt="Image" src="https://github.com/user-attachments/assets/20526c60-16a7-41fd-98c1-9bec2311f570" />
 
+### 5.2.1. Sprint 2
+
+#### 5.2.1.1. Sprint Planning 2
+
+A continuación se presentará el sprint planning para esta segunda entrega, donde definimos el trabajo a realizar, las metas y el enfoque del equipo para el desarrollo del frontend de AgroTrack.
+
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      | En este sprint se abordará la implementación del **Frontend Web Application** con **Angular**, integrando los módulos **IAM (Identity and Access Management)**, **Organization**, y **Report**, conectados a una **Fake API** desplegada en **Azure** con **JSON Server**. El objetivo es construir la primera versión funcional de la aplicación con flujo de autenticación, gestión de organizaciones y visualización de reportes. |
+| Date                                 | 2025/09/27                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                                 | 5:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                             | Reunión virtual mediante la plataforma **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By                          | Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Attendees <br> (to planning meeting) | Pierina Almandroz, Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 2 Goal                        | Nuestro enfoque está en desarrollar el **frontend funcional de AgroTrack**, integrando los módulos de autenticación (IAM), gestión de organizaciones y reportes conectados al fake API en Azure.<br> Creemos que esto permitirá validar la arquitectura base del sistema y mostrar flujos funcionales simulados de usuarios reales.<br> Esto se confirmará cuando los usuarios puedan **registrarse, iniciar sesión, crear organizaciones y visualizar reportes** desde la aplicación Angular. |
+| Sprint 2 Velocity                    | 10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sum of story points                  | 60                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Organization** <br> L/C | **Report** <br> L/C | **Monitoring and Control** <br> L/C | **Profile** <br> L/C | **IAM** <br> L/C |
+|:------------------------------------------:|:-------------------:|:-------------------------:|:-------------------:|:-----------------------------------:|:--------------------:|:----------------:|
+|              **Amaro Anjali**              |      njlmrvllr      |             L             |          C          |                  C                  |          L           |        C         |
+|           **Almandroz Pierina**            |     pierinaaa29     |             C             |          C          |                  C                  |          C           |        C         |
+|          **Quintanilla Gonzalo**           |       GoldQP        |             C             |          C          |                  C                  |          C           |        C         |
+|              **Jara Quique**               |   QuiqueVladimir    |             C             |          L          |                  C                  |          C           |        L         |
+|              **Vilca Diego**               |       diesoks       |             C             |          C          |                  L                  |          C           |        C         |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+#### 5.2.2.3. Sprint Backlog 2.
+Nuestro enfoque es finalizar el flujo de Autenticación, Perfil y Suscripción, y consolidar la Gestión de Organizaciones y Miembros. Esto sentará la base para el Monitoreo y la estructura de Reportes, permitiendo al Agrónomo crear y configurar su entorno de trabajo.
+
+<img alt="upc-logo" src="/assets/images/Sprint-2/Sprint Backlog 2.jpeg"><br>
+link: https://trello.com/b/GH7pMcjq/agrotrack-open-source-sprint2
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T1</td>
+    <td>Implementar servicio de registro de usuario</td>
+    <td>Desarrollar la lógica para crear y guardar la información del nuevo usuario en el sistema.</td>
+    <td>5 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T2</td>
+    <td>Implementar servicio de inicio de sesión</td>
+    <td>Desarrollar la lógica para verificar credenciales y generar el token de acceso.</td>
+    <td>6 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T3</td>
+    <td>Implementar formulario de inicio de sesión</td>
+    <td>Desarrollar la interfaz visual de la página de Login.</td>
+    <td>3 hr</td>
+    <td>Dev Frontend</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T4</td>
+    <td>Implementar gestión de perfil inicial</td>
+    <td>Crear el formulario y el servicio para que el usuario complete su rol y datos personales obligatorios.</td>
+    <td>5 hr</td>
+    <td>Dev Fullstack</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T5</td>
+    <td>Implementar servicio de pago y suscripción</td>
+    <td>Integrar la pasarela de pago para procesar la transacción y activar el plan de suscripción.</td>
+    <td>8 hr</td>
+    <td>Dev Backend</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T6</td>
+    <td>Implementar vistas de planes y pago</td>
+    <td>Desarrollar las páginas que muestran los planes disponibles y el formulario de pago.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T7</td>
+    <td>Implementar servicio de creación de organización</td>
+    <td>Desarrollar la lógica para registrar la organización y asignar el rol de "Owner" al Agrónomo.</td>
+    <td>4 hr</td>
+    <td>Anjali Amaro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T8</td>
+    <td>Implementar formulario de organización</td>
+    <td>Finalizar la interfaz para que el Agrónomo ingrese los datos de su nueva organización.</td>
+    <td>3 hr</td>
+    <td>Anjali Amaro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Invitar miembro</td>
+    <td>T9</td>
+    <td>Implementar lógica de invitación a miembros</td>
+    <td>Crear la funcionalidad para enviar invitaciones por correo y gestionar el estado de las solicitudes.</td>
+    <td>5 hr</td>
+    <td>Dev Backend</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Registrar datos planta</td>
+    <td>T10</td>
+    <td>Finalizar servicio de registro de datos de planta</td>
+    <td>Completar la lógica para guardar el conteo de hojas y botones (Monitoreo).</td>
+    <td>3 hr</td>
+    <td>Dev Backend</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Generar reporte</td>
+    <td>T11</td>
+    <td>Definir estructura de Reporte General</td>
+    <td>Crear la estructura de datos y la lógica inicial para consolidar información de la Organización y Monitoreo.</td>
+    <td>4 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Crear parcela</td>
+    <td>T12</td>
+    <td>Definir estructura y servicio inicial de Parcela</td>
+    <td>Crear la entidad y el servicio básico en el backend para manejar la información de la parcela.</td>
+    <td>4 hr</td>
+    <td>Dev Backend</td>
+    <td>To Do</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando los Bounded Contexts principales de la solución. Se finalizó el flujo, lo que permite a los Agrónomos crear sus cuentas, iniciar sesión y configurar su entorno de trabajo. El desarrollo se realizó principalmente en el repositorio público https://github.com/FloweyTech/agrotrack-web-app utilizando un flujo de ramas basado en feature branches
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Committed on (Date)</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>d9812fb</td>
+    <td>refactor(language-switcher, report-detail): remove commented code and clean up templates</td>
+    <td>Refactorización de componentes (selector de idioma y detalle de reporte) eliminando código comentado.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8eb1518</td>
+    <td>refactor(language-switcher, report-detail): remove commented code and clean up templates</td>
+    <td>Refactorización adicional de componentes y limpieza de plantillas.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>53d6ce2</td>
+    <td>feat(auth): implement language preference and enhance authentication</td>
+    <td>Implementación de la preferencia de idioma y mejoras en la lógica de autenticación (IAM).</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f876e79</td>
+    <td>merge: insert feature/organization-management into develop</td>
+    <td>Fusión de la rama de gestión de organización en develop.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f368924</td>
+    <td>Merge pull request #1 from FloweyTech/feature/iam</td>
+    <td>Fusión de la rama de desarrollo de Identity and Access Management (IAM) en develop.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>4b2eec3</td>
+    <td>feat(iam-presentation): add register views with signal integration</td>
+    <td>Implementación de las vistas de registro integradas con gestión de estado (Signals) (US24).</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>123c32b</td>
+    <td>feat(iam): add login views with signal integration</td>
+    <td>Implementación de las vistas de login integradas con gestión de estado (Signals) (US25).</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>6d0e90e</td>
+    <td>feat(iam): add auth store with signal-based login and registration logic</td>
+    <td>Añade el almacén de autenticación con lógica de login y registro basada en Signals.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8150f73</td>
+    <td>feat(iam): implement user resource, assembler and fake API endpoints</td>
+    <td>Implementación de recursos de usuario, ensamblador y endpoints falsos para la API (IAM).</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>9838c4d</td>
+    <td>feat(iam): add routes login and register</td>
+    <td>Añade rutas de navegación para login y registro.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>47630c8</td>
+    <td>update(iam-layout): integration iam module with layout</td>
+    <td>Integración del módulo IAM con el layout principal.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>c558e7c</td>
+    <td>feat(iam): add User entity with role, status and credential matching logic</td>
+    <td>Añade la entidad de Usuario con lógica de rol, estado y credenciales.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>98b88d</td>
+    <td>fix: correct app_location for Azure Static Web App deploy</td>
+    <td>Corrección de la ubicación de la aplicación para el despliegue estático en Azure.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8bccbff</td>
+    <td>fix: correct app_location for Azure deploy</td>
+    <td>Ajuste de la ubicación de la aplicación para el despliegue en Azure.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>cc98ee0</td>
+    <td>kip Azure internal build (Oryx) to use our Node 20 build</td>
+    <td>Omisión de la construcción interna de Azure (Oryx) para usar la configuración de Node 20.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>56893a</td>
+    <td>fix: use node version 20 before build</td>
+    <td>Corrección: usa la versión 20 de Node antes de la construcción.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>d1659a5</td>
+    <td>fix: add Angular build step before Azure deploy</td>
+    <td>Añade el paso de construcción de Angular antes del despliegue en Azure.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8c85b53</td>
+    <td>ci: add Azure Static Web Apps workflow file</td>
+    <td>Añade el archivo de flujo de trabajo para Azure Static Web Apps (Integración Continua).</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>5183f21</td>
+    <td>feature: add deployment test configuration</td>
+    <td>Añade la configuración de prueba de despliegue.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>a732bfc</td>
+    <td>merge: insert feature/initial-structure into develop</td>
+    <td>Fusión de la estructura inicial (carpetas, archivos base) en develop.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>64af6d5</td>
+    <td>feat(subscription): implement subscription domain and API infrastructure</td>
+    <td>Implementación de la infraestructura de API y dominio para Suscripciones (US29).</td>
+    <td>04/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>16e4274</td>
+    <td>feat(shared): add language-switcher component for language selection.</td>
+    <td>Añade el componente compartido <code>language-switcher</code> para selección de idioma.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>1446dcc</td>
+    <td>feat(shared): add abstract base api class for api endpoint composition.</td>
+    <td>Añade clase base abstracta para la composición de endpoints de API.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>182bb7a</td>
+    <td>feat(shared): add base API endpoint for generic crud operations.</td>
+    <td>Añade endpoint de API base para operaciones CRUD genéricas.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>0586b81</td>
+    <td>feat(shared): add base assembler interface for entity-resource conversions.</td>
+    <td>Añade interfaz de ensamblador base para conversiones de entidad a recurso.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>59e8dce</td>
+    <td>feat(shared): add base response and resource interfaces.</td>
+    <td>Añade interfaces base para respuestas y recursos de la API.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>75416f4</td>
+    <td>feat(shared): add base entity interface for standardized entity structure.</td>
+    <td>Añade interfaz de entidad base para estructura de entidad estandarizada.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>9ae8472</td>
+    <td>feat(env): add environment configuration files for production and development.</td>
+    <td>Añade archivos de configuración de entorno para producción y desarrollo.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f694114</td>
+    <td>feat(fake-api): add json-server and configure fake api.</td>
+    <td>Añade <code>json-server</code> y configura una API falsa para desarrollo.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>ce8f236</td>
+    <td>feat(layout): add layout component</td>
+    <td>Añade el componente de layout (estructura principal de la aplicación).</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f8b9144</td>
+    <td>chore: add ngx-translate for internationalization support.</td>
+    <td>Añade la librería <code>ngx-translate</code> para soporte de internacionalización.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>897345</td>
+    <td>Initial commit</td>
+    <td>Primer commit, inicializando el repositorio.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>aee8ada</td>
+    <td>feat: initialize Angular project with basic structure and configuration files</td>
+    <td>Inicializa el proyecto Angular con estructura básica y archivos de configuración.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>62c713</td>
+    <td>feat(report): update API response documentation to English for consistency</td>
+    <td>Actualización de la documentación de respuesta de API a Inglés para consistencia.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>ea437f7</td>
+    <td>feat(report): translate API endpoint documentation to English for clarity</td>
+    <td>Traducción de la documentación de endpoint de API a Inglés para claridad.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>08d4527</td>
+    <td>feat(report): update documentation in report store and assembler for clarity</td>
+    <td>Actualización de la documentación en el almacén de reportes y ensamblador para claridad.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>4e21d8e</td>
+    <td>feat(report): update documentation in report store and assembler for clarity</td>
+    <td>Actualización adicional de la documentación en el almacén de reportes y ensamblador.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>b45cc1</td>
+    <td>feat(report): enhance report entity with detailed documentation and lifecycle methods</td>
+    <td>Mejora de la entidad de reporte con documentación detallada y métodos de ciclo de vida.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>94c48ab</td>
+    <td>feat(db): extend db.json with reports dataset including organization data</td>
+    <td>Extensión de la API falsa (db.json) con datos de reportes que incluyen datos de la organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>f85614e</td>
+    <td>feat(integration): add report section to layout and navigation</td>
+    <td>Integración de la sección de Reportes al layout y navegación.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>deff900</td>
+    <td>feat(report): add report detail views with routing</td>
+    <td>Añade vistas de detalle de Reporte con ruteo.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>a5e69ca</td>
+    <td>feat(report): add report list views with routing</td>
+    <td>Añade vistas de lista de Reportes con ruteo.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>e2c651c</td>
+    <td>feat(report): add ReportStore with Signals and CRUD state management</td>
+    <td>Añade el almacén de Reporte con Signals y gestión de estado CRUD.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>383c2ec</td>
+    <td>feat(report): extend assembler and resource to support organization fields</td>
+    <td>Extensión del ensamblador y recurso de Reporte para soportar campos de Organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>0d649ea</td>
+    <td>feat(report): add assembler and API endpoints for Report bounded context</td>
+    <td>Añade ensamblador y endpoints de API para el contexto delimitado de Reporte.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>12133b5</td>
+    <td>feat(report): add Report enum status</td>
+    <td>Añade el enumerador de estado de Reporte.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>9171088</td>
+    <td>feat(report): add Report entity and enums for type and status</td>
+    <td>Añade la entidad Reporte y enumeradores para tipo y estado.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/monitoring-control</td>
+    <td>b59f1e9</td>
+    <td>feat(monitoring): add monitoring routes and API for environmental readings</td>
+    <td>Añade rutas de monitoreo y API para lecturas ambientales.</td>
+    <td>09/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>10216a6</td>
+    <td>feat(plot-form): enhance plot form with edit functionality and add new plant types</td>
+    <td>Mejora del formulario de parcela con funcionalidad de edición y nuevos tipos de planta.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>3b6239f</td>
+    <td>feat(plot-management): add plot data structure and implement plot loading by organization</td>
+    <td>Estructura de datos de parcela e implementación de carga de parcelas por organización.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>a132472</td>
+    <td>feat(organization): add routes for managing plots within organizations</td>
+    <td>Añade rutas para la gestión de parcelas dentro de las organizaciones.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>fe1e8fa</td>
+    <td>feat(plot-list): add plot list component with create, edit, and delete functionality</td>
+    <td>Añade componente de lista de parcelas con funcionalidad de crear, editar y eliminar.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>2731837</td>
+    <td>feat(plantype-selector): add plant type selector component with custom type functionality</td>
+    <td>Añade componente selector de tipo de planta con funcionalidad de tipo personalizado.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>2283a11</td>
+    <td>feat(plantype-selector): add plant type selector component with custom type functionality</td>
+    <td>Añade componente selector de tipo de planta con funcionalidad de tipo personalizado.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>ce0576e</td>
+    <td>feat(organization): implement plant type and plot management</td>
+    <td>Implementación de la gestión de tipo de planta y parcela dentro de la organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>5fa11cc</td>
+    <td>feat(plots): add API response models and assembler for Plot entities</td>
+    <td>Añade modelos de respuesta de API y ensamblador para entidades de Parcela.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>9fe1f11</td>
+    <td>feat(planttypes): add API endpoint, assembler, and response models for plant types</td>
+    <td>Añade endpoint, ensamblador y modelos de respuesta de API para tipos de planta.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>d8bf14a</td>
+    <td>feat(plot): add Plot entity with properties and methods for organization management</td>
+    <td>Añade la entidad Parcela con propiedades y métodos para la gestión de organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>515052e</td>
+    <td>feat(organization): enhance organization list with custom button styles and add PlantType entity</td>
+    <td>Mejora la lista de organización con estilos de botón personalizados y añade la entidad PlantType.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>b7446fa</td>
+    <td>feat(organization): implement organization management with routing, forms, and list view</td>
+    <td>Implementación de la gestión de Organización con rutas, formularios y vista de lista (US01).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>1545c95</td>
+    <td>feat(organization): add organization form with validation and subscription management</td>
+    <td>Formulario de organización con validación y manejo de estado de suscripción (US01, US29).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>cfe8a6f</td>
+    <td>feat(organization): implement organization and subscription state management store</td>
+    <td>Implementación del almacén de estado para la gestión de organización y suscripción (US01, US29).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>6ae6d1</td>
+    <td>feat(organization): add subscription handling and API endpoints for organizations</td>
+    <td>Manejo de suscripciones y endpoints de API relacionados a organizaciones (US29, US01).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>b816ba0</td>
+    <td>feat(organization): enhance Organization entity with additional properties and implement BaseEntity</td>
+    <td>Mejora de la entidad de Organización con propiedades adicionales e implementación de BaseEntity.</td>
+    <td>04/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>25287b</td>
+    <td>feat(organization): add organization entity model for organization context</td>
+    <td>Añade el modelo de entidad de Organización para el contexto de Organización (US01).</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>12d4abf</td>
+    <td>feat(layout): implement responsive layout with sidenav and toolbar</td>
+    <td>Implementación de layout responsivo con barra lateral y barra de herramientas.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>8d8bc2e</td>
+    <td>feat(layout): enhance layout with toolbar and menu functionality</td>
+    <td>Mejora del layout con funcionalidad de barra de herramientas y menú.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>2c1cb10</td>
+    <td>feat(styles): update asset paths and clean up global styles</td>
+    <td>Actualización de rutas de assets y limpieza de estilos globales.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>8fd6b4</td>
+    <td>feat(language-switcher): add styles for language switcher component</td>
+    <td>Estilos para el componente de cambio de idioma (language-switcher).</td>
+    <td>05/10/2025</td>
+  </tr>
+    <tr>
+      <td>FloweyTech/agrotrack-web-app</td>
+      <td>feature/monitoring-control</td>
+      <td>6503b47</td>
+      <td>feat(monitoring): add new humidity and temperature readings to the database</td>
+      <td>Implementa la adición de lecturas de humedad y temperatura al esquema de base de datos.</td>
+      <td>09/10/2025</td>
+    </tr>
+    <tr>
+      <td>FloweyTech/agrotrack-web-app</td>
+      <td>feature/monitoring-control</td>
+      <td>7f0a3f6</td>
+      <td>feat(monitoring): enhance environmental monitoring with new readings and improved UI text</td>
+      <td>Mejora el módulo de monitoreo ambiental añadiendo nuevos tipos de lectura y actualizando el texto en la interfaz de usuario.</td>
+      <td>09/10/2025</td>
+    </tr>
+    <tr>
+      <td>FloweyTech/agrotrack-web-app</td>
+      <td>feature/monitoring-control</td>
+      <td>b59f1e9</td>
+      <td>feat(monitoring): add monitoring routes and API for environmental readings</td>
+      <td>Crea las rutas de frontend y los endpoints de API necesarios para gestionar las lecturas ambientales.</td>
+      <td>09/10/2025</td>
+    </tr>
+
+</table>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para este segundo sprint, solo nos enfocamos en el desarrollo del frontend de la aplicación, nos apoyamos de una herramienta que nos permitiera simular un backend falso.
+
+Por ese motivo, hemos desplegaod un JSON Server en la plataforma de Azure y asi de esta manera poder simular un backend falso y asi poder consumir los datos desde nuestro frontend.
+
+Link del JSON Server llamado agrotrack-mockapi: [agrotrack-mockapi.azurewebsites.net](agrotrack-mockapi.azurewebsites.net)
+
+| Endpoint        | Descripción                                                                | 
+|-----------------|----------------------------------------------------------------------------|
+| /organizations  | Se implemento las operaciones CRUD y atributos para las organizaciones.    |
+| /plots          | Se implemento las operaciones CRUD y atributos para las parcelas.          |
+| /users          | Se implemento las operaciones CRUD y atributos para los usuarios.          |
+| /subscriptions  | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
+| /planttypes     | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
+
+
+#### 5.2.2.7.  Deployment Evidence for Sprint Review.
+
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
+
+El despliegue se realizó en la plataforma de Netlify, utilizando el repositorio público [FloweyTech/agrotrack-webapp](https://github.com/FloweyTech/agrotrack-web-app)
+
+Pasos para el despliegue:
+1. Ingresar a Netlify y acceder con credenciales de GitHub.
+
+![./assets/images/screenshots/deployment-1.png](./assets/images/screenshots/deployment-1.png)
+
+2. Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+
+![./assets/deploySprint2/img.png](./assets/deploySprint2/img.png)
+
+3. En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+
+![./assets/deploySprint2/img_1.png](./assets/deploySprint2/img_1.png)
+
+4. Dado que nuestro repositorio está bajo una organización, la seleccionamos. Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main
+
+![./assets/deploySprint2/img_2.png](./assets/deploySprint2/img_2.png)
+
+5. Seguimos configurando, pero esta vez seleccionando "ng build --configuration=production" en build command, para finalmente darle a "Deploy agrotrack-web-app".
+
+![./assets/deploySprint2/img_3.png](./assets/deploySprint2/img_3.png)
+
+![./assets/deploySprint2/img_4.png](./assets/deploySprint2/img_4.png)
+
+6. Aquí esperamos a que se termine de desplegar
+
+![./assets/deploySprint2/img_5.png](./assets/deploySprint2/img_5.png)
+
+7. Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web al frontend recién desplegado
+
+
+
+el frontend web application está disponible de manera pública en la ruta: [Abri en el navegador](https://agrotrack-web-app.netlify.app/login)
+
+
+Captura de pantalla del Web Application: 
+
+1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
+
+![./assets/deploySprint2/img_6.png](./assets/deploySprint2/img_6.png)
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
 
 # Conclusiones
 
-**Validación del Problema y la Solución**
+**Implementación de buenas prácticas en el desarrollo**
+Durante este Sprint se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener. Además, se incorporaron principios de diseño responsivo para asegurar una experiencia fluida en distintos dispositivos y resoluciones.
 
-* Se confirmó la necesidad real en el sector agrícola peruano de herramientas digitales accesibles para la gestión de parcelas y cultivos
-* AgroTrack se posicionó exitosamente como una solución que equilibra simplicidad tecnológica con conocimiento agrícola especializado
-* Las entrevistas con 6 usuarios validaron las dificultades en la gestión manual y la apertura hacia soluciones digitales intuitivas
+**Enfoque centrado en el usuario**
+Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend.
 
-**Comprensión Profunda del Usuario**
+**Lecciones aprendidas durante el proceso**
+A lo largo del Sprint se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes serán aplicados en los próximos ciclos para mejorar la eficiencia, reducir retrabajos y asegurar el cumplimiento de los objetivos establecidos.
 
-* Los User Personas desarrollados reflejan con precisión las características demográficas, tecnológicas y de comportamiento identificadas
-* Se confirmó que tanto agricultores como agrónomos valoran especialmente funcionalidades como alertas climáticas, recordatorios de tareas y reportes simplificados
-* La investigación reveló la importancia de balancear funcionalidades avanzadas con simplicidad de uso
+**Integración técnica y modularidad**
+Se avanzó en la organización del proyecto por contextos funcionales, separando componentes, servicios y recursos según su dominio. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se comenzaron a aplicar principios de arquitectura limpia y diseño orientado a componentes.
 
-**Arquitectura de Información Efectiva**
-* Se estableció una organización clara del contenido basada en sistemas jerárquicos, matriciales y por audiencia
-* El sistema de etiquetado emplea vocabulario cercano al sector agrícola, reduciendo barreras de entrada
-* Se implementaron estrategias SEO apropiadas para maximizar la visibilidad en buscadores especializados
-
-**Diseño Visual Coherente**
-* Se desarrolló una identidad visual que transmite confianza, naturaleza e innovación
-* Los lineamientos de estilo aseguran consistencia visual entre la landing page y futuras funcionalidades
-* Se priorizó la accesibilidad considerando las limitaciones tecnológicas del público objetivo
+**Colaboración y revisión entre pares**
+Durante el Sprint se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica también ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
 
 **Fundamentos Técnicos Establecidos**
 
@@ -2990,7 +4046,7 @@ Esta primera entrega ha sentado las bases necesarias para desarrollar una soluci
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
-El desarrollo del Sprint 1 demostró la capacidad del equipo para transformar el diseño en código funcional, aplicando buenas prácticas de desarrollo, control de versiones con Git y despliegue continuo. La documentación técnica generada facilita el mantenimiento y la colaboración futura.
+
 Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. https://doi.org/10.1071/CP21759
 
 # Anexos
@@ -2999,4 +4055,6 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - Landing page: desplegada en Netlify [https://agrotrack-landing.netlify.app/](https://agrotrack-landing.netlify.app/)
 - video de exposición [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx)
 - prototipo web [https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
+
+- Agrotrack - Web Application: desplegada en Netlify [https://agrotrack-web-app.netlify.app](https://agrotrack-web-app.netlify.app/)
 
