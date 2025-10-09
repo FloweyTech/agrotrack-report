@@ -2620,25 +2620,6 @@ La SPA se comunica con la API de AgroTrack, que a su vez realiza consultas a la 
  
 ![Component Diagram](assets/images/software-architecture/component-diagram.png)
 
-#### Bounded Contex Reports
-
-El módulo **Report** permite a los agrónomos generar, visualizar y exportar reportes de rendimiento agrícola y condiciones ambientales.  
-En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake API* y los procesa mediante la capa *Report Controller*, para luego renderizarlos en la interfaz web a través de componentes gráficos.
-
-![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
-
-#### Bounded Contex IAM
-
-El módulo **IAM (Identity and Access Management)** gestiona la autenticación, registro y control de acceso de usuarios.  
-El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
-
-![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
-
-#### Bounded Contex Profile
-
-#### Bounded Contex Organization
-
-#### Bounded Contex Monitoring and Control
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
@@ -2653,11 +2634,21 @@ Este diagrama corresponde al Organization Bounded Context, encargado de estructu
 
 ![Class Diagram - Organization](assets/images/software-architecture/organization-diagram.png)
 
+#### Fronted Components Diagrams - Organization Bounded Context
+El módulo **Organization** permite a los agrónomos gestionar organizaciones, parcelas y cultivos.
+![Organization Module Diagram](assets/frontend-diagram/organization.png)
+
 ### Monitoring and Control Bounded Context
 
 Este diagrama corresponde al Monitoring and Control Bounded Context, responsable de supervisar y gestionar las actividades y condiciones en campo. Aquí se incluyen los Checklists, que permiten organizar y dar seguimiento a las tareas (Task) asignadas a los perfiles, junto con fechas, materiales utilizados y su estado de avance. Asimismo, se registran lecturas ambientales (EnvironmentalReading) que son evaluadas frente a umbrales (Threshold) para detectar desviaciones en parámetros como temperatura, humedad o pH. Cuando se superan estos límites, se generan Alertas (Alert) con distintos niveles de severidad (INFO, WARNING, CRITICAL). Por otro lado, el contexto también incorpora sesiones de muestreo de plantas (PlantSamplingSession), que almacenan observaciones detalladas de altura, número de hojas y frutos, y permiten calcular promedios para análisis posteriores. En conjunto, este contexto asegura el control operativo mediante tareas planificadas, monitoreo en tiempo real y alertas tempranas que facilitan la toma de decisiones
 
 ![Class Diagram - Monitoring and Control](assets/images/software-architecture/monitoring-diagram.png)
+
+#### Fronted Components Diagrams - Monitoring and Control Bounded Context
+
+El módulo **Monitoring and Control** permite a los agrónomos y agricultores supervisar las condiciones de las parcelas y gestionar tareas agrícolas.
+
+![Monitoring and Control Module Diagram](assets/frontend-diagram/monitoring.png)
 
 ### Reports Bounded Context
 
@@ -2665,17 +2656,37 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 ![Class Diagram - Reports](assets/images/software-architecture/report-diagram.png)
 
+#### Fronted Components Diagrams - Report Bounded Context
+
+El módulo **Report** permite a los agrónomos generar, visualizar y exportar reportes de rendimiento agrícola y condiciones ambientales.  
+En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake API* y los procesa mediante la capa *Report Controller*, para luego renderizarlos en la interfaz web a través de componentes gráficos.
+
+![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
 ### Profile Bounded Context
 
 Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
 
 ![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
 
+##### Fronted Components Diagrams - Profile Bounded Context
+El módulo **Profile** permite a los usuarios ver y actualizar su información personal.
+
+![Profile Module Diagram](assets/frontend-diagram/profile.png)
+
+
 ### IAM Bounded Context
 
 Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
 
 ![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
+
+#### Fronted Components Diagrams - IAM Bounded Context
+
+El módulo **IAM (Identity and Access Management)** gestiona la autenticación, registro y control de acceso de usuarios.  
+El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
+
+![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
@@ -3997,7 +4008,7 @@ nuestras vistas relevantes acerca del producto:
 ![img_11.png](./assets/img_11.png)
 
 
-Link de video de presentación sobre el Web Application: 
+Link de video de presentación sobre el Web Application: [Video Presentación Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb7Kmd1uAVFHhEYs2qs4mHIBkBxcwMrXw9ZTRh8NF3NuMQ?e=UwYFSC)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -4102,6 +4113,10 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 | Jara Benites Quique Vladimir    | IAM Context - Report Context                           |	 
 | Quintanilla Pozo Gonzalo Samuel | Report Context                                         |
 | Vilca Saboya Diego Alejandro	   | Profile Context and NotfoundPage                       |
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+
 
 # Conclusiones
 

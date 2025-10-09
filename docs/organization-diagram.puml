@@ -164,11 +164,6 @@ package "app" {
         +toResourceFromEntity(entity: Subscription): SubscriptionResource
       }
 
-      OrganizationAssembler --|> app.shared.infrastructure.BaseAssembler : implements
-      PlotAssembler --|> app.shared.infrastructure.BaseAssembler : implements
-      PlantTypesAssembler --|> app.shared.infrastructure.BaseAssembler : implements
-      SubscriptionAssembler --|> app.shared.infrastructure.BaseAssembler : implements
-
       OrganizationAssembler --> Organization : converts to/from
       PlotAssembler --> Plot : converts to/from
       PlantTypesAssembler --> PlantType : converts to/from
@@ -179,12 +174,6 @@ package "app" {
       PlantTypesApiEndpoint --> PlantTypesAssembler : uses for conversion
       SubscriptionsApiEndpoint --> SubscriptionAssembler : uses for conversion
 
-      OrganizationsApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
-      PlotsApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
-      PlantTypesApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
-      SubscriptionsApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
-
-      OrganizationApi --|> app.shared.infrastructure.BaseApi : extends
       OrganizationApi --> OrganizationsApiEndpoint : delegates to
       OrganizationApi --> PlotsApiEndpoint : delegates to
       OrganizationApi --> PlantTypesApiEndpoint : delegates to
@@ -278,82 +267,5 @@ package "app" {
       PlantTypeSelector ..> OrganizationStore : uses
     }
   }
-
-  package "shared" {
-    package "infrastructure" {
-      abstract class BaseApiEndpoint {
-        -http: HttpClient
-        -endpointUrl: string
-        -assembler: BaseAssembler
-        +getAll(): Observable<BaseEntity[]>
-        +getById(id: number): Observable<BaseEntity>
-        +create(entity: BaseEntity): Observable<BaseEntity>
-        +update(entity: BaseEntity, id: number): Observable<BaseEntity>
-        +delete(id: number): Observable<void>
-        #handleError(operation: string): (error: HttpErrorResponse) => Observable<never>
-      }
-
-      class BaseApi {
-        +request(endpoint: string): any
-      }
-
-      interface BaseAssembler <<Assembler>> {
-        +toEntitiesFromResponse(response: BaseResponse): BaseEntity[]
-        +toEntityFromResource(resource: BaseResource): BaseEntity
-        +toResourceFromEntity(entity: BaseEntity): BaseResource
-      }
-
-      class BaseEntity <<Entity>> {
-        +id: number
-        +getId(): number
-        +setId(id: number): void
-      }
-
-      BaseApiEndpoint --> BaseApi : uses
-      BaseApi --> BaseAssembler : uses
-      BaseAssembler --> BaseEntity : converts to/from
-    }
-
-    package "presentation.components" {
-      class FooterContent <<Component>> {
-      }
-
-      class LanguageSwitcher <<Component>> {
-        +currentLang: string
-        +languages: string[]
-        +useLanguage(language: string): void
-      }
-
-      class Layout <<Component>> {
-        +options: {link: string, label: string}[]
-      }
-    }
-
-    package "presentation.views" {
-      class About <<Component>> {
-      }
-
-      class Home <<Component>> {
-      }
-
-      class PageNotFound <<Component>> {
-        +invalidPath: string
-        +ngOnInit(): void
-        +navigateToHome(): void
-      }
-    }
-
-    Layout --> FooterContent : includes
-    Layout --> LanguageSwitcher : includes
-    Layout --> About : includes
-    Layout --> Home : includes
-    Layout --> PageNotFound : includes
-  }
-
-  class AppComponent <<Component>> {
-    // Main application shell component
-  }
-
-  AppComponent --> app.shared.presentation.components.Layout : uses
 }
 @enduml
