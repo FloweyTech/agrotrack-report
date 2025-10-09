@@ -1,0 +1,43 @@
+@startuml
+title Diagrama de clases - Módulo de Perfil (Frontend Angular)
+
+' ====== Interfaces y clases base ======
+interface BaseEntity {
+}
+
+' ====== Entidad de dominio ======
+class profile <<Entity>> {
+  - _id: number
+  - _name: string
+  - _avatarUrl: string
+  --
+  + profile(_id: number, _name: string, _avatarUrl: string)
+  + get id(): number
+  + get name(): string
+  + get avatarUrl(): string
+}
+
+profile ..|> BaseEntity : implements
+
+' ====== Store (estado global) ======
+class ProfileStore {
+  - nameSignal: Signal<string>
+  - avatarSignal: Signal<string | null>
+  --
+  + name: Computed<string>
+  + avatarUrl: Computed<string | null>
+  + setName(name: string): void
+  + setAvatar(url: string): void
+}
+
+' ====== Componente Angular ======
+class Profile <<Component>>{
+  - store: ProfileStore
+  + name: Input<string>
+  + avatarUrl: Input<string | null>
+}
+
+Profile --> ProfileStore : inject
+Profile --> profile : use
+
+@enduml

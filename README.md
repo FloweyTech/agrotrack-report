@@ -3963,6 +3963,42 @@ Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+En el sprint 2 se alcanzó un desarrollo parcial del frontend de la web application usando una fake api. Se muestran
+nuestras vistas relevantes acerca del producto:
+
+- US01:	Crear organización
+
+![img.png](./assets/img.png)
+![img_1.png](./assets/img_1.png)
+
+- US04:	Crear parcela
+
+![img_2.png](./assets/img_2.png)
+![img_3.png](./assets/img_3.png)
+
+- US10:	Registrar datos de la planta
+
+![img_4.png](./assets/img_4.png)
+![img_5.png](./assets/img_5.png)
+
+- US09:	Iniciar monitoreo
+
+![img_6.png](./assets/img_6.png)
+![img_7.png](./assets/img_7.png)
+![img_8.png](./assets/img_8.png)
+
+- US15:	Crear checklist
+
+![img_9.png](./assets/img_9.png)
+
+- US21:	Solicitar reporte de parcela
+
+![img_10.png](./assets/img_10.png)
+![img_11.png](./assets/img_11.png)
+
+
+Link de video de presentación sobre el Web Application: 
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Para este segundo sprint, solo nos enfocamos en el desarrollo del frontend de la aplicación, nos apoyamos de una herramienta que nos permitiera simular un backend falso.
@@ -3971,13 +4007,15 @@ Por ese motivo, hemos desplegaod un JSON Server en la plataforma de Azure y asi 
 
 Link del JSON Server llamado agrotrack-mockapi: [agrotrack-mockapi.azurewebsites.net](agrotrack-mockapi.azurewebsites.net)
 
-| Endpoint        | Descripción                                                                | 
-|-----------------|----------------------------------------------------------------------------|
-| /organizations  | Se implemento las operaciones CRUD y atributos para las organizaciones.    |
-| /plots          | Se implemento las operaciones CRUD y atributos para las parcelas.          |
-| /users          | Se implemento las operaciones CRUD y atributos para los usuarios.          |
-| /subscriptions  | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
-| /planttypes     | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
+| Endpoint                | Descripción                                                                | 
+|-------------------------|----------------------------------------------------------------------------|
+| /organizations          | Se implemento las operaciones CRUD y atributos para las organizaciones.    |
+| /plots                  | Se implemento las operaciones CRUD y atributos para las parcelas.          |
+| /users                  | Se implemento las operaciones CRUD y atributos para los usuarios.          |
+| /subscriptions          | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
+| /planttypes             | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
+| /reports                | Se implemento las operaciones CRUD y atributos para los reportes.          |
+| /environmental-readings | Se implemento las operaciones CRUD y atributos para las lecturas.         |
 
 
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
@@ -4022,9 +4060,39 @@ el frontend web application está disponible de manera pública en la ruta: [Abr
 
 Captura de pantalla del Web Application: 
 
-1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
+Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 
 ![./assets/deploySprint2/img_6.png](./assets/deploySprint2/img_6.png)
+
+- US01:	Crear organización
+
+![img.png](./assets/img.png)
+![img_1.png](./assets/img_1.png)
+
+- US04:	Crear parcela
+
+![img_2.png](./assets/img_2.png)
+![img_3.png](./assets/img_3.png)
+
+- US10:	Registrar datos de la planta
+
+![img_4.png](./assets/img_4.png)
+![img_5.png](./assets/img_5.png)
+
+- US09:	Iniciar monitoreo
+
+![img_6.png](./assets/img_6.png)
+![img_7.png](./assets/img_7.png)
+![img_8.png](./assets/img_8.png)
+
+- US15:	Crear checklist
+
+![img_9.png](./assets/img_9.png)
+
+- US21:	Solicitar reporte de parcela
+
+![img_10.png](./assets/img_10.png)
+![img_11.png](./assets/img_11.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -4080,8 +4148,9 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 
 - Landing page: desplegada en Netlify [https://agrotrack-landing.netlify.app/](https://agrotrack-landing.netlify.app/)
-- video de exposición [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx)
+- video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx)
 - prototipo web [https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
 
 - Agrotrack - Web Application: desplegada en Netlify [https://agrotrack-web-app.netlify.app](https://agrotrack-web-app.netlify.app/)
+- Video de exposición TB2: []()
 

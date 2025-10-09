@@ -1,0 +1,359 @@
+@startuml
+title Organization Bounded Context - Internal Structure (C4 Level 4)
+
+package "app" {
+  package "organization" {
+    package "domain.model" {
+      class Organization <<Entity>> {
+        -_id: number
+        -_name: string
+        -_members: Array<number>
+        -_status: OrganizationStatus
+        -_subscription: Subscription
+        +getId(): number
+        +setId(id: number): void
+        +getName(): string
+        +setName(name: string): void
+        +getMembers(): Array<number>
+        +setMembers(members: Array<number>): void
+        +getStatus(): OrganizationStatus
+        +setStatus(status: OrganizationStatus): void
+        +getMaxPlots(): number
+        +getSubscription(): Subscription
+        +setSubscription(subscription: Subscription): void
+      }
+
+      class Plot <<Entity>> {
+        -_id: number
+        -_name: string
+        -_area: number
+        -_location: string
+        -_plantType: PlantType
+        -_organizationId: number
+        +getId(): number
+        +setId(id: number): void
+        +getName(): string
+        +setName(name: string): void
+        +getArea(): number
+        +setArea(area: number): void
+        +getLocation(): string
+        +setLocation(location: string): void
+        +getPlantType(): PlantType
+        +setPlantType(plantType: PlantType): void
+        +getOrganizationId(): number
+      }
+
+      class PlantType <<Entity>> {
+        -_id: number
+        -_name: string
+        -_type: PlantTypes
+        -_isCustom: boolean
+        +getId(): number
+        +setId(id: number): void
+        +getName(): string
+        +setName(name: string): void
+        +getType(): PlantTypes
+        +setType(type: PlantTypes): void
+        +getIsCustom(): boolean
+        +setIsCustom(isCustom: boolean): void
+      }
+
+      class Subscription <<Entity>> {
+        -_id: number
+        -_plan: SubscriptionPlan
+        -_startDate: Date
+        -_endDate: Date
+        -_organizationId: number
+        +getId(): number
+        +getPlan(): SubscriptionPlan
+        +getStartDate(): Date
+        +getEndDate(): Date
+        +getOrganizationId(): number
+      }
+
+      enum OrganizationStatus {
+        ACTIVE
+        INACTIVE
+      }
+
+      enum SubscriptionPlan {
+        AGROSTART
+        AGROSMART
+        AGROEXPERT
+      }
+
+      enum PlantTypes {
+        VEGETABLE
+        FRUIT
+        GRAIN
+        CUSTOM
+      }
+
+      Organization "1" --> "1" Subscription : has
+      Organization "1" --> "*" Plot : contains
+      Plot "1" --> "1" PlantType : uses
+      Organization --> OrganizationStatus : has status
+      Subscription --> SubscriptionPlan : has plan
+      PlantType --> PlantTypes : has type
+    }
+
+    package "infrastructure" {
+      class OrganizationsApiEndpoint {
+        +getAll(): Observable<Organization[]>
+        +getById(id: number): Observable<Organization>
+        +create(organization: Organization): Observable<Organization>
+        +update(organization: Organization, id: number): Observable<Organization>
+        +delete(id: number): Observable<void>
+      }
+
+      class PlotsApiEndpoint {
+        +getAll(): Observable<Plot[]>
+        +getById(id: number): Observable<Plot>
+        +getByOrganizationId(orgId: number): Observable<Plot[]>
+        +create(plot: Plot): Observable<Plot>
+        +update(plot: Plot, id: number): Observable<Plot>
+        +delete(id: number): Observable<void>
+      }
+
+      class PlantTypesApiEndpoint {
+        +getAll(): Observable<PlantType[]>
+        +getById(id: number): Observable<PlantType>
+        +create(plantType: PlantType): Observable<PlantType>
+      }
+
+      class SubscriptionsApiEndpoint {
+        +getAll(): Observable<Subscription[]>
+        +getById(id: number): Observable<Subscription>
+        +getByOrganizationId(orgId: number): Observable<Subscription>
+      }
+
+      class OrganizationApi {
+        -organizationsEndpoint: OrganizationsApiEndpoint
+        -plotsEndpoint: PlotsApiEndpoint
+        -plantTypesEndpoint: PlantTypesApiEndpoint
+        -subscriptionsEndpoint: SubscriptionsApiEndpoint
+        +getOrganizations(): Observable<Organization[]>
+        +getOrganization(id: number): Observable<Organization>
+        +createOrganization(org: Organization): Observable<Organization>
+        +getPlots(orgId: number): Observable<Plot[]>
+        +createPlot(plot: Plot): Observable<Plot>
+        +getPlantTypes(): Observable<PlantType[]>
+      }
+
+      class OrganizationAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: OrganizationsResponse): Organization[]
+        +toEntityFromResource(resource: OrganizationResource): Organization
+        +toResourceFromEntity(entity: Organization): OrganizationResource
+      }
+
+      class PlotAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: PlotsResponse): Plot[]
+        +toEntityFromResource(resource: PlotResource): Plot
+        +toResourceFromEntity(entity: Plot): PlotResource
+      }
+
+      class PlantTypesAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: PlantTypesResponse): PlantType[]
+        +toEntityFromResource(resource: PlantTypeResource): PlantType
+        +toResourceFromEntity(entity: PlantType): PlantTypeResource
+      }
+
+      class SubscriptionAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: SubscriptionsResponse): Subscription[]
+        +toEntityFromResource(resource: SubscriptionResource): Subscription
+        +toResourceFromEntity(entity: Subscription): SubscriptionResource
+      }
+
+      OrganizationAssembler --|> app.shared.infrastructure.BaseAssembler : implements
+      PlotAssembler --|> app.shared.infrastructure.BaseAssembler : implements
+      PlantTypesAssembler --|> app.shared.infrastructure.BaseAssembler : implements
+      SubscriptionAssembler --|> app.shared.infrastructure.BaseAssembler : implements
+
+      OrganizationAssembler --> Organization : converts to/from
+      PlotAssembler --> Plot : converts to/from
+      PlantTypesAssembler --> PlantType : converts to/from
+      SubscriptionAssembler --> Subscription : converts to/from
+
+      OrganizationsApiEndpoint --> OrganizationAssembler : uses for conversion
+      PlotsApiEndpoint --> PlotAssembler : uses for conversion
+      PlantTypesApiEndpoint --> PlantTypesAssembler : uses for conversion
+      SubscriptionsApiEndpoint --> SubscriptionAssembler : uses for conversion
+
+      OrganizationsApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
+      PlotsApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
+      PlantTypesApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
+      SubscriptionsApiEndpoint --|> app.shared.infrastructure.BaseApiEndpoint : extends
+
+      OrganizationApi --|> app.shared.infrastructure.BaseApi : extends
+      OrganizationApi --> OrganizationsApiEndpoint : delegates to
+      OrganizationApi --> PlotsApiEndpoint : delegates to
+      OrganizationApi --> PlantTypesApiEndpoint : delegates to
+      OrganizationApi --> SubscriptionsApiEndpoint : delegates to
+    }
+
+    package "application" {
+      class OrganizationStore <<Store>> {
+        +organizations: Organization[]
+        +plots: Plot[]
+        +plantTypes: PlantType[]
+        +subscriptions: Subscription[]
+        +selectedOrganization: Organization | null
+        +getOrganizations(): Organization[]
+        +getPlots(): Plot[]
+        +getPlotsByOrganizationId(orgId: number): Plot[]
+        +getPlantTypes(): PlantType[]
+        +addOrganization(org: Organization): void
+        +addPlot(plot: Plot): void
+        +addPlantType(plantType: PlantType): void
+        +updateOrganization(org: Organization): void
+        +updatePlot(plot: Plot): void
+        +removeOrganization(orgId: number): void
+        +removePlot(plotId: number): void
+        +selectOrganization(org: Organization): void
+      }
+
+      OrganizationStore --> Organization : manages
+      OrganizationStore --> Plot : manages
+      OrganizationStore --> PlantType : manages
+      OrganizationStore --> Subscription : manages
+    }
+
+    package "presentation.views" {
+      class OrganizationList <<Component>> {
+        +store: OrganizationStore
+        +displayedColumns: string[]
+        +editOrganization(id: number): void
+        +deleteOrganization(id: number): void
+        +enterOrganization(id: number): void
+        +navigateToNew(): void
+        +ngAfterViewChecked(): void
+      }
+
+      class OrganizationForm <<Component>> {
+        +store: OrganizationStore
+        +isEdit: boolean
+        +organizationId: number | null
+        +organization: Organization
+        +subscriptionPlans: SubscriptionPlan[]
+        +submit(): void
+        +cancel(): void
+      }
+
+      class PlotList <<Component>> {
+        +store: OrganizationStore
+        +organizationId: number
+        +organizationPlots: Signal<Plot[]>
+        +editPlot(id: number): void
+        +deletePlot(id: number): void
+        +navigateToNew(): void
+        +goToPlantRegistrationList(plotId: number): void
+      }
+
+      class PlotForm <<Component>> {
+        +store: OrganizationStore
+        +plantTypes: PlantType[]
+        +isEdit: boolean
+        +plotId: number | null
+        +organizationId: number
+        +plot: Plot
+        +submit(): void
+        +cancel(): void
+      }
+
+      class PlantTypeSelector <<Component>> {
+        +store: OrganizationStore
+        +plantTypes: PlantType[]
+        +selectedPlantType: PlantType | null
+        +customPlantTypeName: string
+        +isAddingCustomType: boolean
+        +selectPlantType(plantType: PlantType): void
+        +addCustomPlantType(): void
+        +toggleCustomTypeInput(): void
+      }
+
+      OrganizationList ..> OrganizationStore : uses
+      OrganizationForm ..> OrganizationStore : uses
+      PlotList ..> OrganizationStore : uses
+      PlotForm ..> OrganizationStore : uses
+      PlantTypeSelector ..> OrganizationStore : uses
+    }
+  }
+
+  package "shared" {
+    package "infrastructure" {
+      abstract class BaseApiEndpoint {
+        -http: HttpClient
+        -endpointUrl: string
+        -assembler: BaseAssembler
+        +getAll(): Observable<BaseEntity[]>
+        +getById(id: number): Observable<BaseEntity>
+        +create(entity: BaseEntity): Observable<BaseEntity>
+        +update(entity: BaseEntity, id: number): Observable<BaseEntity>
+        +delete(id: number): Observable<void>
+        #handleError(operation: string): (error: HttpErrorResponse) => Observable<never>
+      }
+
+      class BaseApi {
+        +request(endpoint: string): any
+      }
+
+      interface BaseAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: BaseResponse): BaseEntity[]
+        +toEntityFromResource(resource: BaseResource): BaseEntity
+        +toResourceFromEntity(entity: BaseEntity): BaseResource
+      }
+
+      class BaseEntity <<Entity>> {
+        +id: number
+        +getId(): number
+        +setId(id: number): void
+      }
+
+      BaseApiEndpoint --> BaseApi : uses
+      BaseApi --> BaseAssembler : uses
+      BaseAssembler --> BaseEntity : converts to/from
+    }
+
+    package "presentation.components" {
+      class FooterContent <<Component>> {
+      }
+
+      class LanguageSwitcher <<Component>> {
+        +currentLang: string
+        +languages: string[]
+        +useLanguage(language: string): void
+      }
+
+      class Layout <<Component>> {
+        +options: {link: string, label: string}[]
+      }
+    }
+
+    package "presentation.views" {
+      class About <<Component>> {
+      }
+
+      class Home <<Component>> {
+      }
+
+      class PageNotFound <<Component>> {
+        +invalidPath: string
+        +ngOnInit(): void
+        +navigateToHome(): void
+      }
+    }
+
+    Layout --> FooterContent : includes
+    Layout --> LanguageSwitcher : includes
+    Layout --> About : includes
+    Layout --> Home : includes
+    Layout --> PageNotFound : includes
+  }
+
+  class AppComponent <<Component>> {
+    // Main application shell component
+  }
+
+  AppComponent --> app.shared.presentation.components.Layout : uses
+}
+@enduml
