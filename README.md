@@ -3058,11 +3058,194 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 ### 5.2.1. Sprint 2
 
-#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 2
+
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Date                                 | 2025/10/9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                                 | 5:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Attendees <br> (to planning meeting) | Pierina Almandroz, Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 2 Goal                        | Nuestra meta para este sprint es finalizar la Autenticación, habilitar el flujo completo de Activación de Usuario, y consolidar la Organización. Creemos que esto proporcionará una base sólida para que los Agrónomos puedan crear y gestionar sus cuentas, adquirir su suscripción, y configurar su equipo, lo cual nos permite continuar con las funcionalidades de Monitoreo y preparar la estructura de Reportes. Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión, pagar su plan y crear su propia organización en AgroTrack. |
+| Sprint 2 Velocity                    | 13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sum of story points                  | 38                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Organization** <br> L/C | **Report** <br> L/C | **Monitoring and Control** <br> L/C | **Profile** <br> L/C | **IAM** <br> L/C |
+|:------------------------------------------:|:-------------------:|:-------------------------:|:-------------------:|:-----------------------------------:|:--------------------:|:----------------:|
+|              **Amaro Anjali**              |      njlmrvllr      |             L             |          C          |                  C                  |          L           |        C         |
+|           **Almandroz Pierina**            |     pierinaaa29     |             C             |          C          |                  C                  |          C           |        C         |
+|          **Quintanilla Gonzalo**           |       GoldQP        |             C             |          C          |                  C                  |          C           |        C         |
+|              **Jara Quique**               |   QuiqueVladimir    |             C             |          L          |                  C                  |          C           |        L         |
+|              **Vilca Diego**               |       diesoks       |             C             |          C          |                  L                  |          C           |        C         |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
 #### 5.2.2.3. Sprint Backlog 2.
+Nuestro enfoque es finalizar el flujo de Autenticación, Perfil y Suscripción, y consolidar la Gestión de Organizaciones y Miembros. Esto sentará la base para el Monitoreo y la estructura de Reportes, permitiendo al Agrónomo crear y configurar su entorno de trabajo.
+
+<img alt="upc-logo" src="/assets/images/Sprint-2/Sprint Backlog 2.jpeg"><br>
+link: https://trello.com/b/GH7pMcjq/agrotrack-open-source-sprint2
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T1</td>
+    <td>Implementar servicio de registro de usuario</td>
+    <td>Desarrollar la lógica para crear y guardar la información del nuevo usuario en el sistema.</td>
+    <td>5 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T2</td>
+    <td>Implementar servicio de inicio de sesión</td>
+    <td>Desarrollar la lógica para verificar credenciales y generar el token de acceso.</td>
+    <td>6 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T3</td>
+    <td>Implementar formulario de inicio de sesión</td>
+    <td>Desarrollar la interfaz visual de la página de Login.</td>
+    <td>3 hr</td>
+    <td>Dev Frontend</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T4</td>
+    <td>Implementar gestión de perfil inicial</td>
+    <td>Crear el formulario y el servicio para que el usuario complete su rol y datos personales obligatorios.</td>
+    <td>5 hr</td>
+    <td>Dev Fullstack</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T5</td>
+    <td>Implementar servicio de pago y suscripción</td>
+    <td>Integrar la pasarela de pago para procesar la transacción y activar el plan de suscripción.</td>
+    <td>8 hr</td>
+    <td>Dev Backend</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T6</td>
+    <td>Implementar vistas de planes y pago</td>
+    <td>Desarrollar las páginas que muestran los planes disponibles y el formulario de pago.</td>
+    <td>6 hr</td>
+    <td>Dev Frontend</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T7</td>
+    <td>Implementar servicio de creación de organización</td>
+    <td>Desarrollar la lógica para registrar la organización y asignar el rol de "Owner" al Agrónomo.</td>
+    <td>4 hr</td>
+    <td>Anjali Amaro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T8</td>
+    <td>Implementar formulario de organización</td>
+    <td>Finalizar la interfaz para que el Agrónomo ingrese los datos de su nueva organización.</td>
+    <td>3 hr</td>
+    <td>Anjali Amaro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Invitar miembro</td>
+    <td>T9</td>
+    <td>Implementar lógica de invitación a miembros</td>
+    <td>Crear la funcionalidad para enviar invitaciones por correo y gestionar el estado de las solicitudes.</td>
+    <td>5 hr</td>
+    <td>Dev Backend</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Registrar datos planta</td>
+    <td>T10</td>
+    <td>Finalizar servicio de registro de datos de planta</td>
+    <td>Completar la lógica para guardar el conteo de hojas y botones (Monitoreo).</td>
+    <td>3 hr</td>
+    <td>Dev Backend</td>
+    <td>In Process</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Generar reporte</td>
+    <td>T11</td>
+    <td>Definir estructura de Reporte General</td>
+    <td>Crear la estructura de datos y la lógica inicial para consolidar información de la Organización y Monitoreo.</td>
+    <td>4 hr</td>
+    <td>Dev Backend</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Crear parcela</td>
+    <td>T12</td>
+    <td>Definir estructura y servicio inicial de Parcela</td>
+    <td>Crear la entidad y el servicio básico en el backend para manejar la información de la parcela.</td>
+    <td>4 hr</td>
+    <td>Dev Backend</td>
+    <td>To Do</td>
+  </tr>
+</table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
