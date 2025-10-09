@@ -38,12 +38,25 @@
 
 | Versión   | Fecha      | Autor               | Descripción de modificación                                                                     |
 |-----------|------------|---------------------|-------------------------------------------------------------------------------------------------|
-| tb1       | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
-| tb1       | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
-| tb1       | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
-| tb1       | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
-| tb1       | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
-| tb1       | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+| tP        | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
+| tP     | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
+| tP     | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
+| tP     | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
+| tP     | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
+| tP      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+
+**TP**
+| Versión | Fecha       | Autor               | Descripción de modificación                                                                 |
+|---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
+| tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
+| tP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web |
+| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports de la app Web |
+| tP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1 y |
+| tP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web |
+| tP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web |
+
+
+
 
 <div style="page-break-after: always;"></div>
 
@@ -52,7 +65,7 @@
 Enlace para acceder al repositorio del reporte del proyecto: [*Ver en GitHub*](https://github.com/FloweyTech/agrotrack-report)
 
 **TB1**
-Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
+Para el desarrollo del TP cada participante del equipo realizo las siguientes tareas:
 
 | Integrante                            | Tareas Realizadas                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +74,7 @@ Para el desarrollo del TB1 cada participante del equipo realizo las siguientes t
 | Jara Benites Quique Vladimir	         | Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. |                                                                                                                                                    
 | Quintanilla Pozo Gonzalo Samuel	      | Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups.                                                                                                                                                                                                                                                                                 |
 | Vilca Saboya Diego Alejandro	         | Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators.                                                                                                                                                                              | 
-
+**TP**
 
 
 **GitHub Collaboration Insights**
@@ -91,7 +104,7 @@ Las principales ramas del repositorio son las siguientes:
 * `realese/vX.X.X`: Rama creada para preparar versiones candidatas al reporte final, siguiendo Semantic Versioning 2.0.0. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
 * `hotfix/urgent-fix`: Rama utilizada para aplicar correcciones urgentes a la rama `main` en caso de detectar errores críticos.
 
-**TB1**
+**TP**
 
 Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 
@@ -206,10 +219,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio específico                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente con <br> efectividad a diferentes rangos<br> de audiencia.   | **Anjali** <br/><br> **TB1:**<br/> Capítulo I, Diseño de entrevistas, Registro de tres entrevistas, análisis de entrevistas, User Personas, Capítulo IV, Class Diagrams, Database Diagram, Capítulo V. <br/> <br/>**TP:** <br/> <br/>**Pierina** <br/> **TB1:** <br/>Registro de entrevista User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Web Applications Prototyping.<br/> <br/> **TP:** <br/> <br/> **Quique**<br/> <br/> **TB1** <br/> Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. <br/> <br/> **TP:** <br/> <br/> **Gonzalo** <br/> **TB1:** <br/> Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups. <br/> <br/> **TP:** <br/> <br/> **Diego** <br/> **TB1:** <br/> Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators. <br/> <br/> **TP:** <br/>  | **TP1:** <br/>Se demostró la capacidad de exponer avances, hallazgos y propuestas de manera clara y estructurada, utilizando un lenguaje adecuado para distintos públicos. Esto permitió una mejor comprensión de los resultados, facilitó la discusión en equipo y favoreció la retroalimentación durante las presentaciones y revisiones.                    | 
-| Comunica por escrito con <br> efectividad a diferentes rangos<br> de audiencia. | **Anjali** <br/><br> **TB1:**<br/> Capítulo I, Diseño de entrevistas, Registro de tres entrevistas, análisis de entrevistas, User Personas, Capítulo IV, Class Diagrams, Database Diagram, Capítulo V. <br/> <br/>**TP:** <br/> <br/>**Pierina** <br/> **TB1:** <br/>Registro de entrevista User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Web Applications Prototyping.<br/> <br/> **TP:** <br/> <br/> **Quique**<br/> <br/> **TB1** <br/> Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. <br/> <br/> **TP:** <br/> <br/> **Gonzalo** <br/> **TB1:** <br/> Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups. <br/> <br/> **TP:** <br/> <br/> **Diego** <br/> **TB1:** <br/> Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators. <br/> <br/> **TP:** <br/>  | **TP1:** <br/>Se evidenció la habilidad para elaborar documentos técnicos y académicos con orden, coherencia y precisión, adaptando el nivel de detalle según la audiencia. Los entregables generados permitieron consolidar la información del proyecto, comunicar decisiones de diseño y respaldar el trabajo en equipo con insumos claros y comprensibles.  | 
+| **Criterio específico**                                                    | **Acciones realizadas (reformuladas)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br><br>**Pierina**<br>**TB1:** Trabajar en los mapas de experiencia, empatía e impacto me ayudó a comprender cómo presentar ideas visuales con un enfoque centrado en el usuario.<br>**TP:** Exponer los prototipos y wireframes me permitió mejorar mi fluidez al comunicar procesos de diseño ante distintos públicos.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br><br>**Pierina**<br>**TB1:** Documentar los mapas de experiencia, empatía e impacto me ayudó a escribir con claridad sobre el proceso de diseño centrado en el usuario.<br>**TP:** Redactar la documentación de prototipos y wireframes me ayudó a sintetizar información visual en un texto accesible y ordenado.<br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.                                                        | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.                  |
+
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -2413,6 +2427,70 @@ Este flujo empieza desde la vista de parcela, donde se presiona el botón de reg
 
 
 ### 4.4.2. Web Applications Mock-ups
+
+**Web App Mock-ups**
+
+![Mockup](assets/web-mockups/inciosesion.png)
+
+![Mockup](assets/web-mockups/main.png)
+
+![Mockup](assets/web-mockups/create.png)
+
+![Mockup](assets/web-mockups/crop.png)
+
+![Mockup](assets/web-mockups/edit.png)
+
+![Mockup](assets/web-mockups/organization.png)
+
+![Mockup](assets/web-mockups/plot.png)
+
+![Mockup](assets/web-mockups/registration.png)
+
+![Mockup](assets/web-mockups/add.png)
+
+
+**Web App Mock-ups Mobile**
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Home.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Iniciar%20Sesion-1.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Iniciar%20Sesion.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-1.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-2.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion-3.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Organizacion.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%20Subscripción-1.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2028.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2029.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2030.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2031.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2032.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2033.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2034.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2035.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2036.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2037.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2038.jpg)
+
+![Mockup](assets/mobile-mockups/iPhone%2016%20Plus%20-%2039.jpg)
+
 ### 4.4.3. Web Applications User Flow Diagrams
 
 **User goal:** Acceder a la web application  
@@ -3072,36 +3150,21 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 # Conclusiones
 
-**Validación del Problema y la Solución**
+**Implementación de buenas prácticas en el desarrollo**
+Durante este Sprint se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener. Además, se incorporaron principios de diseño responsivo para asegurar una experiencia fluida en distintos dispositivos y resoluciones.
 
-* Se confirmó la necesidad real en el sector agrícola peruano de herramientas digitales accesibles para la gestión de parcelas y cultivos
-* AgroTrack se posicionó exitosamente como una solución que equilibra simplicidad tecnológica con conocimiento agrícola especializado
-* Las entrevistas con 6 usuarios validaron las dificultades en la gestión manual y la apertura hacia soluciones digitales intuitivas
+**Enfoque centrado en el usuario**
+Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend.
 
-**Comprensión Profunda del Usuario**
+**Lecciones aprendidas durante el proceso**
+A lo largo del Sprint se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes serán aplicados en los próximos ciclos para mejorar la eficiencia, reducir retrabajos y asegurar el cumplimiento de los objetivos establecidos.
 
-* Los User Personas desarrollados reflejan con precisión las características demográficas, tecnológicas y de comportamiento identificadas
-* Se confirmó que tanto agricultores como agrónomos valoran especialmente funcionalidades como alertas climáticas, recordatorios de tareas y reportes simplificados
-* La investigación reveló la importancia de balancear funcionalidades avanzadas con simplicidad de uso
+**Integración técnica y modularidad**
+Se avanzó en la organización del proyecto por contextos funcionales, separando componentes, servicios y recursos según su dominio. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se comenzaron a aplicar principios de arquitectura limpia y diseño orientado a componentes.
 
-**Arquitectura de Información Efectiva**
-* Se estableció una organización clara del contenido basada en sistemas jerárquicos, matriciales y por audiencia
-* El sistema de etiquetado emplea vocabulario cercano al sector agrícola, reduciendo barreras de entrada
-* Se implementaron estrategias SEO apropiadas para maximizar la visibilidad en buscadores especializados
+**Colaboración y revisión entre pares**
+Durante el Sprint se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica también ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
 
-**Diseño Visual Coherente**
-* Se desarrolló una identidad visual que transmite confianza, naturaleza e innovación
-* Los lineamientos de estilo aseguran consistencia visual entre la landing page y futuras funcionalidades
-* Se priorizó la accesibilidad considerando las limitaciones tecnológicas del público objetivo
-
-**Fundamentos Técnicos Establecidos**
-
-* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable
-* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto
-* Se establecieron procesos claros de desarrollo y documentación para futuras entregas
-
-Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
-# Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
 
