@@ -3136,36 +3136,21 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 # Conclusiones
 
-**Validación del Problema y la Solución**
+**Implementación de buenas prácticas en el desarrollo**
+Durante este Sprint se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener. Además, se incorporaron principios de diseño responsivo para asegurar una experiencia fluida en distintos dispositivos y resoluciones.
 
-* Se confirmó la necesidad real en el sector agrícola peruano de herramientas digitales accesibles para la gestión de parcelas y cultivos
-* AgroTrack se posicionó exitosamente como una solución que equilibra simplicidad tecnológica con conocimiento agrícola especializado
-* Las entrevistas con 6 usuarios validaron las dificultades en la gestión manual y la apertura hacia soluciones digitales intuitivas
+**Enfoque centrado en el usuario**
+Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend.
 
-**Comprensión Profunda del Usuario**
+**Lecciones aprendidas durante el proceso**
+A lo largo del Sprint se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes serán aplicados en los próximos ciclos para mejorar la eficiencia, reducir retrabajos y asegurar el cumplimiento de los objetivos establecidos.
 
-* Los User Personas desarrollados reflejan con precisión las características demográficas, tecnológicas y de comportamiento identificadas
-* Se confirmó que tanto agricultores como agrónomos valoran especialmente funcionalidades como alertas climáticas, recordatorios de tareas y reportes simplificados
-* La investigación reveló la importancia de balancear funcionalidades avanzadas con simplicidad de uso
+**Integración técnica y modularidad**
+Se avanzó en la organización del proyecto por contextos funcionales, separando componentes, servicios y recursos según su dominio. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se comenzaron a aplicar principios de arquitectura limpia y diseño orientado a componentes.
 
-**Arquitectura de Información Efectiva**
-* Se estableció una organización clara del contenido basada en sistemas jerárquicos, matriciales y por audiencia
-* El sistema de etiquetado emplea vocabulario cercano al sector agrícola, reduciendo barreras de entrada
-* Se implementaron estrategias SEO apropiadas para maximizar la visibilidad en buscadores especializados
+**Colaboración y revisión entre pares**
+Durante el Sprint se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica también ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
 
-**Diseño Visual Coherente**
-* Se desarrolló una identidad visual que transmite confianza, naturaleza e innovación
-* Los lineamientos de estilo aseguran consistencia visual entre la landing page y futuras funcionalidades
-* Se priorizó la accesibilidad considerando las limitaciones tecnológicas del público objetivo
-
-**Fundamentos Técnicos Establecidos**
-
-* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable
-* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto
-* Se establecieron procesos claros de desarrollo y documentación para futuras entregas
-
-Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
-# Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
 
