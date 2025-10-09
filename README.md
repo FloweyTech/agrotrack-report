@@ -2079,6 +2079,7 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 [Ver Imagen](https://github.com/user-attachments/assets/07e4a54e-41c1-47c3-ad1b-3aa92e45e995)
 
 ## 3.3. Product Backlog
+
 | # Orden | User Story Id | Título                               | Descripción                                                                                                                             | Story Points |
 |---------|---------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | 1       | US31          | Landing Page – Página principal      | Como visitante, deseo ver una página de inicio clara y atractiva, para entender el propósito de la aplicación y animarme a registrarme. | 3            |
@@ -2119,6 +2120,7 @@ En esta sección, se ha llevado a cabo la creación del Impact Mapping, partiend
 | 36      | TECH03        | Autenticación segura                 | Historia técnica: implementar seguridad y cifrado en el inicio de sesión y manejo de credenciales.                                      | 5            |
 | 37      | TECH01        | Integración con API de clima         | Historia técnica: implementar integración con OpenWeatherMap para obtener datos climáticos.                                             | 5            |
 | 38      | TECH04        | Infraestructura IoT inicial          | Historia técnica: configurar la comunicación de sensores IoT con la plataforma.                                                         | 8            |
+
 ### Product Backlog – Tablero Trello
 
 A continuación se muestra el enlace al tablero de Trello donde se gestiona el Product Backlog, junto con una captura de pantalla representativa:
@@ -3053,11 +3055,195 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 ### 5.2.1. Sprint 2
 
-#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 2
+
+
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
-#### 5.2.2.3. Sprint Backlog 2.
+#### 5.2.2.3. Sprint Backlog 2
+
+Durante este Sprint, el equipo se enfocó en desarrollar la capa **Frontend** de AgroTrack utilizando **Angular**, integrando los módulos **Organization** (gestión de organizaciones), **Report** (generación de reportes), **IAM** (gestión de usuarios y autenticación) y **Profile** (gestión de perfiles de usuario). Además, se configuró una **Fake API** en **Azure Web Services** con **JSON Server** para simular la capa de datos del sistema.
+
+**Sprint Goal:**
+Implementar el primer prototipo funcional del frontend de AgroTrack con gestión de organizaciones, visualización de reportes, autenticación y gestión de perfiles, integrados al fake API desplegado en Azure.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / To-Review / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T1</td>
+    <td>Implementar formulario de registro</td>
+    <td>Crear componente y validaciones para el registro de usuario (Reactive Forms en Angular).</td>
+    <td>6</td>
+    <td>Quique</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T2</td>
+    <td>Desarrollar módulo de login</td>
+    <td>Implementar componente de login, integración con fake API y manejo de sesión local.</td>
+    <td>6</td>
+    <td>Quique</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T3</td>
+    <td>Desarrollar formulario de perfil</td>
+    <td>Diseñar e implementar vista para completar perfil inicial de usuario autenticado.</td>
+    <td>5</td>
+    <td>Pierina</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US28</td>
+    <td>Editar perfil</td>
+    <td>T4</td>
+    <td>Implementar actualización de datos del perfil</td>
+    <td>Agregar edición dinámica de campos del perfil con persistencia en fake API.</td>
+    <td>5</td>
+    <td>Pierina</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T5</td>
+    <td>Diseñar componente de suscripción</td>
+    <td>Crear vista con planes y opciones de pago (mockeadas) para suscripción.</td>
+    <td>4</td>
+    <td>Gonzalo</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>US30</td>
+    <td>Activar cuenta</td>
+    <td>T6</td>
+    <td>Simular activación de cuenta</td>
+    <td>Automatizar estado de activación tras completar registro, perfil y suscripción (mediante fake API).</td>
+    <td>3</td>
+    <td>Diego</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T7</td>
+    <td>Desarrollar módulo Organization</td>
+    <td>Implementar componentes para crear, listar y editar organizaciones conectadas al fake API.</td>
+    <td>8</td>
+    <td>Diego</td>
+    <td>In-Process</td>
+  </tr>
+
+  <tr>
+    <td>US21</td>
+    <td>Solicitar reporte de parcela</td>
+    <td>T8</td>
+    <td>Implementar reporte de parcela</td>
+    <td>Crear vista para visualizar indicadores por parcela usando datos simulados del fake API.</td>
+    <td>6</td>
+    <td>Quique</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Solicitar reporte general</td>
+    <td>T9</td>
+    <td>Implementar dashboard de reportes</td>
+    <td>Desarrollar dashboard general con gráficos estadísticos (ngx-charts / Chart.js).</td>
+    <td>7</td>
+    <td>Quique</td>
+    <td>To-Do</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Generar/descargar reporte</td>
+    <td>T10</td>
+    <td>Funcionalidad de exportación</td>
+    <td>Permitir descarga en PDF/CSV de reportes generados en el dashboard.</td>
+    <td>4</td>
+    <td>Quique</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>TECH02</td>
+    <td>Fake API Configuration</td>
+    <td>T11</td>
+    <td>Configurar JSON Server y deploy en Azure</td>
+    <td>Preparar endpoints simulados (usuarios, organizaciones, reportes) y desplegarlos en Azure Web Services.</td>
+    <td>6</td>
+    <td>Anjali</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TECH02</td>
+    <td>Fake API Configuration</td>
+    <td>T12</td>
+    <td>Integrar endpoints con Angular services</td>
+    <td>Conectar los módulos IAM, Organization y Report al fake API mediante HttpClient.</td>
+    <td>5</td>
+    <td>Anjali</td>
+    <td>In-Process</td>
+  </tr>
+
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T13</td>
+    <td>Definir rutas y navegación principal</td>
+    <td>Configurar routing principal: /login, /register, /organizations, /reports.</td>
+    <td>4</td>
+    <td>Diego</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T14</td>
+    <td>Estilos globales y layout</td>
+    <td>Implementar diseño responsivo base con Angular Material y SCSS global.</td>
+    <td>3</td>
+    <td>Gonzalo</td>
+    <td>In-Process</td>
+  </tr>
+</table>
+
+<p><strong>Total Estimated Hours:</strong> 68<br>
+<strong>Velocity:</strong> 62 Story Points<br>
+<strong>Sum of Story Points in Sprint:</strong> 60</p>
+
+<p>Este sprint culminó con una versión navegable del frontend, conectada a la Fake API en Azure, mostrando los flujos principales de registro, login, gestión de organización y reportes simulados.</p>
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
