@@ -38,12 +38,25 @@
 
 | Versión   | Fecha      | Autor               | Descripción de modificación                                                                     |
 |-----------|------------|---------------------|-------------------------------------------------------------------------------------------------|
-| tb1       | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
-| tb1       | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
-| tb1       | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
-| tb1       | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
-| tb1       | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
-| tb1       | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+| tP        | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
+| tP     | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
+| tP     | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
+| tP     | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
+| tP     | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
+| tP      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+
+**TP**
+| Versión | Fecha       | Autor               | Descripción de modificación                                                                 |
+|---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
+| tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
+| tP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web |
+| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports de la app Web |
+| tP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1 y |
+| tP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web |
+| tP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web |
+
+
+
 
 <div style="page-break-after: always;"></div>
 
@@ -52,7 +65,7 @@
 Enlace para acceder al repositorio del reporte del proyecto: [*Ver en GitHub*](https://github.com/FloweyTech/agrotrack-report)
 
 **TB1**
-Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
+Para el desarrollo del TP cada participante del equipo realizo las siguientes tareas:
 
 | Integrante                            | Tareas Realizadas                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +74,7 @@ Para el desarrollo del TB1 cada participante del equipo realizo las siguientes t
 | Jara Benites Quique Vladimir	         | Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. |                                                                                                                                                    
 | Quintanilla Pozo Gonzalo Samuel	      | Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups.                                                                                                                                                                                                                                                                                 |
 | Vilca Saboya Diego Alejandro	         | Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators.                                                                                                                                                                              | 
-
+**TP**
 
 
 **GitHub Collaboration Insights**
@@ -91,7 +104,7 @@ Las principales ramas del repositorio son las siguientes:
 * `realese/vX.X.X`: Rama creada para preparar versiones candidatas al reporte final, siguiendo Semantic Versioning 2.0.0. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
 * `hotfix/urgent-fix`: Rama utilizada para aplicar correcciones urgentes a la rama `main` en caso de detectar errores críticos.
 
-**TB1**
+**TP**
 
 Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 
