@@ -2516,6 +2516,26 @@ La SPA se comunica con la API de AgroTrack, que a su vez realiza consultas a la 
  
 ![Component Diagram](assets/images/software-architecture/component-diagram.png)
 
+#### Bounded Contex Reports
+
+El módulo **Report** permite a los agrónomos generar, visualizar y exportar reportes de rendimiento agrícola y condiciones ambientales.  
+En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake API* y los procesa mediante la capa *Report Controller*, para luego renderizarlos en la interfaz web a través de componentes gráficos.
+
+![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
+#### Bounded Contex IAM
+
+El módulo **IAM (Identity and Access Management)** gestiona la autenticación, registro y control de acceso de usuarios.  
+El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
+
+![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
+#### Bounded Contex Profile
+
+#### Bounded Contex Organization
+
+#### Bounded Contex Monitoring and Control
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
