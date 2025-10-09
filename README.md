@@ -4167,5 +4167,5 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - prototipo web [https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
 
 - Agrotrack - Web Application: desplegada en Netlify [https://agrotrack-web-app.netlify.app](https://agrotrack-web-app.netlify.app/)
-- Video de exposición TB2: []()
+- Video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm)
 
