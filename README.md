@@ -80,13 +80,13 @@ Para el desarrollo del TB cada participante del equipo realizo las siguientes ta
 
 **TP**  
 
-| Integrante                            | Tareas Realizadas                                                                                                                                                    |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Almandroz Carbajal Pierina Marysabel	 | AGREGAR                                                                                                                                                              |
-| Amaro Villar Anjali                   | AGREGAR                                                                                                                                                              |
+| Integrante                            | Tareas Realizadas                                                                                                                                                     |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | Corecciones del tb1                                                                                                                                                   |
+| Amaro Villar Anjali                   | Correciones del tb1, Elaboracion diagramas c4 extendidos de modulos Organizaton y Monitoring and Control                                                              |
 | Jara Benites Quique Vladimir	         | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2, Elaboracion diagramas c4 extendidos de modulos Report e IAM |                                                                                                                                                    
-| Quintanilla Pozo Gonzalo Samuel	      | AGREGAR                                                                                                                                                              |
-| Vilca Saboya Diego Alejandro	         | AGREGAR                                                                                                                                                              | 
+| Quintanilla Pozo Gonzalo Samuel	      | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2                                                              |
+| Vilca Saboya Diego Alejandro	         | Corecciones del tb1, Elaboracion diagramas c4 extendidos de modulos Profile                                                                                           | 
 
 
 **GitHub Collaboration Insights**
@@ -125,6 +125,16 @@ Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
 ![Contributorstb1](assets/images/reportInsights/ContributorsTb1.png)
+
+**TP1**
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+![NetworkGraphTP](assets/images/reportInsights/networkTp.png)
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+![ContributorsTP](assets/images/reportInsights/ContributorsTp.png)
 
 
 # Contenido
