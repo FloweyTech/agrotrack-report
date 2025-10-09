@@ -36,6 +36,8 @@
 
 # Registro de Versiones del Informe
 
+**TB1**
+
 | Versión   | Fecha      | Autor               | Descripción de modificación                                                                     |
 |-----------|------------|---------------------|-------------------------------------------------------------------------------------------------|
 | tP        | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
@@ -46,6 +48,7 @@
 | tP      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
 
 **TP**
+
 | Versión | Fecha       | Autor               | Descripción de modificación                                                                 |
 |---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
 | tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
@@ -77,14 +80,13 @@ Para el desarrollo del TP cada participante del equipo realizo las siguientes ta
 
 **TP**  
 
-| Integrante                            | Tareas Realizadas                                                                                                                                                     |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Almandroz Carbajal Pierina Marysabel	 | AGREGAR                                                                                                                                                               |
-| Amaro Villar Anjali                   | AGREGAR                                                                                                                                                               |
+| Integrante                            | Tareas Realizadas                                                                                                                                                    |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | AGREGAR                                                                                                                                                              |
+| Amaro Villar Anjali                   | AGREGAR                                                                                                                                                              |
 | Jara Benites Quique Vladimir	         | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2, Elaboracion diagramas c4 extendidos de modulos Report e IAM |                                                                                                                                                    
-| Quintanilla Pozo Gonzalo Samuel	      | AGREGAR                                                                                                                                                               |
-| Vilca Saboya Diego Alejandro	         | AGREGAR                                                                                                                                                               | 
-
+| Quintanilla Pozo Gonzalo Samuel	      | AGREGAR                                                                                                                                                              |
+| Vilca Saboya Diego Alejandro	         | AGREGAR                                                                                                                                                              | 
 
 
 **GitHub Collaboration Insights**
