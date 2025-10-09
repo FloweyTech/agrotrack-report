@@ -3249,6 +3249,596 @@ link: https://trello.com/b/GH7pMcjq/agrotrack-open-source-sprint2
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando los Bounded Contexts principales de la solución. Se finalizó el flujo, lo que permite a los Agrónomos crear sus cuentas, iniciar sesión y configurar su entorno de trabajo. El desarrollo se realizó principalmente en el repositorio público https://github.com/FloweyTech/agrotrack-web-app utilizando un flujo de ramas basado en feature branches
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Committed on (Date)</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>d9812fb</td>
+    <td>refactor(language-switcher, report-detail): remove commented code and clean up templates</td>
+    <td>Refactorización de componentes (selector de idioma y detalle de reporte) eliminando código comentado.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8eb1518</td>
+    <td>refactor(language-switcher, report-detail): remove commented code and clean up templates</td>
+    <td>Refactorización adicional de componentes y limpieza de plantillas.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>53d6ce2</td>
+    <td>feat(auth): implement language preference and enhance authentication</td>
+    <td>Implementación de la preferencia de idioma y mejoras en la lógica de autenticación (IAM).</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f876e79</td>
+    <td>merge: insert feature/organization-management into develop</td>
+    <td>Fusión de la rama de gestión de organización en develop.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f368924</td>
+    <td>Merge pull request #1 from FloweyTech/feature/iam</td>
+    <td>Fusión de la rama de desarrollo de Identity and Access Management (IAM) en develop.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>4b2eec3</td>
+    <td>feat(iam-presentation): add register views with signal integration</td>
+    <td>Implementación de las vistas de registro integradas con gestión de estado (Signals) (US24).</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>123c32b</td>
+    <td>feat(iam): add login views with signal integration</td>
+    <td>Implementación de las vistas de login integradas con gestión de estado (Signals) (US25).</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>6d0e90e</td>
+    <td>feat(iam): add auth store with signal-based login and registration logic</td>
+    <td>Añade el almacén de autenticación con lógica de login y registro basada en Signals.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8150f73</td>
+    <td>feat(iam): implement user resource, assembler and fake API endpoints</td>
+    <td>Implementación de recursos de usuario, ensamblador y endpoints falsos para la API (IAM).</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>9838c4d</td>
+    <td>feat(iam): add routes login and register</td>
+    <td>Añade rutas de navegación para login y registro.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>47630c8</td>
+    <td>update(iam-layout): integration iam module with layout</td>
+    <td>Integración del módulo IAM con el layout principal.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>c558e7c</td>
+    <td>feat(iam): add User entity with role, status and credential matching logic</td>
+    <td>Añade la entidad de Usuario con lógica de rol, estado y credenciales.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>98b88d</td>
+    <td>fix: correct app_location for Azure Static Web App deploy</td>
+    <td>Corrección de la ubicación de la aplicación para el despliegue estático en Azure.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8bccbff</td>
+    <td>fix: correct app_location for Azure deploy</td>
+    <td>Ajuste de la ubicación de la aplicación para el despliegue en Azure.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>cc98ee0</td>
+    <td>kip Azure internal build (Oryx) to use our Node 20 build</td>
+    <td>Omisión de la construcción interna de Azure (Oryx) para usar la configuración de Node 20.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>56893a</td>
+    <td>fix: use node version 20 before build</td>
+    <td>Corrección: usa la versión 20 de Node antes de la construcción.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>d1659a5</td>
+    <td>fix: add Angular build step before Azure deploy</td>
+    <td>Añade el paso de construcción de Angular antes del despliegue en Azure.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>8c85b53</td>
+    <td>ci: add Azure Static Web Apps workflow file</td>
+    <td>Añade el archivo de flujo de trabajo para Azure Static Web Apps (Integración Continua).</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>5183f21</td>
+    <td>feature: add deployment test configuration</td>
+    <td>Añade la configuración de prueba de despliegue.</td>
+    <td>06/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>a732bfc</td>
+    <td>merge: insert feature/initial-structure into develop</td>
+    <td>Fusión de la estructura inicial (carpetas, archivos base) en develop.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>64af6d5</td>
+    <td>feat(subscription): implement subscription domain and API infrastructure</td>
+    <td>Implementación de la infraestructura de API y dominio para Suscripciones (US29).</td>
+    <td>04/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>16e4274</td>
+    <td>feat(shared): add language-switcher component for language selection.</td>
+    <td>Añade el componente compartido <code>language-switcher</code> para selección de idioma.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>1446dcc</td>
+    <td>feat(shared): add abstract base api class for api endpoint composition.</td>
+    <td>Añade clase base abstracta para la composición de endpoints de API.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>182bb7a</td>
+    <td>feat(shared): add base API endpoint for generic crud operations.</td>
+    <td>Añade endpoint de API base para operaciones CRUD genéricas.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>0586b81</td>
+    <td>feat(shared): add base assembler interface for entity-resource conversions.</td>
+    <td>Añade interfaz de ensamblador base para conversiones de entidad a recurso.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>59e8dce</td>
+    <td>feat(shared): add base response and resource interfaces.</td>
+    <td>Añade interfaces base para respuestas y recursos de la API.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>75416f4</td>
+    <td>feat(shared): add base entity interface for standardized entity structure.</td>
+    <td>Añade interfaz de entidad base para estructura de entidad estandarizada.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>9ae8472</td>
+    <td>feat(env): add environment configuration files for production and development.</td>
+    <td>Añade archivos de configuración de entorno para producción y desarrollo.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f694114</td>
+    <td>feat(fake-api): add json-server and configure fake api.</td>
+    <td>Añade <code>json-server</code> y configura una API falsa para desarrollo.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>ce8f236</td>
+    <td>feat(layout): add layout component</td>
+    <td>Añade el componente de layout (estructura principal de la aplicación).</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>f8b9144</td>
+    <td>chore: add ngx-translate for internationalization support.</td>
+    <td>Añade la librería <code>ngx-translate</code> para soporte de internacionalización.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>897345</td>
+    <td>Initial commit</td>
+    <td>Primer commit, inicializando el repositorio.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>aee8ada</td>
+    <td>feat: initialize Angular project with basic structure and configuration files</td>
+    <td>Inicializa el proyecto Angular con estructura básica y archivos de configuración.</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>62c713</td>
+    <td>feat(report): update API response documentation to English for consistency</td>
+    <td>Actualización de la documentación de respuesta de API a Inglés para consistencia.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>ea437f7</td>
+    <td>feat(report): translate API endpoint documentation to English for clarity</td>
+    <td>Traducción de la documentación de endpoint de API a Inglés para claridad.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>08d4527</td>
+    <td>feat(report): update documentation in report store and assembler for clarity</td>
+    <td>Actualización de la documentación en el almacén de reportes y ensamblador para claridad.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>4e21d8e</td>
+    <td>feat(report): update documentation in report store and assembler for clarity</td>
+    <td>Actualización adicional de la documentación en el almacén de reportes y ensamblador.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>b45cc1</td>
+    <td>feat(report): enhance report entity with detailed documentation and lifecycle methods</td>
+    <td>Mejora de la entidad de reporte con documentación detallada y métodos de ciclo de vida.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>94c48ab</td>
+    <td>feat(db): extend db.json with reports dataset including organization data</td>
+    <td>Extensión de la API falsa (db.json) con datos de reportes que incluyen datos de la organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>f85614e</td>
+    <td>feat(integration): add report section to layout and navigation</td>
+    <td>Integración de la sección de Reportes al layout y navegación.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>deff900</td>
+    <td>feat(report): add report detail views with routing</td>
+    <td>Añade vistas de detalle de Reporte con ruteo.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>a5e69ca</td>
+    <td>feat(report): add report list views with routing</td>
+    <td>Añade vistas de lista de Reportes con ruteo.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>e2c651c</td>
+    <td>feat(report): add ReportStore with Signals and CRUD state management</td>
+    <td>Añade el almacén de Reporte con Signals y gestión de estado CRUD.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>383c2ec</td>
+    <td>feat(report): extend assembler and resource to support organization fields</td>
+    <td>Extensión del ensamblador y recurso de Reporte para soportar campos de Organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>0d649ea</td>
+    <td>feat(report): add assembler and API endpoints for Report bounded context</td>
+    <td>Añade ensamblador y endpoints de API para el contexto delimitado de Reporte.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>12133b5</td>
+    <td>feat(report): add Report enum status</td>
+    <td>Añade el enumerador de estado de Reporte.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/reports</td>
+    <td>9171088</td>
+    <td>feat(report): add Report entity and enums for type and status</td>
+    <td>Añade la entidad Reporte y enumeradores para tipo y estado.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/monitoring-control</td>
+    <td>b59f1e9</td>
+    <td>feat(monitoring): add monitoring routes and API for environmental readings</td>
+    <td>Añade rutas de monitoreo y API para lecturas ambientales.</td>
+    <td>09/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>10216a6</td>
+    <td>feat(plot-form): enhance plot form with edit functionality and add new plant types</td>
+    <td>Mejora del formulario de parcela con funcionalidad de edición y nuevos tipos de planta.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>3b6239f</td>
+    <td>feat(plot-management): add plot data structure and implement plot loading by organization</td>
+    <td>Estructura de datos de parcela e implementación de carga de parcelas por organización.</td>
+    <td>08/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>a132472</td>
+    <td>feat(organization): add routes for managing plots within organizations</td>
+    <td>Añade rutas para la gestión de parcelas dentro de las organizaciones.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>fe1e8fa</td>
+    <td>feat(plot-list): add plot list component with create, edit, and delete functionality</td>
+    <td>Añade componente de lista de parcelas con funcionalidad de crear, editar y eliminar.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>2731837</td>
+    <td>feat(plantype-selector): add plant type selector component with custom type functionality</td>
+    <td>Añade componente selector de tipo de planta con funcionalidad de tipo personalizado.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>2283a11</td>
+    <td>feat(plantype-selector): add plant type selector component with custom type functionality</td>
+    <td>Añade componente selector de tipo de planta con funcionalidad de tipo personalizado.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>ce0576e</td>
+    <td>feat(organization): implement plant type and plot management</td>
+    <td>Implementación de la gestión de tipo de planta y parcela dentro de la organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>5fa11cc</td>
+    <td>feat(plots): add API response models and assembler for Plot entities</td>
+    <td>Añade modelos de respuesta de API y ensamblador para entidades de Parcela.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>9fe1f11</td>
+    <td>feat(planttypes): add API endpoint, assembler, and response models for plant types</td>
+    <td>Añade endpoint, ensamblador y modelos de respuesta de API para tipos de planta.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>d8bf14a</td>
+    <td>feat(plot): add Plot entity with properties and methods for organization management</td>
+    <td>Añade la entidad Parcela con propiedades y métodos para la gestión de organización.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>515052e</td>
+    <td>feat(organization): enhance organization list with custom button styles and add PlantType entity</td>
+    <td>Mejora la lista de organización con estilos de botón personalizados y añade la entidad PlantType.</td>
+    <td>07/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>b7446fa</td>
+    <td>feat(organization): implement organization management with routing, forms, and list view</td>
+    <td>Implementación de la gestión de Organización con rutas, formularios y vista de lista (US01).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>1545c95</td>
+    <td>feat(organization): add organization form with validation and subscription management</td>
+    <td>Formulario de organización con validación y manejo de estado de suscripción (US01, US29).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>cfe8a6f</td>
+    <td>feat(organization): implement organization and subscription state management store</td>
+    <td>Implementación del almacén de estado para la gestión de organización y suscripción (US01, US29).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>6ae6d1</td>
+    <td>feat(organization): add subscription handling and API endpoints for organizations</td>
+    <td>Manejo de suscripciones y endpoints de API relacionados a organizaciones (US29, US01).</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>b816ba0</td>
+    <td>feat(organization): enhance Organization entity with additional properties and implement BaseEntity</td>
+    <td>Mejora de la entidad de Organización con propiedades adicionales e implementación de BaseEntity.</td>
+    <td>04/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/organization-management</td>
+    <td>25287b</td>
+    <td>feat(organization): add organization entity model for organization context</td>
+    <td>Añade el modelo de entidad de Organización para el contexto de Organización (US01).</td>
+    <td>02/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>12d4abf</td>
+    <td>feat(layout): implement responsive layout with sidenav and toolbar</td>
+    <td>Implementación de layout responsivo con barra lateral y barra de herramientas.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>8d8bc2e</td>
+    <td>feat(layout): enhance layout with toolbar and menu functionality</td>
+    <td>Mejora del layout con funcionalidad de barra de herramientas y menú.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>2c1cb10</td>
+    <td>feat(styles): update asset paths and clean up global styles</td>
+    <td>Actualización de rutas de assets y limpieza de estilos globales.</td>
+    <td>05/10/2025</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>feature/initial-structure</td>
+    <td>8fd6b4</td>
+    <td>feat(language-switcher): add styles for language switcher component</td>
+    <td>Estilos para el componente de cambio de idioma (language-switcher).</td>
+    <td>05/10/2025</td>
+  </tr>
+    <tr>
+      <td>FloweyTech/agrotrack-web-app</td>
+      <td>feature/monitoring-control</td>
+      <td>6503b47</td>
+      <td>feat(monitoring): add new humidity and temperature readings to the database</td>
+      <td>Implementa la adición de lecturas de humedad y temperatura al esquema de base de datos.</td>
+      <td>09/10/2025</td>
+    </tr>
+    <tr>
+      <td>FloweyTech/agrotrack-web-app</td>
+      <td>feature/monitoring-control</td>
+      <td>7f0a3f6</td>
+      <td>feat(monitoring): enhance environmental monitoring with new readings and improved UI text</td>
+      <td>Mejora el módulo de monitoreo ambiental añadiendo nuevos tipos de lectura y actualizando el texto en la interfaz de usuario.</td>
+      <td>09/10/2025</td>
+    </tr>
+    <tr>
+      <td>FloweyTech/agrotrack-web-app</td>
+      <td>feature/monitoring-control</td>
+      <td>b59f1e9</td>
+      <td>feat(monitoring): add monitoring routes and API for environmental readings</td>
+      <td>Crea las rutas de frontend y los endpoints de API necesarios para gestionar las lecturas ambientales.</td>
+      <td>09/10/2025</td>
+    </tr>
+
+</table>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
