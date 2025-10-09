@@ -4168,4 +4168,5 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 - Agrotrack - Web Application: desplegada en Netlify [https://agrotrack-web-app.netlify.app](https://agrotrack-web-app.netlify.app/)
 - Video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm)
+-  Link de video de presentación sobre el Web Application: [Video Presentación Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb7Kmd1uAVFHhEYs2qs4mHIBkBxcwMrXw9ZTRh8NF3NuMQ?e=UwYFSC)
 
