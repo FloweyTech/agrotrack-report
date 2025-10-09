@@ -50,7 +50,7 @@
 |---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
 | tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
 | tP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web |
-| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports de la app Web |
+| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web |
 | tP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1 y |
 | tP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web |
 | tP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web |
@@ -74,7 +74,17 @@ Para el desarrollo del TP cada participante del equipo realizo las siguientes ta
 | Jara Benites Quique Vladimir	         | Registro de entrevista, User Task Matrix, User Journey Mapping, Empathy Mapping, Impact Mapping, Web Applications Wireframes, Web Applications Mock-ups, Product Backlog, Spring Backlog 1, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprinte Review, Team collaboration insights during sprint. |                                                                                                                                                    
 | Quintanilla Pozo Gonzalo Samuel	      | Analisis competitivo, Estrategias y táctica frente a competidores, User Stories, Web Applications Wireframes, Web Applications Mock-ups.                                                                                                                                                                                                                                                                                 |
 | Vilca Saboya Diego Alejandro	         | Big Picture Event Storming, Ubiquitous Language, Landing Page UI Design, Web Applications Wireflow Diagrams, Web Applications User Flow Diagrams, Domain-Driven Software Architecture, Spring Planning 1, Aspect Leaders and Collaborators.                                                                                                                                                                              | 
-**TP**
+
+**TP**  
+
+| Integrante                            | Tareas Realizadas                                                                                                                                                     |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | AGREGAR                                                                                                                                                               |
+| Amaro Villar Anjali                   | AGREGAR                                                                                                                                                               |
+| Jara Benites Quique Vladimir	         | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2, Elaboracion diagramas c4 extendidos de modulos Report e IAM |                                                                                                                                                    
+| Quintanilla Pozo Gonzalo Samuel	      | AGREGAR                                                                                                                                                               |
+| Vilca Saboya Diego Alejandro	         | AGREGAR                                                                                                                                                               | 
+
 
 
 **GitHub Collaboration Insights**
