@@ -1,0 +1,94 @@
+@startuml
+title IAM Bounded Context - Internal Structure (C4 Level 4)
+
+package "Presentation Layer" {
+  class LoginComponent <<UI Component>> {
+    + email: string
+    + password: string
+    + onLogin(): void
+  }
+
+  class RegisterComponent <<UI Component>> {
+    + name: string
+    + email: string
+    + password: string
+    + confirmPassword: string
+    + onRegister(): void
+  }
+}
+
+package "Application Layer" {
+  class AuthStore <<Signal Store>> {
+    - userSignal: Signal<User | null>
+    - loadingSignal: Signal<boolean>
+    - errorSignal: Signal<string | null>
+    + login(email: string, password: string): void
+    + register(email: string, password: string, role: UserRole): void
+    + logout(): void
+    + isLoggedIn(): boolean
+  }
+
+  class AuthService <<Application Service>> {
+    + validateCredentials(): boolean
+    + hashPassword(password: string): string
+  }
+}
+
+package "Domain Layer" {
+  class User {
+    - id: number
+    - email: string
+    - passwordHash: string
+    - role: UserRole
+    - status: UserStatus
+    + isActive(): boolean
+  }
+
+  class UserRole <<enumeration>> {
+    AGRONOMIST
+    FARMER
+  }
+
+  class UserStatus <<enumeration>> {
+    ACTIVE
+    INACTIVE
+    SUSPENDED
+  }
+}
+
+package "Infrastructure Layer" {
+  class AuthApi <<HTTP Adapter>> {
+    + login(email: string, password: string): Observable<User | null>
+    + register(user: User): Observable<User>
+  }
+
+  class UserAssembler <<Mapper>> {
+    + toEntityFromResource(resource: UserResource): User
+    + toResourceFromEntity(entity: User): UserResource
+  }
+
+  class UsersApiEndpoint <<API Client>> {
+    + getAll(): Observable<User[]>
+    + post(user: UserResource): Observable<UserResource>
+  }
+
+  class UserResource {
+    + id: number
+    + email: string
+    + passwordHash: string
+    + role: string
+    + status: string
+  }
+}
+
+' ─────────────────────────── Relationships
+LoginComponent --> AuthStore : triggers login
+RegisterComponent --> AuthStore : triggers register
+AuthStore --> AuthApi : uses
+AuthApi --> UsersApiEndpoint : delegates
+AuthStore --> User : maps authenticated user
+AuthApi --> UserAssembler : maps
+User --> UserRole
+User --> UserStatus
+
+@enduml

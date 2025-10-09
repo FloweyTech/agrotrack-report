@@ -1,0 +1,85 @@
+@startuml
+title Report Bounded Context - Internal Structure (C4 Level 4)
+
+package "Presentation Layer" {
+  class ReportListComponent <<UI Component>> {
+    + reports: Report[]
+    + onSelect(report: Report): void
+  }
+
+  class ReportDetailComponent <<UI Component>> {
+    + report: Report
+    + onDownload(): void
+  }
+}
+
+package "Application Layer" {
+  class ReportStore <<Signal Store>> {
+    - reportsSignal: Signal<Report[]>
+    - selectedReportSignal: Signal<Report | null>
+    - loadingSignal: Signal<boolean>
+    + fetchReports(): void
+    + selectReport(id: number): void
+  }
+}
+
+package "Domain Layer" {
+  class Report <<AggregateRoot>> {
+    - id: number
+    - type: ReportType
+    - status: ReportStatus
+    - periodStart: Date
+    - periodEnd: Date
+    + request(): void
+    + generate(data: byte[]): void
+    + markFailed(): void
+  }
+
+  class ReportType <<enumeration>> {
+    PARCEL
+    GENERAL
+  }
+
+  class ReportStatus <<enumeration>> {
+    REQUESTED
+    PROCESSING
+    GENERATED
+    FAILED
+  }
+
+  class ReportId <<ValueObject>> {
+    + value: number
+  }
+}
+
+package "Infrastructure Layer" {
+  class ReportAssembler <<Mapper>> {
+    + toEntityFromResource(resource: ReportResource): Report
+    + toResourceFromEntity(entity: Report): ReportResource
+  }
+
+  class ReportsApiEndpoint <<API Client>> {
+    + getAll(): Observable<ReportResource[]>
+    + post(report: ReportResource): Observable<ReportResource>
+  }
+
+  class ReportResource {
+    + id: number
+    + reportTyp: string
+    + reportSta: string
+    + periodSta: Date
+    + periodEnd: Date
+  }
+}
+
+' ─────────────────────────── Relationships
+ReportListComponent --> ReportStore : display list
+ReportDetailComponent --> ReportStore : display detail
+ReportStore --> ReportsApiEndpoint : fetch data
+ReportStore --> Report : maps data
+ReportsApiEndpoint --> ReportAssembler : converts
+Report --> ReportType
+Report --> ReportStatus
+Report --> ReportId
+
+@enduml
