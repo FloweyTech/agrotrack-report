@@ -38,25 +38,25 @@
 
 **TB1**
 
-| Versión   | Fecha      | Autor               | Descripción de modificación                                                                     |
-|-----------|------------|---------------------|-------------------------------------------------------------------------------------------------|
-| tP        | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
-| tP     | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
-| tP     | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
-| tP     | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
-| tP     | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
-| tP      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                     |
+|---------|------------|---------------------|-------------------------------------------------------------------------------------------------|
+| TB1      | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
+| TB1      | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
+| TB1      | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
+| TB1      | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
+| TB1      | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
+| TB1      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
 
 **TP**
 
-| Versión | Fecha       | Autor               | Descripción de modificación                                                                 |
-|---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
-| tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
-| tP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web |
-| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web |
-| tP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1 y |
-| tP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web |
-| tP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web |
+| Versión | Fecha       | Autor               | Descripción de modificación                                      |
+|---------|-------------|---------------------|------------------------------------------------------------------|
+| TP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web |
+| TP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web                         |
+| TP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web           |
+| TP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1                                                 |
+| TP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web                 |
+| TP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web                  |
 
 
 
@@ -135,6 +135,9 @@ Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
 ![ContributorsTP](assets/images/reportInsights/ContributorsTp.png)
+
+
+<div style="page-break-after: always;"></div>
 
 
 # Contenido
@@ -230,6 +233,9 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 ---
 
+<div style="page-break-after: always;"></div>
+
+
 # Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -245,6 +251,8 @@ del ABET – EAC - Student Outcome 3.
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br><br>**Pierina**<br>**TB1:** Trabajar en los mapas de experiencia, empatía e impacto me ayudó a comprender cómo presentar ideas visuales con un enfoque centrado en el usuario.<br>**TP:** Exponer los prototipos y wireframes me permitió mejorar mi fluidez al comunicar procesos de diseño ante distintos públicos.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros. |
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br><br>**Pierina**<br>**TB1:** Documentar los mapas de experiencia, empatía e impacto me ayudó a escribir con claridad sobre el proceso de diseño centrado en el usuario.<br>**TP:** Redactar la documentación de prototipos y wireframes me ayudó a sintetizar información visual en un texto accesible y ordenado.<br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.                                                        | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.                  |
+
+<div style="page-break-after: always;"></div>
 
 
 # Capítulo I: Introducción
