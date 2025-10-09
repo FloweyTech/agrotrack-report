@@ -4018,6 +4018,8 @@ Captura de pantalla del Web Application:
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
+<img alt="Image" src="https://github.com/user-attachments/assets/bd608a5f-dd4e-44ca-9736-dc26f99795c3" />
+
 
 # Conclusiones
 
