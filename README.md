@@ -2630,7 +2630,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 
 ### 5.1.2. Source Code Management
 
-El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Demy. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
+El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Agrotrack. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
 
 #### Repositorios del Proyecto
 
@@ -2768,7 +2768,7 @@ En caso de usar Gherkin (para especificaciones o pruebas): <br>
    Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
    ![Screenshot 5 del Deployment](./assets/images/screenshots/deployment-5.png)
 6. **Seguir configurando** <br>
-   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy agrotrack".
    ![Screenshot 6 del Deployment](./assets/images/screenshots/deployment-6.png)
 7**Despliegue listo** <br>
    Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
@@ -3054,7 +3054,6 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 ### 5.2.1. Sprint 2
 
 #### 5.2.1.1. Sprint Planning 1
-
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 #### 5.2.2.3. Sprint Backlog 2.
@@ -3065,7 +3064,66 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Para este segundo sprint, solo nos enfocamos en el desarrollo del frontend de la aplicación, nos apoyamos de una herramienta que nos permitiera simular un backend falso.
+
+Por ese motivo, hemos desplegaod un JSON Server en la plataforma de Azure y asi de esta manera poder simular un backend falso y asi poder consumir los datos desde nuestro frontend.
+
+Link del JSON Server llamado agrotrack-mockapi: [agrotrack-mockapi.azurewebsites.net](agrotrack-mockapi.azurewebsites.net)
+
+| Endpoint        | Descripción                                                                | 
+|-----------------|----------------------------------------------------------------------------|
+| /organizations  | Se implemento las operaciones CRUD y atributos para las organizaciones.    |
+| /plots          | Se implemento las operaciones CRUD y atributos para las parcelas.          |
+| /users          | Se implemento las operaciones CRUD y atributos para los usuarios.          |
+| /subscriptions  | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
+| /planttypes     | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
+
+
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
+
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
+
+El despliegue se realizó en la plataforma de Netlify, utilizando el repositorio público [FloweyTech/agrotrack-webapp](https://github.com/FloweyTech/agrotrack-web-app)
+
+Pasos para el despliegue:
+1. Ingresar a Netlify y acceder con credenciales de GitHub.
+
+![./assets/images/screenshots/deployment-1.png](./assets/images/screenshots/deployment-1.png)
+
+2. Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+
+![./assets/deploySprint2/img.png](./assets/deploySprint2/img.png)
+
+3. En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+
+![./assets/deploySprint2/img_1.png](./assets/deploySprint2/img_1.png)
+
+4. Dado que nuestro repositorio está bajo una organización, la seleccionamos. Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main
+
+![./assets/deploySprint2/img_2.png](./assets/deploySprint2/img_2.png)
+
+5. Seguimos configurando, pero esta vez seleccionando "ng build --configuration=production" en build command, para finalmente darle a "Deploy agrotrack-web-app".
+
+![./assets/deploySprint2/img_3.png](./assets/deploySprint2/img_3.png)
+
+![./assets/deploySprint2/img_4.png](./assets/deploySprint2/img_4.png)
+
+6. Aquí esperamos a que se termine de desplegar
+
+![./assets/deploySprint2/img_5.png](./assets/deploySprint2/img_5.png)
+
+7. Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web al frontend recién desplegado
+
+
+
+el frontend web application está disponible de manera pública en la ruta: [Abri en el navegador](https://agrotrack-web-app.netlify.app/login)
+
+
+Captura de pantalla del Web Application: 
+
+1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
+
+![./assets/deploySprint2/img_6.png](./assets/deploySprint2/img_6.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
