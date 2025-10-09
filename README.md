@@ -3301,6 +3301,75 @@ Implementar el primer prototipo funcional del frontend de AgroTrack con gestión
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+Durante el desarrollo del Sprint 2, se implementaron los módulos **IAM**, **Organization**, **Profile** y **Report** en el frontend con **Angular**, conectados al **Fake API** desplegado en **Azure Web Services**.
+
+| Repository            | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|-----------------------|---------|------------|----------------|----------------------|---------------------|
+| FloweyTech/agrotrack-web-app | develop | 8eb1518 | refactor(language-switcher, report-detail): remove commented code and clean up templates | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 53d6ce2 | feat(auth): implement language preference and enhance authentication | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | f876e79 | merge: insert feature/organization-management into develop | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 10216a6 | feat(plot-form): enhance plot form with edit functionality and add new plant types | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrac-web-app | develop | 3bd239f | feat(plot-management): add plot data structure and implement plot loading by organization | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | f360924 | Merge pull request #1 from FloweyTech/feature/iam | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 4b22ee3 | feat(iam-presentation): add  register views with signal integration | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 123e320 | feat(iam): add login views with signal integration | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 6d0e90e | feat(iam): add auth store with signal-based login and registration logic | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 815bf73 | feat(iam): implement user resource, assembler and fake API endpoints | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 9838c4d | feat(iam): add routes login and register | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 47630c8 | update(iam-layout): integration iam module with layout | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | c550e7c | feat(iam): add User entity with role, status and credential matching logic | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 94c40ab | feat(db): extend db.json with reports dataset including organization data | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | f85614e | feat(integration): add report section to layout and navigation | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | deff900 | feat(report): add report detail views with routing | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | a5eb9ca | feat(report): add report list views with routing | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | e2c651c | feat(report): add ReportStore with Signals and CRUD state management | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 383c2ec | feat(report): extend assembler and resource to support organization fields | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 0d649ea | feat(report): add assembler and API endpoints for Report bounded context | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 12133b5 | feat(report): add Report enum status | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 9171008 | feat(report): add Report entity and enums for type and status | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | a132472 | feat(organization): add routes for managing plots within organizations | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | fe1e8fa | feat(plot-list): add plot list component with create, edit, and delete functionality | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 2731037 | feat(planttype-selector): add plant type selector component with custom type functionality | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 2283a11 | feat(planttype-selector): add plant type selector component with custom type functionality | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | ce0576e | feat(organization): implement plant type and plot management | Implementación o mejora correspondiente al commit. | 08/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 5fa11cc | feat(plots): add API response models and assembler for Plot entities | Implementación o mejora correspondiente al commit. | 07/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 9fe1f11 | feat(planttypes): add API endpoint, assembler, and response models for plant types | Implementación o mejora correspondiente al commit. | 07/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | db8f14a | feat(plot): add Plot entity with properties and methods for organization management | Implementación o mejora correspondiente al commit. | 07/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 515b52e | feat(organization): enhance organization list with custom button styles and add PlantType entity | Implementación o mejora correspondiente al commit. | 07/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 980b68d | fix: correct app_location for Azure Static Web App deploy | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 8bccbff | fix: correct app_location for Azure deploy | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | cc90ee0 | kip Azure internal build (Oryx) to use our Node 20 build | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 560893a | fix: use node version 20  before build | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | d1659a5 | fix: add Angular build step before Azure deploy | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 8c05053 | ci: add Azure Static Web Apps workflow file on-behalf-of: @Azure opensource@microsoft.com | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 5183f21 | feature: add deployment test configuration | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | b7446fa | feat(organization): implement organization management with routing, forms, and list view | Implementación o mejora correspondiente al commit. | 06/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 1545c95 | feat(organization): add organization form with validation and subscription management | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | a732dfc | merge: insert feature/initial-structure into develop | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 1244abf | feat(layout): implement responsive layout with sidenav and toolbar | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 8d0bc2e | feat(layout): enhance layout with toolbar and menu functionality | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 2c1cb10 | feat(styles): update asset paths and clean up global styles | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 8fdd604 | feat(language-switcher): add styles for language switcher component | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | cfe8a6f | feat(organization): implement organization and subscription state management store | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 6aea661 | feat(organization): add subscription handling and API endpoints for organizations | Implementación o mejora correspondiente al commit. | 05/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 64af6d5 | feat(subscription): implement subscription domain and API infrastructure. | Implementación o mejora correspondiente al commit. | 04/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | b816be0 | feat(organization): enhance Organization entity with additional properties and implement BaseEntity | Implementación o mejora correspondiente al commit. | 04/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 253287b | feat(organization): add organization entity model for organization context. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 16e4274 | feat(shared): add language-switcher component for language selection. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 1444dcc | feat(shared): add abstract base api class for api endpoint composition. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 102bb7a | feat(shared): add base API endpoint for generic crud operations. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 586601 | feat(shared): add base assembler interface for entity-resource conversions. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 59ee0ce | feat(shared): add base response and resource interfaces. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 75416f4 | feat(shared): add base entity interface for standardized entity structure. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 9ae8472 | feat(env): add environment configuration files for production and development. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | f694114 | feat(fake-api): add json-server and configure fake api. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | cef8236 | feat(layout): add layout component | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | f0b0944 | chore: add ngx-translate for internationalization support. | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | 09b7345 | Initial commit | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | aee0ada | feat: initialize Angular project with basic structure and configuration files | Implementación o mejora correspondiente al commit. | 02/10/2025 |
+| FloweyTech/agrotrack-web-app | develop | d7b4938 | Initial commit | Implementación o mejora correspondiente al commit. | 19/09/2025 |
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
