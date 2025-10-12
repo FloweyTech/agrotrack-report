@@ -1,0 +1,319 @@
+@@startuml
+title Monitoring and Control Bounded Context - Internal Structure (C4 Level 4)
+
+package "app" {
+  package "monitoring-control" {
+    package "domain.model" {
+      class EnvironmentalReading <<Entity>> {
+        -_id: number
+        -_plotId: number
+        -_type: ReadingType
+        -_value: number
+        -_unit: string
+        -_measuredAt: Date
+        +getId(): number
+        +setId(id: number): void
+        +getPlotId(): number
+        +setPlotId(plotId: number): void
+        +getType(): ReadingType
+        +setType(type: ReadingType): void
+        +getValue(): number
+        +setValue(value: number): void
+        +getUnit(): string
+        +setUnit(unit: string): void
+        +getMeasuredAt(): Date
+        +setMeasuredAt(date: Date): void
+        +evaluate(): string | null
+      }
+
+      class Task <<Entity>> {
+        -_id: number
+        -_title: string
+        -_description: string
+        -_assignedBy: string
+        -_assignedTo: number
+        -_plotId: number
+        -_dueDate: Date
+        -_status: TaskStatus
+        -_priority: TaskPriority
+        -_category: TaskCategory
+        +getId(): number
+        +getTitle(): string
+        +getDescription(): string
+        +getAssignedBy(): string
+        +getStatus(): TaskStatus
+        +getPriority(): TaskPriority
+        +getCategory(): TaskCategory
+        +markAsCompleted(): void
+        +markAsPending(): void
+      }
+
+      class Checklist <<Entity>> {
+        -_id: number
+        -_taskId: number
+        -_items: ChecklistItem[]
+        -_completedAt: Date | null
+        +getId(): number
+        +getTaskId(): number
+        +getItems(): ChecklistItem[]
+        +addItem(item: ChecklistItem): void
+        +markItemComplete(itemId: number): void
+        +getCompletionPercentage(): number
+        +isCompleted(): boolean
+      }
+
+      class PlantSamplimgSession <<Entity>> {
+        -_id: number
+        -_plotId: number
+        -_samples: PlantSample[]
+        -_sessionDate: Date
+        -_averageData: PlantAverage | null
+        +getId(): number
+        +getPlotId(): number
+        +getSamples(): PlantSample[]
+        +addSample(sample: PlantSample): void
+        +calculateAverage(): PlantAverage
+        +getSessionDate(): Date
+      }
+
+      class PlanObservation <<Entity>> {
+        -_id: number
+        -_plotId: number
+        -_observationDate: Date
+        -_notes: string
+        -_images: string[]
+        -_observerName: string
+        +getId(): number
+        +getPlotId(): number
+        +getNotes(): string
+        +getImages(): string[]
+        +addImage(imageUrl: string): void
+      }
+
+      enum ReadingType {
+        TEMPERATURE
+        HUMIDITY
+        PH_LEVEL
+      }
+
+      enum TaskStatus {
+        PENDING
+        IN_PROGRESS
+        COMPLETED
+      }
+
+      enum TaskPriority {
+        LOW
+        MEDIUM
+        HIGH
+      }
+
+      enum TaskCategory {
+        IRRIGATION
+        FERTILIZATION
+        PEST_CONTROL
+        HARVEST
+        SOIL_PREPARATION
+        MONITORING
+        MAINTENANCE
+      }
+
+      class ChecklistItem <<ValueObject>> {
+        -_id: number
+        -_description: string
+        -_isCompleted: boolean
+        +getId(): number
+        +getDescription(): string
+        +isCompleted(): boolean
+        +markComplete(): void
+      }
+
+      class PlantSample <<ValueObject>> {
+        -_height: number
+        -_leaves: number
+        -_fruits: number
+        -_date: string
+        +getHeight(): number
+        +getLeaves(): number
+        +getFruits(): number
+        +getDate(): string
+      }
+
+      class PlantAverage <<ValueObject>> {
+        -_height: number
+        -_leaves: number
+        -_fruits: number
+        -_plantsCount: number
+        +getHeight(): number
+        +getLeaves(): number
+        +getFruits(): number
+        +getPlantsCount(): number
+      }
+
+      EnvironmentalReading --> ReadingType : has type
+      Task --> TaskStatus : has status
+      Task --> TaskPriority : has priority
+      Task --> TaskCategory : has category
+      Task "1" --> "0..1" Checklist : may have
+      Checklist "1" --> "*" ChecklistItem : contains
+      PlantSamplimgSession "1" --> "*" PlantSample : contains
+      PlantSamplimgSession "1" --> "0..1" PlantAverage : calculates
+    }
+
+    package "infrastructure" {
+      class MonitoringApiEndpoint {
+        +getEnvironmentalReadings(): Observable<EnvironmentalReading[]>
+        +getReadingById(id: number): Observable<EnvironmentalReading>
+        +getReadingsByPlotId(plotId: number): Observable<EnvironmentalReading[]>
+        +createReading(reading: EnvironmentalReading): Observable<EnvironmentalReading>
+        +updateReading(reading: EnvironmentalReading, id: number): Observable<EnvironmentalReading>
+        +deleteReading(id: number): Observable<void>
+      }
+
+      class ChecklistsApiEndpoint {
+        +getChecklists(): Observable<Checklist[]>
+        +getChecklistById(id: number): Observable<Checklist>
+        +getChecklistsByTaskId(taskId: number): Observable<Checklist[]>
+        +createChecklist(checklist: Checklist): Observable<Checklist>
+        +updateChecklist(checklist: Checklist, id: number): Observable<Checklist>
+        +deleteChecklist(id: number): Observable<void>
+      }
+
+      class TasksApiEndpoint {
+        +getTasks(): Observable<Task[]>
+        +getTaskById(id: number): Observable<Task>
+        +getTasksByStatus(status: TaskStatus): Observable<Task[]>
+        +createTask(task: Task): Observable<Task>
+        +updateTask(task: Task, id: number): Observable<Task>
+        +deleteTask(id: number): Observable<void>
+      }
+
+      class MonitoringControlApi {
+        -monitoringEndpoint: MonitoringApiEndpoint
+        -checklistsEndpoint: ChecklistsApiEndpoint
+        -tasksEndpoint: TasksApiEndpoint
+        +getEnvironmentalReadings(): Observable<EnvironmentalReading[]>
+        +createEnvironmentalReading(reading: EnvironmentalReading): Observable<EnvironmentalReading>
+        +getTasks(): Observable<Task[]>
+        +createTask(task: Task): Observable<Task>
+        +getChecklists(): Observable<Checklist[]>
+        +createChecklist(checklist: Checklist): Observable<Checklist>
+      }
+
+      class EnvironmentalReadingAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: EnvironmentalReadingsResponse): EnvironmentalReading[]
+        +toEntityFromResource(resource: EnvironmentalReadingResource): EnvironmentalReading
+        +toResourceFromEntity(entity: EnvironmentalReading): EnvironmentalReadingResource
+      }
+
+      class ChecklistAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: ChecklistsResponse): Checklist[]
+        +toEntityFromResource(resource: ChecklistResource): Checklist
+        +toResourceFromEntity(entity: Checklist): ChecklistResource
+      }
+
+      class TaskAssembler <<Assembler>> {
+        +toEntitiesFromResponse(response: TasksResponse): Task[]
+        +toEntityFromResource(resource: TaskResource): Task
+        +toResourceFromEntity(entity: Task): TaskResource
+      }
+
+      EnvironmentalReadingAssembler --> EnvironmentalReading : converts to/from
+      ChecklistAssembler --> Checklist : converts to/from
+      TaskAssembler --> Task : converts to/from
+
+      MonitoringApiEndpoint --> EnvironmentalReadingAssembler : uses for conversion
+      ChecklistsApiEndpoint --> ChecklistAssembler : uses for conversion
+      TasksApiEndpoint --> TaskAssembler : uses for conversion
+
+      MonitoringControlApi --> MonitoringApiEndpoint : delegates to
+      MonitoringControlApi --> ChecklistsApiEndpoint : delegates to
+      MonitoringControlApi --> TasksApiEndpoint : delegates to
+    }
+
+    package "application" {
+      class MonitoringControlStore <<Store>> {
+        +environmentalReadings: EnvironmentalReading[]
+        +tasks: Task[]
+        +checklists: Checklist[]
+        +plantSamplingSessions: PlantSamplimgSession[]
+        +activeAlerts: string[]
+        +getEnvironmentalReadings(): EnvironmentalReading[]
+        +getTasks(): Task[]
+        +getTasksByStatus(status: TaskStatus): Task[]
+        +getChecklists(): Checklist[]
+        +addEnvironmentalReading(reading: EnvironmentalReading): void
+        +addTask(task: Task): void
+        +addChecklist(checklist: Checklist): void
+        +updateTask(task: Task): void
+        +removeTask(taskId: number): void
+        +clearAlerts(): void
+        +evaluateReadings(): void
+      }
+
+      MonitoringControlStore --> EnvironmentalReading : manages
+      MonitoringControlStore --> Task : manages
+      MonitoringControlStore --> Checklist : manages
+      MonitoringControlStore --> PlantSamplimgSession : manages
+    }
+
+    package "presentation.views" {
+      class ReadingList <<Component>> {
+        +store: MonitoringControlStore
+        +environmentalReadings: EnvironmentalReading[]
+        +activeAlerts: string[]
+        +displayedColumns: string[]
+        +navigateToNew(): void
+        +clearAlerts(): void
+        +ngOnInit(): void
+      }
+
+      class ReadingForm <<Component>> {
+        +store: MonitoringControlStore
+        +reading: EnvironmentalReading
+        +readingTypes: ReadingType[]
+        +isEdit: boolean
+        +readingId: number | null
+        +submit(): void
+        +cancel(): void
+        +getHintForType(type: ReadingType): string
+      }
+
+      class TaskList <<Component>> {
+        +store: MonitoringControlStore
+        +tasks: Task[]
+        +filteredTasks: Task[]
+        +selectedStatus: TaskStatus | null
+        +selectedCategory: TaskCategory | null
+        +filterTasks(): void
+        +markTaskCompleted(taskId: number): void
+        +markTaskPending(taskId: number): void
+        +viewTaskDetails(taskId: number): void
+      }
+
+      class PlantRegistrationForm <<Component>> {
+        +currentPlant: PlantSample
+        +sessionPlants: PlantSample[]
+        +sessionAverage: PlantAverage | null
+        +addPlantToSession(): void
+        +calculateSessionAverage(): void
+        +saveSession(): void
+        +removeFromSession(tempId: number): void
+        +clearSession(): void
+      }
+
+      class PlantRegistrationList <<Component>> {
+        +plants: PlantSample[]
+        +showForm: boolean
+        +onPlantAdded(newPlant: PlantSample): void
+      }
+
+      ReadingList ..> MonitoringControlStore : uses
+      ReadingForm ..> MonitoringControlStore : uses
+      TaskList ..> MonitoringControlStore : uses
+      PlantRegistrationForm ..> PlantSamplimgSession : creates
+      PlantRegistrationList ..> PlantSample : manages
+    }
+  }
+}
+@enduml
