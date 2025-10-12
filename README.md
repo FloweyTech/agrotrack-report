@@ -38,25 +38,25 @@
 
 **TB1**
 
-| Versión   | Fecha      | Autor               | Descripción de modificación                                                                     |
-|-----------|------------|---------------------|-------------------------------------------------------------------------------------------------|
-| tP        | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
-| tP     | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
-| tP     | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
-| tP     | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
-| tP     | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
-| tP      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                     |
+|---------|------------|---------------------|-------------------------------------------------------------------------------------------------|
+| TB1      | 19/09/2025 | Anjali Amaro        | Elaboración completa del Capítulo I (Introducción). Diseño y registro de entrevistas.           |
+| TB1      | 19/09/2025 | Gonzalo Quintanilla | Desarrollo de análisis competitivo y estrategias frente a competidores. User Stories iniciales. |
+| TB1      | 19/09/2025 | Vladimir Jara       | Registro y análisis de entrevistas. Construcción de User Task Matrix y User Journey Mapping.    |
+| TB1      | 19/09/2025 | Pierina Almandroz   | Construcción de User Personas, User Task Matrix, Empathy Mapping e Impact Mapping.              |
+| TB1      | 19/09/2025 | Diego Vilca         | Elaboración de Ubiquitous Language, Style Guidelines y wireframes de Landing Page.              |
+| TB1      | 19/09/2025 | Equipo completo     | Desarrollo de Big Picture Event Storming y Design-Level Event Storming.                         |
 
 **TP**
 
-| Versión | Fecha       | Autor               | Descripción de modificación                                                                 |
-|---------|-------------|---------------------|---------------------------------------------------------------------------------------------|
-| tP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web|
-| tP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web |
-| tP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web |
-| tP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1 y |
-| tP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web |
-| tP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web |
+| Versión | Fecha       | Autor               | Descripción de modificación                                      |
+|---------|-------------|---------------------|------------------------------------------------------------------|
+| TP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web |
+| TP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web                         |
+| TP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web           |
+| TP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1                                                 |
+| TP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web                 |
+| TP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web                  |
 
 
 
@@ -80,13 +80,13 @@ Para el desarrollo del TB cada participante del equipo realizo las siguientes ta
 
 **TP**  
 
-| Integrante                            | Tareas Realizadas                                                                                                                                                    |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Almandroz Carbajal Pierina Marysabel	 | AGREGAR                                                                                                                                                              |
-| Amaro Villar Anjali                   | AGREGAR                                                                                                                                                              |
+| Integrante                            | Tareas Realizadas                                                                                                                                                     |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Almandroz Carbajal Pierina Marysabel	 | Corecciones del tb1                                                                                                                                                   |
+| Amaro Villar Anjali                   | Correciones del tb1, Elaboracion diagramas c4 extendidos de modulos Organizaton y Monitoring and Control                                                              |
 | Jara Benites Quique Vladimir	         | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2, Elaboracion diagramas c4 extendidos de modulos Report e IAM |                                                                                                                                                    
-| Quintanilla Pozo Gonzalo Samuel	      | AGREGAR                                                                                                                                                              |
-| Vilca Saboya Diego Alejandro	         | AGREGAR                                                                                                                                                              | 
+| Quintanilla Pozo Gonzalo Samuel	      | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2                                                              |
+| Vilca Saboya Diego Alejandro	         | Corecciones del tb1, Elaboracion diagramas c4 extendidos de modulos Profile                                                                                           | 
 
 
 **GitHub Collaboration Insights**
@@ -125,6 +125,19 @@ Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
 ![Contributorstb1](assets/images/reportInsights/ContributorsTb1.png)
+
+**TP1**
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+![NetworkGraphTP](assets/images/reportInsights/networkTp.png)
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+![ContributorsTP](assets/images/reportInsights/ContributorsTp.png)
+
+
+<div style="page-break-after: always;"></div>
 
 
 # Contenido
@@ -220,6 +233,9 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 ---
 
+<div style="page-break-after: always;"></div>
+
+
 # Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
@@ -235,6 +251,8 @@ del ABET – EAC - Student Outcome 3.
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br><br>**Pierina**<br>**TB1:** Trabajar en los mapas de experiencia, empatía e impacto me ayudó a comprender cómo presentar ideas visuales con un enfoque centrado en el usuario.<br>**TP:** Exponer los prototipos y wireframes me permitió mejorar mi fluidez al comunicar procesos de diseño ante distintos públicos.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros. |
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br><br>**Pierina**<br>**TB1:** Documentar los mapas de experiencia, empatía e impacto me ayudó a escribir con claridad sobre el proceso de diseño centrado en el usuario.<br>**TP:** Redactar la documentación de prototipos y wireframes me ayudó a sintetizar información visual en un texto accesible y ordenado.<br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.                                                        | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.                  |
+
+<div style="page-break-after: always;"></div>
 
 
 # Capítulo I: Introducción
@@ -2610,25 +2628,6 @@ La SPA se comunica con la API de AgroTrack, que a su vez realiza consultas a la 
  
 ![Component Diagram](assets/images/software-architecture/component-diagram.png)
 
-#### Bounded Contex Reports
-
-El módulo **Report** permite a los agrónomos generar, visualizar y exportar reportes de rendimiento agrícola y condiciones ambientales.  
-En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake API* y los procesa mediante la capa *Report Controller*, para luego renderizarlos en la interfaz web a través de componentes gráficos.
-
-![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
-
-#### Bounded Contex IAM
-
-El módulo **IAM (Identity and Access Management)** gestiona la autenticación, registro y control de acceso de usuarios.  
-El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
-
-![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
-
-#### Bounded Contex Profile
-
-#### Bounded Contex Organization
-
-#### Bounded Contex Monitoring and Control
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
@@ -2643,11 +2642,21 @@ Este diagrama corresponde al Organization Bounded Context, encargado de estructu
 
 ![Class Diagram - Organization](assets/images/software-architecture/organization-diagram.png)
 
+#### Fronted Components Diagrams - Organization Bounded Context
+El módulo **Organization** permite a los agrónomos gestionar organizaciones, parcelas y cultivos.
+![Organization Module Diagram](assets/frontend-diagram/organization.png)
+
 ### Monitoring and Control Bounded Context
 
 Este diagrama corresponde al Monitoring and Control Bounded Context, responsable de supervisar y gestionar las actividades y condiciones en campo. Aquí se incluyen los Checklists, que permiten organizar y dar seguimiento a las tareas (Task) asignadas a los perfiles, junto con fechas, materiales utilizados y su estado de avance. Asimismo, se registran lecturas ambientales (EnvironmentalReading) que son evaluadas frente a umbrales (Threshold) para detectar desviaciones en parámetros como temperatura, humedad o pH. Cuando se superan estos límites, se generan Alertas (Alert) con distintos niveles de severidad (INFO, WARNING, CRITICAL). Por otro lado, el contexto también incorpora sesiones de muestreo de plantas (PlantSamplingSession), que almacenan observaciones detalladas de altura, número de hojas y frutos, y permiten calcular promedios para análisis posteriores. En conjunto, este contexto asegura el control operativo mediante tareas planificadas, monitoreo en tiempo real y alertas tempranas que facilitan la toma de decisiones
 
 ![Class Diagram - Monitoring and Control](assets/images/software-architecture/monitoring-diagram.png)
+
+#### Fronted Components Diagrams - Monitoring and Control Bounded Context
+
+El módulo **Monitoring and Control** permite a los agrónomos y agricultores supervisar las condiciones de las parcelas y gestionar tareas agrícolas.
+
+![Monitoring and Control Module Diagram](assets/frontend-diagram/monitoring.png)
 
 ### Reports Bounded Context
 
@@ -2655,17 +2664,37 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 ![Class Diagram - Reports](assets/images/software-architecture/report-diagram.png)
 
+#### Fronted Components Diagrams - Report Bounded Context
+
+El módulo **Report** permite a los agrónomos generar, visualizar y exportar reportes de rendimiento agrícola y condiciones ambientales.  
+En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake API* y los procesa mediante la capa *Report Controller*, para luego renderizarlos en la interfaz web a través de componentes gráficos.
+
+![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
 ### Profile Bounded Context
 
 Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
 
 ![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
 
+##### Fronted Components Diagrams - Profile Bounded Context
+El módulo **Profile** permite a los usuarios ver y actualizar su información personal.
+
+![Profile Module Diagram](assets/frontend-diagram/profile.png)
+
+
 ### IAM Bounded Context
 
 Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
 
 ![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
+
+#### Fronted Components Diagrams - IAM Bounded Context
+
+El módulo **IAM (Identity and Access Management)** gestiona la autenticación, registro y control de acceso de usuarios.  
+El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
+
+![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
@@ -2750,12 +2779,13 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**            | **Repositorio GitHub**                                                                                       |
-|-------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
-| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
-| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
-| **Web Application**     | []                                                                                                           |
+| **Producto**           | **Repositorio GitHub**                                                                                                                  |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                                                          |
+| **Landing Page**       | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page)                            |
+| **Report**             | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)                                        |
+| **Web Application**    | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)                                      |
+| **Agrotrack mockapi**  | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
 
 
 #### Modelo GitFlow
@@ -3953,6 +3983,42 @@ Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+En el sprint 2 se alcanzó un desarrollo parcial del frontend de la web application usando una fake api. Se muestran
+nuestras vistas relevantes acerca del producto:
+
+- US01:	Crear organización
+
+![img.png](./assets/img.png)
+![img_1.png](./assets/img_1.png)
+
+- US04:	Crear parcela
+
+![img_2.png](./assets/img_2.png)
+![img_3.png](./assets/img_3.png)
+
+- US10:	Registrar datos de la planta
+
+![img_4.png](./assets/img_4.png)
+![img_5.png](./assets/img_5.png)
+
+- US09:	Iniciar monitoreo
+
+![img_6.png](./assets/img_6.png)
+![img_7.png](./assets/img_7.png)
+![img_8.png](./assets/img_8.png)
+
+- US15:	Crear checklist
+
+![img_9.png](./assets/img_9.png)
+
+- US21:	Solicitar reporte de parcela
+
+![img_10.png](./assets/img_10.png)
+![img_11.png](./assets/img_11.png)
+
+
+Link de video de presentación sobre el Web Application: [Video Presentación Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb7Kmd1uAVFHhEYs2qs4mHIBkBxcwMrXw9ZTRh8NF3NuMQ?e=UwYFSC)
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Para este segundo sprint, solo nos enfocamos en el desarrollo del frontend de la aplicación, nos apoyamos de una herramienta que nos permitiera simular un backend falso.
@@ -3961,13 +4027,15 @@ Por ese motivo, hemos desplegaod un JSON Server en la plataforma de Azure y asi 
 
 Link del JSON Server llamado agrotrack-mockapi: [agrotrack-mockapi.azurewebsites.net](agrotrack-mockapi.azurewebsites.net)
 
-| Endpoint        | Descripción                                                                | 
-|-----------------|----------------------------------------------------------------------------|
-| /organizations  | Se implemento las operaciones CRUD y atributos para las organizaciones.    |
-| /plots          | Se implemento las operaciones CRUD y atributos para las parcelas.          |
-| /users          | Se implemento las operaciones CRUD y atributos para los usuarios.          |
-| /subscriptions  | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
-| /planttypes     | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
+| Endpoint                | Descripción                                                                | 
+|-------------------------|----------------------------------------------------------------------------|
+| /organizations          | Se implemento las operaciones CRUD y atributos para las organizaciones.    |
+| /plots                  | Se implemento las operaciones CRUD y atributos para las parcelas.          |
+| /users                  | Se implemento las operaciones CRUD y atributos para los usuarios.          |
+| /subscriptions          | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
+| /planttypes             | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
+| /reports                | Se implemento las operaciones CRUD y atributos para los reportes.          |
+| /environmental-readings | Se implemento las operaciones CRUD y atributos para las lecturas.         |
 
 
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
@@ -4012,35 +4080,86 @@ el frontend web application está disponible de manera pública en la ruta: [Abr
 
 Captura de pantalla del Web Application: 
 
-1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
+Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 
 ![./assets/deploySprint2/img_6.png](./assets/deploySprint2/img_6.png)
 
+- US01:	Crear organización
+
+![img.png](./assets/img.png)
+![img_1.png](./assets/img_1.png)
+
+- US04:	Crear parcela
+
+![img_2.png](./assets/img_2.png)
+![img_3.png](./assets/img_3.png)
+
+- US10:	Registrar datos de la planta
+
+![img_4.png](./assets/img_4.png)
+![img_5.png](./assets/img_5.png)
+
+- US09:	Iniciar monitoreo
+
+![img_6.png](./assets/img_6.png)
+![img_7.png](./assets/img_7.png)
+![img_8.png](./assets/img_8.png)
+
+- US15:	Crear checklist
+
+![img_9.png](./assets/img_9.png)
+
+- US21:	Solicitar reporte de parcela
+
+![img_10.png](./assets/img_10.png)
+![img_11.png](./assets/img_11.png)
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+| Integrante                      | Actividad                                              |
+|---------------------------------|--------------------------------------------------------|
+| Amaro Villar Anjali             | Orgnanization Context - Monitoring and Control Context |
+| Jara Benites Quique Vladimir    | IAM Context - Report Context                           |	 
+| Quintanilla Pozo Gonzalo Samuel | Report Context                                         |
+| Vilca Saboya Diego Alejandro	   | Profile Context and NotfoundPage                       |
+
+![img.png](img.png)
+![img_1.png](img_1.png)
 
 
 # Conclusiones
 
-**Implementación de buenas prácticas en el desarrollo**
+**Implementación de buenas prácticas en el desarrollo**  
 Durante este Sprint se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener. Además, se incorporaron principios de diseño responsivo para asegurar una experiencia fluida en distintos dispositivos y resoluciones.
 
-**Enfoque centrado en el usuario**
+**Enfoque centrado en el usuario**  
 Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend.
 
-**Lecciones aprendidas durante el proceso**
+**Lecciones aprendidas durante el proceso**  
 A lo largo del Sprint se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes serán aplicados en los próximos ciclos para mejorar la eficiencia, reducir retrabajos y asegurar el cumplimiento de los objetivos establecidos.
 
-**Integración técnica y modularidad**
+**Integración técnica y modularidad**  
 Se avanzó en la organización del proyecto por contextos funcionales, separando componentes, servicios y recursos según su dominio. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se comenzaron a aplicar principios de arquitectura limpia y diseño orientado a componentes.
 
-**Colaboración y revisión entre pares**
+**Colaboración y revisión entre pares**  
 Durante el Sprint se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica también ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
 
-**Fundamentos Técnicos Establecidos**
+**Validación de la arquitectura y flujos principales**  
+La integración de los módulos IAM, Organization y Report permitió validar la arquitectura propuesta y los flujos principales de la plataforma. El uso de una Fake API en Azure facilitó la simulación de datos y la verificación temprana de los procesos clave.
 
-* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable
-* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto
-* Se establecieron procesos claros de desarrollo y documentación para futuras entregas
+**Gestión ágil y trabajo colaborativo**  
+El equipo aplicó metodologías ágiles, organizando el trabajo en sprints y utilizando herramientas como Trello y Pivotal Tracker para la gestión de tareas. Esto permitió una mejor visibilidad del avance y una rápida adaptación ante cambios o bloqueos.
+
+**Despliegue y automatización**  
+El despliegue exitoso en Netlify y GitHub Pages garantiza accesibilidad y actualizaciones automáticas, lo que agiliza la entrega continua y la validación con usuarios reales.
+
+**Documentación y trazabilidad**  
+Se establecieron procesos claros de documentación y convenciones en los mensajes de commit, lo que facilita la trazabilidad y el mantenimiento del proyecto a largo plazo.
+
+**Fundamentos Técnicos Establecidos**
+* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable.
+* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto.
+* Se establecieron procesos claros de desarrollo y documentación para futuras entregas.
 
 Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
 # Bibliografía
@@ -4053,8 +4172,20 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 
 - Landing page: desplegada en Netlify [https://agrotrack-landing.netlify.app/](https://agrotrack-landing.netlify.app/)
-- video de exposición [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx)
+- video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EXEm4jvcJw1Mi169AphIJUQBK2TnIalKiHNjpVn7d_CtiA?e=nwtEnx)
 - prototipo web [https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
 
 - Agrotrack - Web Application: desplegada en Netlify [https://agrotrack-web-app.netlify.app](https://agrotrack-web-app.netlify.app/)
+- Video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm)
+-  Link de video de presentación sobre el Web Application: [Video Presentación Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb7Kmd1uAVFHhEYs2qs4mHIBkBxcwMrXw9ZTRh8NF3NuMQ?e=UwYFSC)
 
+
+#### Repositorios del Proyecto
+
+| **Producto**            | **Repositorio GitHub**                                                                                       |
+|-------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
+| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
+| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+| **Web Application**     | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)           |
+| **Agrotrack mockapi** | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
