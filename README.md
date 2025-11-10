@@ -4156,6 +4156,40 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
+
+### Objetivo de la entrevistas
+
+El objetivo de las entrevistas es obtener retroalimentación directa de los usuarios potenciales sobre la usabilidad, funcionalidad y diseño de la plataforma AgroTrack. Se busca identificar áreas de mejora, validar supuestos de diseño y comprender mejor las necesidades y expectativas de los usuarios en el contexto agrícola peruano.
+
+### Landing Page
+La landing page de AgroTrack fue diseñada para captar la atención de los usuarios y proporcionar una visión clara de los beneficios y características de la plataforma. Se incluyeron secciones informativas, testimonios y llamados a la acción para incentivar a los visitantes a registrarse o solicitar más información.
+
+### Aplicación Web
+La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de organizaciones, parcelas y monitoreo ambiental, asegurando que los usuarios puedan interactuar con la plataforma de manera eficiente.
+
+### User flows a evaluar - preguntas de la entrevista
+
+1. Registro y creación de una organización.
+   - ¿El proceso de registro te resultó claro y sencillo de completar?
+   - ¿Entendiste fácilmente el propósito de crear una organización dentro de AgroTrack?
+   - ¿Qué mejorarías para que el registro sea más rápido o intuitivo?
+2. Creación y gestión de parcelas.
+   - ¿Fue fácil registrar una nueva parcela y visualizarla correctamente?
+   - ¿La información que se solicita refleja bien la realidad de tus campos o cultivos?
+   - ¿Qué función agregarías o cambiarías para gestionar mejor tus parcelas?
+3. Inicio y monitoreo de datos ambientales.
+   - ¿Comprendiste fácilmente los datos ambientales mostrados (temperatura, humedad, etc.)?
+   - ¿Faltó algún tipo de dato o alerta que consideres importante?
+4. Creación de tareas.
+   - ¿Comprendiste fácilmente los datos ambientales mostrados (temperatura, humedad, etc.)?
+   - ¿Te resultaron útiles las gráficas o indicadores para tomar decisiones sobre tu cultivo?
+   - ¿Faltó algún tipo de dato o alerta que consideres importante?
+5. Solicitud de reportes.
+   - ¿Encontraste fácilmente la opción para generar o solicitar un reporte?
+   - ¿El contenido del reporte te pareció útil y comprensible para tu trabajo?
+
+
+
 ### 5.3.2. Registro de entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -4223,4 +4257,4 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 | **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
 | **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
 | **Web Application**     | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)           |
-| **Agrotrack mockapi** | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
+| **Web Service**             | [https://github.com/FloweyTech/agrotrack-web-service](https://github.com/FloweyTech/agrotrack-web-service)   |
