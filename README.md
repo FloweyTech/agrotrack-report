@@ -4175,8 +4175,269 @@ La tabla identifica a los líderes (L) y colaboradores (C) por cada aspecto func
 | **Quintanilla Pozo, Gonzalo**       | GoldQP          | C   | C            | C       | L          | C       | C                                  | C                            | C              |
 | **Vilca Saboya, Diego Alejandro**   | diesoks         | C   | C            | L       | C          | C       | L                                  | C                            | C              |
 
-
 #### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal de este Sprint es **desarrollar el backend de AgroTrack** para los bounded contexts **IAM, Organization, Profile, Monitoring & Control y Reports**, así como realizar el **primer intento de integración entre backend y frontend**.  
+Todas las User Stories seleccionadas para este sprint fueron descompuestas en **Engineering Tasks** con estimaciones entre **4 y 8 horas**, siguiendo las observaciones realizadas en la revisión del Sprint 2.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / To-Review / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- IAM: Registrar cuenta -->
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T20</td>
+    <td>Diseñar modelo de usuario para IAM</td>
+    <td>Definir entidad User, campos obligatorios y esquema de base de datos para autenticación.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T21</td>
+    <td>Implementar endpoint POST /auth/register</td>
+    <td>Crear servicio y controlador para registro de usuarios con validación y hash de contraseña.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- IAM: Iniciar sesión -->
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T22</td>
+    <td>Implementar endpoint POST /auth/login</td>
+    <td>Verificar credenciales, devolver token JWT y manejar errores de autenticación.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T23</td>
+    <td>Configurar middleware de autenticación</td>
+    <td>Configurar middleware/guard que valide JWT y proteja rutas privadas de la API.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Profile: Completar y editar perfil -->
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T24</td>
+    <td>Diseñar entidad Profile</td>
+    <td>Modelar entidad Profile vinculada al usuario con campos básicos (nombre, rol, contacto).</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T25</td>
+    <td>Implementar endpoints GET/PUT /profiles/me</td>
+    <td>Permitir consultar y completar el perfil inicial desde el frontend.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US28</td>
+    <td>Editar perfil</td>
+    <td>T26</td>
+    <td>Habilitar actualización parcial de perfil</td>
+    <td>Agregar soporte para edición de datos del perfil con validaciones de formato.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US28</td>
+    <td>Editar perfil</td>
+    <td>T27</td>
+    <td>Integrar formulario de perfil con API</td>
+    <td>Conectar el formulario del frontend a los endpoints de perfil para guardar cambios en tiempo real.</td>
+    <td>6</td>
+    <td>Dev Fullstack</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Organization: Crear organización, invitar, remover, suscripción -->
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T28</td>
+    <td>Diseñar entidad Organization</td>
+    <td>Definir estructura de organización, relación con usuario Owner y reglas básicas.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T29</td>
+    <td>Implementar endpoint POST /organizations</td>
+    <td>Crear servicio para registrar organizaciones y asignar rol Owner al agrónomo.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Invitar miembro a organización</td>
+    <td>T30</td>
+    <td>Modelar invitaciones de organización</td>
+    <td>Crear entidad Invitation y lógica para estados Pendiente, Aceptada y Rechazada.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Invitar miembro a organización</td>
+    <td>T31</td>
+    <td>Implementar endpoint POST /organizations/{id}/invitations</td>
+    <td>Permitir enviar invitaciones a agricultores registrados y exponerlas en el frontend.</td>
+    <td>6</td>
+    <td>Dev Fullstack</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Remover agricultor de organización</td>
+    <td>T32</td>
+    <td>Implementar endpoint DELETE /organizations/{orgId}/members/{memberId}</td>
+    <td>Eliminar miembros de la organización verificando permisos de Owner/Admin.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Remover agricultor de organización</td>
+    <td>T33</td>
+    <td>Actualizar vista de miembros</td>
+    <td>Refrescar la lista de miembros en el frontend después de la eliminación.</td>
+    <td>4</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T34</td>
+    <td>Diseñar modelo Subscription</td>
+    <td>Crear entidad Subscription y asociación con usuarios y planes de prueba.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T35</td>
+    <td>Implementar flujo de compra simulada</td>
+    <td>Crear endpoint de checkout que simule respuesta de pago y active la suscripción.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Reports: parcel & general & download -->
+  <tr>
+    <td>US21</td>
+    <td>Solicitar reporte de parcela</td>
+    <td>T36</td>
+    <td>Implementar endpoint POST /reports/parcel</td>
+    <td>Generar reporte por parcela a partir de lecturas de monitoreo y tareas asociadas.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Solicitar reporte de parcela</td>
+    <td>T37</td>
+    <td>Conectar formulario de solicitud de reporte</td>
+    <td>Integrar pantalla de selección de periodo con el endpoint de reportes de parcela.</td>
+    <td>4</td>
+    <td>Dev Fullstack</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Solicitar reporte general</td>
+    <td>T38</td>
+    <td>Implementar endpoint POST /reports/organization</td>
+    <td>Generar reporte global de la organización filtrado por periodo e indicadores.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Generar/descargar reporte</td>
+    <td>T39</td>
+    <td>Endpoint GET /reports/{id}/download</td>
+    <td>Habilitar descarga de archivos de reporte y registro de auditoría de descargas.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Monitoring & checklist -->
+  <tr>
+    <td>US15</td>
+    <td>Crear checklist</td>
+    <td>T40</td>
+    <td>Implementar entidad Checklist e ítems</td>
+    <td>Modelar checklist e ítems asociados a una parcela y persistirlos en la base de datos.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Crear checklist</td>
+    <td>T41</td>
+    <td>Corregir formulario de checklist en frontend</td>
+    <td>Ajustar el formulario existente para consumir el nuevo endpoint real y mostrar mensajes de error adecuados.</td>
+    <td>4</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+
+</table>
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
