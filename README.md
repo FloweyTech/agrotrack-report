@@ -4508,10 +4508,52 @@ El video será incluido en cuanto se complete la grabación del flujo funcional 
 
 ---
 
-
-
-
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.3.6.1. Organization Service Documentation
+
+En este Sprint se implementaron y documentaron los endpoints correspondientes al bounded context **Organization**, permitiendo gestionar organizaciones, actualizar información básica y administrar miembros.  
+La siguiente tabla resume los endpoints expuestos, las acciones implementadas y los enlaces correspondientes a la documentación generada automáticamente con Swagger.
+
+#### Tabla de Endpoints – Organization
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/organizations` | POST | Crear una nueva organización y asignar Owner al usuario creador. | **Body:** `{ name, country, industry }` | ```json { "name": "Mi Finca", "country": "Peru", "industry": "Agricultura" }``` | ```json { "id": 1, "name": "Mi Finca", "country": "Peru", "industry": "Agricultura", "ownerId": 7 }``` | `http://localhost:8080/swagger-ui/index.html#/Organization/createOrganization` |
+| `/api/v1/organizations/{organizationId}/name` | PUT | Actualizar el nombre de la organización. | **Path:** organizationId<br>**Body:** `{ name }` | ```json { "name": "Nueva Finca" }``` | ```json { "id": 1, "name": "Nueva Finca" }``` | Swagger UI |
+| `/api/v1/organizations/{organizationId}/profiles/add` | PUT | Agregar un miembro a la organización. | **Path:** organizationId<br>**Body:** `{ profileId }` | ```json { "profileId": 5 }``` | ```json { "message": "Member added successfully" }``` | Swagger UI |
+| `/api/v1/organizations/{organizationId}/profiles/remove` | PUT | Remover un miembro de la organización. | **Path:** organizationId<br>**Body:** `{ profileId }` | ```json { "profileId": 5 }``` | ```json { "message": "Member removed successfully" }``` | Swagger UI |
+| `/api/v1/organizations/{organizationId}` | GET | Obtener datos completos de la organización. | **Path:** organizationId | — | ```json { "id": 1, "name": "Mi Finca", "members": [...] }``` | Swagger UI |
+| `/api/v1/organizations/by-subscription/{subscriptionId}` | GET | Listar organizaciones por ID de suscripción. | **Path:** subscriptionId | — | ```json [ { "id": 1, "name": "Finca A" } ]``` | Swagger UI |
+| `/api/v1/organizations/by-name/{organizationName}` | GET | Buscar organización por nombre. | **Path:** organizationName | — | ```json { "id": 1, "name": "Finca A" }``` | Swagger UI |
+
+### 5.2.3.6.2 Profile Service Documentation
+
+En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **Profile**, permitiendo consultar perfiles por identificador, usuario asociado y nombre completo, así como actualizar datos clave como el nombre de la persona y la URL de la foto de perfil.
+
+#### Tabla de Endpoints – Profile
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/profiles/{profileId}` | GET | Obtiene la información de un perfil a partir de su identificador. | **Path:** `profileId` (Long) | — | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/user/{userId}` | GET | Obtiene el perfil asociado a un usuario específico. | **Path:** `userId` (Long) | — | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/search` | GET | Busca un perfil por nombre y apellido de la persona. | **Query:** `firstName`, `lastName` | `GET /api/v1/profiles/search?firstName=Juan&lastName=Perez` | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/{profileId}/person-name` | PUT | Actualiza el nombre de la persona asociado al perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "firstName", "lastName" }` | ```json { "firstName": "Juan Carlos", "lastName": "Pérez" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Carlos Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/{profileId}/photo-url` | PUT | Actualiza la URL de la foto de perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "photoUrl" }` | ```json { "photoUrl": "https://example.com/new-avatar.png" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/new-avatar.png" } ``` | Swagger UI – sección **Profiles** |
+
+### 5.2.3.6.3. IAM (Authentication) Service Documentation
+
+En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **IAM (Authentication)**, permitiendo el registro de nuevos usuarios y el inicio de sesión mediante credenciales válidas.  
+Estos servicios se exponen bajo el prefijo `/api/v1/authentication` y están documentados en Swagger bajo la sección **Authentication**.
+
+#### Tabla de Endpoints – IAM (Authentication)
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/authentication/sign-in` | POST | Permite que un usuario existente inicie sesión en la plataforma utilizando su identificador (username o email) y contraseña. | **Body (JSON):**<br>`identifier` (string)<br>`password` (string) | ```json { "identifier": "juan.perez", "password": "MiClaveSegura123" } ``` | ```json { "id": 7, "username": "juan.perez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
+| `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario en el sistema, creando su cuenta de acceso e inicializando su perfil asociado. | **Body (JSON):**<br>`username` (string)<br>`email` (string)<br>`password` (string)<br>`role` (enum Roles)<br>`firstName` (string)<br>`lastName` (string)<br>`photoUrl` (string, opcional) | ```json { "username": "juan.perez", "email": "juan.perez@example.com", "password": "MiClaveSegura123", "role": "AGRONOMIST", "firstName": "Juan", "lastName": "Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | ```json { "id": 7, "username": "juan.perez", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
+
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
