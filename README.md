@@ -3218,18 +3218,20 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 
 A continuación se presentará el sprint planning para esta segunda entrega, donde definimos el trabajo a realizar, las metas y el enfoque del equipo para el desarrollo del frontend de AgroTrack.
 
-| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint planning <br> background      | En este sprint se abordará la implementación del **Frontend Web Application** con **Angular**, integrando los módulos **IAM (Identity and Access Management)**, **Organization**, y **Report**, conectados a una **Fake API** desplegada en **Azure** con **JSON Server**. El objetivo es construir la primera versión funcional de la aplicación con flujo de autenticación, gestión de organizaciones y visualización de reportes. |
-| Date                                 | 2025/09/27                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Time                                 | 5:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Location                             | Reunión virtual mediante la plataforma **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Prepared By                          | Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint #                            | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background     | En este sprint se abordará la implementación del **Frontend Web Application** con **Angular**, integrando los módulos **IAM (Identity and Access Management)**, **Organization**, y **Report**, conectados a una **Fake API** desplegada en **Azure** con **JSON Server**. El objetivo es construir la primera versión funcional de la aplicación con flujo de autenticación, gestión de organizaciones y visualización de reportes. |
+| Date                                | 2025/09/27                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                                | 5:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                            | Reunión virtual mediante la plataforma **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By                         | Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Attendees <br> (to planning meeting) | Pierina Almandroz, Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sprint 2 Goal                        | Nuestro enfoque está en desarrollar el **frontend funcional de AgroTrack**, integrando los módulos de autenticación (IAM), gestión de organizaciones y reportes conectados al fake API en Azure.<br> Creemos que esto permitirá validar la arquitectura base del sistema y mostrar flujos funcionales simulados de usuarios reales.<br> Esto se confirmará cuando los usuarios puedan **registrarse, iniciar sesión, crear organizaciones y visualizar reportes** desde la aplicación Angular. |
-| Sprint 2 Velocity                    | 10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Sum of story points                  | 60                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 1 Review Summary             |Durante la revisión del Sprint 1 se confirmó que el equipo cumplió con los entregables planificados, incluyendo la documentación inicial del proyecto, los artefactos de UX y los diagramas base del sistema. Sin embargo, se identificó una observación importante: todos los diagramas entregados (Event Storming, C4, UML, etc.) debían estar completamente en inglés, por lo que algunos de ellos requerían correcciones de rotulado y estandarización del idioma. Esta retroalimentación definió uno de los ajustes prioritarios para el Sprint 2.|
+| Sprint 1 Retrospective Summary      |En la retrospectiva del Sprint 1, el equipo reconoció que la principal mejora pendiente era la necesidad de unificar el idioma de todos los diagramas técnicos, dado que algunos fueron elaborados en español por falta de coordinación inicial. El equipo acordó como acción correctiva revisar los artefactos existentes, traducirlos y estandarizar el uso del inglés en todos los diagramas futuros. Asimismo, se reforzó el compromiso de validar cada entregable contra los lineamientos solicitados por el curso antes de presentarlo en la siguiente revisión.|
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 2 Goal                       | Nuestro enfoque está en desarrollar el **frontend funcional de AgroTrack**, integrando los módulos de autenticación (IAM), gestión de organizaciones y reportes conectados al fake API en Azure.<br> Creemos que esto permitirá validar la arquitectura base del sistema y mostrar flujos funcionales simulados de usuarios reales.<br> Esto se confirmará cuando los usuarios puedan **registrarse, iniciar sesión, crear organizaciones y visualizar reportes** desde la aplicación Angular. |
+| Sprint 2 Velocity                   | 10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sum of story points                 | 60                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
@@ -4145,17 +4147,461 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
+
+| Sprint #                            | Sprint 3 |
+|-------------------------------------|----------|
+| Sprint planning <br> background     | En este sprint se abordará el **desarrollo del backend completo del sistema AgroTrack**, implementando los bounded contexts: **Profile**, **Reports**, **Monitoring**, **Organization** e **IAM**. Asimismo, se realizará el **primer intento de integración entre el backend y el frontend**, validando la comunicación entre servicios y la consistencia de los módulos ya desarrollados. Como parte clave del sprint, todo User Story deberá ser descompuesto en **Engineering Tasks estimadas entre 4 y 8 horas**, atendiendo a las observaciones del Sprint 2. Finalmente, se realizará el **despliegue inicial del backend y frontend**, permitiendo evaluar el funcionamiento conjunto del sistema en un entorno real. |
+| Date                                | 2025/11/04 |
+| Time                                | 08:00 AM |
+| Location                            | Reunión virtual mediante la plataforma **Microsoft Teams** |
+| Prepared By                         | Quique Vladimir Jara Benites |
+| Attendees <br> (to planning meeting) | Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca |
+| Sprint 2 Review Summary             | Durante la revisión del Sprint 2 se confirmó que el equipo cumplió con la mayoría de las especificaciones solicitadas, mostrando un adecuado seguimiento de tareas mediante los estados *To Do*, *In Process*, *To Review* y *Done*. Sin embargo, se identificó una observación importante: **los User Stories asignados al Sprint no se descompusieron en Engineering Tasks**, o **no todas las tareas contaban con estimaciones dentro del rango recomendado (4 a 8 horas)**. Este punto se definió como prioridad para el Sprint 3. |
+| Sprint 2 Retrospective Summary      | En la retrospectiva del Sprint 2, el equipo reconoció que la principal área de mejora era la falta de granularidad en las tareas y la ausencia de estimaciones horarias adecuadas. Se acordó descomponer cada User Story en Engineering Tasks específicas, estimar todo el esfuerzo dentro del rango de 4 a 8 horas, revisar dependencias antes de iniciar el sprint y mejorar la consistencia de planificación. Además, se decidió mantener el uso del tablero Kanban, dado su buen desempeño para visualizar y organizar el progreso del equipo. |
+| **Sprint Goal & User Stories**      | |
+| Sprint 3 Goal                       | Completar el **backend de AgroTrack**, implementar los bounded contexts definidos y lograr el **primer despliegue integrado** entre backend y frontend. Además, asegurar que todos los User Stories estén correctamente descompuestos y estimados, mejorando la calidad del proceso ágil del equipo. La finalización exitosa del sprint se confirmará cuando el backend esté operativo, el frontend pueda consumir sus endpoints y ambos despliegues funcionen en conjunto. |
+| Sprint 3 Velocity                   | 24 |
+| Sum of story points                 | 24 |
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
+A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 3.  
+La tabla identifica a los líderes (L) y colaboradores (C) por cada aspecto funcional trabajado durante el sprint, alineado con los bounded contexts del backend y las actividades de integración entre sistemas.
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM | Organization | Profile | Monitoring | Reports | Backend Architecture & Deployment | Backend–Frontend Integration | Documentation |
+|-------------------------------------|-----------------|-----|--------------|---------|------------|---------|------------------------------------|------------------------------|----------------|
+| **Amaro Villar, Anjali**            | njlmrvllr       | C   | C            | C       | C          | L       | C                                  | C                            | L              |
+| **Jara Benites, Quique Vladimir**   | QuiqueVladimir  | L   | C            | C       | C          | C       | C                                  | L                            | C              |
+| **Quintanilla Pozo, Gonzalo**       | GoldQP          | C   | C            | C       | L          | C       | C                                  | C                            | C              |
+| **Vilca Saboya, Diego Alejandro**   | diesoks         | C   | C            | L       | C          | C       | L                                  | C                            | C              |
+
 #### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal de este Sprint es **desarrollar el backend de AgroTrack** para los bounded contexts **IAM, Organization, Profile, Monitoring & Control y Reports**, así como realizar el **primer intento de integración entre backend y frontend**.  
+Todas las User Stories seleccionadas para este sprint fueron descompuestas en **Engineering Tasks** con estimaciones entre **4 y 8 horas**, siguiendo las observaciones realizadas en la revisión del Sprint 2.
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td colspan="7">Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="2">Work-Item / Task</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Assigned To</td>
+    <td>Status (To-do / In-Process / To-Review / Done)</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- IAM: Registrar cuenta -->
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T20</td>
+    <td>Diseñar modelo de usuario para IAM</td>
+    <td>Definir entidad User, campos obligatorios y esquema de base de datos para autenticación.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Registrar cuenta</td>
+    <td>T21</td>
+    <td>Implementar endpoint POST /auth/register</td>
+    <td>Crear servicio y controlador para registro de usuarios con validación y hash de contraseña.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- IAM: Iniciar sesión -->
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T22</td>
+    <td>Implementar endpoint POST /auth/login</td>
+    <td>Verificar credenciales, devolver token JWT y manejar errores de autenticación.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Iniciar sesión</td>
+    <td>T23</td>
+    <td>Configurar middleware de autenticación</td>
+    <td>Configurar middleware/guard que valide JWT y proteja rutas privadas de la API.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Profile: Completar y editar perfil -->
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T24</td>
+    <td>Diseñar entidad Profile</td>
+    <td>Modelar entidad Profile vinculada al usuario con campos básicos (nombre, rol, contacto).</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US27</td>
+    <td>Completar perfil</td>
+    <td>T25</td>
+    <td>Implementar endpoints GET/PUT /profiles/me</td>
+    <td>Permitir consultar y completar el perfil inicial desde el frontend.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US28</td>
+    <td>Editar perfil</td>
+    <td>T26</td>
+    <td>Habilitar actualización parcial de perfil</td>
+    <td>Agregar soporte para edición de datos del perfil con validaciones de formato.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US28</td>
+    <td>Editar perfil</td>
+    <td>T27</td>
+    <td>Integrar formulario de perfil con API</td>
+    <td>Conectar el formulario del frontend a los endpoints de perfil para guardar cambios en tiempo real.</td>
+    <td>6</td>
+    <td>Dev Fullstack</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Organization: Crear organización, invitar, remover, suscripción -->
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T28</td>
+    <td>Diseñar entidad Organization</td>
+    <td>Definir estructura de organización, relación con usuario Owner y reglas básicas.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Crear organización</td>
+    <td>T29</td>
+    <td>Implementar endpoint POST /organizations</td>
+    <td>Crear servicio para registrar organizaciones y asignar rol Owner al agrónomo.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Invitar miembro a organización</td>
+    <td>T30</td>
+    <td>Modelar invitaciones de organización</td>
+    <td>Crear entidad Invitation y lógica para estados Pendiente, Aceptada y Rechazada.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Invitar miembro a organización</td>
+    <td>T31</td>
+    <td>Implementar endpoint POST /organizations/{id}/invitations</td>
+    <td>Permitir enviar invitaciones a agricultores registrados y exponerlas en el frontend.</td>
+    <td>6</td>
+    <td>Dev Fullstack</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Remover agricultor de organización</td>
+    <td>T32</td>
+    <td>Implementar endpoint DELETE /organizations/{orgId}/members/{memberId}</td>
+    <td>Eliminar miembros de la organización verificando permisos de Owner/Admin.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Remover agricultor de organización</td>
+    <td>T33</td>
+    <td>Actualizar vista de miembros</td>
+    <td>Refrescar la lista de miembros en el frontend después de la eliminación.</td>
+    <td>4</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T34</td>
+    <td>Diseñar modelo Subscription</td>
+    <td>Crear entidad Subscription y asociación con usuarios y planes de prueba.</td>
+    <td>4</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Adquirir suscripción</td>
+    <td>T35</td>
+    <td>Implementar flujo de compra simulada</td>
+    <td>Crear endpoint de checkout que simule respuesta de pago y active la suscripción.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Reports: parcel & general & download -->
+  <tr>
+    <td>US21</td>
+    <td>Solicitar reporte de parcela</td>
+    <td>T36</td>
+    <td>Implementar endpoint POST /reports/parcel</td>
+    <td>Generar reporte por parcela a partir de lecturas de monitoreo y tareas asociadas.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Solicitar reporte de parcela</td>
+    <td>T37</td>
+    <td>Conectar formulario de solicitud de reporte</td>
+    <td>Integrar pantalla de selección de periodo con el endpoint de reportes de parcela.</td>
+    <td>4</td>
+    <td>Dev Fullstack</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Solicitar reporte general</td>
+    <td>T38</td>
+    <td>Implementar endpoint POST /reports/organization</td>
+    <td>Generar reporte global de la organización filtrado por periodo e indicadores.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Generar/descargar reporte</td>
+    <td>T39</td>
+    <td>Endpoint GET /reports/{id}/download</td>
+    <td>Habilitar descarga de archivos de reporte y registro de auditoría de descargas.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Monitoring & checklist -->
+  <tr>
+    <td>US15</td>
+    <td>Crear checklist</td>
+    <td>T40</td>
+    <td>Implementar entidad Checklist e ítems</td>
+    <td>Modelar checklist e ítems asociados a una parcela y persistirlos en la base de datos.</td>
+    <td>6</td>
+    <td>Dev Backend</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Crear checklist</td>
+    <td>T41</td>
+    <td>Corregir formulario de checklist en frontend</td>
+    <td>Ajustar el formulario existente para consumir el nuevo endpoint real y mostrar mensajes de error adecuados.</td>
+    <td>4</td>
+    <td>Dev Front</td>
+    <td>To-do</td>
+  </tr>
+
+</table>
+
+<img alt="Image" src="https://github.com/user-attachments/assets/33d97914-b693-4879-a6bc-531355c11ec1" />
+[Trello Board - Sprint 3 Backlog](https://trello.com/b/lT4rJti6)
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances de implementación realizados durante el Sprint 3 en los diferentes productos de la solución: **Web Application y Web Services (Backend)**.  
+La evidencia incluye los commits relevantes asociados a cada repositorio, detallando las ramas utilizadas, mensajes de commit y fechas de integración. Esta información permitirá verificar la trazabilidad entre las tareas del Sprint Backlog y los avances implementados en el código fuente.
+
+A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.  
+Los commits serán añadidos posteriormente.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|---------|------------|----------------|----------------------|---------------------|
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de ejecución correspondiente al Sprint 3, mostrando que los módulos desarrollados (IAM, Organization, Profile, Plots y Monitoring & Control) han sido correctamente desplegados y ejecutados en el entorno local.  
+Las capturas evidencian que el servicio backend inicia sin errores, expone su documentación generada automáticamente y permite la navegación básica requerida para la Sprint Review.
+
+---
+
+### **1. Backend ejecutándose correctamente**
+La siguiente captura muestra la consola de ejecución del proyecto en IntelliJ IDEA, evidenciando:
+
+- Carga exitosa del contexto de Spring Boot
+- Inicialización de componentes JPA
+- Configuración de autenticación
+- Aplicación ejecutándose sin errores críticos
+
+> *Evidencia 1: Backend levantando correctamente en entorno local.*
+
+<img alt="Image" src="https://github.com/user-attachments/assets/9eeb1ade-7e62-469e-8131-2a2988572fca" />
+
+---
+
+### **2. Servidor local disponible con Swagger UI**
+A continuación se muestra la interfaz generada automáticamente por Swagger/OpenAPI, lo cual confirma que:
+
+- El backend está activo
+- La documentación está accesible
+- Los módulos expuestos tienen navegación disponible
+
+> *Evidencia 2: Acceso exitoso al Swagger UI desde localhost.*
+
+<img src="https://github.com/user-attachments/assets/deadd79c-cc42-4527-bb3c-060e10307487" />
+
+---
+
+### **3. Validación visual de las categorías principales de la API**
+En esta captura se observa la estructura general de los grupos de endpoints (Authentication, Plots, Organizations), lo que confirma que las rutas están registradas y disponibles.
+
+> *Evidencia 3: Categorías de endpoints cargadas en Swagger.*
+
+<img alt="Image" src="https://github.com/user-attachments/assets/552ab958-9204-4088-8ac3-1b5ab49aac6a" />
+
+---
+
+### **4. Video demostrativo**
+El video será incluido en cuanto se complete la grabación del flujo funcional solicitado para la Sprint Review.
+
+**Video del Sprint 3:** _[pendiente de adjuntar]_
+
+---
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.3.6.1. Organization Service Documentation
+
+En este Sprint se implementaron y documentaron los endpoints correspondientes al bounded context **Organization**, permitiendo gestionar organizaciones, actualizar información básica y administrar miembros.  
+La siguiente tabla resume los endpoints expuestos, las acciones implementadas y los enlaces correspondientes a la documentación generada automáticamente con Swagger.
+
+#### Tabla de Endpoints – Organization
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/organizations` | POST | Crear una nueva organización y asignar Owner al usuario creador. | **Body:** `{ name, country, industry }` | ```json { "name": "Mi Finca", "country": "Peru", "industry": "Agricultura" }``` | ```json { "id": 1, "name": "Mi Finca", "country": "Peru", "industry": "Agricultura", "ownerId": 7 }``` | `http://localhost:8080/swagger-ui/index.html#/Organization/createOrganization` |
+| `/api/v1/organizations/{organizationId}/name` | PUT | Actualizar el nombre de la organización. | **Path:** organizationId<br>**Body:** `{ name }` | ```json { "name": "Nueva Finca" }``` | ```json { "id": 1, "name": "Nueva Finca" }``` | Swagger UI |
+| `/api/v1/organizations/{organizationId}/profiles/add` | PUT | Agregar un miembro a la organización. | **Path:** organizationId<br>**Body:** `{ profileId }` | ```json { "profileId": 5 }``` | ```json { "message": "Member added successfully" }``` | Swagger UI |
+| `/api/v1/organizations/{organizationId}/profiles/remove` | PUT | Remover un miembro de la organización. | **Path:** organizationId<br>**Body:** `{ profileId }` | ```json { "profileId": 5 }``` | ```json { "message": "Member removed successfully" }``` | Swagger UI |
+| `/api/v1/organizations/{organizationId}` | GET | Obtener datos completos de la organización. | **Path:** organizationId | — | ```json { "id": 1, "name": "Mi Finca", "members": [...] }``` | Swagger UI |
+| `/api/v1/organizations/by-subscription/{subscriptionId}` | GET | Listar organizaciones por ID de suscripción. | **Path:** subscriptionId | — | ```json [ { "id": 1, "name": "Finca A" } ]``` | Swagger UI |
+| `/api/v1/organizations/by-name/{organizationName}` | GET | Buscar organización por nombre. | **Path:** organizationName | — | ```json { "id": 1, "name": "Finca A" }``` | Swagger UI |
+
+### 5.2.3.6.2 Profile Service Documentation
+
+En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **Profile**, permitiendo consultar perfiles por identificador, usuario asociado y nombre completo, así como actualizar datos clave como el nombre de la persona y la URL de la foto de perfil.
+
+#### Tabla de Endpoints – Profile
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/profiles/{profileId}` | GET | Obtiene la información de un perfil a partir de su identificador. | **Path:** `profileId` (Long) | — | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/user/{userId}` | GET | Obtiene el perfil asociado a un usuario específico. | **Path:** `userId` (Long) | — | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/search` | GET | Busca un perfil por nombre y apellido de la persona. | **Query:** `firstName`, `lastName` | `GET /api/v1/profiles/search?firstName=Juan&lastName=Perez` | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/{profileId}/person-name` | PUT | Actualiza el nombre de la persona asociado al perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "firstName", "lastName" }` | ```json { "firstName": "Juan Carlos", "lastName": "Pérez" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Carlos Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
+| `/api/v1/profiles/{profileId}/photo-url` | PUT | Actualiza la URL de la foto de perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "photoUrl" }` | ```json { "photoUrl": "https://example.com/new-avatar.png" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/new-avatar.png" } ``` | Swagger UI – sección **Profiles** |
+
+### 5.2.3.6.3. IAM (Authentication) Service Documentation
+
+En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **IAM (Authentication)**, permitiendo el registro de nuevos usuarios y el inicio de sesión mediante credenciales válidas.  
+Estos servicios se exponen bajo el prefijo `/api/v1/authentication` y están documentados en Swagger bajo la sección **Authentication**.
+
+#### Tabla de Endpoints – IAM (Authentication)
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/authentication/sign-in` | POST | Permite que un usuario existente inicie sesión en la plataforma utilizando su identificador (username o email) y contraseña. | **Body (JSON):**<br>`identifier` (string)<br>`password` (string) | ```json { "identifier": "juan.perez", "password": "MiClaveSegura123" } ``` | ```json { "id": 7, "username": "juan.perez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
+| `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario en el sistema, creando su cuenta de acceso e inicializando su perfil asociado. | **Body (JSON):**<br>`username` (string)<br>`email` (string)<br>`password` (string)<br>`role` (enum Roles)<br>`firstName` (string)<br>`lastName` (string)<br>`photoUrl` (string, opcional) | ```json { "username": "juan.perez", "email": "juan.perez@example.com", "password": "MiClaveSegura123", "role": "AGRONOMIST", "firstName": "Juan", "lastName": "Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | ```json { "id": 7, "username": "juan.perez", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
+
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
+
+### Objetivo de la entrevistas
+
+El objetivo de las entrevistas es obtener retroalimentación directa de los usuarios potenciales sobre la usabilidad, funcionalidad y diseño de la plataforma AgroTrack. Se busca identificar áreas de mejora, validar supuestos de diseño y comprender mejor las necesidades y expectativas de los usuarios en el contexto agrícola peruano.
+
+### Landing Page
+La landing page de AgroTrack fue diseñada para captar la atención de los usuarios y proporcionar una visión clara de los beneficios y características de la plataforma. Se incluyeron secciones informativas, testimonios y llamados a la acción para incentivar a los visitantes a registrarse o solicitar más información.
+
+### Aplicación Web
+La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de organizaciones, parcelas y monitoreo ambiental, asegurando que los usuarios puedan interactuar con la plataforma de manera eficiente.
+
+### Preguntas Landing Page
+
+* ¿Qué tan claro te resultó entender qué es AgroTrack y qué beneficios ofrece?
+* ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo?
+* ¿Encontraste fácilmente la información que buscabas (funciones, beneficios, contacto)?
+* ¿Los botones o llamados a la acción te motivaron a registrarte o pedir más información?
+* ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios?
+
+### User flows a evaluar - preguntas de la entrevista
+
+1. Registro y creación de una organización.
+   - ¿El proceso de registro te resultó claro y sencillo de completar?
+   - ¿Entendiste fácilmente el propósito de crear una organización dentro de AgroTrack?
+   - ¿Qué mejorarías para que el registro sea más rápido o intuitivo?
+2. Creación y gestión de parcelas.
+   - ¿Fue fácil registrar una nueva parcela y visualizarla correctamente?
+   - ¿La información que se solicita refleja bien la realidad de tus campos o cultivos?
+   - ¿Qué función agregarías o cambiarías para gestionar mejor tus parcelas?
+3. Inicio y monitoreo de datos ambientales.
+   - ¿Comprendiste fácilmente los datos ambientales mostrados (temperatura, humedad, etc.)?
+   - ¿Faltó algún tipo de dato o alerta que consideres importante?
+4. Creación de tareas.
+   - ¿Fue intuitivo crear una tarea y asignarla a un responsable o fecha específica?
+   - ¿Pudiste entender claramente cómo seguir el estado de las tareas creadas?
+5. Solicitud de reportes.
+   - ¿Encontraste fácilmente la opción para generar o solicitar un reporte?
+   - ¿El contenido del reporte te pareció útil y comprensible para tu trabajo?
+
 ### 5.3.2. Registro de entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -4223,4 +4669,4 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 | **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
 | **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
 | **Web Application**     | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)           |
-| **Agrotrack mockapi** | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
+| **Web Service**             | [https://github.com/FloweyTech/agrotrack-web-service](https://github.com/FloweyTech/agrotrack-web-service)   |
