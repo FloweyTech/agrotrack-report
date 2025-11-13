@@ -4438,6 +4438,8 @@ Todas las User Stories seleccionadas para este sprint fueron descompuestas en **
 
 </table>
 
+<img alt="Image" src="https://github.com/user-attachments/assets/33d97914-b693-4879-a6bc-531355c11ec1" />
+[Trello Board - Sprint 3 Backlog](https://trello.com/b/lT4rJti6)
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
