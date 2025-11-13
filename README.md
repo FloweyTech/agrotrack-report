@@ -4167,6 +4167,14 @@ La landing page de AgroTrack fue diseñada para captar la atención de los usuar
 ### Aplicación Web
 La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de organizaciones, parcelas y monitoreo ambiental, asegurando que los usuarios puedan interactuar con la plataforma de manera eficiente.
 
+### Preguntas Landing Page
+
+* ¿Qué tan claro te resultó entender qué es AgroTrack y qué beneficios ofrece?
+* ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo?
+* ¿Encontraste fácilmente la información que buscabas (funciones, beneficios, contacto)?
+* ¿Los botones o llamados a la acción te motivaron a registrarte o pedir más información?
+* ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios?
+
 ### User flows a evaluar - preguntas de la entrevista
 
 1. Registro y creación de una organización.
@@ -4181,14 +4189,11 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
    - ¿Comprendiste fácilmente los datos ambientales mostrados (temperatura, humedad, etc.)?
    - ¿Faltó algún tipo de dato o alerta que consideres importante?
 4. Creación de tareas.
-   - ¿Comprendiste fácilmente los datos ambientales mostrados (temperatura, humedad, etc.)?
-   - ¿Te resultaron útiles las gráficas o indicadores para tomar decisiones sobre tu cultivo?
-   - ¿Faltó algún tipo de dato o alerta que consideres importante?
+   - ¿Fue intuitivo crear una tarea y asignarla a un responsable o fecha específica?
+   - ¿Pudiste entender claramente cómo seguir el estado de las tareas creadas?
 5. Solicitud de reportes.
    - ¿Encontraste fácilmente la opción para generar o solicitar un reporte?
    - ¿El contenido del reporte te pareció útil y comprensible para tu trabajo?
-
-
 
 ### 5.3.2. Registro de entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
