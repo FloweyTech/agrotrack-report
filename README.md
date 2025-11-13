@@ -4147,13 +4147,36 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
+
+| Sprint #                            | Sprint 3 |
+|-------------------------------------|----------|
+| Sprint planning <br> background     | En este sprint se abordará el **desarrollo del backend completo del sistema AgroTrack**, implementando los bounded contexts: **Profile**, **Reports**, **Monitoring**, **Organization** e **IAM**. Asimismo, se realizará el **primer intento de integración entre el backend y el frontend**, validando la comunicación entre servicios y la consistencia de los módulos ya desarrollados. Como parte clave del sprint, todo User Story deberá ser descompuesto en **Engineering Tasks estimadas entre 4 y 8 horas**, atendiendo a las observaciones del Sprint 2. Finalmente, se realizará el **despliegue inicial del backend y frontend**, permitiendo evaluar el funcionamiento conjunto del sistema en un entorno real. |
+| Date                                | 2025/11/04 |
+| Time                                | 08:00 AM |
+| Location                            | Reunión virtual mediante la plataforma **Microsoft Teams** |
+| Prepared By                         | Quique Vladimir Jara Benites |
+| Attendees <br> (to planning meeting) | Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca |
+| Sprint 2 Review Summary             | Durante la revisión del Sprint 2 se confirmó que el equipo cumplió con la mayoría de las especificaciones solicitadas, mostrando un adecuado seguimiento de tareas mediante los estados *To Do*, *In Process*, *To Review* y *Done*. Sin embargo, se identificó una observación importante: **los User Stories asignados al Sprint no se descompusieron en Engineering Tasks**, o **no todas las tareas contaban con estimaciones dentro del rango recomendado (4 a 8 horas)**. Este punto se definió como prioridad para el Sprint 3. |
+| Sprint 2 Retrospective Summary      | En la retrospectiva del Sprint 2, el equipo reconoció que la principal área de mejora era la falta de granularidad en las tareas y la ausencia de estimaciones horarias adecuadas. Se acordó descomponer cada User Story en Engineering Tasks específicas, estimar todo el esfuerzo dentro del rango de 4 a 8 horas, revisar dependencias antes de iniciar el sprint y mejorar la consistencia de planificación. Además, se decidió mantener el uso del tablero Kanban, dado su buen desempeño para visualizar y organizar el progreso del equipo. |
+| **Sprint Goal & User Stories**      | |
+| Sprint 3 Goal                       | Completar el **backend de AgroTrack**, implementar los bounded contexts definidos y lograr el **primer despliegue integrado** entre backend y frontend. Además, asegurar que todos los User Stories estén correctamente descompuestos y estimados, mejorando la calidad del proceso ágil del equipo. La finalización exitosa del sprint se confirmará cuando el backend esté operativo, el frontend pueda consumir sus endpoints y ambos despliegues funcionen en conjunto. |
+| Sprint 3 Velocity                   | 24 |
+| Sum of story points                 | 24 |
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
 #### 5.2.3.3. Sprint Backlog 3
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
 
 ## 5.3. Validation Interviews
 
