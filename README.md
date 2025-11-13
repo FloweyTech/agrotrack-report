@@ -4165,6 +4165,17 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 3.  
+La tabla identifica a los líderes (L) y colaboradores (C) por cada aspecto funcional trabajado durante el sprint, alineado con los bounded contexts del backend y las actividades de integración entre sistemas.
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM | Organization | Profile | Monitoring | Reports | Backend Architecture & Deployment | Backend–Frontend Integration | Documentation |
+|-------------------------------------|-----------------|-----|--------------|---------|------------|---------|------------------------------------|------------------------------|----------------|
+| **Amaro Villar, Anjali**            | njlmrvllr       | C   | C            | C       | C          | L       | C                                  | C                            | L              |
+| **Jara Benites, Quique Vladimir**   | QuiqueVladimir  | L   | C            | C       | C          | C       | C                                  | L                            | C              |
+| **Quintanilla Pozo, Gonzalo**       | GoldQP          | C   | C            | C       | L          | C       | C                                  | C                            | C              |
+| **Vilca Saboya, Diego Alejandro**   | diesoks         | C   | C            | L       | C          | C       | L                                  | C                            | C              |
+
+
 #### 5.2.3.3. Sprint Backlog 3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
