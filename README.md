@@ -4443,7 +4443,73 @@ Todas las User Stories seleccionadas para este sprint fueron descompuestas en **
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+En esta sección se presentan los avances de implementación realizados durante el Sprint 3 en los diferentes productos de la solución: **Web Application y Web Services (Backend)**.  
+La evidencia incluye los commits relevantes asociados a cada repositorio, detallando las ramas utilizadas, mensajes de commit y fechas de integración. Esta información permitirá verificar la trazabilidad entre las tareas del Sprint Backlog y los avances implementados en el código fuente.
+
+A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.  
+Los commits serán añadidos posteriormente.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|---------|------------|----------------|----------------------|---------------------|
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+|            |         |            |                |                      |                     |
+
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de ejecución correspondiente al Sprint 3, mostrando que los módulos desarrollados (IAM, Organization, Profile, Plots y Monitoring & Control) han sido correctamente desplegados y ejecutados en el entorno local.  
+Las capturas evidencian que el servicio backend inicia sin errores, expone su documentación generada automáticamente y permite la navegación básica requerida para la Sprint Review.
+
+---
+
+### **1. Backend ejecutándose correctamente**
+La siguiente captura muestra la consola de ejecución del proyecto en IntelliJ IDEA, evidenciando:
+
+- Carga exitosa del contexto de Spring Boot
+- Inicialización de componentes JPA
+- Configuración de autenticación
+- Aplicación ejecutándose sin errores críticos
+
+> *Evidencia 1: Backend levantando correctamente en entorno local.*
+
+<img alt="Image" src="https://github.com/user-attachments/assets/9eeb1ade-7e62-469e-8131-2a2988572fca" />
+
+---
+
+### **2. Servidor local disponible con Swagger UI**
+A continuación se muestra la interfaz generada automáticamente por Swagger/OpenAPI, lo cual confirma que:
+
+- El backend está activo
+- La documentación está accesible
+- Los módulos expuestos tienen navegación disponible
+
+> *Evidencia 2: Acceso exitoso al Swagger UI desde localhost.*
+
+<img src="https://github.com/user-attachments/assets/deadd79c-cc42-4527-bb3c-060e10307487" />
+
+---
+
+### **3. Validación visual de las categorías principales de la API**
+En esta captura se observa la estructura general de los grupos de endpoints (Authentication, Plots, Organizations), lo que confirma que las rutas están registradas y disponibles.
+
+> *Evidencia 3: Categorías de endpoints cargadas en Swagger.*
+
+<img alt="Image" src="https://github.com/user-attachments/assets/552ab958-9204-4088-8ac3-1b5ab49aac6a" />
+
+---
+
+### **4. Video demostrativo**
+El video será incluido en cuanto se complete la grabación del flujo funcional solicitado para la Sprint Review.
+
+**Video del Sprint 3:** _[pendiente de adjuntar]_
+
+---
+
+
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
