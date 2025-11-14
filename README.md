@@ -2641,7 +2641,16 @@ La SPA se comunica con la API de AgroTrack, que a su vez realiza consultas a la 
 
 ### 4.6.4. Software Architecture Components Diagrams
  
-![Component Diagram](assets/images/software-architecture/component-diagram.png)
+- Organization Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Organization.png)
+- Monitoring and Control Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Monitoring.png)
+- Reports Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Reports.png)
+- Profile Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Profile.png)
+- IAM Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/IAM.png)
 
 
 ## 4.7. Software Object-Oriented Design
@@ -4148,6 +4157,8 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 
 #### 5.2.3.1. Sprint Planning 3
 
+<div style="font-size:70%;">
+
 | Sprint #                            | Sprint 3 |
 |-------------------------------------|----------|
 | Sprint planning <br> background     | En este sprint se abordará el **desarrollo del backend completo del sistema AgroTrack**, implementando los bounded contexts: **Profile**, **Reports**, **Monitoring**, **Organization** e **IAM**. Asimismo, se realizará el **primer intento de integración entre el backend y el frontend**, validando la comunicación entre servicios y la consistencia de los módulos ya desarrollados. Como parte clave del sprint, todo User Story deberá ser descompuesto en **Engineering Tasks estimadas entre 4 y 8 horas**, atendiendo a las observaciones del Sprint 2. Finalmente, se realizará el **despliegue inicial del backend y frontend**, permitiendo evaluar el funcionamiento conjunto del sistema en un entorno real. |
@@ -4163,10 +4174,14 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 | Sprint 3 Velocity                   | 24 |
 | Sum of story points                 | 24 |
 
+</div>
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 3.  
 La tabla identifica a los líderes (L) y colaboradores (C) por cada aspecto funcional trabajado durante el sprint, alineado con los bounded contexts del backend y las actividades de integración entre sistemas.
+
+<div style="font-size:70%;">
 
 | Team Member (Last Name, First Name) | GitHub Username | IAM | Organization | Profile | Monitoring | Reports | Backend Architecture & Deployment | Backend–Frontend Integration | Documentation |
 |-------------------------------------|-----------------|-----|--------------|---------|------------|---------|------------------------------------|------------------------------|----------------|
@@ -4175,10 +4190,14 @@ La tabla identifica a los líderes (L) y colaboradores (C) por cada aspecto func
 | **Quintanilla Pozo, Gonzalo**       | GoldQP          | C   | C            | C       | L          | C       | C                                  | C                            | C              |
 | **Vilca Saboya, Diego Alejandro**   | diesoks         | C   | C            | L       | C          | C       | L                                  | C                            | C              |
 
+</div>
+
 #### 5.2.3.3. Sprint Backlog 3
 
 El objetivo principal de este Sprint es **desarrollar el backend de AgroTrack** para los bounded contexts **IAM, Organization, Profile, Monitoring & Control y Reports**, así como realizar el **primer intento de integración entre backend y frontend**.  
 Todas las User Stories seleccionadas para este sprint fueron descompuestas en **Engineering Tasks** con estimaciones entre **4 y 8 horas**, siguiendo las observaciones realizadas en la revisión del Sprint 2.
+
+<div style="font-size:70%;">
 
 | Sprint # | Sprint 3 |  |  |  |  |  |  |
 |----------|----------|--|--|--|--|--|--|
@@ -4215,6 +4234,8 @@ Todas las User Stories seleccionadas para este sprint fueron descompuestas en **
 | US03 | Remover agricultor | ET39 | Registrar auditoría de cambios en la organización | Guardar logs de adiciones y remociones de miembros. | 4 | diesoks | To-do |
 | US01 | Crear organización | ET40 | Validar nombres únicos de organización | Impedir duplicación de nombres por usuario y por cuenta. | 3 | GoldQP | To-do |
 
+</div>
+
 <img alt="Image" src="https://github.com/user-attachments/assets/33d97914-b693-4879-a6bc-531355c11ec1" />
 [Trello Board - Sprint 3 Backlog](https://trello.com/b/lT4rJti6)
 
@@ -4225,6 +4246,8 @@ La evidencia incluye los commits relevantes asociados a cada repositorio, detall
 
 A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.  
 Los commits serán añadidos posteriormente.
+
+<div style="font-size:70%;">
 
 | Repository                       | Branch  | Commit Id                                | Commit Message                 | Committed On        |
 | -------------------------------- | ------- | ---------------------------------------- | ------------------------------ | ------------------- |
@@ -4327,7 +4350,7 @@ Los commits serán añadidos posteriormente.
 | FloweyTech/agrotrack-web-service | main | 2d88c57 | initial commit | 2025-10-18 22:02:50 |
 | FloweyTech/agrotrack-web-service | develop | 0c27d01 | initial project structure (legacy import) | 2025-09-19 07:46:45 |
 
-
+</div>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -4388,6 +4411,8 @@ La siguiente tabla resume los endpoints expuestos, las acciones implementadas y 
 
 #### Tabla de Endpoints – Organization
 
+<div style="font-size:70%;">
+
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
 | `/api/v1/organizations` | POST | Crear una nueva organización y asignar Owner al usuario creador. | **Body:** `{ name, country, industry }` | ```json { "name": "Mi Finca", "country": "Peru", "industry": "Agricultura" }``` | ```json { "id": 1, "name": "Mi Finca", "country": "Peru", "industry": "Agricultura", "ownerId": 7 }``` | `http://localhost:8080/swagger-ui/index.html#/Organization/createOrganization` |
@@ -4398,11 +4423,15 @@ La siguiente tabla resume los endpoints expuestos, las acciones implementadas y 
 | `/api/v1/organizations/by-subscription/{subscriptionId}` | GET | Listar organizaciones por ID de suscripción. | **Path:** subscriptionId | — | ```json [ { "id": 1, "name": "Finca A" } ]``` | Swagger UI |
 | `/api/v1/organizations/by-name/{organizationName}` | GET | Buscar organización por nombre. | **Path:** organizationName | — | ```json { "id": 1, "name": "Finca A" }``` | Swagger UI |
 
+</div>
+
 ### 5.2.3.6.2 Profile Service Documentation
 
 En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **Profile**, permitiendo consultar perfiles por identificador, usuario asociado y nombre completo, así como actualizar datos clave como el nombre de la persona y la URL de la foto de perfil.
 
 #### Tabla de Endpoints – Profile
+
+<div style="font-size:70%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4412,6 +4441,8 @@ En el Sprint 3 se implementaron y documentaron los endpoints del bounded context
 | `/api/v1/profiles/{profileId}/person-name` | PUT | Actualiza el nombre de la persona asociado al perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "firstName", "lastName" }` | ```json { "firstName": "Juan Carlos", "lastName": "Pérez" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Carlos Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
 | `/api/v1/profiles/{profileId}/photo-url` | PUT | Actualiza la URL de la foto de perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "photoUrl" }` | ```json { "photoUrl": "https://example.com/new-avatar.png" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/new-avatar.png" } ``` | Swagger UI – sección **Profiles** |
 
+</div>
+
 ### 5.2.3.6.3. IAM (Authentication) Service Documentation
 
 En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **IAM (Authentication)**, permitiendo el registro de nuevos usuarios y el inicio de sesión mediante credenciales válidas.  
@@ -4419,10 +4450,14 @@ Estos servicios se exponen bajo el prefijo `/api/v1/authentication` y están doc
 
 #### Tabla de Endpoints – IAM (Authentication)
 
+<div style="font-size:70%;">
+
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
 | `/api/v1/authentication/sign-in` | POST | Permite que un usuario existente inicie sesión en la plataforma utilizando su identificador (username o email) y contraseña. | **Body (JSON):**<br>`identifier` (string)<br>`password` (string) | ```json { "identifier": "juan.perez", "password": "MiClaveSegura123" } ``` | ```json { "id": 7, "username": "juan.perez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
 | `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario en el sistema, creando su cuenta de acceso e inicializando su perfil asociado. | **Body (JSON):**<br>`username` (string)<br>`email` (string)<br>`password` (string)<br>`role` (enum Roles)<br>`firstName` (string)<br>`lastName` (string)<br>`photoUrl` (string, opcional) | ```json { "username": "juan.perez", "email": "juan.perez@example.com", "password": "MiClaveSegura123", "role": "AGRONOMIST", "firstName": "Juan", "lastName": "Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | ```json { "id": 7, "username": "juan.perez", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
+
+</div>
 
 ### 5.2.3.6.4. Monitoring and Control Service Documentation
 
@@ -4432,6 +4467,8 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 
 #### Tabla de Endpoints – Tasks
 
+<div style="font-size:70%;">
+
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
 | `/api/v1/tasks` | POST | Crea una nueva tarea agrícola asignada a un perfil específico, incluyendo materiales a utilizar. | **Body (JSON):**<br>`assignTaskToProfileId` (Long)<br>`title` (string)<br>`description` (string)<br>`startDate` (LocalDate)<br>`endDate` (LocalDate)<br>`taskStatus` (enum: PENDING, IN_PROGRESS, COMPLETED, CANCELLED)<br>`materialsUsed` (array de MaterialUsedResource) | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "PENDING",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "PENDING",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | Swagger UI – sección **Tasks** |
@@ -4440,7 +4477,11 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 | `/api/v1/tasks` | GET | Obtiene la lista de todas las tareas registradas en el sistema. | N/A | N/A | ```json<br>[<br>  {<br>    "assignTaskToProfileId": 5,<br>    "title": "Aplicación de fertilizante",<br>    "description": "Aplicar fertilizante NPK",<br>    "startDate": "2025-11-15",<br>    "endDate": "2025-11-16",<br>    "taskStatus": "IN_PROGRESS",<br>    "materialsUsed": [...]<br>  },<br>  {<br>    "assignTaskToProfileId": 6,<br>    "title": "Riego programado",<br>    "description": "Riego en sector sur",<br>    "startDate": "2025-11-14",<br>    "endDate": "2025-11-14",<br>    "taskStatus": "COMPLETED",<br>    "materialsUsed": [...]<br>  }<br>]<br>``` | Swagger UI – sección **Tasks** |
 | `/api/v1/tasks/{taskId}` | DELETE | Elimina una tarea específica del sistema. | **Path:**<br>`taskId` (Long) | N/A | ```json<br>"Task deleted successfully"<br>``` | Swagger UI – sección **Tasks** |
 
+</div>
+
 #### Tabla de Endpoints – Environment Readings
+
+<div style="font-size:70%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4449,6 +4490,7 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 | `/api/v1/environment-readings/{environmentReadingId}` | GET | Obtiene los detalles de una lectura ambiental específica por su ID. | **Path:**<br>`environmentReadingId` (Long) | N/A | ```json<br>{<br>  "plotId": 3,<br>  "type": "TEMPERATURE",<br>  "value": 25.5,<br>  "unit": "°C",<br>  "measuredAt": "2025-11-14T10:30:00"<br>}<br>``` | Swagger UI – sección **Environment Readings** |
 | `/api/v1/environment-readings/plot/{plotId}` | GET | Obtiene todas las lecturas ambientales registradas para un terreno específico. | **Path:**<br>`plotId` (Long) | N/A | ```json<br>[<br>  {<br>    "plotId": 3,<br>    "type": "TEMPERATURE",<br>    "value": 25.5,<br>    "unit": "°C",<br>    "measuredAt": "2025-11-14T10:30:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "HUMIDITY",<br>    "value": 65.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:35:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "SOIL_MOISTURE",<br>    "value": 45.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:40:00"<br>  }<br>]<br>``` | Swagger UI – sección **Environment Readings** |
 
+</div>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
