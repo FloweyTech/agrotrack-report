@@ -4449,13 +4449,107 @@ La evidencia incluye los commits relevantes asociados a cada repositorio, detall
 A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.  
 Los commits serán añadidos posteriormente.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|---------|------------|----------------|----------------------|---------------------|
-|            |         |            |                |                      |                     |
-|            |         |            |                |                      |                     |
-|            |         |            |                |                      |                     |
-|            |         |            |                |                      |                     |
-|            |         |            |                |                      |                     |
+| Repository                       | Branch  | Commit Id                                | Commit Message                 | Committed On        |
+| -------------------------------- | ------- | ---------------------------------------- | ------------------------------ | ------------------- |
+| FloweyTech/agrotrack-web-service | develop | ca77ad1cd663a80653f82a7dc8cb156cb1d382e0 | chore: update                  | 2025-11-11 01:52:52 |
+| FloweyTech/agrotrack-web-service | develop | 7ebe0072c6838e2657e49b243189028bee288852 | fix: bug                       | 2025-11-10 19:52:50 |
+| FloweyTech/agrotrack-web-service | develop | 0814027a3bf90f7753227d4f444186b1c493abf1 | refactor: controller           | 2025-11-10 19:45:15 |
+| FloweyTech/agrotrack-web-service | develop | c2f0f32d41e80b533a0769136a4ab4e51b3852db | feat: add endpoint             | 2025-11-10 19:44:35 |
+| FloweyTech/agrotrack-web-service | develop | d067215091dfdd68f0862307ebe21a9c218743c1 | feat: monitoring logic         | 2025-11-10 18:08:25 |
+| FloweyTech/agrotrack-web-service | develop | 36fb8fce7ad106d8718e82c6732a1eba020a9bfe | feat: monitoring session       | 2025-11-10 17:13:42 |
+| FloweyTech/agrotrack-web-service | develop | 3c668c865a309e37854721edd071451f0802d370 | fix: repository                | 2025-11-10 17:12:51 |
+| FloweyTech/agrotrack-web-service | develop | ca1a258382826af6ae4e36254238df5c8691843b | fix: naming                    | 2025-11-10 16:55:49 |
+| FloweyTech/agrotrack-web-service | develop | 02418f8273f58ae19cfee4a8c677580705a71f92 | feat: add checklist            | 2025-11-10 16:48:21 |
+| FloweyTech/agrotrack-web-service | develop | f4bcdf3bd5f80373949a0fd1175445e0a03b0f11 | feat: add task creation        | 2025-11-10 01:50:53 |
+| FloweyTech/agrotrack-web-service | develop | 7962ca177221c89ea4ae11e0dccafd186eee62fb | feat: update endpoints         | 2025-11-09 23:06:19 |
+| FloweyTech/agrotrack-web-service | develop | 575eca747506b176346034dcc31bbe6118a4fa39 | fix: updating service          | 2025-11-09 23:06:13 |
+| FloweyTech/agrotrack-web-service | develop | d8423bf8b22bad2543fc8725a30a901626496556 | fix: model update              | 2025-11-09 23:01:50 |
+| FloweyTech/agrotrack-web-service | develop | 9cc9e27a7ff6c510f507652d2d892cab9ba1a638 | fix: internal logic            | 2025-11-09 21:40:33 |
+| FloweyTech/agrotrack-web-service | develop | 7a9fdd881572c83f8aa854cab3b9f7c2ffabbfcb | feat: add validation           | 2025-11-09 21:11:25 |
+| FloweyTech/agrotrack-web-service | develop | 6de9f78ef59f210843a9c16310e53db931f1add5 | feat: controllers update       | 2025-11-09 21:10:58 |
+| FloweyTech/agrotrack-web-service | develop | cdfa9096d2e85656cbe77f2bbf18aab216a74032 | feat: repository impl          | 2025-11-09 19:49:18 |
+| FloweyTech/agrotrack-web-service | develop | 6f6a3dcf4df79b11b8430f03ec7b5e95b9ba7efa | feat: update entities          | 2025-11-09 19:49:10 |
+| FloweyTech/agrotrack-web-service | develop | 73d6e9af1e131f8edb9f2a8c0783fbbf6cf6959e | feat: add dto                  | 2025-11-09 19:49:02 |
+| FloweyTech/agrotrack-web-service | develop | 2a69d6d49fb49c7caec3c9cc19b271d93bf5a1fd | fix: refactor fields           | 2025-11-09 19:48:55 |
+| FloweyTech/agrotrack-web-service | develop | fb8e070c2b5e582776e9e3b87a6bf1fe189fcd77 | fix: swagger docs              | 2025-11-09 16:53:03 |
+| FloweyTech/agrotrack-web-service | develop | 3e9b7f77294cba46a660cb17c379e58f0ad80134 | feat: add api docs             | 2025-11-09 16:19:00 |
+| FloweyTech/agrotrack-web-service | develop | 1dd4afa539ff16f7cd2a7c71b9e5bb2a09e42909 | feat: add error handling       | 2025-11-09 16:18:53 |
+| FloweyTech/agrotrack-web-service | develop | 2f67056c7f8084d562619fab9f8f42a0e5231bee | fix: handler config            | 2025-11-09 16:18:44 |
+| FloweyTech/agrotrack-web-service | develop | bfa3ce005fe13e62fd7afbb86aa673610f88ef73 | feat: monitoring notifications | 2025-11-09 16:07:33 |
+| FloweyTech/agrotrack-web-service | develop | fbcfc4e | fix: refactor | 2025-11-07 08:38:54 |
+| FloweyTech/agrotrack-web-service | develop | 2a4cde7 | fix: refactor | 2025-11-07 08:38:21 |
+| FloweyTech/agrotrack-web-service | develop | 0f3a3fe | fix: refactor | 2025-11-07 08:37:58 |
+| FloweyTech/agrotrack-web-service | develop | 1d0ba68 | fix: refactor | 2025-11-07 08:37:20 |
+| FloweyTech/agrotrack-web-service | develop | d318e39 | fix: refactor | 2025-11-07 08:37:05 |
+| FloweyTech/agrotrack-web-service | develop | 1867608 | fix: refactor | 2025-11-07 08:36:55 |
+| FloweyTech/agrotrack-web-service | develop | 0f03bc3 | fix: refactor | 2025-11-07 08:36:50 |
+| FloweyTech/agrotrack-web-service | develop | c5037ff | fix: refactor | 2025-11-07 08:36:05 |
+| FloweyTech/agrotrack-web-service | develop | 64df1a2 | fix: refactor | 2025-11-07 08:35:27 |
+| FloweyTech/agrotrack-web-service | feature/reports | 1e9d678 | feat(reports): add report event subscribers | 2025-11-06 23:42:09 |
+| FloweyTech/agrotrack-web-service | develop | f0a9009 | feat(reports): add report command handler | 2025-11-06 23:41:29 |
+| FloweyTech/agrotrack-web-service | develop | 4411683 | feat(reports): add report process manager | 2025-11-06 23:41:03 |
+| FloweyTech/agrotrack-web-service | develop | 7ca9a17 | feat(reports): add report domain events | 2025-11-06 23:32:39 |
+| FloweyTech/agrotrack-web-service | develop | 38ff29c | fix(reports): refactor event application service | 2025-11-06 23:24:18 |
+| FloweyTech/agrotrack-web-service | develop | 99fe04e | fix(reports): update process manager | 2025-11-06 23:23:50 |
+| FloweyTech/agrotrack-web-service | develop | 5d833e4 | fix(reports): event handler adjustment | 2025-11-06 23:22:55 |
+| FloweyTech/agrotrack-web-service | develop | 9ca7797 | fix(reports): fix event contract | 2025-11-06 23:21:36 |
+| FloweyTech/agrotrack-web-service | develop | c272ea6 | fix(reports): update dto | 2025-11-06 23:18:44 |
+| FloweyTech/agrotrack-web-service | develop | e6c36d6 | fix(reports): refactor report factory | 2025-11-06 23:17:17 |
+| FloweyTech/agrotrack-web-service | develop | 9db80f5 | fix(reports): fix aggregate behavior | 2025-11-06 23:05:51 |
+| FloweyTech/agrotrack-web-service | develop | a90f2a8 | fix: update subscription handler | 2025-11-06 08:11:55 |
+| FloweyTech/agrotrack-web-service | develop | 0671a8c | fix: adjust subscription state | 2025-11-06 08:11:44 |
+| FloweyTech/agrotrack-web-service | develop | faae872 | feat: add profile repository | 2025-11-05 02:47:19 |
+| FloweyTech/agrotrack-web-service | develop | 701187c | feat: add profile aggregate root | 2025-11-05 02:46:43 |
+| FloweyTech/agrotrack-web-service | develop | a2a0324 | feat: add profile command contracts | 2025-11-05 02:46:17 |
+| FloweyTech/agrotrack-web-service | develop | d80949e | fix: update application service | 2025-11-05 00:24:41 |
+| FloweyTech/agrotrack-web-service | develop | 052952c | feat: profile domain events | 2025-11-05 00:20:26 |
+| FloweyTech/agrotrack-web-service | develop | 4e6a5a3 | refactor: web config | 2025-11-04 23:13:02 |
+| FloweyTech/agrotrack-web-service | develop | 8e18726 | fix: adjust error response | 2025-11-04 23:09:49 |
+| FloweyTech/agrotrack-web-service | develop | ee855ed | refactor: remove redundant mapper | 2025-11-04 23:08:51 |
+| FloweyTech/agrotrack-web-service | develop | e4c7aa4 | fix: subscription config | 2025-11-04 23:07:33 |
+| FloweyTech/agrotrack-web-service | develop | b07e11d | feat: add subscription handler | 2025-11-03 08:31:50 |
+| FloweyTech/agrotrack-web-service | develop | 66bec97 | fix: subscription repository | 2025-11-02 23:07:26 |
+| FloweyTech/agrotrack-web-service | develop | f197390 | feat: add subscription service | 2025-11-02 23:06:20 |
+| FloweyTech/agrotrack-web-service | develop | 08ea1ff | refactor: adjust factory | 2025-11-02 23:05:54 |
+| FloweyTech/agrotrack-web-service | develop | c42133d | refactor: update naming | 2025-11-02 16:48:44 |
+| FloweyTech/agrotrack-web-service | develop | 7ac09e7 | fix: event mapper | 2025-11-02 16:47:58 |
+| FloweyTech/agrotrack-web-service | develop | 7bb2f48 | fix: update validation | 2025-11-02 16:47:18 |
+| FloweyTech/agrotrack-web-service | develop | fdb3474 | fix: update model | 2025-11-02 16:46:59 |
+| FloweyTech/agrotrack-web-service | develop | e57eb72 | fix: value object correction | 2025-11-02 16:46:43 |
+| FloweyTech/agrotrack-web-service | develop | 7e445d6 | fix: wrong field type | 2025-11-02 16:46:19 |
+| FloweyTech/agrotrack-web-service | develop | 56bb428 | fix: mapper profile | 2025-11-02 16:44:09 |
+| FloweyTech/agrotrack-web-service | develop | 1cb76ae | fix: refactor profile services | 2025-11-02 16:43:28 |
+| FloweyTech/agrotrack-web-service | develop | 0b1b271 | fix: improve profile handler | 2025-11-02 16:42:40 |
+| FloweyTech/agrotrack-web-service | develop | 818de0b | fix: update profile response | 2025-11-02 16:41:29 |
+| FloweyTech/agrotrack-web-service | develop | c2f69e4 | feat: initial profile structure | 2025-11-02 16:39:36 |
+| FloweyTech/agrotrack-web-service | develop | 7279f08 | chore: initial commit | 2025-11-02 16:39:11 |
+| FloweyTech/agrotrack-web-service | develop | 7ffc2a2 | fix: adjust monitoring controller | 2025-10-29 23:38:51 |
+| FloweyTech/agrotrack-web-service | develop | 2d529fb | fix: calibration logic | 2025-10-29 21:03:50 |
+| FloweyTech/agrotrack-web-service | develop | 9c4d6e7 | feat: add monitoring event factory | 2025-10-29 18:56:54 |
+| FloweyTech/agrotrack-web-service | develop | e901363 | feat: monitoring command handlers | 2025-10-29 18:56:40 |
+| FloweyTech/agrotrack-web-service | develop | c8f845b | refactor: reorganize monitoring | 2025-10-29 23:41:34 |
+| FloweyTech/agrotrack-web-service | develop | 94dcf9d | fix: adjust mapper for monitoring | 2025-10-30 00:15:55 |
+| FloweyTech/agrotrack-web-service | develop | 529e1dd | fix: update monitoring dto | 2025-10-30 23:18:06 |
+| FloweyTech/agrotrack-web-service | develop | ebbf199 | fix: event validation | 2025-10-31 09:32:20 |
+| FloweyTech/agrotrack-web-service | develop | 6e097d5 | fix: monitoring config | 2025-10-31 09:32:40 |
+| FloweyTech/agrotrack-web-service | develop | 9932aa8 | fix: event processor | 2025-10-31 13:49:55 |
+| FloweyTech/agrotrack-web-service | develop | 27990b4 | refactor: cleanup monitoring | 2025-11-01 21:11:02 |
+| FloweyTech/agrotrack-web-service | develop | 5a7cfbc | fix: wrong mapping | 2025-11-01 21:10:40 |
+| FloweyTech/agrotrack-web-service | develop | 3636ebd | fix: monitoring response | 2025-11-01 21:09:51 |
+| FloweyTech/agrotrack-web-service | develop | 1de939c | fix: improve command service | 2025-11-01 21:09:12 |
+| FloweyTech/agrotrack-web-service | develop | 02e2177 | fix: adjust sensor reading model | 2025-11-01 21:08:33 |
+| FloweyTech/agrotrack-web-service | develop | 2530dc3 | feat: add monitoring domain model | 2025-11-01 21:07:30 |
+| FloweyTech/agrotrack-web-service | develop | e809bc7 | feat: add monitoring event contracts | 2025-11-01 21:06:22 |
+| FloweyTech/agrotrack-web-service | develop | bc20f8e | feat: init monitoring bounded context | 2025-11-01 21:05:59 |
+| FloweyTech/agrotrack-web-service | develop | a915c01 | fix: adjust dependency injection | 2025-11-01 20:12:54 |
+| FloweyTech/agrotrack-web-service | develop | b8b2b25 | fix: update build config | 2025-11-01 20:12:23 |
+| FloweyTech/agrotrack-web-service | feature/initial-structure | 879f0df | feat: initial folder structure | 2025-10-19 18:05:55 |
+| FloweyTech/agrotrack-web-service | develop | 2ca6aaf | chore: cleanup | 2025-10-19 18:05:36 |
+| FloweyTech/agrotrack-web-service | develop | 9d69e6e | chore: cleanup II | 2025-10-19 18:05:16 |
+| FloweyTech/agrotrack-web-service | develop | 35fb4c6 | chore: setup project | 2025-10-19 18:04:40 |
+| FloweyTech/agrotrack-web-service | main | 2d88c57 | initial commit | 2025-10-18 22:02:50 |
+| FloweyTech/agrotrack-web-service | develop | 0c27d01 | initial project structure (legacy import) | 2025-09-19 07:46:45 |
+
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -4553,12 +4647,44 @@ Estos servicios se exponen bajo el prefijo `/api/v1/authentication` y están doc
 | `/api/v1/authentication/sign-in` | POST | Permite que un usuario existente inicie sesión en la plataforma utilizando su identificador (username o email) y contraseña. | **Body (JSON):**<br>`identifier` (string)<br>`password` (string) | ```json { "identifier": "juan.perez", "password": "MiClaveSegura123" } ``` | ```json { "id": 7, "username": "juan.perez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
 | `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario en el sistema, creando su cuenta de acceso e inicializando su perfil asociado. | **Body (JSON):**<br>`username` (string)<br>`email` (string)<br>`password` (string)<br>`role` (enum Roles)<br>`firstName` (string)<br>`lastName` (string)<br>`photoUrl` (string, opcional) | ```json { "username": "juan.perez", "email": "juan.perez@example.com", "password": "MiClaveSegura123", "role": "AGRONOMIST", "firstName": "Juan", "lastName": "Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | ```json { "id": 7, "username": "juan.perez", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
 
+### 5.2.3.6.4. Monitoring and Control Service Documentation
+
+En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **Monitoring and Control**, permitiendo la gestión de tareas agrícolas y el registro de lecturas ambientales en los terrenos.
+
+Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environment-readings`, y están documentados en Swagger bajo las secciones **Tasks** y **Environment Readings**.
+
+#### Tabla de Endpoints – Tasks
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/tasks` | POST | Crea una nueva tarea agrícola asignada a un perfil específico, incluyendo materiales a utilizar. | **Body (JSON):**<br>`assignTaskToProfileId` (Long)<br>`title` (string)<br>`description` (string)<br>`startDate` (LocalDate)<br>`endDate` (LocalDate)<br>`taskStatus` (enum: PENDING, IN_PROGRESS, COMPLETED, CANCELLED)<br>`materialsUsed` (array de MaterialUsedResource) | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "PENDING",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "PENDING",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | Swagger UI – sección **Tasks** |
+| `/api/v1/tasks/{taskId}` | PUT | Actualiza una tarea existente con nueva información. | **Path:**<br>`taskId` (Long)<br>**Body (JSON):**<br>Mismo formato que POST | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante - Actualizado",<br>  "description": "Aplicar fertilizante NPK en todo el terreno",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-17",<br>  "taskStatus": "IN_PROGRESS",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 75.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante - Actualizado",<br>  "description": "Aplicar fertilizante NPK en todo el terreno",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-17",<br>  "taskStatus": "IN_PROGRESS",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 75.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | Swagger UI – sección **Tasks** |
+| `/api/v1/tasks/{taskId}` | GET | Obtiene los detalles de una tarea específica por su ID. | **Path:**<br>`taskId` (Long) | N/A | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "IN_PROGRESS",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | Swagger UI – sección **Tasks** |
+| `/api/v1/tasks` | GET | Obtiene la lista de todas las tareas registradas en el sistema. | N/A | N/A | ```json<br>[<br>  {<br>    "assignTaskToProfileId": 5,<br>    "title": "Aplicación de fertilizante",<br>    "description": "Aplicar fertilizante NPK",<br>    "startDate": "2025-11-15",<br>    "endDate": "2025-11-16",<br>    "taskStatus": "IN_PROGRESS",<br>    "materialsUsed": [...]<br>  },<br>  {<br>    "assignTaskToProfileId": 6,<br>    "title": "Riego programado",<br>    "description": "Riego en sector sur",<br>    "startDate": "2025-11-14",<br>    "endDate": "2025-11-14",<br>    "taskStatus": "COMPLETED",<br>    "materialsUsed": [...]<br>  }<br>]<br>``` | Swagger UI – sección **Tasks** |
+| `/api/v1/tasks/{taskId}` | DELETE | Elimina una tarea específica del sistema. | **Path:**<br>`taskId` (Long) | N/A | ```json<br>"Task deleted successfully"<br>``` | Swagger UI – sección **Tasks** |
+
+#### Tabla de Endpoints – Environment Readings
+
+| Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
+|---------|--------|-------------|------------|--------------------|---------------------|----------------|
+| `/api/v1/environment-readings` | POST | Registra una nueva lectura ambiental para un terreno específico (temperatura, humedad, pH, etc.). | **Body (JSON):**<br>`plotId` (Long)<br>`type` (enum: TEMPERATURE, HUMIDITY, PH, SOIL_MOISTURE, LIGHT_INTENSITY)<br>`value` (Double)<br>`unit` (string)<br>`measuredAt` (LocalDateTime) | ```json<br>{<br>  "plotId": 3,<br>  "type": "TEMPERATURE",<br>  "value": 25.5,<br>  "unit": "°C",<br>  "measuredAt": "2025-11-14T10:30:00"<br>}<br>``` | ```json<br>{<br>  "plotId": 3,<br>  "type": "TEMPERATURE",<br>  "value": 25.5,<br>  "unit": "°C",<br>  "measuredAt": "2025-11-14T10:30:00"<br>}<br>``` | Swagger UI – sección **Environment Readings** |
+| `/api/v1/environment-readings` | GET | Obtiene todas las lecturas ambientales registradas en el sistema. | N/A | N/A | ```json<br>[<br>  {<br>    "plotId": 3,<br>    "type": "TEMPERATURE",<br>    "value": 25.5,<br>    "unit": "°C",<br>    "measuredAt": "2025-11-14T10:30:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "HUMIDITY",<br>    "value": 65.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:35:00"<br>  }<br>]<br>``` | Swagger UI – sección **Environment Readings** |
+| `/api/v1/environment-readings/{environmentReadingId}` | GET | Obtiene los detalles de una lectura ambiental específica por su ID. | **Path:**<br>`environmentReadingId` (Long) | N/A | ```json<br>{<br>  "plotId": 3,<br>  "type": "TEMPERATURE",<br>  "value": 25.5,<br>  "unit": "°C",<br>  "measuredAt": "2025-11-14T10:30:00"<br>}<br>``` | Swagger UI – sección **Environment Readings** |
+| `/api/v1/environment-readings/plot/{plotId}` | GET | Obtiene todas las lecturas ambientales registradas para un terreno específico. | **Path:**<br>`plotId` (Long) | N/A | ```json<br>[<br>  {<br>    "plotId": 3,<br>    "type": "TEMPERATURE",<br>    "value": 25.5,<br>    "unit": "°C",<br>    "measuredAt": "2025-11-14T10:30:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "HUMIDITY",<br>    "value": 65.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:35:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "SOIL_MOISTURE",<br>    "value": 45.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:40:00"<br>  }<br>]<br>``` | Swagger UI – sección **Environment Readings** |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+
+A continuación, se muestran las evidencias gráficas de la colaboración del equipo durante el Sprint 3, extraídas desde los analytics del repositorio en GitHub.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d" />
+
+---
 
 ## 5.3. Validation Interviews
 
