@@ -4675,8 +4675,16 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+
+A continuación, se muestran las evidencias gráficas de la colaboración del equipo durante el Sprint 3, extraídas desde los analytics del repositorio en GitHub.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d" />
+
+---
 
 ## 5.3. Validation Interviews
 
