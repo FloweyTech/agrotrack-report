@@ -20,7 +20,6 @@
   
 |                Member                |        Code        |
 |:------------------------------------:|:------------------:|
-| Almandroz Carbajal Pierina Marysabel |     202316845      |
 |         Amaro Villar Anjali          |     20221G044      |
 |     Jara Benites Quique Vladimir     |     202022365      |
 |   Quintanilla Pozo Gonzalo Samuel    |     202315007      |
@@ -49,14 +48,24 @@
 
 **TP**
 
-| Versión | Fecha       | Autor               | Descripción de modificación                                      |
-|---------|-------------|---------------------|------------------------------------------------------------------|
-| TP   | 06/10/2025  | Anjali Amaro        | Coreecciones TB1 y Seccion organization- managment de la app Web |
-| TP   | 06/10/2025  | Gonzalo Quintanilla | Coreecciones TB1 y Estilos de la app Web                         |
-| TP   | 07/10/2025  | Vladimir Jara       | Coreecciones TB1 y Seccion Reports e Iam de la app Web           |
-| TP    | 07/10/2025  | Pierina Almandroz   | Coreecciones TB1                                                 |
-| TP   | 06/10/2025  | Diego Vilca         | Coreecciones TB1 y Seccion Profile de la app Web                 |
-| TP   | 07/10/2025  | Equipo completo     | Coreecciones TB1 y Avance general de la app Web                  |
+| Versión | Fecha       | Autor               | Descripción de modificación                                       |
+|---------|-------------|---------------------|-------------------------------------------------------------------|
+| TP      | 06/10/2025  | Anjali Amaro        | Correcciones TB1 y Sección organization- management de la app Web |
+| TP      | 06/10/2025  | Gonzalo Quintanilla | Correcciones TB1 y Estilos de la app Web                          |
+| TP      | 07/10/2025  | Vladimir Jara       | Correcciones TB1 y Sección Reports e Iam de la app Web            |
+| TP      | 07/10/2025  | Pierina Almandroz   | Correcciones TB1                                                  |
+| TP      | 06/10/2025  | Diego Vilca         | Correcciones TB1 y Sección Profile de la app Web                  |
+| TP      | 07/10/2025  | Equipo completo     | Correcciones TB1 y Avance general de la app Web                   |
+
+**TB2**
+
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                |
+|---------|------------|---------------------|--------------------------------------------------------------------------------------------|
+| TB2     | 27/10/2025 | Anjali Amaro        | Estructura del informe para el sprint 3                                                    |
+| TB2     | 07/11/2025 | Gonzalo Quintanilla | Correcciones del TP                                                                        |
+| TB2     | 07/11/2025 | Vladimir Jara       | Se añadió el Sprint Backlog 3                                                              |
+| TB2     | 14/11/2025 | Diego Vilca         | Corrección de Sprint planning anteriores y implementación del sprint planning del sprint 3 |
+| TB2     | 15/11/2025 | Equipo completo     | Correcciones TP y Avance general del backend y frontend                                    |
 
 
 
