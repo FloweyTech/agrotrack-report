@@ -20,6 +20,7 @@
   
 |                Member                |        Code        |
 |:------------------------------------:|:------------------:|
+| Almandroz Carbajal Pierina Marysabel |     202316845      |
 |         Amaro Villar Anjali          |     20221G044      |
 |     Jara Benites Quique Vladimir     |     202022365      |
 |   Quintanilla Pozo Gonzalo Samuel    |     202315007      |
@@ -275,7 +276,6 @@ del ABET – EAC - Student Outcome 3.
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br>**TB2:** Realizar el registro de entrevistas de validación me permitió saber si estamos cumpliendo y entendiendo las necesidades de los usuarios.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br>**TB2:** Presentar el sprint backlog 3 me permitió comunicar a mis compañeros las tareas que tenía cada uno asignadas y que así todos puedan tener un seguimiento de ellas.<br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br>**TB2:** Realizar el diseño de entrevistas de validación me permitió comunicar a mi equipo las características que teníamos que validar de nuestra aplicación.<br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible.<br>**TB2:** Realizar el registro de entrevistas me permitió saber si la comunicación que tenemos con los usuarios es la adecuada, para cumplir sus necesidades de negocio. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros.<br><br>**Conclusión TB2:**<br>En la TB2, el equipo pudo tener una comunicación sólida y organizada, mejor que en los anteriores avances y también pudo comprobar si la comunicación que tuvieron con sus segmentos fue la mejor. |
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br>**TB2:** Documentar las evidencias de este avance del sprint me ayudó a describir con claridad lo que se avanzó para este mismo.<br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br>**TB2:** Redactar los endpoints documentados me permitió saber cómo expresar oralmente la implementación de servicios web.<br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br>**TB2:** Redactar el diseño de entrevistas de validación me permitió saber comunicar por escrito las necesidades y características que tenemos que validar.<br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.<br>**TB2:** Documentar el sprint planning me permitió comunicarle a mi equipo el objetivo del sprint 3 y un *review* del anterior sprint para que todos tengamos en cuenta qué mejorar. | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.<br><br>**Conclusión TB2:**<br>En la TB2, el equipo pudo tener una comunicación sólida y organizada, mejor que en los anteriores avances y también pudo comprobar si la comunicación que tuvieron con sus segmentos fue la mejor. |
-
 
 <div style="page-break-after: always;"></div>
 
@@ -4179,6 +4179,7 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 
 #### 5.2.3.1. Sprint Planning 3
 <div style="font-size:70%;">
+
 | Sprint #                             | Sprint 3                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sprint planning <br> background      | En este sprint se abordará la implementación de la segunda versión del Frontend junto con la primera versión del backend utilizando Java, JPA y Springboot                                                                                                                                                                                |
@@ -4229,40 +4230,41 @@ Todas las User Stories seleccionadas para este sprint fueron descompuestas en **
 |----------|----------|--|--|--|--|--|--|
 | User Story |  | Work-Item / Task |  |  |  |  |  |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US15 | Crear checklist | ET01 | Crear estructura inicial del bounded context Monitoring | Generación del paquete base, entidades preliminares y configuración inicial. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET02 | Definir DTOs iniciales para Checklist | Crear DTOs de request/response para operativa del checklist. | 2 | diesoks | To-do |
-| US15 | Crear checklist | ET03 | Configurar mapper entre entidades y DTOs | Implementar mapeo con ModelMapper o manual para transformar datos. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET04 | Crear repositorio JPA para Checklist | Definir interfaces JPA y probar consultas básicas. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET05 | Implementar servicio de creación de Checklist | Lógica inicial del caso de uso createChecklist(). | 4 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET06 | Validar datos de entrada en checklist | Añadir validaciones para campos obligatorios. | 2 | diesoks | To-do |
-| US15 | Crear checklist | ET07 | Diseñar respuesta estandarizada de errores | Crear CustomException + handler para monitoreo. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET08 | Implementar endpoint POST /monitoring/checklist | Exponer creación de checklist en REST Controller. | 4 | diesoks | To-do |
-| US15 | Crear checklist | ET09 | Probar flujo completo de checklist | Testear manualmente API desde Swagger/Postman. | 2 | njlmrvllr | To-do |
-| US15 | Crear checklist | ET10 | Integrar checklist con frontend | Conectar formulario Angular con el endpoint real. | 5 | GoldQP | To-do |
-| US21 | Solicitar reporte de parcela | ET11 | Diseñar entidad ParcelReport | Crear entidad base para generar reportes por parcela. | 4 | diesoks | To-do |
-| US21 | Solicitar reporte de parcela | ET12 | Crear repositorio para reportes de parcela | Implementar acceso a datos y consultas requeridas. | 3 | QuiqueVladimir | To-do |
-| US21 | Solicitar reporte de parcela | ET13 | Implementar servicio generateParcelReport() | Lógica de cálculo y consolidación de lecturas de monitoreo. | 5 | diesoks | To-do |
-| US21 | Solicitar reporte de parcela | ET14 | Implementar endpoint POST /reports/parcel | Exponer el flujo de generación de reportes por parcela. | 4 | diesoks | To-do |
-| US22 | Solicitar reporte general | ET15 | Diseñar entidad GeneralReport | Crear modelo para reportes globales. | 4 | diesoks | To-do |
-| US22 | Solicitar reporte general | ET16 | Implementar servicio generateOrganizationReport() | Procesar datos agregados por organización. | 5 | QuiqueVladimir | To-do |
-| US22 | Solicitar reporte general | ET17 | Endpoint POST /reports/organization | Exponer generación de reporte global filtrado por fechas. | 4 | diesoks | To-do |
-| US23 | Descargar reporte | ET18 | Implementar servicio downloadReport() | Administrar descarga de archivos desde almacenamiento. | 3 | QuiqueVladimir | To-do |
-| US23 | Descargar reporte | ET19 | Endpoint GET /reports/{id}/download | Exponer descarga de reportes en formato PDF/JSON. | 4 | diesoks | To-do |
-| US23 | Descargar reporte | ET20 | Registrar auditoría de descargas | Guardar logs de descarga en BD para trazabilidad. | 3 | GoldQP | To-do |
-| US25 | Iniciar sesión | ET31 | Implementar Refresh Token | Agregar soporte para tokens renovables y endpoint de refresh. | 6 | QuiqueVladimir | To-do |
-| US25 | Iniciar sesión | ET32 | Endpoint /authentication/me | Validar token y devolver información mínima de sesión. | 4 | QuiqueVladimir | To-do |
-| US28 | Editar perfil | ET33 | Validar campos avanzados del perfil | Reglas para email, teléfono, tamaño máximo del nombre y formato. | 3 | diesoks | To-do |
-| US28 | Editar perfil | ET34 | Subida de avatar (URL) | Agregar soporte para almacenar y validar foto del perfil del usuario. | 4 | QuiqueVladimir | To-do |
-| US28 | Editar perfil | ET35 | Endpoint PATCH /profiles/me | Implementar edición parcial con validaciones incremental. | 4 | diesoks | To-do |
-| US02 | Invitar miembro a organización | ET36 | Validar roles en invitaciones | Asegurar que solo el Owner/Admin pueda enviar invitaciones. | 3 | GoldQP | To-do |
-| US02 | Invitar miembro a organización | ET37 | Endpoint GET /organizations/{id}/invitations | Listar invitaciones enviadas y recibidas, con paginación. | 4 | diesoks | To-do |
-| US03 | Remover agricultor | ET38 | Validar permisos avanzados para remover miembros | Confirmar jerarquía: Owner > Admin > Farmer. | 3 | GoldQP | To-do |
-| US03 | Remover agricultor | ET39 | Registrar auditoría de cambios en la organización | Guardar logs de adiciones y remociones de miembros. | 4 | diesoks | To-do |
-| US01 | Crear organización | ET40 | Validar nombres únicos de organización | Impedir duplicación de nombres por usuario y por cuenta. | 3 | GoldQP | To-do |
+| US15 | Crear checklist | ET01 | Crear estructura inicial del bounded context Monitoring | Generación del paquete base, entidades preliminares y configuración inicial. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET02 | Definir DTOs iniciales para Checklist | Crear DTOs de request/response para operativa del checklist. | 2 | diesoks | Done |
+| US15 | Crear checklist | ET03 | Configurar mapper entre entidades y DTOs | Implementar mapeo con ModelMapper o manual para transformar datos. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET04 | Crear repositorio JPA para Checklist | Definir interfaces JPA y probar consultas básicas. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET05 | Implementar servicio de creación de Checklist | Lógica inicial del caso de uso createChecklist(). | 4 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET06 | Validar datos de entrada en checklist | Añadir validaciones para campos obligatorios. | 2 | diesoks | Done |
+| US15 | Crear checklist | ET07 | Diseñar respuesta estandarizada de errores | Crear CustomException + handler para monitoreo. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET08 | Implementar endpoint POST /monitoring/checklist | Exponer creación de checklist en REST Controller. | 4 | diesoks | Done |
+| US15 | Crear checklist | ET09 | Probar flujo completo de checklist | Testear manualmente API desde Swagger/Postman. | 2 | njlmrvllr | Done |
+| US15 | Crear checklist | ET10 | Integrar checklist con frontend | Conectar formulario Angular con el endpoint real. | 5 | GoldQP | Done |
+| US21 | Solicitar reporte de parcela | ET11 | Diseñar entidad ParcelReport | Crear entidad base para generar reportes por parcela. | 4 | diesoks | Done |
+| US21 | Solicitar reporte de parcela | ET12 | Crear repositorio para reportes de parcela | Implementar acceso a datos y consultas requeridas. | 3 | QuiqueVladimir | Done |
+| US21 | Solicitar reporte de parcela | ET13 | Implementar servicio generateParcelReport() | Lógica de cálculo y consolidación de lecturas de monitoreo. | 5 | diesoks | Done |
+| US21 | Solicitar reporte de parcela | ET14 | Implementar endpoint POST /reports/parcel | Exponer el flujo de generación de reportes por parcela. | 4 | diesoks | Done |
+| US22 | Solicitar reporte general | ET15 | Diseñar entidad GeneralReport | Crear modelo para reportes globales. | 4 | diesoks | Done  |
+| US22 | Solicitar reporte general | ET16 | Implementar servicio generateOrganizationReport() | Procesar datos agregados por organización. | 5 | QuiqueVladimir | Done |
+| US22 | Solicitar reporte general | ET17 | Endpoint POST /reports/organization | Exponer generación de reporte global filtrado por fechas. | 4 | diesoks | Done |
+| US23 | Descargar reporte | ET18 | Implementar servicio downloadReport() | Administrar descarga de archivos desde almacenamiento. | 3 | QuiqueVladimir | Done |
+| US23 | Descargar reporte | ET19 | Endpoint GET /reports/{id}/download | Exponer descarga de reportes en formato PDF/JSON. | 4 | diesoks | Done |
+| US23 | Descargar reporte | ET20 | Registrar auditoría de descargas | Guardar logs de descarga en BD para trazabilidad. | 3 | GoldQP | Done |
+| US25 | Iniciar sesión | ET31 | Implementar Refresh Token | Agregar soporte para tokens renovables y endpoint de refresh. | 6 | QuiqueVladimir |Done |
+| US25 | Iniciar sesión | ET32 | Endpoint /authentication/me | Validar token y devolver información mínima de sesión. | 4 | QuiqueVladimir |Done |
+| US28 | Editar perfil | ET33 | Validar campos avanzados del perfil | Reglas para email, teléfono, tamaño máximo del nombre y formato. | 3 | diesoks | Done |
+| US28 | Editar perfil | ET34 | Subida de avatar (URL) | Agregar soporte para almacenar y validar foto del perfil del usuario. | 4 | QuiqueVladimir | Done |
+| US28 | Editar perfil | ET35 | Endpoint PATCH /profiles/me | Implementar edición parcial con validaciones incremental. | 4 | diesoks | Done |
+| US02 | Invitar miembro a organización | ET36 | Validar roles en invitaciones | Asegurar que solo el Owner/Admin pueda enviar invitaciones. | 3 | GoldQP | Done |
+| US02 | Invitar miembro a organización | ET37 | Endpoint GET /organizations/{id}/invitations | Listar invitaciones enviadas y recibidas, con paginación. | 4 | diesoks | Done  |
+| US03 | Remover agricultor | ET38 | Validar permisos avanzados para remover miembros | Confirmar jerarquía: Owner > Admin > Farmer. | 3 | GoldQP | Done  |
+| US03 | Remover agricultor | ET39 | Registrar auditoría de cambios en la organización | Guardar logs de adiciones y remociones de miembros. | 4 | diesoks | Done |
+| US01 | Crear organización | ET40 | Validar nombres únicos de organización | Impedir duplicación de nombres por usuario y por cuenta. | 3 | GoldQP | Done  |
 
 </div>
 
 <img alt="Image" src="https://github.com/user-attachments/assets/33d97914-b693-4879-a6bc-531355c11ec1" />
+
 [Trello Board - Sprint 3 Backlog](https://trello.com/b/lT4rJti6)
 
 #### 5.2.3.4. Development Evidence for Sprint Review
