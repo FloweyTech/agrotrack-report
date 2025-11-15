@@ -147,6 +147,17 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 ![ContributorsTP](assets/images/reportInsights/ContributorsTp.png)
 
 
+**TB2**
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+![img_1.png](img_1.png)
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+![img.png](img.png)
+
+
 <div style="page-break-after: always;"></div>
 
 
@@ -4988,6 +4999,9 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 - App Web Service: [https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html](https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html)
 
+
+- Video de Exposicion TB2 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU)
+- Video about the team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT)
 #### Repositorios del Proyecto
 
 | **Producto**            | **Repositorio GitHub**                                                                                          |
