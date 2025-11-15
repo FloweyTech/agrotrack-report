@@ -4050,7 +4050,7 @@ Link del JSON Server llamado agrotrack-mockapi: [agrotrack-mockapi.azurewebsites
 | /subscriptions          | Se implemento las operaciones CRUD y atributos para las suscripciones.     |
 | /planttypes             | Se implemento las operaciones CRUD y atributos para los tipos de cultivos. |
 | /reports                | Se implemento las operaciones CRUD y atributos para los reportes.          |
-| /environmental-readings | Se implemento las operaciones CRUD y atributos para las lecturas.         |
+| /environmental-readings | Se implemento las operaciones CRUD y atributos para las lecturas.          |
 
 
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
@@ -4413,7 +4413,7 @@ No están incluidas en esta versión de evaluación las siguientes tareas:
 
 # DESCRIPCIÓN DE PROBLEMAS
 
-## PROBLEMA #1: El concepto de “organización” no es claro para usuarios nuevos
+### PROBLEMA #1: El concepto de “organización” no es claro para usuarios nuevos
 
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real
@@ -4421,12 +4421,14 @@ No están incluidas en esta versión de evaluación las siguientes tareas:
 **Problema:**  
 Varios usuarios, especialmente agricultores, indicaron que no comprenden claramente qué es una “organización” dentro de AgroTrack. Algunos asociaban el término con una empresa formal, generando confusión durante el registro y el inicio de uso.
 
+![img_2.png](assets/heuristica/img_2.png)
+
 **Recomendación:**  
 Agregar una breve descripción en lenguaje simple (“Una organización es tu fundo, empresa o grupo de trabajo”) acompañada de un ícono de ayuda o tooltip.
 
 ---
 
-## PROBLEMA #2: Falta de indicador de progreso en el registro
+### PROBLEMA #2: Falta de indicador de progreso en el registro
 
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Visibilidad del estado del sistema
@@ -4434,12 +4436,14 @@ Agregar una breve descripción en lenguaje simple (“Una organización es tu fu
 **Problema:**  
 No se muestra cuántos pasos tiene el registro ni cuánto falta para terminar, lo que genera incertidumbre y sensación de proceso largo entre los usuarios evaluados.
 
+![img.png](assets/heuristica/img.png)
+
 **Recomendación:**  
 Añadir un indicador de pasos (progress stepper) mostrando “Paso 1 de 3”, “Paso 2 de 3”, etc.
 
 ---
 
-## PROBLEMA #3: Registro sin métodos rápidos
+### PROBLEMA #3: Registro sin métodos rápidos
 
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso
@@ -4447,12 +4451,14 @@ Añadir un indicador de pasos (progress stepper) mostrando “Paso 1 de 3”, �
 **Problema:**  
 Los usuarios sugieren opciones rápidas de registro como Google, correos corporativos o número de celular. La ausencia de estas alternativas hace que el registro sea más lento de lo esperado.
 
+![img_1.png](assets/heuristica/img_1.png)
+
 **Recomendación:**  
 Incorporar botones de acceso rápido como “Registrarse con Google” o “Registrarse con celular”.
 
 ---
 
-## PROBLEMA #4: Navegación entre parcelas poco intuitiva y sin indicadores
+### PROBLEMA #4: Navegación entre parcelas poco intuitiva y sin indicadores
 
 **Severidad:** 3  
 **Heurística violada:** Arquitectura de Información – Is it usable?
@@ -4460,12 +4466,14 @@ Incorporar botones de acceso rápido como “Registrarse con Google” o “Regi
 **Problema:**  
 Agrónomos identificaron que moverse entre parcelas o plantas es complicado y carece de indicadores o contadores que permitan entender cuántas parcelas existen o cuál está siendo visualizada.
 
+![img_5.png](assets/heuristica/img_5.png)
+
 **Recomendación:**  
 Agregar pestañas, menú lateral o un carrusel que permita navegar rápidamente entre parcelas. Incluir un contador de plantas activas.
 
 ---
 
-## PROBLEMA #5: Falta de filtros, agrupaciones y una vista en mapa más clara
+### PROBLEMA #5: Falta de filtros, agrupaciones y una vista en mapa más clara
 
 **Severidad:** 3  
 **Heurística violada:** Arquitectura de Información – Is it findable?
@@ -4473,12 +4481,14 @@ Agregar pestañas, menú lateral o un carrusel que permita navegar rápidamente 
 **Problema:**  
 Los usuarios señalaron dificultad para encontrar parcelas específicas, agruparlas por campaña o cliente, o interpretarlas en el mapa inicial.
 
+![img_4.png](assets/heuristica/img_4.png)
+
 **Recomendación:**  
 Incorporar filtros por cultivo, campaña, cliente o estado. Mejorar la claridad del mapa y permitir duplicar parcelas o usar plantillas.
 
 ---
 
-## PROBLEMA #6: Monitoreo sin variables climáticas claves
+### PROBLEMA #6: Monitoreo sin variables climáticas claves
 
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Adecuación a las necesidades del usuario
@@ -4486,12 +4496,14 @@ Incorporar filtros por cultivo, campaña, cliente o estado. Mejorar la claridad 
 **Problema:**  
 Variables importantes como precipitación, viento, radiación solar, lluvia acumulada o pronóstico de heladas no están disponibles. Los agrónomos las consideran esenciales.
 
+![img_3.png](assets/heuristica/img_3.png)
+
 **Recomendación:**  
 Agregar más variables ambientales o integrar datos climáticos externos mediante API.
 
 ---
 
-## PROBLEMA #7: Alertas poco visibles y poco claras
+### PROBLEMA #7: Alertas poco visibles y poco claras
 
 **Severidad:** 3  
 **Heurística violada:** Inclusive Design – Proporciona experiencias comparables
@@ -4499,19 +4511,23 @@ Agregar más variables ambientales o integrar datos climáticos externos mediant
 **Problema:**  
 Las alertas no destacan visualmente y su significado no siempre es claro. Usuarios requieren mensajes más directos y visibles para evitar riesgos o pérdidas.
 
+![img_6.png](assets/heuristica/img_6.png)
+
 **Recomendación:**  
 Usar colores accesibles, íconos claros y mensajes simples (“Riesgo de helada en 24h”). Aumentar tamaño de alertas críticas.
 
 ---
 
 
-## PROBLEMA #8: Botones de acción poco visibles en la landing page
+### PROBLEMA #8: Botones de acción poco visibles en la landing page
 
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Saliencia de elementos interactivos
 
 **Problema:**  
 Los usuarios pidieron botones más visibles e intuitivos, como “Probar gratis” o “Solicitar demo”, ya que los actuales no destacan lo suficiente.
+
+![img_7.png](assets/heuristica/img_7.png)
 
 **Recomendación:**  
 Mejorar contraste, tamaño y diseño del CTA principal. Ubicarlo en el primer pliegue (“above the fold”).
@@ -4520,13 +4536,15 @@ Mejorar contraste, tamaño y diseño del CTA principal. Ubicarlo en el primer pl
 
 ---
 
-## PROBLEMA #9: Tareas atrasadas no se destacan claramente
+### PROBLEMA #9: Tareas atrasadas no se destacan claramente
 
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Reconocimiento antes que recuerdo
 
 **Problema:**  
 Las tareas atrasadas o críticas no tienen marcadores visuales suficientemente notorios, lo que dificulta su identificación.
+
+![img_8.png](assets/heuristica/img_8.png)
 
 **Recomendación:**  
 Añadir colores, etiquetas y priorización visual clara para tareas atrasadas o urgentes.
