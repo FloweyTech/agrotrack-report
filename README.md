@@ -4180,42 +4180,43 @@ La tabla identifica a los líderes (L) y colaboradores (C) por cada aspecto func
 El objetivo principal de este Sprint es **desarrollar el backend de AgroTrack** para los bounded contexts **IAM, Organization, Profile, Monitoring & Control y Reports**, así como realizar el **primer intento de integración entre backend y frontend**.  
 Todas las User Stories seleccionadas para este sprint fueron descompuestas en **Engineering Tasks** con estimaciones entre **4 y 8 horas**, siguiendo las observaciones realizadas en la revisión del Sprint 2.
 
-| Sprint # | Sprint 3 |  |  |  |  |  |  |
-|----------|----------|--|--|--|--|--|--|
-| User Story |  | Work-Item / Task |  |  |  |  |  |
+| Sprint # | Sprint 3 |  |  |  |  |  |     |
+|----------|----------|--|--|--|--|--|-----|
+| User Story |  | Work-Item / Task |  |  |  |  |     |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US15 | Crear checklist | ET01 | Crear estructura inicial del bounded context Monitoring | Generación del paquete base, entidades preliminares y configuración inicial. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET02 | Definir DTOs iniciales para Checklist | Crear DTOs de request/response para operativa del checklist. | 2 | diesoks | To-do |
-| US15 | Crear checklist | ET03 | Configurar mapper entre entidades y DTOs | Implementar mapeo con ModelMapper o manual para transformar datos. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET04 | Crear repositorio JPA para Checklist | Definir interfaces JPA y probar consultas básicas. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET05 | Implementar servicio de creación de Checklist | Lógica inicial del caso de uso createChecklist(). | 4 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET06 | Validar datos de entrada en checklist | Añadir validaciones para campos obligatorios. | 2 | diesoks | To-do |
-| US15 | Crear checklist | ET07 | Diseñar respuesta estandarizada de errores | Crear CustomException + handler para monitoreo. | 3 | QuiqueVladimir | To-do |
-| US15 | Crear checklist | ET08 | Implementar endpoint POST /monitoring/checklist | Exponer creación de checklist en REST Controller. | 4 | diesoks | To-do |
-| US15 | Crear checklist | ET09 | Probar flujo completo de checklist | Testear manualmente API desde Swagger/Postman. | 2 | njlmrvllr | To-do |
-| US15 | Crear checklist | ET10 | Integrar checklist con frontend | Conectar formulario Angular con el endpoint real. | 5 | GoldQP | To-do |
-| US21 | Solicitar reporte de parcela | ET11 | Diseñar entidad ParcelReport | Crear entidad base para generar reportes por parcela. | 4 | diesoks | To-do |
-| US21 | Solicitar reporte de parcela | ET12 | Crear repositorio para reportes de parcela | Implementar acceso a datos y consultas requeridas. | 3 | QuiqueVladimir | To-do |
-| US21 | Solicitar reporte de parcela | ET13 | Implementar servicio generateParcelReport() | Lógica de cálculo y consolidación de lecturas de monitoreo. | 5 | diesoks | To-do |
-| US21 | Solicitar reporte de parcela | ET14 | Implementar endpoint POST /reports/parcel | Exponer el flujo de generación de reportes por parcela. | 4 | diesoks | To-do |
-| US22 | Solicitar reporte general | ET15 | Diseñar entidad GeneralReport | Crear modelo para reportes globales. | 4 | diesoks | To-do |
-| US22 | Solicitar reporte general | ET16 | Implementar servicio generateOrganizationReport() | Procesar datos agregados por organización. | 5 | QuiqueVladimir | To-do |
-| US22 | Solicitar reporte general | ET17 | Endpoint POST /reports/organization | Exponer generación de reporte global filtrado por fechas. | 4 | diesoks | To-do |
-| US23 | Descargar reporte | ET18 | Implementar servicio downloadReport() | Administrar descarga de archivos desde almacenamiento. | 3 | QuiqueVladimir | To-do |
-| US23 | Descargar reporte | ET19 | Endpoint GET /reports/{id}/download | Exponer descarga de reportes en formato PDF/JSON. | 4 | diesoks | To-do |
-| US23 | Descargar reporte | ET20 | Registrar auditoría de descargas | Guardar logs de descarga en BD para trazabilidad. | 3 | GoldQP | To-do |
-| US25 | Iniciar sesión | ET31 | Implementar Refresh Token | Agregar soporte para tokens renovables y endpoint de refresh. | 6 | QuiqueVladimir | To-do |
-| US25 | Iniciar sesión | ET32 | Endpoint /authentication/me | Validar token y devolver información mínima de sesión. | 4 | QuiqueVladimir | To-do |
-| US28 | Editar perfil | ET33 | Validar campos avanzados del perfil | Reglas para email, teléfono, tamaño máximo del nombre y formato. | 3 | diesoks | To-do |
-| US28 | Editar perfil | ET34 | Subida de avatar (URL) | Agregar soporte para almacenar y validar foto del perfil del usuario. | 4 | QuiqueVladimir | To-do |
-| US28 | Editar perfil | ET35 | Endpoint PATCH /profiles/me | Implementar edición parcial con validaciones incremental. | 4 | diesoks | To-do |
-| US02 | Invitar miembro a organización | ET36 | Validar roles en invitaciones | Asegurar que solo el Owner/Admin pueda enviar invitaciones. | 3 | GoldQP | To-do |
-| US02 | Invitar miembro a organización | ET37 | Endpoint GET /organizations/{id}/invitations | Listar invitaciones enviadas y recibidas, con paginación. | 4 | diesoks | To-do |
-| US03 | Remover agricultor | ET38 | Validar permisos avanzados para remover miembros | Confirmar jerarquía: Owner > Admin > Farmer. | 3 | GoldQP | To-do |
-| US03 | Remover agricultor | ET39 | Registrar auditoría de cambios en la organización | Guardar logs de adiciones y remociones de miembros. | 4 | diesoks | To-do |
-| US01 | Crear organización | ET40 | Validar nombres únicos de organización | Impedir duplicación de nombres por usuario y por cuenta. | 3 | GoldQP | To-do |
+| US15 | Crear checklist | ET01 | Crear estructura inicial del bounded context Monitoring | Generación del paquete base, entidades preliminares y configuración inicial. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET02 | Definir DTOs iniciales para Checklist | Crear DTOs de request/response para operativa del checklist. | 2 | diesoks | Done |
+| US15 | Crear checklist | ET03 | Configurar mapper entre entidades y DTOs | Implementar mapeo con ModelMapper o manual para transformar datos. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET04 | Crear repositorio JPA para Checklist | Definir interfaces JPA y probar consultas básicas. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET05 | Implementar servicio de creación de Checklist | Lógica inicial del caso de uso createChecklist(). | 4 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET06 | Validar datos de entrada en checklist | Añadir validaciones para campos obligatorios. | 2 | diesoks | Done |
+| US15 | Crear checklist | ET07 | Diseñar respuesta estandarizada de errores | Crear CustomException + handler para monitoreo. | 3 | QuiqueVladimir | Done |
+| US15 | Crear checklist | ET08 | Implementar endpoint POST /monitoring/checklist | Exponer creación de checklist en REST Controller. | 4 | diesoks | Done |
+| US15 | Crear checklist | ET09 | Probar flujo completo de checklist | Testear manualmente API desde Swagger/Postman. | 2 | njlmrvllr | Done |
+| US15 | Crear checklist | ET10 | Integrar checklist con frontend | Conectar formulario Angular con el endpoint real. | 5 | GoldQP | Done |
+| US21 | Solicitar reporte de parcela | ET11 | Diseñar entidad ParcelReport | Crear entidad base para generar reportes por parcela. | 4 | diesoks | Done |
+| US21 | Solicitar reporte de parcela | ET12 | Crear repositorio para reportes de parcela | Implementar acceso a datos y consultas requeridas. | 3 | QuiqueVladimir | Done |
+| US21 | Solicitar reporte de parcela | ET13 | Implementar servicio generateParcelReport() | Lógica de cálculo y consolidación de lecturas de monitoreo. | 5 | diesoks | Done |
+| US21 | Solicitar reporte de parcela | ET14 | Implementar endpoint POST /reports/parcel | Exponer el flujo de generación de reportes por parcela. | 4 | diesoks | Done |
+| US22 | Solicitar reporte general | ET15 | Diseñar entidad GeneralReport | Crear modelo para reportes globales. | 4 | diesoks | Done  |
+| US22 | Solicitar reporte general | ET16 | Implementar servicio generateOrganizationReport() | Procesar datos agregados por organización. | 5 | QuiqueVladimir | Done |
+| US22 | Solicitar reporte general | ET17 | Endpoint POST /reports/organization | Exponer generación de reporte global filtrado por fechas. | 4 | diesoks | Done |
+| US23 | Descargar reporte | ET18 | Implementar servicio downloadReport() | Administrar descarga de archivos desde almacenamiento. | 3 | QuiqueVladimir | Done |
+| US23 | Descargar reporte | ET19 | Endpoint GET /reports/{id}/download | Exponer descarga de reportes en formato PDF/JSON. | 4 | diesoks | Done |
+| US23 | Descargar reporte | ET20 | Registrar auditoría de descargas | Guardar logs de descarga en BD para trazabilidad. | 3 | GoldQP | Done |
+| US25 | Iniciar sesión | ET31 | Implementar Refresh Token | Agregar soporte para tokens renovables y endpoint de refresh. | 6 | QuiqueVladimir |Done |
+| US25 | Iniciar sesión | ET32 | Endpoint /authentication/me | Validar token y devolver información mínima de sesión. | 4 | QuiqueVladimir |Done |
+| US28 | Editar perfil | ET33 | Validar campos avanzados del perfil | Reglas para email, teléfono, tamaño máximo del nombre y formato. | 3 | diesoks | Done |
+| US28 | Editar perfil | ET34 | Subida de avatar (URL) | Agregar soporte para almacenar y validar foto del perfil del usuario. | 4 | QuiqueVladimir | Done |
+| US28 | Editar perfil | ET35 | Endpoint PATCH /profiles/me | Implementar edición parcial con validaciones incremental. | 4 | diesoks | Done |
+| US02 | Invitar miembro a organización | ET36 | Validar roles en invitaciones | Asegurar que solo el Owner/Admin pueda enviar invitaciones. | 3 | GoldQP | Done |
+| US02 | Invitar miembro a organización | ET37 | Endpoint GET /organizations/{id}/invitations | Listar invitaciones enviadas y recibidas, con paginación. | 4 | diesoks | Done  |
+| US03 | Remover agricultor | ET38 | Validar permisos avanzados para remover miembros | Confirmar jerarquía: Owner > Admin > Farmer. | 3 | GoldQP | Done  |
+| US03 | Remover agricultor | ET39 | Registrar auditoría de cambios en la organización | Guardar logs de adiciones y remociones de miembros. | 4 | diesoks | Done |
+| US01 | Crear organización | ET40 | Validar nombres únicos de organización | Impedir duplicación de nombres por usuario y por cuenta. | 3 | GoldQP | Done  |
 
 <img alt="Image" src="https://github.com/user-attachments/assets/33d97914-b693-4879-a6bc-531355c11ec1" />
+
 [Trello Board - Sprint 3 Backlog](https://trello.com/b/lT4rJti6)
 
 #### 5.2.3.4. Development Evidence for Sprint Review
