@@ -4199,6 +4199,8 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About the Product
+![Video About The Product Sprint 3](./assets/images/screenshots/video-about-the-product/about-the-product-screenshot.png)  
+[Enlace del video About the Product del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQCh2cuRXsPIRoFmWRd0hn8rAYqRkDf2wW82aaF-qyVHGrY?e=Tqbsna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 # Conclusiones
