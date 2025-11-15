@@ -4274,7 +4274,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 |              Atributo               | Detalle                       |
 |:-----------------------------------:|:------------------------------|
-|               Nombre                |  
+|               Nombre                |                               | 
 |                Edad                 |                               |
 |              Distrito               |                               |
 |              Ocupación              |                               |
@@ -4287,7 +4287,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 |              Atributo               | Detalle                       |
 |:-----------------------------------:|:------------------------------|
-|               Nombre                |
+|               Nombre                |                               | 
 |                Edad                 |                               |
 |              Distrito               |                               |
 |              Ocupación              |                               |
@@ -4300,7 +4300,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 |              Atributo               | Detalle                       |
 |:-----------------------------------:|:------------------------------|
-|               Nombre                |
+|               Nombre                |                               | 
 |                Edad                 |                               |
 |              Distrito               |                               |
 |              Ocupación              |                               |
@@ -4318,7 +4318,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 |              Atributo               | Detalle                       |
 |:-----------------------------------:|:------------------------------|
-|               Nombre                |
+|               Nombre                |                               | 
 |                Edad                 |                               |
 |              Distrito               |                               |
 |              Ocupación              |                               |
@@ -4332,7 +4332,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 |              Atributo               | Detalle                       |
 |:-----------------------------------:|:------------------------------|
-|               Nombre                |
+|               Nombre                |                               | 
 |                Edad                 |                               |
 |              Distrito               |                               |
 |              Ocupación              |                               |
@@ -4345,7 +4345,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 |              Atributo               | Detalle                       |
 |:-----------------------------------:|:------------------------------|
-|               Nombre                |
+|               Nombre                |                               | 
 |                Edad                 |                               |
 |              Distrito               |                               |
 |              Ocupación              |                               |
