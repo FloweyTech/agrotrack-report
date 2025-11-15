@@ -742,8 +742,8 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 |              Ocupación              | Agricultor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |         Fecha de entrevista         | 07 de Setiembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |               Timing                | 00:00 - 13:52                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb5p8prHz3lNkfEcyEUSZg8BTjhyqkRodsYTODdSiwzCyw?e=8WdIO6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NC4zNH19)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Captura de pantalla de la grabación | ![Entrevista-1](assets/images/screenshots/entrevistas/entrevista-agricultor-1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb5p8prHz3lNkfEcyEUSZg8BTjhyqkRodsYTODdSiwzCyw?e=8WdIO6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NC4zNH19)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Captura de pantalla de la grabación | ![Entrevista-1](assets/images/screenshots/entrevistas/entrevista-agricultor-1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |               Resumen               | Luis comenta que organiza sus actividades proyectándose a partir del historial de las plantaciones de años anteriores y considerando la demanda del mercado. Para ello, elaboran un calendario escrito. No suelen usar programas digitales, pues prefieren hacer anotaciones en cuadernos o simplemente de memoria. El seguimiento del crecimiento de las plantas lo realizan de manera visual, revisando si avanzan correctamente, y toman en cuenta aspectos como la calidad del suelo y el uso de pesticidas, además de llevar un control básico de gastos. Generalmente no recurren a agrónomos. Ha probado algunas aplicaciones para llevar registros, pero no le resultaron útiles, ya que eran demasiado complejas y contenían conceptos difíciles de comprender, sin brindarle resultados favorables. Su mayor dificultad está en el control de fertilizantes, tanto para evitar pérdidas como para prevenir un uso excesivo de otros insumos. Por ello, valoraría una aplicación que le permita controlar el consumo de insumos y que además le envíe recordatorios de actividades como el riego, alertas sobre el clima, recomendaciones de profesionales y un historial de su producción. Afirma que estaría dispuesto a aprender a usar una app que le ofrezca estos beneficios, ya que le ayudaría a ahorrar tiempo y costos. Además, apreciaría que la aplicación fuera intuitiva y que incluyera capacitaciones. |
 
 #### Entrevista 2:
@@ -756,7 +756,7 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 |         Fecha de entrevista         | 09 de Setiembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |               Timing                | 13:52 - 19:52                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb5p8prHz3lNkfEcyEUSZg8BTjhyqkRodsYTODdSiwzCyw?e=bkvDsP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODMyLjgzfX0%3D)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Captura de pantalla de la grabación | ![Entrevista-3](assets/images/screenshots/entrevistas/entrevista-agricultor-3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Captura de pantalla de la grabación | ![Entrevista-3](assets/images/screenshots/entrevistas/entrevista-agricultor-3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |               Resumen               | Ana comenta que lleva varios años trabajando en las parcelas de su familia. Organiza sus actividades según el clima y las necesidades de cada cultivo, sin utilizar herramientas digitales, ya que se guían “de memoria”. El registro de sus cultivos lo realiza de manera visual. Considera que le sería útil contar con información sobre riego, estado del suelo, plagas y tiempos de cosecha. Sin embargo, menciona que le resulta difícil encontrar agrónomos cerca de su zona. Actualmente utiliza su celular únicamente para revisar el clima. Ana reconoce que la gestión de tareas es un desafío, ya que a veces se repiten actividades, lo que genera pérdida de tiempo y recursos. Por ello, valoraría una aplicación que le brinde notificaciones sobre riego y clima, además de apoyo en la gestión de su parcela. Afirma que estaría dispuesta a aprender a usar una app de este tipo, siempre que incluya una capacitación sencilla y que le aporte beneficios claros en su trabajo diario. |
 
 
@@ -769,8 +769,8 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 |              Ocupación              | Agricultor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |         Fecha de entrevista         | 07 de Setiembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |              Timing                 | 19:52 - 33:36                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb5p8prHz3lNkfEcyEUSZg8BTjhyqkRodsYTODdSiwzCyw?e=0lYEcc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE5My4yMX19)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Captura de pantalla de la grabación | ![Entrevista-2](assets/images/screenshots/entrevistas/entrevista-agricultor-2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb5p8prHz3lNkfEcyEUSZg8BTjhyqkRodsYTODdSiwzCyw?e=0lYEcc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE5My4yMX19)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Captura de pantalla de la grabación | ![Entrevista-2](assets/images/screenshots/entrevistas/entrevista-agricultor-2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |               Resumen               | Sebastián comenta que no cuenta con un plan exacto para revisar sus cultivos, sino que se guía por su experiencia y lo que observa directamente en el campo. Utiliza una libreta para llevar sus registros, aunque admite que a veces se olvida de anotar. Suele planificar sus siembras según la temporada, y el seguimiento de sus plantas lo hace únicamente de manera visual. Considera que le sería útil contar con datos sobre el clima y con recordatorios para realizar tareas como el riego o el abonado. Señala que contactar con un agrónomo no es sencillo, ya que son pocos en la zona y sus servicios suelen ser costosos. En el pasado intentó usar una aplicación para el clima, pero no fue precisa. Su mayor dificultad está en la gestión del riego y del abono, pues a veces los olvida, lo que afecta la calidad de la cosecha y favorece la aparición de plagas. Además, reconoce que no disponer de datos exactos le dificulta saber cuánto gana o pierde realmente. Sebastián valoraría una aplicación que le ayude con recordatorios de riego, abonado y clima. Afirma estar dispuesto a aprender a usar una herramienta que le permita mejorar su producción. Le gustaría que la aplicación fuera intuitiva, simple, útil y que incluyera tutoriales de uso para facilitar su aprendizaje. |
 
 
@@ -4140,8 +4140,8 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 | Quintanilla Pozo Gonzalo Samuel | Report Context                                         |
 | Vilca Saboya Diego Alejandro	   | Profile Context and NotfoundPage                       |
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](./assets/deploy3/img.png)
+![img_1.png](assets/deploy3/img_1.png)
 
 
 ### 5.2.3. Sprint 3
@@ -4452,6 +4452,74 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Para el despliegue de este tercer sprint, se realizo en azure, se utilizo Azure Database for MySQL Flexible Server para el despliegue de la base de datos MySQL, una docker imagen para el backend y azure web services para mostrar el swagger.
+
+* Despliegue de la base de datos MySQL en Azure Database for MySQL Flexible Server.
+  ![img_2.png](assets/deploy3/img_2.png)
+
+* Seleccionamos Advanced Create para crear la base de datos
+  ![img_3.png](assets/deploy3/img_3.png)
+
+* Despliegue de la base de datos MySQL en Azure Database for MySQL Flexible Server en proceso.
+  ![img_4.png](assets/deploy3/img_4.png)
+
+* Despliegue de la base de datos MySQL en Azure Database for MySQL Flexible Server finalizado.
+  ![img_5.png](assets/deploy3/img_5.png)
+
+* Ejecutamos mvn package para crear el archivo .jar del backend.
+  ![img_6.png](assets/deploy3/img_6.png)
+
+* Ejecutamos un docker build para crear la imagen del backend.
+  ![img_7.png](assets/deploy3/img_7.png)
+
+![img_8.png](assets/deploy3/img_8.png)
+
+![img_9.png](assets/deploy3/img_9.png)
+
+![img_10.png](assets/deploy3/img_10.png)
+* Nos registramos en Azure mediante la CLI de Azure.
+  ![img_11.png](assets/deploy3/img_11.png)
+* Creamos un grupo de recursos en Azure.
+  ![img_12.png](assets/deploy3/img_12.png)
+
+* Creamos el registro de contenedores en Azure.
+  ![img_13.png](assets/deploy3/img_13.png)
+
+![img_14.png](assets/deploy3/img_14.png)
+
+* Nos registramos a agrotrackregistry az acr login.
+![img_15.png](assets/deploy3/img_15.png)
+
+![img_16.png](assets/deploy3/img_16.png)
+
+* Se realiza el push de la imagen al registro de contenedores en Azure.
+![img_17.png](assets/deploy3/img_17.png)
+
+![img_18.png](assets/deploy3/img_18.png)
+
+* Ahora nos dirigimos a App Services en Azure para crear una nueva aplicación web.
+![img_19.png](assets/deploy3/img_19.png)
+
+* Completamos los datos para crear la aplicación web.
+![img_20.png](assets/deploy3/img_20.png)
+
+* Implementación en curso.
+![img_21.png](assets/deploy3/img_21.png)
+
+* Implementación exitosa.
+![img_22.png](assets/deploy3/img_22.png)
+
+* Configuramos nuestras variables de entorno en la aplicación web.
+![img_23.png](assets/deploy3/img_23.png)
+
+* Obvservamos en la secuencia de registros que nuestra aplicación web está funcionando correctamente.
+![img_24.png](assets/deploy3/img_24.png)
+
+* Finalmente, accedemos a Swagger para verificar que nuestro backend esté funcionando correctamente.
+
+![img.png](assets/deploy3/img111.png)
+
+El backend está disponible de manera pública en la ruta: [Abri en el navegador](https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html)
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -4506,6 +4574,95 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
    - ¿El contenido del reporte te pareció útil y comprensible para tu trabajo?
 
 ### 5.3.2. Registro de entrevistas
+
+### Agronomos
+
+
+|              Atributo               | Detalle                       |
+|:-----------------------------------:|:------------------------------|
+|               Nombre                |                               | 
+|                Edad                 |                               |
+|              Distrito               |                               |
+|              Ocupación              |                               |
+|         Fecha de entrevista         |                               | 
+|               Timing                |                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]() |
+| Captura de pantalla de la grabación | ![Entrevista-3]()             |
+|               Resumen               |                               |
+
+
+|              Atributo               | Detalle                       |
+|:-----------------------------------:|:------------------------------|
+|               Nombre                |                               | 
+|                Edad                 |                               |
+|              Distrito               |                               |
+|              Ocupación              |                               |
+|         Fecha de entrevista         |                               | 
+|               Timing                |                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]() |
+| Captura de pantalla de la grabación | ![Entrevista-3]()             |
+|               Resumen               |                               |
+
+
+|              Atributo               | Detalle                       |
+|:-----------------------------------:|:------------------------------|
+|               Nombre                |                               | 
+|                Edad                 |                               |
+|              Distrito               |                               |
+|              Ocupación              |                               |
+|         Fecha de entrevista         |                               | 
+|               Timing                |                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]() |
+| Captura de pantalla de la grabación | ![Entrevista-3]()             |
+|               Resumen               |                               |
+
+
+
+
+### Agricultores
+
+
+|              Atributo               | Detalle                       |
+|:-----------------------------------:|:------------------------------|
+|               Nombre                |                               | 
+|                Edad                 |                               |
+|              Distrito               |                               |
+|              Ocupación              |                               |
+|         Fecha de entrevista         |                               | 
+|               Timing                |                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]() |
+| Captura de pantalla de la grabación | ![Entrevista-3]()             |
+|               Resumen               |                               |
+
+
+
+|              Atributo               | Detalle                       |
+|:-----------------------------------:|:------------------------------|
+|               Nombre                |                               | 
+|                Edad                 |                               |
+|              Distrito               |                               |
+|              Ocupación              |                               |
+|         Fecha de entrevista         |                               | 
+|               Timing                |                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]() |
+| Captura de pantalla de la grabación | ![Entrevista-3]()             |
+|               Resumen               |                               |
+
+
+|              Atributo               | Detalle                       |
+|:-----------------------------------:|:------------------------------|
+|               Nombre                |                               | 
+|                Edad                 |                               |
+|              Distrito               |                               |
+|              Ocupación              |                               |
+|         Fecha de entrevista         |                               | 
+|               Timing                |                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]() |
+| Captura de pantalla de la grabación | ![Entrevista-3]()             |
+|               Resumen               |                               |
+
+
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About the Product
@@ -4560,16 +4717,17 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - prototipo web [https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing](https://drive.google.com/file/d/12P1t3dsdc-2oWlSPj2fNzYhiHXXOtAIj/view?usp=sharing)
 
 - Agrotrack - Web Application: desplegada en Netlify [https://agrotrack-web-app.netlify.app](https://agrotrack-web-app.netlify.app/)
-- Video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm)
+- Video de exposición TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm)
 -  Link de video de presentación sobre el Web Application: [Video Presentación Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb7Kmd1uAVFHhEYs2qs4mHIBkBxcwMrXw9ZTRh8NF3NuMQ?e=UwYFSC)
 
+- App Web Service: [https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html](https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html)
 
 #### Repositorios del Proyecto
 
-| **Producto**            | **Repositorio GitHub**                                                                                       |
-|-------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
-| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
-| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
-| **Web Application**     | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)           |
-| **Web Service**             | [https://github.com/FloweyTech/agrotrack-web-service](https://github.com/FloweyTech/agrotrack-web-service)   |
+| **Producto**            | **Repositorio GitHub**                                                                                          |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                                  |
+| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page)    |
+| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)                |
+| **Web Application**     | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)              |
+| **Web Service**         | [https://github.com/FloweyTech/agrotrack-web-service](https://github.com/FloweyTech/agrotrack-web-service)      |
