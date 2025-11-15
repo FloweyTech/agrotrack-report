@@ -4359,6 +4359,182 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+### CARRERA: Ingeniería de Software
+
+### CURSO: Aplicaciones Web
+### SECCIÓN: 7349
+### PROFESORES:  Efraín Ricardo Bautista Ubillús 
+### AUDITOR: FloweyTech
+### CLIENTE(S): Usuarios del sector agrícola (agrónomos y agricultores evaluados)
+
+### APP A EVALUAR: AgroTrack - Web Application 
+
+### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de usuario y creación de organización
+2. Gestión de parcelas
+3. Monitoreo ambiental
+4. Creación y gestión de tareas
+5. Visualización de reportes
+6. Navegación general desde la landing page
+
+No están incluidas en esta versión de evaluación las siguientes tareas:
+
+* Configuración avanzada de alertas inteligentes
+* Gestión de campañas agrícolas
+* Integraciones externas (e.g., exportar a Excel/WhatsApp)
+
+### ESCALA DE SEVERIDAD:
+
+| Nivel   | Descripción                                                                                                                                             |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1**   | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser corregido a menos que haya tiempo. |
+| **2**   | Problema menor: ocurre con mayor frecuencia o es más difícil de superar. Debería corregirse para la próxima versión.                                    |
+| **3**   | Problema mayor: ocurre frecuentemente o bloquea parcialmente al usuario. Debe corregirse con prioridad alta.                                            |
+| **4**   | Problema muy grave: impide el uso normal de la herramienta. Debe corregirse antes del lanzamiento.                                                      |
+
+### TABLA DE RESUMEN DE PROBLEMAS IDENTIFICADOS:
+
+| #  | Problema identificado                                                                   | Severidad | Heurística / Principio violado                              |
+|----|-----------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------|
+| 1  | El concepto de “organización” no es claro para usuarios nuevos                          | 3         | Usability: Correspondencia entre el sistema y el mundo real |
+| 2  | Falta de indicador de pasos o progreso durante el registro                              | 2         | Usability: Visibilidad del estado del sistema               |
+| 3  | Registro sin opciones rápidas (Google / correo corporativo / celular)                   | 2         | Usability: Flexibilidad y eficiencia de uso                 |
+| 4  | Navegación entre parcelas poco intuitiva y sin indicadores por planta                   | 3         | Information Architecture: Is it usable?                     |
+| 5  | Falta de filtros, agrupaciones y vista en mapa más clara                                | 3         |  Information Architecture: Is it findable?                  |
+| 6  | Monitoreo sin variables clave (precipitación, viento, radiación, lluvia acumulada)      | 3         | Usability: Adecuación a las necesidades del usuario         |
+| 7  | Alertas poco visibles o insuficientemente explicadas                                    | 3         | Inclusive Design: Proporciona experiencias comparables      |
+| 8  | Botones de acción poco visibles en la landing page                                      | 2         | Usability: Saliencia de elementos interactivos              |
+| 9  | No se resalta claramente tareas atrasadas o importantes                                 | 2         | Usability: Reconocimiento antes que recuerdo                |
+
+### DESCRIPCIÓN DETALLADA DE PROBLEMAS:
+
+# DESCRIPCIÓN DE PROBLEMAS
+
+## PROBLEMA #1: El concepto de “organización” no es claro para usuarios nuevos
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real
+
+**Problema:**  
+Varios usuarios, especialmente agricultores, indicaron que no comprenden claramente qué es una “organización” dentro de AgroTrack. Algunos asociaban el término con una empresa formal, generando confusión durante el registro y el inicio de uso.
+
+**Recomendación:**  
+Agregar una breve descripción en lenguaje simple (“Una organización es tu fundo, empresa o grupo de trabajo”) acompañada de un ícono de ayuda o tooltip.
+
+---
+
+## PROBLEMA #2: Falta de indicador de progreso en el registro
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:**  
+No se muestra cuántos pasos tiene el registro ni cuánto falta para terminar, lo que genera incertidumbre y sensación de proceso largo entre los usuarios evaluados.
+
+**Recomendación:**  
+Añadir un indicador de pasos (progress stepper) mostrando “Paso 1 de 3”, “Paso 2 de 3”, etc.
+
+---
+
+## PROBLEMA #3: Registro sin métodos rápidos
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso
+
+**Problema:**  
+Los usuarios sugieren opciones rápidas de registro como Google, correos corporativos o número de celular. La ausencia de estas alternativas hace que el registro sea más lento de lo esperado.
+
+**Recomendación:**  
+Incorporar botones de acceso rápido como “Registrarse con Google” o “Registrarse con celular”.
+
+---
+
+## PROBLEMA #4: Navegación entre parcelas poco intuitiva y sin indicadores
+
+**Severidad:** 3  
+**Heurística violada:** Arquitectura de Información – Is it usable?
+
+**Problema:**  
+Agrónomos identificaron que moverse entre parcelas o plantas es complicado y carece de indicadores o contadores que permitan entender cuántas parcelas existen o cuál está siendo visualizada.
+
+**Recomendación:**  
+Agregar pestañas, menú lateral o un carrusel que permita navegar rápidamente entre parcelas. Incluir un contador de plantas activas.
+
+---
+
+## PROBLEMA #5: Falta de filtros, agrupaciones y una vista en mapa más clara
+
+**Severidad:** 3  
+**Heurística violada:** Arquitectura de Información – Is it findable?
+
+**Problema:**  
+Los usuarios señalaron dificultad para encontrar parcelas específicas, agruparlas por campaña o cliente, o interpretarlas en el mapa inicial.
+
+**Recomendación:**  
+Incorporar filtros por cultivo, campaña, cliente o estado. Mejorar la claridad del mapa y permitir duplicar parcelas o usar plantillas.
+
+---
+
+## PROBLEMA #6: Monitoreo sin variables climáticas claves
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Adecuación a las necesidades del usuario
+
+**Problema:**  
+Variables importantes como precipitación, viento, radiación solar, lluvia acumulada o pronóstico de heladas no están disponibles. Los agrónomos las consideran esenciales.
+
+**Recomendación:**  
+Agregar más variables ambientales o integrar datos climáticos externos mediante API.
+
+---
+
+## PROBLEMA #7: Alertas poco visibles y poco claras
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:**  
+Las alertas no destacan visualmente y su significado no siempre es claro. Usuarios requieren mensajes más directos y visibles para evitar riesgos o pérdidas.
+
+**Recomendación:**  
+Usar colores accesibles, íconos claros y mensajes simples (“Riesgo de helada en 24h”). Aumentar tamaño de alertas críticas.
+
+---
+
+
+## PROBLEMA #8: Botones de acción poco visibles en la landing page
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Saliencia de elementos interactivos
+
+**Problema:**  
+Los usuarios pidieron botones más visibles e intuitivos, como “Probar gratis” o “Solicitar demo”, ya que los actuales no destacan lo suficiente.
+
+**Recomendación:**  
+Mejorar contraste, tamaño y diseño del CTA principal. Ubicarlo en el primer pliegue (“above the fold”).
+
+
+
+---
+
+## PROBLEMA #9: Tareas atrasadas no se destacan claramente
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Reconocimiento antes que recuerdo
+
+**Problema:**  
+Las tareas atrasadas o críticas no tienen marcadores visuales suficientemente notorios, lo que dificulta su identificación.
+
+**Recomendación:**  
+Añadir colores, etiquetas y priorización visual clara para tareas atrasadas o urgentes.
+
+
+
+
+
 ## 5.4. Video About the Product
 
 
