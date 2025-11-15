@@ -2651,43 +2651,53 @@ La SPA se comunica con la API de AgroTrack, que a su vez realiza consultas a la 
 
 ### 4.6.4. Software Architecture Components Diagrams
  
-![Component Diagram](assets/images/software-architecture/component-diagram.png)
+- Organization Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Organization.png)
+- Monitoring and Control Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Monitoring.png)
+- Reports Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Reports.png)
+- Profile Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/Profile.png)
+- IAM Bounded Context
+![Component Diagram](assets/images/software-architecture/Bounded-Context/IAM.png)
 
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
-El diagrama representa una visión general del sistema Agrotrack, organizado en distintos bounded contexts que delimitan responsabilidades y entidades clave. En él se observa cómo los usuarios gestionan sus cuentas y perfiles, cómo las organizaciones administran parcelas, planes de suscripción y tipos de cultivos, y cómo se articulan los procesos de monitoreo y control mediante checklists, tareas, lecturas ambientales y alertas. Además, se incluyen objetos compartidos que permiten mantener coherencia en la identificación y manejo de valores comunes. En conjunto, este modelo refleja la estructura conceptual del dominio y la interacción entre sus principales componentes.
-
-![Class Diagram](assets/images/software-architecture/class-diagram.png)
-
 ### Organization Bounded Context
 
 Este diagrama corresponde al Organization Bounded Context, encargado de estructurar y administrar las organizaciones dentro del sistema. Aquí, el agregado principal Organization gestiona el nombre, estado, miembros, número máximo de parcelas y la suscripción activa. A su vez, las Plot representan las parcelas asociadas a la organización, con atributos como tamaño, ubicación y tipo de cultivo. Los cultivos se definen mediante la entidad PlantType, que puede vincularse a una lista de tipos predefinidos como papa, maíz, trigo, café, entre otros. Finalmente, el modelo incluye la entidad Subscription, que permite a la organización acceder a planes (AgroStart, AgroSmart, AgroExpert) y mantener control sobre la vigencia y estado de la suscripción. En conjunto, este contexto regula tanto la estructura organizacional como la gestión de recursos y servicios contratados.
-
-![Class Diagram - Organization](assets/images/software-architecture/organization-diagram.png)
 
 #### Fronted Components Diagrams - Organization Bounded Context
 El módulo **Organization** permite a los agrónomos gestionar organizaciones, parcelas y cultivos.
 ![Organization Module Diagram](assets/frontend-diagram/organization.png)
 
+#### Backend Components Diagrams - Organization Bounded Context
+El módulo **Organization** gestiona la lógica de negocio relacionada con organizaciones, parcelas y cultivos.
+![Organization Module Diagram](assets/backend-diagram/organization.png)
+
+
+
 ### Monitoring and Control Bounded Context
 
 Este diagrama corresponde al Monitoring and Control Bounded Context, responsable de supervisar y gestionar las actividades y condiciones en campo. Aquí se incluyen los Checklists, que permiten organizar y dar seguimiento a las tareas (Task) asignadas a los perfiles, junto con fechas, materiales utilizados y su estado de avance. Asimismo, se registran lecturas ambientales (EnvironmentalReading) que son evaluadas frente a umbrales (Threshold) para detectar desviaciones en parámetros como temperatura, humedad o pH. Cuando se superan estos límites, se generan Alertas (Alert) con distintos niveles de severidad (INFO, WARNING, CRITICAL). Por otro lado, el contexto también incorpora sesiones de muestreo de plantas (PlantSamplingSession), que almacenan observaciones detalladas de altura, número de hojas y frutos, y permiten calcular promedios para análisis posteriores. En conjunto, este contexto asegura el control operativo mediante tareas planificadas, monitoreo en tiempo real y alertas tempranas que facilitan la toma de decisiones
 
-![Class Diagram - Monitoring and Control](assets/images/software-architecture/monitoring-diagram.png)
-
 #### Fronted Components Diagrams - Monitoring and Control Bounded Context
-
 El módulo **Monitoring and Control** permite a los agrónomos y agricultores supervisar las condiciones de las parcelas y gestionar tareas agrícolas.
 
 ![Monitoring and Control Module Diagram](assets/frontend-diagram/monitoring.png)
 
+#### Backend Components Diagrams - Monitoring and Control Bounded Context
+El módulo **Monitoring and Control** gestiona la lógica de negocio relacionada con la supervisión de parcelas y tareas agrícolas.
+
+![Monitoring and Control Module Diagram](assets/backend-diagram/monitoring.png)
+
+
 ### Reports Bounded Context
 
 Este diagrama corresponde al Reports Bounded Context, encargado de la generación y gestión de reportes dentro del sistema. El agregado principal es Report, que contiene información sobre el usuario que lo solicita, la parcela asociada, el tipo de reporte, el rango de fechas, el estado del proceso y el contenido generado. Los reportes pueden ser de tipo Parcel o General, y su ciclo de vida se refleja en el ReportStatus, que abarca estados como REQUESTED, PROCESSING, GENERATED o FAILED. A través de este contexto, los usuarios pueden solicitar reportes, generar información consolidada y manejar errores en caso de fallos durante la generación.
-
-![Class Diagram - Reports](assets/images/software-architecture/report-diagram.png)
 
 #### Fronted Components Diagrams - Report Bounded Context
 
@@ -2696,23 +2706,29 @@ En este diagrama se observa cómo el *Report Service* obtiene datos del *Fake AP
 
 ![Report Module Diagram](assets/images/c4/report-diagram-Report_Bounded_Context___Internal_Structure__C4_Level_4_.png)
 
+### Backend Components Diagrams - Report Bounded Context
+El módulo **Report** gestiona la lógica de negocio relacionada con la generación y almacenamiento de reportes agrícolas.
+![Report Module Diagram](assets/backend-diagram/reports.png)
+
+
 ### Profile Bounded Context
 
 Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
-
-![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
 
 ##### Fronted Components Diagrams - Profile Bounded Context
 El módulo **Profile** permite a los usuarios ver y actualizar su información personal.
 
 ![Profile Module Diagram](assets/frontend-diagram/profile.png)
 
+##### Backend Components Diagrams - Profile Bounded Context
+El módulo **Profile** gestiona la lógica de negocio relacionada con la información personal de los usuarios.
+
+![Profile Module Diagram](assets/backend-diagram/profile.png)
+
 
 ### IAM Bounded Context
 
 Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
-
-![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
 
 #### Fronted Components Diagrams - IAM Bounded Context
 
@@ -2720,6 +2736,11 @@ El módulo **IAM (Identity and Access Management)** gestiona la autenticación, 
 El siguiente diagrama detalla la interacción entre los componentes *Auth Controller*, *Auth Service* y *User Repository*, los cuales comunican con el *Fake API* para simular procesos de login y registro.
 
 ![IAM Module Diagram](assets/images/c4/iam-diagram-IAM_Bounded_Context___Internal_Structure__C4_Level_4_.png)
+
+#### Backend Components Diagrams - IAM Bounded Context
+El módulo **IAM (Identity and Access Management)** gestiona la lógica de negocio relacionada con la autenticación y autorización de usuarios.
+
+![IAM Module Diagram](assets/backend-diagram/iam.png)
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
@@ -4157,7 +4178,7 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
-
+<div style="font-size:70%;">
 | Sprint #                             | Sprint 3                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sprint planning <br> background      | En este sprint se abordará la implementación de la segunda versión del Frontend junto con la primera versión del backend utilizando Java, JPA y Springboot                                                                                                                                                                                |
@@ -4172,6 +4193,8 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 | Sprint 2 Goal                        | Nuestro enfoque está en desarrollar el **Backend inicial de AgroTrack y segunda versión del Frontend**, integrando los endpoints core del negocio al frontend .<br> Creemos que esto entrega validación temprana y confianza a usuarios.<br> Esto se confirmará cuando en staging los usuarios realicen las actividades CORE del negocio. |
 | Sprint 2 Velocity                    | 104                                                                                                                                                                                                                                                                                                                                       |
 | Sum of story points                  | 104                                                                                                                                                                                                                                                                                                                                       |
+
+</div>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
@@ -4199,6 +4222,8 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 El objetivo principal de este Sprint es **desarrollar el backend de AgroTrack** para los bounded contexts **IAM, Organization, Profile, Monitoring & Control y Reports**, así como realizar el **primer intento de integración entre backend y frontend**.  
 Todas las User Stories seleccionadas para este sprint fueron descompuestas en **Engineering Tasks** con estimaciones entre **4 y 8 horas**, siguiendo las observaciones realizadas en la revisión del Sprint 2.
+
+<div style="font-size:70%;">
 
 | Sprint # | Sprint 3 |  |  |  |  |  |  |
 |----------|----------|--|--|--|--|--|--|
@@ -4235,6 +4260,8 @@ Todas las User Stories seleccionadas para este sprint fueron descompuestas en **
 | US03 | Remover agricultor | ET39 | Registrar auditoría de cambios en la organización | Guardar logs de adiciones y remociones de miembros. | 4 | diesoks | To-do |
 | US01 | Crear organización | ET40 | Validar nombres únicos de organización | Impedir duplicación de nombres por usuario y por cuenta. | 3 | GoldQP | To-do |
 
+</div>
+
 <img alt="Image" src="https://github.com/user-attachments/assets/33d97914-b693-4879-a6bc-531355c11ec1" />
 [Trello Board - Sprint 3 Backlog](https://trello.com/b/lT4rJti6)
 
@@ -4245,6 +4272,8 @@ La evidencia incluye los commits relevantes asociados a cada repositorio, detall
 
 A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.  
 Los commits serán añadidos posteriormente.
+
+<div style="font-size:70%;">
 
 | Repository                       | Branch  | Commit Id                                | Commit Message                 | Committed On        |
 | -------------------------------- | ------- | ---------------------------------------- | ------------------------------ | ------------------- |
@@ -4347,7 +4376,7 @@ Los commits serán añadidos posteriormente.
 | FloweyTech/agrotrack-web-service | main | 2d88c57 | initial commit | 2025-10-18 22:02:50 |
 | FloweyTech/agrotrack-web-service | develop | 0c27d01 | initial project structure (legacy import) | 2025-09-19 07:46:45 |
 
-
+</div>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -4408,6 +4437,8 @@ La siguiente tabla resume los endpoints expuestos, las acciones implementadas y 
 
 #### Tabla de Endpoints – Organization
 
+<div style="font-size:70%;">
+
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
 | `/api/v1/organizations` | POST | Crear una nueva organización y asignar Owner al usuario creador. | **Body:** `{ name, country, industry }` | ```json { "name": "Mi Finca", "country": "Peru", "industry": "Agricultura" }``` | ```json { "id": 1, "name": "Mi Finca", "country": "Peru", "industry": "Agricultura", "ownerId": 7 }``` | `http://localhost:8080/swagger-ui/index.html#/Organization/createOrganization` |
@@ -4418,11 +4449,15 @@ La siguiente tabla resume los endpoints expuestos, las acciones implementadas y 
 | `/api/v1/organizations/by-subscription/{subscriptionId}` | GET | Listar organizaciones por ID de suscripción. | **Path:** subscriptionId | — | ```json [ { "id": 1, "name": "Finca A" } ]``` | Swagger UI |
 | `/api/v1/organizations/by-name/{organizationName}` | GET | Buscar organización por nombre. | **Path:** organizationName | — | ```json { "id": 1, "name": "Finca A" }``` | Swagger UI |
 
+</div>
+
 ### 5.2.3.6.2 Profile Service Documentation
 
 En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **Profile**, permitiendo consultar perfiles por identificador, usuario asociado y nombre completo, así como actualizar datos clave como el nombre de la persona y la URL de la foto de perfil.
 
 #### Tabla de Endpoints – Profile
+
+<div style="font-size:70%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4432,6 +4467,8 @@ En el Sprint 3 se implementaron y documentaron los endpoints del bounded context
 | `/api/v1/profiles/{profileId}/person-name` | PUT | Actualiza el nombre de la persona asociado al perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "firstName", "lastName" }` | ```json { "firstName": "Juan Carlos", "lastName": "Pérez" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Carlos Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | Swagger UI – sección **Profiles** |
 | `/api/v1/profiles/{profileId}/photo-url` | PUT | Actualiza la URL de la foto de perfil. | **Path:** `profileId` (Long)<br>**Body:** `{ "photoUrl" }` | ```json { "photoUrl": "https://example.com/new-avatar.png" } ``` | ```json { "id": 5, "userId": 7, "fullName": "Juan Pérez", "photoUrl": "https://example.com/new-avatar.png" } ``` | Swagger UI – sección **Profiles** |
 
+</div>
+
 ### 5.2.3.6.3. IAM (Authentication) Service Documentation
 
 En el Sprint 3 se implementaron y documentaron los endpoints del bounded context **IAM (Authentication)**, permitiendo el registro de nuevos usuarios y el inicio de sesión mediante credenciales válidas.  
@@ -4439,10 +4476,14 @@ Estos servicios se exponen bajo el prefijo `/api/v1/authentication` y están doc
 
 #### Tabla de Endpoints – IAM (Authentication)
 
+<div style="font-size:70%;">
+
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
 | `/api/v1/authentication/sign-in` | POST | Permite que un usuario existente inicie sesión en la plataforma utilizando su identificador (username o email) y contraseña. | **Body (JSON):**<br>`identifier` (string)<br>`password` (string) | ```json { "identifier": "juan.perez", "password": "MiClaveSegura123" } ``` | ```json { "id": 7, "username": "juan.perez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
 | `/api/v1/authentication/sign-up` | POST | Registra un nuevo usuario en el sistema, creando su cuenta de acceso e inicializando su perfil asociado. | **Body (JSON):**<br>`username` (string)<br>`email` (string)<br>`password` (string)<br>`role` (enum Roles)<br>`firstName` (string)<br>`lastName` (string)<br>`photoUrl` (string, opcional) | ```json { "username": "juan.perez", "email": "juan.perez@example.com", "password": "MiClaveSegura123", "role": "AGRONOMIST", "firstName": "Juan", "lastName": "Pérez", "photoUrl": "https://example.com/avatar.jpg" } ``` | ```json { "id": 7, "username": "juan.perez", "role": "AGRONOMIST" } ``` | Swagger UI – sección **Authentication** |
+
+</div>
 
 ### 5.2.3.6.4. Monitoring and Control Service Documentation
 
@@ -4452,6 +4493,8 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 
 #### Tabla de Endpoints – Tasks
 
+<div style="font-size:70%;">
+
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
 | `/api/v1/tasks` | POST | Crea una nueva tarea agrícola asignada a un perfil específico, incluyendo materiales a utilizar. | **Body (JSON):**<br>`assignTaskToProfileId` (Long)<br>`title` (string)<br>`description` (string)<br>`startDate` (LocalDate)<br>`endDate` (LocalDate)<br>`taskStatus` (enum: PENDING, IN_PROGRESS, COMPLETED, CANCELLED)<br>`materialsUsed` (array de MaterialUsedResource) | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "PENDING",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | ```json<br>{<br>  "assignTaskToProfileId": 5,<br>  "title": "Aplicación de fertilizante",<br>  "description": "Aplicar fertilizante NPK en el sector norte",<br>  "startDate": "2025-11-15",<br>  "endDate": "2025-11-16",<br>  "taskStatus": "PENDING",<br>  "materialsUsed": [<br>    {<br>      "materialName": "Fertilizante NPK",<br>      "quantity": 50.0,<br>      "unit": "kg"<br>    }<br>  ]<br>}<br>``` | Swagger UI – sección **Tasks** |
@@ -4460,7 +4503,11 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 | `/api/v1/tasks` | GET | Obtiene la lista de todas las tareas registradas en el sistema. | N/A | N/A | ```json<br>[<br>  {<br>    "assignTaskToProfileId": 5,<br>    "title": "Aplicación de fertilizante",<br>    "description": "Aplicar fertilizante NPK",<br>    "startDate": "2025-11-15",<br>    "endDate": "2025-11-16",<br>    "taskStatus": "IN_PROGRESS",<br>    "materialsUsed": [...]<br>  },<br>  {<br>    "assignTaskToProfileId": 6,<br>    "title": "Riego programado",<br>    "description": "Riego en sector sur",<br>    "startDate": "2025-11-14",<br>    "endDate": "2025-11-14",<br>    "taskStatus": "COMPLETED",<br>    "materialsUsed": [...]<br>  }<br>]<br>``` | Swagger UI – sección **Tasks** |
 | `/api/v1/tasks/{taskId}` | DELETE | Elimina una tarea específica del sistema. | **Path:**<br>`taskId` (Long) | N/A | ```json<br>"Task deleted successfully"<br>``` | Swagger UI – sección **Tasks** |
 
+</div>
+
 #### Tabla de Endpoints – Environment Readings
+
+<div style="font-size:70%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4469,6 +4516,7 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 | `/api/v1/environment-readings/{environmentReadingId}` | GET | Obtiene los detalles de una lectura ambiental específica por su ID. | **Path:**<br>`environmentReadingId` (Long) | N/A | ```json<br>{<br>  "plotId": 3,<br>  "type": "TEMPERATURE",<br>  "value": 25.5,<br>  "unit": "°C",<br>  "measuredAt": "2025-11-14T10:30:00"<br>}<br>``` | Swagger UI – sección **Environment Readings** |
 | `/api/v1/environment-readings/plot/{plotId}` | GET | Obtiene todas las lecturas ambientales registradas para un terreno específico. | **Path:**<br>`plotId` (Long) | N/A | ```json<br>[<br>  {<br>    "plotId": 3,<br>    "type": "TEMPERATURE",<br>    "value": 25.5,<br>    "unit": "°C",<br>    "measuredAt": "2025-11-14T10:30:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "HUMIDITY",<br>    "value": 65.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:35:00"<br>  },<br>  {<br>    "plotId": 3,<br>    "type": "SOIL_MOISTURE",<br>    "value": 45.0,<br>    "unit": "%",<br>    "measuredAt": "2025-11-14T10:40:00"<br>  }<br>]<br>``` | Swagger UI – sección **Environment Readings** |
 
+</div>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
