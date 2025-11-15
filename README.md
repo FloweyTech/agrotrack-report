@@ -3027,6 +3027,7 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 El objetivo principal de este Sprint es **diseñar, implementar y desplegar el Landing Page** de la plataforma, de modo que los usuarios puedan conocer la propuesta de valor, características, planes de suscripción y medios de contacto. Esto permitirá la primera validación con usuarios interesados y sentará las bases de comunicación del producto.
 
+<div style="font-size:65%;">
 <table>
   <tr>
     <td>Sprint #</td>
@@ -3141,6 +3142,8 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>To-do</td>
   </tr>
 </table>
+</div>
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -3148,6 +3151,8 @@ Durante el Sprint 1 se implementó la Landing Page de la solución, la cual incl
 
 
 ## Development Evidence – Sprint 1
+
+<div style="font-size:65%;">
 
 | Repository                         | Branch               | Commit Id  | Commit Message                                        | Commit Message Body                                           | Committed on (Date) |
 |------------------------------------|----------------------|------------|-------------------------------------------------------|---------------------------------------------------------------|---------------------|
@@ -3179,6 +3184,7 @@ Durante el Sprint 1 se implementó la Landing Page de la solución, la cual incl
 | FloweyTech/agrotrack-landing-page  | develop              | f3aaaf1    | feat: Add .gitignore to exclude IDE and project files | Configuración de .gitignore.                                  | 19/09/2025          |
 | FloweyTech/agrotrack-landing-page  | main                 | b148470    | Initial commit                                        | Configuración inicial del repositorio.                        | 19/09/2025          |
 
+</div>
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
@@ -3451,7 +3457,7 @@ link: https://trello.com/b/GH7pMcjq/agrotrack-open-source-sprint2
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
 Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando los Bounded Contexts principales de la solución. Se finalizó el flujo, lo que permite a los Agrónomos crear sus cuentas, iniciar sesión y configurar su entorno de trabajo. El desarrollo se realizó principalmente en el repositorio público https://github.com/FloweyTech/agrotrack-web-app utilizando un flujo de ramas basado en feature branches
-
+<div style="font-size:65%;">
 <table>
   <tr>
     <td>Repository</td>
@@ -4039,7 +4045,7 @@ Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando
     </tr>
 
 </table>
-
+</div>
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 En el sprint 2 se alcanzó un desarrollo parcial del frontend de la web application usando una fake api. Se muestran
@@ -4212,7 +4218,7 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
 Los aspectos que tomamos en cuenta para este tercer sprint fueron los features faltantes del front y core del backend.
 
-<div style="font-size:70%;">
+<div style="font-size:65%;">
 
 | **Team Member** <br> Last Name, First Name | **GitHub Username** | **Tasks** <br> L/C | **Members** <br> L/C | *Profile** <br> L/C | **Sampling Session** <br> L/C | **Monitoring backend** <br> L/C | **Organization backend** <br> L/C | **Profile backend** <br> L/C |  **Reports backend** <br> L/C  |
 |:------------------------------------------:|:-------------------:|:------------------:|:--------------------:|:-------------------:|:-----------------------------:|:-------------------------------:|:---------------------------------:|:----------------------------:|:------------------------------:|
@@ -4450,7 +4456,7 @@ La siguiente tabla resume los endpoints expuestos, las acciones implementadas y 
 
 #### Tabla de Endpoints – Organization
 
-<div style="font-size:70%;">
+<div style="font-size:60%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4470,7 +4476,7 @@ En el Sprint 3 se implementaron y documentaron los endpoints del bounded context
 
 #### Tabla de Endpoints – Profile
 
-<div style="font-size:70%;">
+<div style="font-size:60%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4489,7 +4495,7 @@ Estos servicios se exponen bajo el prefijo `/api/v1/authentication` y están doc
 
 #### Tabla de Endpoints – IAM (Authentication)
 
-<div style="font-size:70%;">
+<div style="font-size:60%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4506,7 +4512,7 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 
 #### Tabla de Endpoints – Tasks
 
-<div style="font-size:70%;">
+<div style="font-size:60%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -4520,7 +4526,7 @@ Estos servicios se exponen bajo los prefijos `/api/v1/tasks` y `/api/v1/environm
 
 #### Tabla de Endpoints – Environment Readings
 
-<div style="font-size:70%;">
+<div style="font-size:60%;">
 
 | Endpoint | Método | Descripción | Parámetros | Ejemplo de Request | Ejemplo de Response | Documentación |
 |---------|--------|-------------|------------|--------------------|---------------------|----------------|
@@ -5002,6 +5008,8 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 - Video de Exposicion TB2 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU)
 - Video about the team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT)
+- Video about the product: [Enlace del video About the Product del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQCh2cuRXsPIRoFmWRd0hn8rAYqRkDf2wW82aaF-qyVHGrY?e=Tqbsna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 #### Repositorios del Proyecto
 
 | **Producto**            | **Repositorio GitHub**                                                                                          |
