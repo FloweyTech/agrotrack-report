@@ -3059,7 +3059,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Crear wireframe simple con encabezado, cuerpo y pie de página.</td>
     <td>4</td>
     <td>Equipo UX</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US31</td>
@@ -3069,7 +3069,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Desarrollar HTML/CSS base de la página principal.</td>
     <td>6</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US32</td>
@@ -3079,7 +3079,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Elaborar contenido con puntos clave de la plataforma.</td>
     <td>2</td>
     <td>PO/Equipo</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US32</td>
@@ -3089,7 +3089,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Codificar la sección en la web app.</td>
     <td>4</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US33</td>
@@ -3099,7 +3099,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Definir estructura visual de planes con beneficios y precios.</td>
     <td>3</td>
     <td>Equipo UX</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US33</td>
@@ -3109,7 +3109,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Programar en frontend con estructura responsive.</td>
     <td>5</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US34</td>
@@ -3119,7 +3119,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Crear contenido con correo, soporte y redes sociales.</td>
     <td>2</td>
     <td>PO/Equipo</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US34</td>
@@ -3129,7 +3129,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Agregar formulario básico o enlaces de contacto en la web app.</td>
     <td>4</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>-</td>
@@ -3139,7 +3139,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Preparar entorno y publicar el Landing Page en hosting/web server.</td>
     <td>6</td>
     <td>DevOps</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 </table>
 </div>
