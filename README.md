@@ -28,7 +28,7 @@
 
 
 
-<strong> Octubre 2025</strong><br>
+<strong>30 de Noviembre del 2025</strong><br>
 </div>
 
 
@@ -98,6 +98,16 @@ Para el desarrollo del TB cada participante del equipo realizo las siguientes ta
 | Quintanilla Pozo Gonzalo Samuel	      | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2                                                              |
 | Vilca Saboya Diego Alejandro	         | Corecciones del tb1, Elaboracion diagramas c4 extendidos de modulos Profile                                                                                           | 
 
+
+
+**TB2**
+
+| Integrante                        | Tareas Realizadas                                                                                                                                                                                                                                           |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amaro Villar Anjali               | Monitoring and control bounded context, Software Deployment Evidence for Sprint Review, Diseño de Entrevistas, registro de Entrevistas, Evaluaciones según heurísticas                                                                                      |
+| Jara Benites Quique Vladimir	     | IAM bounded context, profile and organization bounded context, Sprint Backlog 3, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| Quintanilla Pozo Gonzalo Samuel	  | Class diagramas, components diagramam.                                                                                                                                                                                                                      |
+| Vilca Saboya Diego Alejandro	     | Report bounded context, Sprint Planning 3, Aspect Leaders and Collaborators, registro de Entrevistas, Video About-the-Product                                                                                                                               |
 
 **GitHub Collaboration Insights**
 
@@ -2823,7 +2833,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 * ### Documentación de Software
 
 | **Herramienta / Recurso** | **Uso principal**                                                                                      | **Enlace / Ruta de Acceso**                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------- |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **IntelliJ IDEA**         | Edición y mantenimiento del archivo README.md asociado a la documentación del proyecto.                | [https://www.jetbrains.com](https://www.jetbrains.com)                                                             |
 | **GitHub**                | Repositorio con control de versiones, utilizado además como espacio de documentación en issues y PRs.  | [https://github.com](https://github.com)                                                                           |
 | **Git**                   | Sistema distribuido de control de versiones para la gestión del código fuente.                         | [https://git-scm.com](https://git-scm.com)                                                                         |
@@ -2836,13 +2846,13 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**           | **Repositorio GitHub**                                                                                                                  |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                                                          |
-| **Landing Page**       | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page)                            |
-| **Report**             | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)                                        |
-| **Web Application**    | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)                                      |
-| **Agrotrack mockapi**  | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
+| **Producto**              | **Repositorio GitHub**                                                                                       |
+|---------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey**   | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
+| **Landing Page**          | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
+| **Report**                | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+| **Web Application**       | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)           |
+| **Agrotrack mockapi**     | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
 
 
 #### Modelo GitFlow
