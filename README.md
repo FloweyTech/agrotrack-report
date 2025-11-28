@@ -28,7 +28,7 @@
 
 
 
-<strong> Octubre 2025</strong><br>
+<strong>30 de Noviembre del 2025</strong><br>
 </div>
 
 
@@ -98,6 +98,16 @@ Para el desarrollo del TB cada participante del equipo realizo las siguientes ta
 | Quintanilla Pozo Gonzalo Samuel	      | Elaboracion Sprint planing 2, definicion Aspect Leaders and Collaborators, Construccion Sprint backlog 2                                                              |
 | Vilca Saboya Diego Alejandro	         | Corecciones del tb1, Elaboracion diagramas c4 extendidos de modulos Profile                                                                                           | 
 
+
+
+**TB2**
+
+| Integrante                        | Tareas Realizadas                                                                                                                                                                                                                                           |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amaro Villar Anjali               | Monitoring and control bounded context, Software Deployment Evidence for Sprint Review, Diseño de Entrevistas, registro de Entrevistas, Evaluaciones según heurísticas                                                                                      |
+| Jara Benites Quique Vladimir	     | IAM bounded context, profile and organization bounded context, Sprint Backlog 3, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| Quintanilla Pozo Gonzalo Samuel	  | Class diagramas, components diagramam.                                                                                                                                                                                                                      |
+| Vilca Saboya Diego Alejandro	     | Report bounded context, Sprint Planning 3, Aspect Leaders and Collaborators, registro de Entrevistas, Video About-the-Product                                                                                                                               |
 
 **GitHub Collaboration Insights**
 
@@ -257,6 +267,15 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.2.4. Sprint 3](#524-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
         - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
         - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
@@ -924,7 +943,7 @@ Mariana Huamán es una ingeniera agrónoma joven que trabaja en zonas rurales de
 
 ##### User Task Matrix - Agrónomos
 
-| Tarea                                                      | Frecuencia | Importancia |
+| Tarea                                                       | Frecuencia | Importancia |
 |-------------------------------------------------------------|------------|-------------|
 | Diagnosticar estado del suelo y recomendar análisis         | Media      | Alta        |
 | Diseñar plan de siembra (cultivos por temporada)            | Media      | Muy Alta    |
@@ -1058,7 +1077,7 @@ y asegura que el producto final se alinee con las expectativas del cliente. Para
 <td>
 <b>Escenario 1: Organización Creada</b><br>
 Given el Agrónomo está autenticado y no tiene una organización.<br>
-When crea una organización con nombre a su elección y datos válidos obligatorios (nombre, país, rubro)<br>
+When crea una organización con nombre a su elección y datos válidos obligatorios<br>
 Then el sistema registra la organización con un organizationId<br>
 And asigna al Agrónomo el rol Owner<br>
 And muestra el mensaje “Organización creada”<br><br>
@@ -1179,42 +1198,6 @@ And muestra “Nuevo cultivo agregado y asignado”.
 <td>EP02</td>
 </tr>
 <tr>
-<td>US07</td>
-<td>Asignar agricultor a parcela</td>
-<td>Como Agrónomo, quiero asignar un agricultor a una parcela para definir responsables.</td>
-<td>
-<b>Escenario 1: Asignación exitosa</b><br>
-Given el Agrónomo pertenece a una organización y existe una parcela<br>
-When selecciona a un Agricultor y confirma la asignación<br>
-Then el sistema lo registra como responsable de la parcela<br>
-And muestra un mensaje de confirmación.<br><br>
-<b>Escenario 2: Agricultor ya asignado</b><br>
-Given un agricultor ya es responsable de la parcela<br>
-When el Agrónomo intenta asignarlo otra vez<br>
-Then el sistema rechaza la acción<br>
-And muestra un mensaje indicando que ya está asignado.
-</td>
-<td>EP02</td>
-</tr>
-<tr>
-<td>US08</td>
-<td>Recomendaciones agronómicas</td>
-<td>Como Agrónomo, quiero añadir una recomendación en una parcela para guiar las labores del agricultor.</td>
-<td>
-<b>Escenario 1: Registro exitoso</b><br>
-Given el Agrónomo tiene acceso a una parcela<br>
-When escribe una recomendación con título y descripción válidos<br>
-Then el sistema guarda la recomendación<br>
-And la notifica al agricultor responsable.<br><br>
-<b>Escenario 2: Datos inválidos</b><br>
-Given el Agrónomo quiere registrar una recomendación<br>
-When omite el título o la descripción<br>
-Then el sistema rechaza la acción<br>
-And muestra un mensaje de error.
-</td>
-<td>EP02</td>
-</tr>
-<tr>
 <td>US09</td>
 <td>Iniciar monitoreo</td>
 <td>Como Agrónomo, quiero iniciar el monitoreo de una parcela para habilitar el registro de datos.</td>
@@ -1317,23 +1300,6 @@ And usa esos valores para futuras alertas.
 <td>EP03</td>
 </tr>
 <tr>
-<td>US15</td>
-<td>Crear checklist</td>
-<td>Como Agrónomo, quiero crear un checklist para estandarizar labores en una parcela</td>
-<td>
-<b>Escenario 1: Creación exitosa</b><br>
-Given el Agrónomo tiene acceso a una parcela<br>
-When registra un checklist con nombre e ítems<br>
-Then el sistema guarda el checklist asociado a la parcela.<br><br>
-<b>Escenario 2: Datos incompletos</b><br>
-Given el Agrónomo intenta crear un checklist<br>
-When no agrega nombre o ítems<br>
-Then el sistema rechaza la acción<br>
-And muestra un mensaje de error.
-</td>
-<td>EP04</td>
-</tr>
-<tr>
 <td>US16</td>
 <td>Crear tarea</td>
 <td>Como Agrónomo, quiero crear una tarea (con responsable Agricultor, fecha, prioridad y checklist opcional) para planificar el trabajo de campo</td>
@@ -1370,15 +1336,15 @@ And notifica al Agrónomo.
 </tr>
 <tr>
 <td>US18</td>
-<td>Completar tarea y checklist</td>
+<td>Completar tarea </td>
 <td>Como Agricultor, quiero marcar la tarea como completada para cerrar la labor.</td>
 <td>
-<b>Escenario 1: Completar con checklist</b><br>
-Given la tarea está en progreso y tiene un checklist<br>
+<b>Escenario 1: Completar la tarea</b><br>
+Given la tarea está en progreso<br>
 When el Agricultor marca todos los ítems y completa la tarea<br>
 Then el sistema cambia el estado a “Completada”.<br><br>
-<b>Escenario 2: Checklist incompleto</b><br>
-Given la tarea está en progreso con un checklist<br>
+<b>Escenario 2: Tarea incompleto</b><br>
+Given la tarea está en progreso<br>
 When no se completan todos los ítems<br>
 Then el sistema impide finalizar la tarea<br>
 And muestra un mensaje de advertencia.
@@ -1941,40 +1907,6 @@ And muestra qué falta para la activación.
 <br>Given la parcela no tiene monitoreo iniciado
 <br>When intento registrar condiciones ambientales
 <br>Then responde 409 “activar monitoreo primero”
-</td>
-<td>EP08</td>
-</tr>
-<tr>
-<td>TS12</td>
-<td>Configurar umbrales de alerta</td>
-<td>Como desarrollador, quiero implementar el endpoint para configurar umbrales, para disparar alertas internas de cultivo. (POST /api/parcels/{parcelaId}/thresholds)</td>
-<td>
-<b>Escenario 1: Umbrales consistentes</b>
-<br>Given valores coherentes (min < max)
-<br>When guardo umbrales
-<br>Then responde 200 y persiste configuración
-<br><br>
-<b>Escenario 2: Umbrales inválidos</b>
-<br>Given min ≥ max
-<br>When intento guardar
-<br>Then responde 400 con error de consistencia
-</td>
-<td>EP08</td>
-</tr>
-<tr>
-<td>TS13</td>
-<td>Crear checklist</td>
-<td>Como desarrollador, quiero implementar el endpoint de creación de checklist, para estandarizar labores en una parcela. (POST /api/parcels/{parcelaId}/checklists)</td>
-<td>
-<b>Escenario 1: Checklist creada</b>
-<br>Given items no vacíos
-<br>When envío título e items
-<br>Then responde 201 con checklistId
-<br><br>
-<b>Escenario 2: Items vacíos</b>
-<br>Given lista de items vacía
-<br>When intento crear
-<br>Then responde 400 “items requeridos”
 </td>
 <td>EP08</td>
 </tr>
@@ -2823,7 +2755,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 * ### Documentación de Software
 
 | **Herramienta / Recurso** | **Uso principal**                                                                                      | **Enlace / Ruta de Acceso**                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------- |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **IntelliJ IDEA**         | Edición y mantenimiento del archivo README.md asociado a la documentación del proyecto.                | [https://www.jetbrains.com](https://www.jetbrains.com)                                                             |
 | **GitHub**                | Repositorio con control de versiones, utilizado además como espacio de documentación en issues y PRs.  | [https://github.com](https://github.com)                                                                           |
 | **Git**                   | Sistema distribuido de control de versiones para la gestión del código fuente.                         | [https://git-scm.com](https://git-scm.com)                                                                         |
@@ -2836,13 +2768,13 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**           | **Repositorio GitHub**                                                                                                                  |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                                                          |
-| **Landing Page**       | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page)                            |
-| **Report**             | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)                                        |
-| **Web Application**    | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)                                      |
-| **Agrotrack mockapi**  | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
+| **Producto**              | **Repositorio GitHub**                                                                                       |
+|---------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Organización Flowey**   | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                               |
+| **Landing Page**          | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
+| **Report**                | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+| **Web Application**       | [https://github.com/FloweyTech/agrotrack-web-app](https://github.com/FloweyTech/agrotrack-web-app)           |
+| **Agrotrack mockapi**     | [https://github.com/FloweyTech/agrotrack-mockapi](https://github.com/FloweyTech/agrotrack-mockapi)           |
 
 
 #### Modelo GitFlow
@@ -3059,7 +2991,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Crear wireframe simple con encabezado, cuerpo y pie de página.</td>
     <td>4</td>
     <td>Equipo UX</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US31</td>
@@ -3069,7 +3001,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Desarrollar HTML/CSS base de la página principal.</td>
     <td>6</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US32</td>
@@ -3079,7 +3011,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Elaborar contenido con puntos clave de la plataforma.</td>
     <td>2</td>
     <td>PO/Equipo</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US32</td>
@@ -3089,7 +3021,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Codificar la sección en la web app.</td>
     <td>4</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US33</td>
@@ -3099,7 +3031,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Definir estructura visual de planes con beneficios y precios.</td>
     <td>3</td>
     <td>Equipo UX</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US33</td>
@@ -3109,7 +3041,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Programar en frontend con estructura responsive.</td>
     <td>5</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US34</td>
@@ -3119,7 +3051,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Crear contenido con correo, soporte y redes sociales.</td>
     <td>2</td>
     <td>PO/Equipo</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>US34</td>
@@ -3129,7 +3061,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Agregar formulario básico o enlaces de contacto en la web app.</td>
     <td>4</td>
     <td>Dev Front</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>-</td>
@@ -3139,7 +3071,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el L
     <td>Preparar entorno y publicar el Landing Page en hosting/web server.</td>
     <td>6</td>
     <td>DevOps</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 </table>
 </div>
@@ -4615,6 +4547,25 @@ El backend está disponible de manera pública en la ruta: [Abri en el navegador
 A continuación, se muestran las evidencias gráficas de la colaboración del equipo durante el Sprint 3, extraídas desde los analytics del repositorio en GitHub.
 
 <img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d" />
+
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+####  5.2.4.3.Sprint Backlog 4
+
+#### 5.2.3.4.Development Evidence for Sprint Review
+
+#### 5.2.3.5.Execution Evidence for Sprint Review
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint
 
 ---
 
