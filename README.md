@@ -5478,7 +5478,7 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 - Video de Exposicion TB2 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU)
 
-- Video de Exposicion TF : []()
+- Video de Exposicion TF : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQDBQ6L3301MSI-vOQ4JHt_IAXQvO-8HTnoW7sVvlWBUAMM?e=RdB5QH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQDBQ6L3301MSI-vOQ4JHt_IAXQvO-8HTnoW7sVvlWBUAMM?e=RdB5QH)
 - Video about the team: [https://youtu.be/97omlHSATQg](https://youtu.be/97omlHSATQg)
 - Video about the product: [Enlace del video About the Product del Sprint 4](https://youtu.be/V25kaLV-ARk?si=QENYXpAYTEVW9vVR)
 
