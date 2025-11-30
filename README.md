@@ -4757,8 +4757,6 @@ El objetivo principal de este Sprint es Finalizar la implementación del Backend
 
 #### 5.2.4.4.Development Evidence for Sprint Review
 
-#### 5.2.4.5.Execution Evidence for Sprint Review
-
 En esta sección se presentan los avances de implementación realizados durante el Sprint 4 en los diferentes productos de la solución: Web Application y Web Services (Backend).
 
 A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.
@@ -5001,6 +4999,7 @@ Los commits serán añadidos posteriormente.
   </tr>
 </table>
 </div>
+
 
 #### 5.2.4.5.Execution Evidence for Sprint Review
 ![img_14.png](assets/sprint4/img_14.png)
