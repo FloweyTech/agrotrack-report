@@ -69,6 +69,16 @@
 | TB2     | 14/11/2025 | Diego Vilca         | Corrección de Sprint planning anteriores y implementación del sprint planning del sprint 3 |
 | TB2     | 15/11/2025 | Equipo completo     | Correcciones TP y Avance general del backend y frontend                                    |
 
+**TF**
+
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                                                           |
+|---------|------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| TF     | 30/11/2025 | Anjali Amaro        | Consolidación de la evidencia de implementación del Frontend (SPA) y revisión final de los diagramas de Entidad-Relación y Clases.    |
+| TF     | 30/11/2025 | Gonzalo Quintanilla | Finalización del Análisis Competitivo (SWOT) y documentación de todos los casos de uso (User Stories/TS) en formato Gherkin.          |
+| TF     | 30/11/2025 | Vladimir Jara       | Elaboración del Sprint Backlog 4 y modelado C4 (Arquitectura de Capas Internas) para la documentación final.                          |
+| TF     | 30/11/2025 | Diego Vilca         | Redacción y estandarización de las Conclusiones Finales. Consolidación y ajuste de todo el documento (TB1, TP, TB2).                  |
+| TF     | 30/11/2025 | Equipo completo     | Fusión de todas las secciones del informe, verificación de la trazabilidad de los artefactos y validación del cumplimiento del ABET.  |
+
 
 
 
