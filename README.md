@@ -16,6 +16,7 @@
 
 
 
+
 ### Team Members:
   
 |                Member                |        Code        |
@@ -2538,7 +2539,7 @@ Este flujo empieza en el dashboard de organización, el usuario selecciona el bo
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.  
 
 **Step 1: Unstructured Exploration**  
-![Step 1 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-1.png)    
+![Step 1 Design Level Event Storming](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Unstructured-exploration.jpg)    
 En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.  
 
 **Step 2: Timelines**  
@@ -2575,7 +2576,15 @@ En este noveno paso, el equipo antes de agregar los agregados, discutió bastant
 
 
 **Step 10: Bounded Contexts**  
-![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)  
+![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)
+![Step 10 Design Level Event Storming IAM](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/IAM.jpg)
+![Step 10 Design Level Event Storming Monitoring-and-Control](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Monitoring-and-Controll.jpg)
+![Step 10 Design Level Event Storming Organization](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization.jpg)
+![Step 10 Design Level Event Storming Profile](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Profile.jpg)
+![Step 10 Design Level Event Storming Reports](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Reports.jpg)
+
+
+
 En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
 [Ver en Miro](https://miro.com/app/board/uXjVJKW5IPg=/?share_link_id=208743433890)
 
@@ -3978,6 +3987,7 @@ Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando
 
 </table>
 </div>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 En el sprint 2 se alcanzó un desarrollo parcial del frontend de la web application usando una fake api. Se muestran
@@ -4546,18 +4556,439 @@ El backend está disponible de manera pública en la ruta: [Abri en el navegador
 
 A continuación, se muestran las evidencias gráficas de la colaboración del equipo durante el Sprint 3, extraídas desde los analytics del repositorio en GitHub.
 
-<img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d" />
+<img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d"/>
 
 
 ### 5.2.4. Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4
 
+<div style="font-size:70%;">
+
+| Sprint #                             | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      | En este sprint se abordará la implementación de la segunda versión del Backend utilizando Java, JPA y Springboot, mejoras del detalle del reporte, la implementacion y actualizacion del frontend para la intregracion con el Backend, incluyendo la resolución de deuda técnica (i18n)                                                                                                                                                                                                              |
+| Date                                 | 2025/11/29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Time                                 | 2:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                             | Reunión virtual mediante la plataforma **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Attendees <br> (to planning meeting) | Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Review Summary              | Durante el Sprint 3 se desarrolló la primera versión del Backend. Se logró implementar el CORE del negocio (Organización y Creación de Parcelas) y como observación se tuvo que se debe implementar i18n en el login.                                                                                                                                                                                                                                                                                |
+| Sprint 3 Retrospective Summary       | El equipo tuvo mejor organización y mejoras con respeceto al problema del tiempo de desarrollo de tareas, lo cual se identifica como un avance de mejora para esta ultima entrega.                                                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 4 Goal                        | Nuestro enfoque está en desarrollar el Backend de la Gestión de Usuarios y Tareas, integrando los flujos completos de la gestión de tareas, la descarga de reportes y la experiencia completa del nuevo usuario. Adicionalmente, se resolverá la deuda técnica de i18n en el login. <br/>Creemos que esto entrega validación temprana y confianza a usuarios. Esto se confirmará cuando en staging los usuarios puedan registrarse, completar su perfil, iniciar sesión y gestionar tareas de campo. |
+| Sprint 4 Velocity                    | 54                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sum of story points                  | 54                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+</div>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features faltantes del front y core del backend.
+
+<div style="font-size:65%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Tasks** <br> L/C | **Members** <br> L/C | *Profile** <br> L/C | **Sampling Session** <br> L/C | **Monitoring backend** <br> L/C | **Organization backend** <br> L/C | **Profile backend** <br> L/C |  **Reports backend** <br> L/C  |
+|:------------------------------------------:|:-------------------:|:------------------:|:--------------------:|:-------------------:|:-----------------------------:|:-------------------------------:|:---------------------------------:|:----------------------------:|:------------------------------:|
+|              **Amaro Anjali**              |      njlmrvllr      |         C          |          C           |          C          |               L               |                L                |                 C                 |              C               |               C                |         
+|          **Quintanilla Gonzalo**           |       GoldQP        |         C          |          C           |          C          |               C               |                C                |                 C                 |              L               |               C                |        
+|              **Jara Quique**               |   QuiqueVladimir    |         C          |          C           |          C          |               C               |                C                |                 C                 |              C               |               L                |       
+|              **Vilca Diego**               |       diesoks       |         L          |          L           |          L          |               C               |                C                |                 L                 |              C               |               C                |      
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
 
 ####  5.2.4.3.Sprint Backlog 4
 
+El objetivo principal de este Sprint es Finalizar la implementación del Backend V2, activando los flujos completos de Registro, la Gestión de Tareas y Alertas, la Generación de Reportes. Esto permitirá la validación de los flujos críticos de negocio en el entorno de pruebas.
+
+<div style="font-size:70%;">
+<table>
+  <thead>
+    <tr>
+      <td>Sprint #</td>
+      <td colspan="7">Sprint 4</td>
+    </tr>
+    <tr>
+      <td colspan="2">User Story</td>
+      <td colspan="2">Work-Item / Task</td>
+      <td>Description</td>
+      <td>Estimation (Hours)</td>
+      <td>Assigned To</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Id</td>
+      <td>Title</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US24</td>
+      <td>Registrar cuenta</td>
+      <td>ET41</td>
+      <td>Service Register Logic (Hashing)</td>
+      <td>Implementar la lógica de servicio para el <b>hashing</b> y estado 'PENDING'.</td>
+      <td>6</td>
+      <td>Anjali Amaro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Recuperar Cuenta</td>
+      <td>ET42</td>
+      <td>Service Recovery Flow</td>
+      <td>Implementar el servicio de seguridad para la <b>generación de enlace/código de un solo uso</b>.</td>
+      <td>6</td>
+      <td>Quique Jara</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Completar Perfil</td>
+      <td>ET43</td>
+      <td>Service Profile Completion Logic</td>
+      <td>Implementar la lógica de servicio para marcar el perfil como 'COMPLETED' (Integración con IAM).</td>
+      <td>6</td>
+      <td>Anjali Amaro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Iniciar Monitoreo</td>
+      <td>ET44</td>
+      <td>Service Start Monitoring</td>
+      <td>Implementar el servicio para cambiar el estado de la parcela a "Monitoreo Activo".</td>
+      <td>6</td>
+      <td>Gonzalo Q.</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Registrar Datos Planta</td>
+      <td>ET45</td>
+      <td>Endpoint/Service Plant Data</td>
+      <td>Implementar el controlador y servicio para el registro de <b>hojas y botones</b>.</td>
+      <td>6</td>
+      <td>Anjali Amaro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Registrar Cond. Ambientales</td>
+      <td>ET46</td>
+      <td>Endpoint/Service Env Data</td>
+      <td>Implementar el controlador y servicio para el registro de <b>humedad y temperatura</b>.</td>
+      <td>6</td>
+      <td>Quique Jara</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Umbrales/Alertas</td>
+      <td>ET47</td>
+      <td>Endpoint PUT /monitoring/thresholds</td>
+      <td>Implementar el endpoint para que el Agrónomo configure los umbrales.</td>
+      <td>6</td>
+      <td>Gonzalo Q.</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Umbrales/Alertas</td>
+      <td>ET48</td>
+      <td>Service Alert Trigger Logic</td>
+      <td>Implementar el servicio que <b>dispara la alerta</b> al registrar un valor fuera del umbral.</td>
+      <td>6</td>
+      <td>Diego Vilca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Crear Tarea</td>
+      <td>ET49</td>
+      <td>Endpoint/Service Create Task Logic</td>
+      <td>Implementar la lógica de creación de tarea, incluyendo la validación del responsable y la notificación.</td>
+      <td>6</td>
+      <td>Diego Vilca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Descargar Reporte</td>
+      <td>ET50</td>
+      <td>Service Report Async Generation</td>
+      <td>Implementar la lógica de <b>generación asíncrona</b> y la entrega del archivo final para la descarga.</td>
+      <td>6</td>
+      <td>Quique Jara</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<img alt="Trello Sprint 4" src="assets/Sprint-4-mejoras/Sprint-Backlog-4/trello.png" />
+
+[Trello Board - Sprint 4 Backlog](https://trello.com/invite/b/692b6736391c8e655d6266cf/ATTI5dfa74897009d7d994b84346e68cbdd4DCA221C5/agrotrack-open-source-sprint4)
+
+
 #### 5.2.3.4.Development Evidence for Sprint Review
+
+En esta sección se presentan los avances de implementación realizados durante el Sprint 4 en los diferentes productos de la solución: Web Application y Web Services (Backend).
+
+A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.
+Los commits serán añadidos posteriormente.
+
+<div style="font-size:70%;">
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Committed on (Date)</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>61d9285</td>
+    <td>feat: add integration organization and monitoring with front</td>
+    <td>Integración Crítica: Integración final de los contextos Organization y Monitoring & Control con el Frontend.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>094f082</td>
+    <td>Merge pull request #3 from hotfix/message-language</td>
+    <td>Deuda Técnica: Fusión de hotfix para la implementación de i18n (internacionalización), resolviendo la deuda de Sprint 3.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>dec8637</td>
+    <td>feat: add initial data</td>
+    <td>Setup/Data: Inserción de datos iniciales en la base de datos para pruebas.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>8661c72</td>
+    <td>feat(reports): add messages properties</td>
+    <td>Reports/i18n: Adición de propiedades y mensajes estandarizados para el contexto de reportes.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>02b6d22</td>
+    <td>feat(reports): add external organization service ACL</td>
+    <td>Reports/ACL: Implementación de la Capa Anti-Corrupción para comunicación Reports &lt;-&gt; Organization.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>5ae72b1</td>
+    <td>feat(reports): add external monitoring service ACL</td>
+    <td>Reports/ACL: Implementación de la Capa Anti-Corrupción para Reports &lt;-&gt; Monitoring & Control.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>6ff1f81</td>
+    <td>feat(organization): add organization context facade implementation</td>
+    <td>Organization/DDD: Implementación final del Facade del BC Organization, un punto de entrada clave.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>0395a80</td>
+    <td>feat(monitoring-and-control): add monitoring context facade implementation</td>
+    <td>Monitoring/DDD: Implementación del Facade del BC Monitoring & Control.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>452693b</td>
+    <td>feat(monitoring-and-control): update environment reading repository</td>
+    <td>Monitoring: Actualización del repositorio para la persistencia de lecturas ambientales.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>f246518</td>
+    <td>feat(reports): update report query service</td>
+    <td>Reports/Query: Actualización del servicio de consulta para listar y obtener reportes específicos (US23).</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>4a85329</td>
+    <td>feat(reports): update command service implementation</td>
+    <td>Reports/Logic: Actualización del servicio de comando para generar reportes.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>b58e9b3</td>
+    <td>feat(reports): update global exception handler</td>
+    <td>Core/Manejo de Errores: Mejora del manejo global de excepciones (400, 401, 409).</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>8909e52</td>
+    <td>feat(reports): add get all reports by profile id query</td>
+    <td>Reports: Implementación de la consulta para obtener todos los reportes filtrados por el perfil.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>edc3815</td>
+    <td>feat: update agrotrack web service application with forced locale english</td>
+    <td>i18n/Setup: Configuración de la aplicación para forzar la localización en inglés.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>595a2a0</td>
+    <td>feat(sampling-session): add commands and queries for plant sampling sessions and observations</td>
+    <td>Monitoring/DDD: Adición de comandos y queries para la gestión de datos de muestreo y observaciones.</td>
+    <td>2025/11/25</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>49c00cc</td>
+    <td>feat(sampling-session): add PlantObservation entity for managing plant observations</td>
+    <td>Monitoring/Entidad: Creación de la entidad base PlantObservation para registrar datos de la planta (US10).</td>
+    <td>2025/11/25</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>376e757</td>
+    <td>feat(tests): add user registration scenarios for API endpoint</td>
+    <td>Tests/IAM: Creación de pruebas de aceptación (Gherkin) para el flujo de registro de usuarios (US24).</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>214c5a3</td>
+    <td>feat: add CORS policy</td>
+    <td>Setup/Security: Configuración de la política CORS para permitir la comunicación segura Frontend &lt;-&gt; Backend.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>9885f9f</td>
+    <td>Merge branch 'feature/reports' into develop</td>
+    <td>Integración Reports: Fusión de la rama que integra los componentes del módulo de Reportes al proyecto principal.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>1eeb402</td>
+    <td>feat(reports): update report store</td>
+    <td>Reports/State: Creación y actualización del Store (gestión de estado) para los datos de reportes.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>214dc27</td>
+    <td>feat(reports): update report detail component</td>
+    <td>Reports/UI: Actualización del componente de vista detallada para mostrar el contenido del reporte.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>c8f75d6</td>
+    <td>feat(reports): update report assembler</td>
+    <td>Reports/Logic: Creación del Assembler (mapeador) para transformar los datos del Backend en modelos de Frontend.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>c7fdf3a</td>
+    <td>feat(iam): add iam store</td>
+    <td>IAM/State: Creación del Store para la gestión centralizada del estado de autenticación (tokens, usuario).</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>af08ca2</td>
+    <td>feat(iam): update login component</td>
+    <td>IAM/UI: Actualización y refactorización del componente de vista de Login.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>fe79f90</td>
+    <td>feat(iam): update app config with the interceptor</td>
+    <td>IAM/Security: Configuración global del Interceptor HTTP para adjuntar tokens JWT a las solicitudes salientes.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>a6d8927</td>
+    <td>feat(iam): add guard</td>
+    <td>IAM/Security: Creación del Guard de Angular para proteger rutas basadas en la autenticación (route protection).</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>576fcf0</td>
+    <td>feat(iam): add sign up request and response</td>
+    <td>IAM/Registro: Definición de los modelos de Request y Response para el flujo de registro.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>870f80a</td>
+    <td>feat(profile): implement language switcher and enhance login/register UI</td>
+    <td>UI/i18n: Implementación del selector de idioma y mejoras generales en la UI de Login/Registro.</td>
+    <td>2025/11/24</td>
+  </tr>
+</table>
+</div>
 
 #### 5.2.3.5.Execution Evidence for Sprint Review
 
