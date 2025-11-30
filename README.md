@@ -5466,9 +5466,9 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 - Video de Exposicion TB2 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU)
 
-- Vide de Exposicion TF : []()
-- Video about the team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT)
-- Video about the product: [Enlace del video About the Product del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQCh2cuRXsPIRoFmWRd0hn8rAYqRkDf2wW82aaF-qyVHGrY?e=Tqbsna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Video de Exposicion TF : []()
+- Video about the team: [https://youtu.be/97omlHSATQg](https://youtu.be/97omlHSATQg)
+- Video about the product: [Enlace del video About the Product del Sprint 4](https://youtu.be/V25kaLV-ARk?si=QENYXpAYTEVW9vVR)
 
 
 
