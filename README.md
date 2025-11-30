@@ -4705,7 +4705,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 ### CARRERA: Ingeniería de Software
 
-### CURSO: Aplicaciones Web
+### CURSO: Desarrollo de Aplicaciones Open Source
 ### SECCIÓN: 7349
 ### PROFESORES:  Efraín Ricardo Bautista Ubillús 
 ### AUDITOR: FloweyTech
