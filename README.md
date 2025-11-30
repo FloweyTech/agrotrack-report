@@ -161,11 +161,11 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 
-![img_1.png](img_1.png)
+![img_1.png](assets/sprint4/img_1.png)
 
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
-![img.png](img.png)
+![img.png](assets/sprint4/img.png)
 
 
 <div style="page-break-after: always;"></div>
@@ -4120,8 +4120,8 @@ Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina
 | Quintanilla Pozo Gonzalo Samuel | Report Context                                         |
 | Vilca Saboya Diego Alejandro	   | Profile Context and NotfoundPage                       |
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](assets/sprint4/img.png)
+![img_1.png](assets/sprint4/img_1.png)
 
 
 ### 5.2.3. Sprint 3
@@ -4557,15 +4557,62 @@ A continuación, se muestran las evidencias gráficas de la colaboración del eq
 
 ####  5.2.4.3.Sprint Backlog 4
 
-#### 5.2.3.4.Development Evidence for Sprint Review
+#### 5.2.4.4.Development Evidence for Sprint Review
 
-#### 5.2.3.5.Execution Evidence for Sprint Review
+#### 5.2.4.5.Execution Evidence for Sprint Review
 
-#### 5.2.3.6.Services Documentation Evidence for Sprint Review
+![img_14.png](assets/sprint4/img_14.png)
+![img_15.png](assets/sprint4/img_15.png)
 
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review
+
+En este sprint 4, se complementaron los bounded contexts de Reports y el de Monitoring and Control con nuevos endpoints para la generación de reportes agrícolas y la gestión avanzada de tareas y lecturas ambientales.
+
+<div style="font-size:60%;">
+
+| Endpoint                                                                   | Método   | Descripción                                                        | Parámetros                                                                                               | Ejemplo de Request                                                                                                                                                   | Ejemplo de Response                                                                                                                                                                               | Documentación                                                                                                           |
+|----------------------------------------------------------------------------|----------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| `/api/v1/plant-sampling-sessions/{sessionId}/observations/{observationId}` | `PUT`    | Actualiza una observación en una sesión de muestreo.               | **Path:** `sessionId` (long), `observationId` (long).<br>**Body:** datos de la observación a actualizar. | URL: `/api/v1/plant-sampling-sessions/1/observations/10`<br>Body: `{"plantNumber":1,"heightCm":25.4,"leafCount":14,"fruitCount":3,"notes":"Planta saludable"}`       | `200 OK`<br>`{"id":10,"plantNumber":1,"heightCm":25.4,"leafCount":14,"fruitCount":3,"notes":"Planta saludable","sessionId":1}`                                                                    | Requiere autenticación. Devuelve la observación actualizada asociada a la sesión.                                       |
+| `/api/v1/plant-sampling-sessions/{sessionId}/observations/{observationId}` | `DELETE` | Elimina una observación de una sesión de muestreo.                 | **Path:** `sessionId` (long), `observationId` (long).                                                    | URL: `/api/v1/plant-sampling-sessions/1/observations/10`                                                                                                             | `204 No Content`                                                                                                                                                                                  | Requiere autenticación. Si el `observationId` no existe se espera error 404.                                            |
+| `/api/v1/plant-sampling-sessions`                                          | `GET`    | Obtiene todas las sesiones de muestreo de plantas.                 | Puede aceptar parámetros de paginación (p.ej. `page`, `size`) si están configurados.                     | URL: `/api/v1/plant-sampling-sessions?page=0&size=10`                                                                                                                | `200 OK`<br>`[{"id":1,"plotId":5,"sampledAt":"2025-11-29T09:00:00Z","avgHeightCm":23.1,"avgLeafCount":12.3,"avgFruitCount":4.2},{"id":2,...}]`                                                    | Requiere autenticación. Lista sesiones con sus promedios calculados.                                                    |
+| `/api/v1/plant-sampling-sessions`                                          | `POST`   | Crea una nueva sesión de muestreo.                                 | **Body:** datos básicos de la sesión.                                                                    | URL: `/api/v1/plant-sampling-sessions`<br>Body: `{"plotId":5,"sampledAt":"2025-11-29T09:00:00Z"}`                                                                    | `201 Created`<br>`{"id":1,"plotId":5,"sampledAt":"2025-11-29T09:00:00Z","avgHeightCm":0,"avgLeafCount":0,"avgFruitCount":0}`                                                                      | Requiere autenticación. Usar este endpoint antes de registrar observaciones.                                            |
+| `/api/v1/plant-sampling-sessions/{sessionId}/observations`                 | `GET`    | Obtiene todas las observaciones de una sesión de muestreo.         | **Path:** `sessionId` (long).                                                                            | URL: `/api/v1/plant-sampling-sessions/1/observations`                                                                                                                | `200 OK`<br>`[{"id":10,"plantNumber":1,"heightCm":25.4,"leafCount":14,"fruitCount":3},{"id":11,"plantNumber":2,...}]`                                                                             | Requiere autenticación. Útil para ver el detalle de las plantas muestreadas en una sesión.                              |
+| `/api/v1/plant-sampling-sessions/{sessionId}/observations`                 | `POST`   | Agrega una nueva observación a una sesión de muestreo.             | **Path:** `sessionId` (long).<br>**Body:** datos de la observación.                                      | URL: `/api/v1/plant-sampling-sessions/1/observations`<br>Body: `{"plantNumber":3,"heightCm":22.0,"leafCount":10,"fruitCount":2,"notes":"Leve estrés hídrico"}`       | `201 Created`<br>`{"id":12,"plantNumber":3,"heightCm":22.0,"leafCount":10,"fruitCount":2,"notes":"Leve estrés hídrico","sessionId":1}`                                                            | Requiere autenticación. Actualiza los promedios de la sesión al registrar la observación.                               |
+| `/api/v1/plant-sampling-sessions/{sessionId}`                              | `GET`    | Obtiene una sesión de muestreo por su id.                          | **Path:** `sessionId` (long).                                                                            | URL: `/api/v1/plant-sampling-sessions/1`                                                                                                                             | `200 OK`<br>`{"id":1,"plotId":5,"sampledAt":"2025-11-29T09:00:00Z","avgHeightCm":23.1,"avgLeafCount":12.3,"avgFruitCount":4.2}`                                                                   | Requiere autenticación. Devuelve únicamente la sesión; las observaciones se consultan con el endpoint de observaciones. |
+| `/api/v1/plant-sampling-sessions/plot/{plotId}`                            | `GET`    | Obtiene las sesiones de muestreo asociadas a una parcela (plot).   | **Path:** `plotId` (long).                                                                               | URL: `/api/v1/plant-sampling-sessions/plot/5`                                                                                                                        | `200 OK`<br>`[{"id":1,"plotId":5,"sampledAt":"2025-11-29T09:00:00Z",...},{"id":3,"plotId":5,...}]`                                                                                                | Requiere autenticación. Útil para ver el historial de muestreos por parcela.                                            |
+| `/api/v1/organizations/{organizationId}/plots/{plotId}/reports`            | `POST`   | Crea un nuevo reporte para una parcela dentro de una organización. | **Path:** `organizationId` (long), `plotId` (long).<br>**Body:** datos del reporte.                      | URL: `/api/v1/organizations/1/plots/5/reports`<br>Body: `{"title":"Reporte semanal","description":"Resumen de variables del 29-11-2025","samplingSessionIds":[1,3]}` | `201 Created`<br>`{"id":100,"organizationId":1,"plotId":5,"title":"Reporte semanal","createdAt":"2025-11-29T10:00:00Z"}`                                                                          | Requiere autenticación. Normalmente lo usa un agrónomo o supervisor para consolidar sesiones de muestreo.               |
+| `/api/v1/reports`                                                          | `GET`    | Obtiene todos los reportes del usuario autenticado.                | Puede incluir parámetros de paginación (`page`,`size`) si están definidos.                               | URL: `/api/v1/reports?page=0&size=10`                                                                                                                                | `200 OK`<br>`[{"id":100,"title":"Reporte semanal","plotId":5,"organizationId":1,"createdAt":"2025-11-29T10:00:00Z"}, {...}]`                                                                      | Requiere autenticación. Filtra reportes por usuario actual (autor/propietario).                                         |
+| `/api/v1/reports/{reportId}`                                               | `GET`    | Obtiene un reporte por su id.                                      | **Path:** `reportId` (long).                                                                             | URL: `/api/v1/reports/100`                                                                                                                                           | `200 OK`<br>`{"id":100,"title":"Reporte semanal","organizationId":1,"plotId":5,"createdAt":"2025-11-29T10:00:00Z","description":"Resumen de variables del 29-11-2025","samplingSessions":[...]} ` | Requiere autenticación. Devuelve el detalle completo del reporte, incluyendo metadatos y sesiones asociadas.            |
+
+</div>
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review
+
+![img_2.png](assets/sprint4/img_2.png)
+![img_3.png](assets/sprint4/img_3.png)
+![img_4.png](assets/sprint4/img_4.png)
+![img_5.png](assets/sprint4/img_5.png)
+![img_6.png](assets/sprint4/img_6.png)
+![img_7.png](assets/sprint4/img_7.png)
+![img_8.png](assets/sprint4/img_8.png)
+![img_9.png](assets/sprint4/img_9.png)
+![img_10.png](assets/sprint4/img_10.png)
+![img_11.png](assets/sprint4/img_11.png)
+![img_12.png](assets/sprint4/img_12.png)
+![img_13.png](assets/sprint4/img_13.png)
+
+Capturas de la ejecución del despliegue en Railway del Sprint 4.
+
+![img_16.png](assets/sprint4/img_16.png)
+![img_17.png](assets/sprint4/img_17.png)
+![img_18.png](assets/sprint4/img_18.png)
+![img_19.png](assets/sprint4/img_19.png)
+![img_20.png](assets/sprint4/img_20.png)
+
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint
+
+
 
 ---
 
@@ -4954,12 +5001,16 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - Video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Ee5Mhxx369hLk4WeJ5c2EngBW3wbZg0DN63E5m2Olv5EAg?e=nchnGm)
 -  Link de video de presentación sobre el Web Application: [Video Presentación Sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/Eb7Kmd1uAVFHhEYs2qs4mHIBkBxcwMrXw9ZTRh8NF3NuMQ?e=UwYFSC)
 
-- App Web Service: [https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html](https://agrotrack-web-service.azurewebsites.net/swagger-ui/index.html)
+- App Web Service: [https://agrotrack-web-service.up.railway.app/swagger-ui/index.html](https://agrotrack-web-service.up.railway.app/swagger-ui/index.html)
 
 
 - Video de Exposicion TB2 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQApT-lkdF1MTITK6827mVyZAUITXPy8GAkvzVvtw7QbVAc?e=6Vh3IU)
+
+- Vide de Exposicion TF : []()
 - Video about the team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCiYOQeh-_TSY6BdztH54PZAbWpvwxouwC9yhCmj9-Lntk?e=nZBYsT)
-- Video about the product: [Enlace del video About the Product del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQCh2cuRXsPIRoFmWRd0hn8rAYqRkDf2wW82aaF-qyVHGrY?e=Tqbsna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Video about the product: [Enlace del video About the Product del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQCh2cuRXsPIRoFmWRd0hn8rAYqRkDf2wW82aaF-qyVHGrY?e=Tqbsna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 
 #### Repositorios del Proyecto
 
