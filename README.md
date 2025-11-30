@@ -120,6 +120,16 @@ Para el desarrollo del TB cada participante del equipo realizo las siguientes ta
 | Quintanilla Pozo Gonzalo Samuel	  | Class diagramas, components diagramam.                                                                                                                                                                                                                      |
 | Vilca Saboya Diego Alejandro	     | Report bounded context, Sprint Planning 3, Aspect Leaders and Collaborators, registro de Entrevistas, Video About-the-Product                                                                                                                               |
 
+
+**TF**
+
+| Integrante                        | Tareas Realizadas                                       |
+|-----------------------------------|---------------------------------------------------------|
+| Amaro Villar Anjali               | Integracion de plant-sampling session y despliegue      |
+| Jara Benites Quique Vladimir	     | Integracion de organization, plots, task y subscription |
+| Quintanilla Pozo Gonzalo Samuel 	 | Pruebas de aceptacion, sprint 4                         |
+| Vilca Saboya Diego Alejandro	     | Integracion de iam y reports, correcciones del informe  |
+
 **GitHub Collaboration Insights**
 
 En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de _merge_ realizados.
