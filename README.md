@@ -16,6 +16,7 @@
 
 
 
+
 ### Team Members:
   
 |                Member                |        Code        |
@@ -67,6 +68,16 @@
 | TB2     | 07/11/2025 | Vladimir Jara       | Se añadió el Sprint Backlog 3                                                              |
 | TB2     | 14/11/2025 | Diego Vilca         | Corrección de Sprint planning anteriores y implementación del sprint planning del sprint 3 |
 | TB2     | 15/11/2025 | Equipo completo     | Correcciones TP y Avance general del backend y frontend                                    |
+
+**TF**
+
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                                                           |
+|---------|------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| TF     | 30/11/2025 | Anjali Amaro        | Consolidación de la evidencia de implementación del Frontend (SPA) y revisión final de los diagramas de Entidad-Relación y Clases.    |
+| TF     | 30/11/2025 | Gonzalo Quintanilla | Finalización del Análisis Competitivo (SWOT) y documentación de todos los casos de uso (User Stories/TS) en formato Gherkin.          |
+| TF     | 30/11/2025 | Vladimir Jara       | Elaboración del Sprint Backlog 4 y modelado C4 (Arquitectura de Capas Internas) para la documentación final.                          |
+| TF     | 30/11/2025 | Diego Vilca         | Redacción y estandarización de las Conclusiones Finales. Consolidación y ajuste de todo el documento (TB1, TP, TB2).                  |
+| TF     | 30/11/2025 | Equipo completo     | Fusión de todas las secciones del informe, verificación de la trazabilidad de los artefactos y validación del cumplimiento del ABET.  |
 
 
 
@@ -161,11 +172,11 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 Gráfico de red (network graph) de ramas en el repositorio de GitHub.
 
-![img_1.png](assets/sprint4/img_1.png)
+![img_1.png](img_1.png)
 
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
-![img.png](assets/sprint4/img.png)
+![img.png](img.png)
 
 
 <div style="page-break-after: always;"></div>
@@ -302,10 +313,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| **Criterio específico**                                                    | **Acciones realizadas (reformuladas)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br>**TB2:** Realizar el registro de entrevistas de validación me permitió saber si estamos cumpliendo y entendiendo las necesidades de los usuarios.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br>**TB2:** Presentar el sprint backlog 3 me permitió comunicar a mis compañeros las tareas que tenía cada uno asignadas y que así todos puedan tener un seguimiento de ellas.<br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br>**TB2:** Realizar el diseño de entrevistas de validación me permitió comunicar a mi equipo las características que teníamos que validar de nuestra aplicación.<br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible.<br>**TB2:** Realizar el registro de entrevistas me permitió saber si la comunicación que tenemos con los usuarios es la adecuada, para cumplir sus necesidades de negocio. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros.<br><br>**Conclusión TB2:**<br>En la TB2, el equipo pudo tener una comunicación sólida y organizada, mejor que en los anteriores avances y también pudo comprobar si la comunicación que tuvieron con sus segmentos fue la mejor. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br>**TB2:** Documentar las evidencias de este avance del sprint me ayudó a describir con claridad lo que se avanzó para este mismo.<br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br>**TB2:** Redactar los endpoints documentados me permitió saber cómo expresar oralmente la implementación de servicios web.<br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br>**TB2:** Redactar el diseño de entrevistas de validación me permitió saber comunicar por escrito las necesidades y características que tenemos que validar.<br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.<br>**TB2:** Documentar el sprint planning me permitió comunicarle a mi equipo el objetivo del sprint 3 y un *review* del anterior sprint para que todos tengamos en cuenta qué mejorar. | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.<br><br>**Conclusión TB2:**<br>En la TB2, el equipo pudo tener una comunicación sólida y organizada, mejor que en los anteriores avances y también pudo comprobar si la comunicación que tuvieron con sus segmentos fue la mejor. |
+| **Criterio específico**                                                    | **Acciones realizadas (reformuladas)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anjali**<br>**TB1:** Realizar el diseño y análisis de entrevistas, así como la elaboración de diagramas de clases y base de datos, me ayudó a explicar los hallazgos del proyecto con claridad y confianza ante el equipo.<br>**TP:** Exponer los resultados del análisis y los diagramas me ayudó a reforzar mi capacidad para transmitir información técnica de manera comprensible.<br>**TB2:** Realizar el registro de entrevistas de validación me permitió saber si estamos cumpliendo y entendiendo las necesidades de los usuarios.<br>**TF:** Sustentación final de la arquitectura de datos (Diagramas de Clases y Base de Datos) y validación de hallazgos frente a un público técnico.<br><br>**Quique**<br>**TB1:** Desarrollar el backlog, mock-ups y evidencias del sprint me ayudó a estructurar la información técnica para luego comunicarla efectivamente al grupo.<br>**TP:** Presentar los avances del sprint me permitió explicar con seguridad el progreso técnico y la lógica detrás de cada entrega.<br>**TB2:** Presentar el sprint backlog 3 me permitió comunicar a mis compañeros las tareas que tenía cada uno asignadas y que así todos puedan tener un seguimiento de ellas.<br>**TF:** Presentación consolidada del flujo de desarrollo del proyecto (Backlogs, avances del sprint) y la explicación de las tareas asignadas al equipo. <br><br>**Gonzalo**<br>**TB1:** Realizar el análisis competitivo y las estrategias frente a competidores me ayudó a ordenar ideas clave para exponer con claridad los resultados del estudio.<br>**TP:** Exponer las user stories y hallazgos estratégicos me permitió adaptar mi comunicación a un público académico y técnico a la vez.<br>**TB2:** Realizar el diseño de entrevistas de validación me permitió comunicar a mi equipo las características que teníamos que validar de nuestra aplicación.<br>**TF:** Exposición final del análisis competitivo, las user stories y la estrategia de validación, adaptando el discurso a audiencias académicas y técnicas. <br><br>**Diego**<br>**TB1:** Elaborar el Event Storming, el lenguaje ubicuo y los diagramas de arquitectura me ayudó a desarrollar un discurso técnico sólido.<br>**TP:** Presentar los flujos de usuario y la arquitectura del sistema me ayudó a explicar conceptos complejos con lenguaje accesible.<br>**TB2:** Realizar el registro de entrevistas me permitió saber si la comunicación que tenemos con los usuarios es la adecuada, para cumplir sus necesidades de negocio.<br>**TF:** Sustentación de la arquitectura de la solución (Event Storming, Lenguaje Ubicuo, Diagramas C4) y explicación de conceptos complejos con lenguaje accesible. | **Conclusión TB1:**<br>Durante la TB1, se fortalecieron las habilidades de exposición oral al comunicar hallazgos, análisis y diagramas con claridad, mostrando dominio del contenido y adaptación a distintos públicos.<br><br>**Conclusión TP:**<br>En las presentaciones del TP, el equipo demostró confianza, claridad y cohesión al exponer resultados técnicos y de diseño, generando comprensión y retroalimentación efectiva entre docentes y compañeros.<br><br>**Conclusión TB2:**<br>En la TB2, el equipo pudo tener una comunicación sólida y organizada, mejor que en los anteriores avances y también pudo comprobar si la comunicación que tuvieron con sus segmentos fue la mejor. <br><br>**Conclusión TF:**<br> El equipo demostró una capacidad oral consolidada para comunicar la arquitectura compleja (C4, DDD) y los hallazgos de análisis (UX/Competencia) con claridad, confianza y cohesión, logrando transmitir información técnica de manera comprensible ante docentes y jurados. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anjali**<br>**TB1:** Redactar los capítulos del informe y los diagramas técnicos me ayudó a comunicar de forma escrita los resultados con precisión y estructura.<br>**TP:** Elaborar los reportes finales y documentación técnica me permitió aplicar un lenguaje formal y técnico adecuado a diferentes lectores.<br>**TB2:** Documentar las evidencias de este avance del sprint me ayudó a describir con claridad lo que se avanzó para este mismo.<br>**TF:** Redacción y documentación precisa de los capítulos técnicos y los diagramas del informe final, manteniendo la estructura formal y coherente. <br><br>**Quique**<br>**TB1:** Registrar las evidencias del sprint y la planificación del backlog me ayudó a desarrollar una comunicación técnica escrita organizada y detallada.<br>**TP:** Redactar la documentación de los avances técnicos me permitió mantener coherencia entre los entregables y los resultados del proyecto.<br>**TB2:** Redactar los endpoints documentados me permitió saber cómo expresar oralmente la implementación de servicios web.<br>**TF:** Elaboración de la planificación completa del proyecto (Backlogs, evidencias de sprint) y redacción de la documentación de servicios web (endpoints) con detalle técnico. <br><br>**Gonzalo**<br>**TB1:** Elaborar los reportes de análisis competitivo y user stories me ayudó a comunicar resultados técnicos con un lenguaje claro y profesional.<br>**TP:** Escribir sobre la validación de las user stories me permitió reforzar mi capacidad para estructurar información técnica con propósito comunicativo.<br>**TB2:** Redactar el diseño de entrevistas de validación me permitió saber comunicar por escrito las necesidades y características que tenemos que validar.<br>**TF:** Elaboración de reportes de análisis competitivo, user stories y validaciones con un lenguaje profesional y estructurado, adecuado para diferentes tipos de lectores. <br><br>**Diego**<br>**TB1:** Documentar los diagramas de arquitectura y el lenguaje ubicuo me ayudó a expresar ideas complejas de manera comprensible y formal.<br>**TP:** Redactar los informes de diseño y arquitectura me permitió consolidar mis habilidades de escritura técnica para audiencias diversas.<br>**TB2:** Documentar el sprint planning me permitió comunicarle a mi equipo el objetivo del sprint 3 y un *review* del anterior sprint para que todos tengamos en cuenta qué mejorar.<br>**TF:** Documentación formal de los diagramas de arquitectura (Event Storming, C4) y el lenguaje ubicuo, expresando ideas complejas de manera formal y estructurada en el informe final.                                             | **Conclusión TB1:**<br>Durante la TB1, se desarrolló una comunicación escrita sólida, organizada y coherente, que permitió documentar con claridad los análisis, diagramas y hallazgos del proyecto.<br><br>**Conclusión TP:**<br>En el TP, los integrantes consolidaron un estilo de redacción técnica más profesional, adaptando su lenguaje a distintos públicos y generando documentación de calidad que respaldó las decisiones del equipo.<br><br>**Conclusión TB2:**<br>En la TB2, el equipo pudo tener una comunicación sólida y organizada, mejor que en los anteriores avances y también pudo comprobar si la comunicación que tuvieron con sus segmentos fue la mejor. <br><br>**Conclusión TF:**<br> El equipo consolidó un estilo de redacción técnica profesional, organizada y detallada, aplicando lenguaje formal en la documentación de la arquitectura (C4/DDD) y el informe final. Esto garantizó la coherencia entre los entregables técnicos y los resultados del análisis de negocio.                                                                                                                                                                                                                                                                                              |
 
 <div style="page-break-after: always;"></div>
 
@@ -2538,7 +2549,7 @@ Este flujo empieza en el dashboard de organización, el usuario selecciona el bo
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.  
 
 **Step 1: Unstructured Exploration**  
-![Step 1 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-1.png)    
+![Step 1 Design Level Event Storming](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Unstructured-exploration.jpg)    
 En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.  
 
 **Step 2: Timelines**  
@@ -2575,7 +2586,15 @@ En este noveno paso, el equipo antes de agregar los agregados, discutió bastant
 
 
 **Step 10: Bounded Contexts**  
-![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)  
+![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)
+![Step 10 Design Level Event Storming IAM](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/IAM.jpg)
+![Step 10 Design Level Event Storming Monitoring-and-Control](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Monitoring-and-Controll.jpg)
+![Step 10 Design Level Event Storming Organization](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization.jpg)
+![Step 10 Design Level Event Storming Profile](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Profile.jpg)
+![Step 10 Design Level Event Storming Reports](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Reports.jpg)
+
+
+
 En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
 [Ver en Miro](https://miro.com/app/board/uXjVJKW5IPg=/?share_link_id=208743433890)
 
@@ -3978,6 +3997,7 @@ Durante el Sprint 2 se implementó la base funcional de la plataforma, abordando
 
 </table>
 </div>
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 En el sprint 2 se alcanzó un desarrollo parcial del frontend de la web application usando una fake api. Se muestran
@@ -4381,7 +4401,7 @@ El video será incluido en cuanto se complete la grabación del flujo funcional 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-### 5.2.3.6.1. Organization Service Documentation
+##### 5.2.3.6.1. Organization Service Documentation
 
 En este Sprint se implementaron y documentaron los endpoints correspondientes al bounded context **Organization**, permitiendo gestionar organizaciones, actualizar información básica y administrar miembros.  
 La siguiente tabla resume los endpoints expuestos, las acciones implementadas y los enlaces correspondientes a la documentación generada automáticamente con Swagger.
@@ -4546,21 +4566,443 @@ El backend está disponible de manera pública en la ruta: [Abri en el navegador
 
 A continuación, se muestran las evidencias gráficas de la colaboración del equipo durante el Sprint 3, extraídas desde los analytics del repositorio en GitHub.
 
-<img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d" />
+<img alt="Image" src="https://github.com/user-attachments/assets/d2a2f68a-0d12-4458-ae7b-0a686d33481d"/>
 
 
 ### 5.2.4. Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4
 
+<div style="font-size:70%;">
+
+| Sprint #                             | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      | En este sprint se abordará la implementación de la segunda versión del Backend utilizando Java, JPA y Springboot, mejoras del detalle del reporte, la implementacion y actualizacion del frontend para la intregracion con el Backend, incluyendo la resolución de deuda técnica (i18n)                                                                                                                                                                                                              |
+| Date                                 | 2025/11/29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Time                                 | 2:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                             | Reunión virtual mediante la plataforma **Discord**                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Attendees <br> (to planning meeting) | Anjali Amaro, Gonzalo Quintanilla, Quique Jara y Diego Vilca                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Review Summary              | Durante el Sprint 3 se desarrolló la primera versión del Backend. Se logró implementar el CORE del negocio (Organización y Creación de Parcelas) y como observación se tuvo que se debe implementar i18n en el login.                                                                                                                                                                                                                                                                                |
+| Sprint 3 Retrospective Summary       | El equipo tuvo mejor organización y mejoras con respeceto al problema del tiempo de desarrollo de tareas, lo cual se identifica como un avance de mejora para esta ultima entrega.                                                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 4 Goal                        | Nuestro enfoque está en desarrollar el Backend de la Gestión de Usuarios y Tareas, integrando los flujos completos de la gestión de tareas, la descarga de reportes y la experiencia completa del nuevo usuario. Adicionalmente, se resolverá la deuda técnica de i18n en el login. <br/>Creemos que esto entrega validación temprana y confianza a usuarios. Esto se confirmará cuando en staging los usuarios puedan registrarse, completar su perfil, iniciar sesión y gestionar tareas de campo. |
+| Sprint 4 Velocity                    | 54                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sum of story points                  | 54                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+</div>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features faltantes del front y core del backend.
+
+<div style="font-size:65%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Tasks** <br> L/C | **Members** <br> L/C | *Profile** <br> L/C | **Sampling Session** <br> L/C | **Monitoring backend** <br> L/C | **Organization backend** <br> L/C | **Profile backend** <br> L/C |  **Reports backend** <br> L/C  |
+|:------------------------------------------:|:-------------------:|:------------------:|:--------------------:|:-------------------:|:-----------------------------:|:-------------------------------:|:---------------------------------:|:----------------------------:|:------------------------------:|
+|              **Amaro Anjali**              |      njlmrvllr      |         C          |          C           |          C          |               L               |                L                |                 C                 |              C               |               C                |         
+|          **Quintanilla Gonzalo**           |       GoldQP        |         C          |          C           |          C          |               C               |                C                |                 C                 |              L               |               C                |        
+|              **Jara Quique**               |   QuiqueVladimir    |         C          |          C           |          C          |               C               |                C                |                 C                 |              C               |               L                |       
+|              **Vilca Diego**               |       diesoks       |         L          |          L           |          L          |               C               |                C                |                 L                 |              C               |               C                |      
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
 
 ####  5.2.4.3.Sprint Backlog 4
+
+El objetivo principal de este Sprint es Finalizar la implementación del Backend V2, activando los flujos completos de Registro, la Gestión de Tareas y Alertas, la Generación de Reportes. Esto permitirá la validación de los flujos críticos de negocio en el entorno de pruebas.
+
+<div style="font-size:70%;">
+<table>
+  <thead>
+    <tr>
+      <td>Sprint #</td>
+      <td colspan="7">Sprint 4</td>
+    </tr>
+    <tr>
+      <td colspan="2">User Story</td>
+      <td colspan="2">Work-Item / Task</td>
+      <td>Description</td>
+      <td>Estimation (Hours)</td>
+      <td>Assigned To</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Id</td>
+      <td>Title</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US24</td>
+      <td>Registrar cuenta</td>
+      <td>ET41</td>
+      <td>Service Register Logic (Hashing)</td>
+      <td>Implementar la lógica de servicio para el <b>hashing</b> y estado 'PENDING'.</td>
+      <td>6</td>
+      <td>Anjali Amaro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Recuperar Cuenta</td>
+      <td>ET42</td>
+      <td>Service Recovery Flow</td>
+      <td>Implementar el servicio de seguridad para la <b>generación de enlace/código de un solo uso</b>.</td>
+      <td>6</td>
+      <td>Quique Jara</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Completar Perfil</td>
+      <td>ET43</td>
+      <td>Service Profile Completion Logic</td>
+      <td>Implementar la lógica de servicio para marcar el perfil como 'COMPLETED' (Integración con IAM).</td>
+      <td>6</td>
+      <td>Anjali Amaro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Iniciar Monitoreo</td>
+      <td>ET44</td>
+      <td>Service Start Monitoring</td>
+      <td>Implementar el servicio para cambiar el estado de la parcela a "Monitoreo Activo".</td>
+      <td>6</td>
+      <td>Gonzalo Q.</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Registrar Datos Planta</td>
+      <td>ET45</td>
+      <td>Endpoint/Service Plant Data</td>
+      <td>Implementar el controlador y servicio para el registro de <b>hojas y botones</b>.</td>
+      <td>6</td>
+      <td>Anjali Amaro</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Registrar Cond. Ambientales</td>
+      <td>ET46</td>
+      <td>Endpoint/Service Env Data</td>
+      <td>Implementar el controlador y servicio para el registro de <b>humedad y temperatura</b>.</td>
+      <td>6</td>
+      <td>Quique Jara</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Umbrales/Alertas</td>
+      <td>ET47</td>
+      <td>Endpoint PUT /monitoring/thresholds</td>
+      <td>Implementar el endpoint para que el Agrónomo configure los umbrales.</td>
+      <td>6</td>
+      <td>Gonzalo Q.</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Umbrales/Alertas</td>
+      <td>ET48</td>
+      <td>Service Alert Trigger Logic</td>
+      <td>Implementar el servicio que <b>dispara la alerta</b> al registrar un valor fuera del umbral.</td>
+      <td>6</td>
+      <td>Diego Vilca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Crear Tarea</td>
+      <td>ET49</td>
+      <td>Endpoint/Service Create Task Logic</td>
+      <td>Implementar la lógica de creación de tarea, incluyendo la validación del responsable y la notificación.</td>
+      <td>6</td>
+      <td>Diego Vilca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Descargar Reporte</td>
+      <td>ET50</td>
+      <td>Service Report Async Generation</td>
+      <td>Implementar la lógica de <b>generación asíncrona</b> y la entrega del archivo final para la descarga.</td>
+      <td>6</td>
+      <td>Quique Jara</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<img alt="Trello Sprint 4" src="assets/Sprint-4-mejoras/Sprint-Backlog-4/trello.png" />
+
+[Trello Board - Sprint 4 Backlog](https://trello.com/invite/b/692b6736391c8e655d6266cf/ATTI5dfa74897009d7d994b84346e68cbdd4DCA221C5/agrotrack-open-source-sprint4)
+
 
 #### 5.2.4.4.Development Evidence for Sprint Review
 
 #### 5.2.4.5.Execution Evidence for Sprint Review
 
+En esta sección se presentan los avances de implementación realizados durante el Sprint 4 en los diferentes productos de la solución: Web Application y Web Services (Backend).
+
+A continuación, se presenta la tabla con el formato requerido para registrar la evidencia de desarrollo.
+Los commits serán añadidos posteriormente.
+
+<div style="font-size:70%;">
+
+<table>
+  <tr>
+    <td>Repository</td>
+    <td>Branch</td>
+    <td>Commit Id</td>
+    <td>Commit Message</td>
+    <td>Commit Message Body</td>
+    <td>Committed on (Date)</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>61d9285</td>
+    <td>feat: add integration organization and monitoring with front</td>
+    <td>Integración Crítica: Integración final de los contextos Organization y Monitoring & Control con el Frontend.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>094f082</td>
+    <td>Merge pull request #3 from hotfix/message-language</td>
+    <td>Deuda Técnica: Fusión de hotfix para la implementación de i18n (internacionalización), resolviendo la deuda de Sprint 3.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>dec8637</td>
+    <td>feat: add initial data</td>
+    <td>Setup/Data: Inserción de datos iniciales en la base de datos para pruebas.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>8661c72</td>
+    <td>feat(reports): add messages properties</td>
+    <td>Reports/i18n: Adición de propiedades y mensajes estandarizados para el contexto de reportes.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>02b6d22</td>
+    <td>feat(reports): add external organization service ACL</td>
+    <td>Reports/ACL: Implementación de la Capa Anti-Corrupción para comunicación Reports &lt;-&gt; Organization.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>5ae72b1</td>
+    <td>feat(reports): add external monitoring service ACL</td>
+    <td>Reports/ACL: Implementación de la Capa Anti-Corrupción para Reports &lt;-&gt; Monitoring & Control.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>6ff1f81</td>
+    <td>feat(organization): add organization context facade implementation</td>
+    <td>Organization/DDD: Implementación final del Facade del BC Organization, un punto de entrada clave.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>0395a80</td>
+    <td>feat(monitoring-and-control): add monitoring context facade implementation</td>
+    <td>Monitoring/DDD: Implementación del Facade del BC Monitoring & Control.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>452693b</td>
+    <td>feat(monitoring-and-control): update environment reading repository</td>
+    <td>Monitoring: Actualización del repositorio para la persistencia de lecturas ambientales.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>f246518</td>
+    <td>feat(reports): update report query service</td>
+    <td>Reports/Query: Actualización del servicio de consulta para listar y obtener reportes específicos (US23).</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>4a85329</td>
+    <td>feat(reports): update command service implementation</td>
+    <td>Reports/Logic: Actualización del servicio de comando para generar reportes.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>b58e9b3</td>
+    <td>feat(reports): update global exception handler</td>
+    <td>Core/Manejo de Errores: Mejora del manejo global de excepciones (400, 401, 409).</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>8909e52</td>
+    <td>feat(reports): add get all reports by profile id query</td>
+    <td>Reports: Implementación de la consulta para obtener todos los reportes filtrados por el perfil.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>edc3815</td>
+    <td>feat: update agrotrack web service application with forced locale english</td>
+    <td>i18n/Setup: Configuración de la aplicación para forzar la localización en inglés.</td>
+    <td>2025/11/28</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>595a2a0</td>
+    <td>feat(sampling-session): add commands and queries for plant sampling sessions and observations</td>
+    <td>Monitoring/DDD: Adición de comandos y queries para la gestión de datos de muestreo y observaciones.</td>
+    <td>2025/11/25</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>49c00cc</td>
+    <td>feat(sampling-session): add PlantObservation entity for managing plant observations</td>
+    <td>Monitoring/Entidad: Creación de la entidad base PlantObservation para registrar datos de la planta (US10).</td>
+    <td>2025/11/25</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>376e757</td>
+    <td>feat(tests): add user registration scenarios for API endpoint</td>
+    <td>Tests/IAM: Creación de pruebas de aceptación (Gherkin) para el flujo de registro de usuarios (US24).</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-service</td>
+    <td>develop</td>
+    <td>214c5a3</td>
+    <td>feat: add CORS policy</td>
+    <td>Setup/Security: Configuración de la política CORS para permitir la comunicación segura Frontend &lt;-&gt; Backend.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>9885f9f</td>
+    <td>Merge branch 'feature/reports' into develop</td>
+    <td>Integración Reports: Fusión de la rama que integra los componentes del módulo de Reportes al proyecto principal.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>1eeb402</td>
+    <td>feat(reports): update report store</td>
+    <td>Reports/State: Creación y actualización del Store (gestión de estado) para los datos de reportes.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>214dc27</td>
+    <td>feat(reports): update report detail component</td>
+    <td>Reports/UI: Actualización del componente de vista detallada para mostrar el contenido del reporte.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>c8f75d6</td>
+    <td>feat(reports): update report assembler</td>
+    <td>Reports/Logic: Creación del Assembler (mapeador) para transformar los datos del Backend en modelos de Frontend.</td>
+    <td>2025/11/29</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>c7fdf3a</td>
+    <td>feat(iam): add iam store</td>
+    <td>IAM/State: Creación del Store para la gestión centralizada del estado de autenticación (tokens, usuario).</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>af08ca2</td>
+    <td>feat(iam): update login component</td>
+    <td>IAM/UI: Actualización y refactorización del componente de vista de Login.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>fe79f90</td>
+    <td>feat(iam): update app config with the interceptor</td>
+    <td>IAM/Security: Configuración global del Interceptor HTTP para adjuntar tokens JWT a las solicitudes salientes.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>a6d8927</td>
+    <td>feat(iam): add guard</td>
+    <td>IAM/Security: Creación del Guard de Angular para proteger rutas basadas en la autenticación (route protection).</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>576fcf0</td>
+    <td>feat(iam): add sign up request and response</td>
+    <td>IAM/Registro: Definición de los modelos de Request y Response para el flujo de registro.</td>
+    <td>2025/11/27</td>
+  </tr>
+  <tr>
+    <td>FloweyTech/agrotrack-web-app</td>
+    <td>develop</td>
+    <td>870f80a</td>
+    <td>feat(profile): implement language switcher and enhance login/register UI</td>
+    <td>UI/i18n: Implementación del selector de idioma y mejoras generales en la UI de Login/Registro.</td>
+    <td>2025/11/24</td>
+  </tr>
+</table>
+</div>
+
+#### 5.2.4.5.Execution Evidence for Sprint Review
 ![img_14.png](assets/sprint4/img_14.png)
 ![img_15.png](assets/sprint4/img_15.png)
 
@@ -4610,7 +5052,7 @@ Capturas de la ejecución del despliegue en Railway del Sprint 4.
 ![img_20.png](assets/sprint4/img_20.png)
 
 
-#### 5.2.3.8.Team Collaboration Insights during Sprint
+#### 5.2.4.8.Team Collaboration Insights during Sprint
 
 
 
@@ -4951,39 +5393,48 @@ Añadir colores, etiquetas y priorización visual clara para tareas atrasadas o 
 
 # Conclusiones
 
-**Implementación de buenas prácticas en el desarrollo**  
-Durante este Sprint se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener. Además, se incorporaron principios de diseño responsivo para asegurar una experiencia fluida en distintos dispositivos y resoluciones.
+**Implementación de buenas prácticas en el desarrollo** 
 
-**Enfoque centrado en el usuario**  
-Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los user stories, lo que permitió una integración coherente entre frontend y backend.
+Durante el proyecto se mantuvo un enfoque riguroso en la calidad del código. Se respetaron los estándares de codificación definidos por el equipo, se utilizó Git de forma estructurada para el control de versiones, y se aplicaron convenciones claras en los mensajes de commit. Esto permitió construir una base de código modular, escalable y fácil de mantener, sentando las bases necesarias para el desarrollo de la solución.
 
-**Lecciones aprendidas durante el proceso**  
-A lo largo del Sprint se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes serán aplicados en los próximos ciclos para mejorar la eficiencia, reducir retrabajos y asegurar el cumplimiento de los objetivos establecidos.
+**Enfoque centrado en el usuario** 
 
-**Integración técnica y modularidad**  
-Se avanzó en la organización del proyecto por contextos funcionales, separando componentes, servicios y recursos según su dominio. Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se comenzaron a aplicar principios de arquitectura limpia y diseño orientado a componentes.
+Las decisiones de diseño y estructura se tomaron considerando las necesidades reales de los usuarios. Se priorizó la claridad visual, la navegación intuitiva y la accesibilidad, con el objetivo de ofrecer una interfaz amigable y funcional. Las vistas fueron organizadas por contexto y se alinearon con los flujos definidos en los *user stories*, lo que permitió una integración coherente entre *frontend* y *backend*.
 
-**Colaboración y revisión entre pares**  
-Durante el Sprint se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica también ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
+**Lecciones aprendidas durante el proceso** 
 
-**Validación de la arquitectura y flujos principales**  
-La integración de los módulos IAM, Organization y Report permitió validar la arquitectura propuesta y los flujos principales de la plataforma. El uso de una Fake API en Azure facilitó la simulación de datos y la verificación temprana de los procesos clave.
+A lo largo del proceso se identificaron oportunidades de mejora en la planificación de tareas y en la sincronización entre miembros del equipo. Se evidenció la importancia de mantener una comunicación constante y de revisar los avances de forma iterativa. Estos aprendizajes fortalecen la capacidad del equipo para mejorar la eficiencia y asegurar el cumplimiento de los objetivos establecidos en ciclos futuros.
 
-**Gestión ágil y trabajo colaborativo**  
-El equipo aplicó metodologías ágiles, organizando el trabajo en sprints y utilizando herramientas como Trello y Pivotal Tracker para la gestión de tareas. Esto permitió una mejor visibilidad del avance y una rápida adaptación ante cambios o bloqueos.
+**Integración técnica y modularidad** 
 
-**Despliegue y automatización**  
-El despliegue exitoso en Netlify y GitHub Pages garantiza accesibilidad y actualizaciones automáticas, lo que agiliza la entrega continua y la validación con usuarios reales.
+Se avanzó en la organización del proyecto por **Contextos Funcionales**, separando componentes, servicios y recursos según su dominio (DDD). Esta estructura permitió una mayor claridad en el flujo de datos, facilitó la reutilización de componentes y mejoró la mantenibilidad del código. Además, se aplicaron principios de **arquitectura limpia** y diseño orientado a componentes.
 
-**Documentación y trazabilidad**  
-Se establecieron procesos claros de documentación y convenciones en los mensajes de commit, lo que facilita la trazabilidad y el mantenimiento del proyecto a largo plazo.
+**Colaboración y revisión entre pares** 
+
+Durante el proyecto se promovió la revisión cruzada de código entre integrantes del equipo, lo que permitió detectar errores tempranos, compartir buenas prácticas y fortalecer la cohesión técnica. Esta dinámica ayudó a mantener una calidad uniforme en el desarrollo y a fomentar el aprendizaje colectivo.
+
+**Validación de la arquitectura y flujos principales** 
+
+La integración de los módulos **IAM, Organization, Monitoring & Control y Report** permitió la validación completa de la arquitectura propuesta y los flujos principales de la plataforma. La simulación de datos facilitó la verificación temprana de los procesos clave, confirmando la viabilidad técnica.
+
+**Gestión ágil y trabajo colaborativo**
+
+El equipo aplicó metodologías ágiles, organizando el trabajo en *sprints* y utilizando herramientas para la gestión de tareas. Esto permitió una mejor visibilidad del avance y una rápida adaptación ante cambios o bloqueos.
+
+**Despliegue y automatización** 
+
+El despliegue exitoso en Netlify y GitHub Pages garantiza accesibilidad y actualizaciones automáticas, lo que agiliza la entrega continua y la validación con usuarios reales, demostrando la viabilidad de la solución.
+
+**Documentación y trazabilidad** 
+
+Se establecieron procesos claros de documentación y convenciones en los mensajes de *commit*, lo que facilita la trazabilidad y el mantenimiento del proyecto a largo plazo.
 
 **Fundamentos Técnicos Establecidos**
-* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable.
-* El despliegue exitoso en Netlify demuestra la viabilidad técnica del proyecto.
+* La arquitectura basada en **Domain-Driven Design** (DDD) facilita el desarrollo escalable de la solución.
+* El despliegue exitoso demuestra la **viabilidad técnica** del proyecto.
 * Se establecieron procesos claros de desarrollo y documentación para futuras entregas.
 
-Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
+Esta entrega final ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
