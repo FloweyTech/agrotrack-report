@@ -2576,16 +2576,26 @@ En este noveno paso, el equipo antes de agregar los agregados, discutió bastant
 
 
 **Step 10: Bounded Contexts**  
-![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)
-![Step 10 Design Level Event Storming IAM](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/IAM.jpg)
-![Step 10 Design Level Event Storming Monitoring-and-Control](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Monitoring-and-Controll.jpg)
-![Step 10 Design Level Event Storming Organization](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization.jpg)
-![Step 10 Design Level Event Storming Profile](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Profile.jpg)
-![Step 10 Design Level Event Storming Reports](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Reports.jpg)
+A continuación se presenta el vistazo general donde salen todos los bounded contexts:  
+![Step 10 Design Level Event Storming](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/vistazo-general.png)  
+Nuestra leyenda:
+![Step 10 Design Level Event Storming Leyenda](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/leyenda.png)  
+IAM bounded context:  
+![Step 10 Design Level Event Storming IAM](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/IAM.png)  
+Monitoring and Control bounded context:  
+![Step 10 Design Level Event Storming Monitoring-and-Control part 1](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/monitoring-and-control-1.png)
+![Step 10 Design Level Event Storming Monitoring-and-Control part 2](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/monitoring-and-control-2.png)  
+Organization bounded context:
+![Step 10 Design Level Event Storming Organization part 1](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization-1.png)
+![Step 10 Design Level Event Storming Organization part 2](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization-2.png)  
+Profile bounded context:
+![Step 10 Design Level Event Storming Profile](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Profile.png)  
+Reports bounded context:
+![Step 10 Design Level Event Storming Reports](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/reports.png)
 
 
 
-En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente marco los eventos de dominio que fueron implementados.  
 [Ver en Miro](https://miro.com/app/board/uXjVJKW5IPg=/?share_link_id=208743433890)
 
 ### 4.6.2. Software Architecture Context Diagram
