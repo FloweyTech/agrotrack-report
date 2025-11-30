@@ -5472,7 +5472,9 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - Video about the team: [https://youtu.be/97omlHSATQg](https://youtu.be/97omlHSATQg)
 - Video about the product: [Enlace del video About the Product del Sprint 4](https://youtu.be/V25kaLV-ARk?si=QENYXpAYTEVW9vVR)
 
-
+Credenciales para probar la aplicación web:
+- Correo: agronomo@gmail.com
+- Contraseña: 123456789
 
 #### Repositorios del Proyecto
 
