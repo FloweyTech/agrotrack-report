@@ -4405,7 +4405,7 @@ En esta captura se observa la estructura general de los grupos de endpoints (Aut
 ### **4. Video demostrativo**
 El video será incluido en cuanto se complete la grabación del flujo funcional solicitado para la Sprint Review.
 
-**Video del Sprint 3:** _[pendiente de adjuntar]_
+[Video demostración Sprint 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQD23Twzpi0bQaW7CiqAs6XwARPdbRiDAN2vNsp3pZPW0fo?e=OMfGN7)
 
 ---
 
@@ -5014,6 +5014,8 @@ Los commits serán añadidos posteriormente.
 #### 5.2.4.5.Execution Evidence for Sprint Review
 ![img_14.png](assets/sprint4/img_14.png)
 ![img_15.png](assets/sprint4/img_15.png)
+[Video demostración Sprint 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQD23Twzpi0bQaW7CiqAs6XwARPdbRiDAN2vNsp3pZPW0fo?e=OMfGN7)
+
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review
 
@@ -5063,7 +5065,7 @@ Capturas de la ejecución del despliegue en Railway del Sprint 4.
 
 #### 5.2.4.8.Team Collaboration Insights during Sprint
 
-
+![img.png](img.png)
 
 ---
 
