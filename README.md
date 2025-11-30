@@ -278,7 +278,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [5.2.4. Sprint 3](#524-sprint-4)
+        - [5.2.4. Sprint 4](#524-sprint-4)
             - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
             - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
             - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
@@ -2586,16 +2586,26 @@ En este noveno paso, el equipo antes de agregar los agregados, discutió bastant
 
 
 **Step 10: Bounded Contexts**  
-![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)
-![Step 10 Design Level Event Storming IAM](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/IAM.jpg)
-![Step 10 Design Level Event Storming Monitoring-and-Control](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Monitoring-and-Controll.jpg)
-![Step 10 Design Level Event Storming Organization](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization.jpg)
-![Step 10 Design Level Event Storming Profile](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Profile.jpg)
-![Step 10 Design Level Event Storming Reports](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Reports.jpg)
+A continuación se presenta el vistazo general donde salen todos los bounded contexts:  
+![Step 10 Design Level Event Storming](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/vistazo-general.png)  
+Nuestra leyenda:
+![Step 10 Design Level Event Storming Leyenda](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/leyenda.png)  
+IAM bounded context:  
+![Step 10 Design Level Event Storming IAM](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/IAM.png)  
+Monitoring and Control bounded context:  
+![Step 10 Design Level Event Storming Monitoring-and-Control part 1](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/monitoring-and-control-1.png)
+![Step 10 Design Level Event Storming Monitoring-and-Control part 2](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/monitoring-and-control-2.png)  
+Organization bounded context:
+![Step 10 Design Level Event Storming Organization part 1](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization-1.png)
+![Step 10 Design Level Event Storming Organization part 2](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Organization-2.png)  
+Profile bounded context:
+![Step 10 Design Level Event Storming Profile](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/Profile.png)  
+Reports bounded context:
+![Step 10 Design Level Event Storming Reports](./assets/Sprint-4-mejoras/4-6-1-Design-level-Event-Storming/Step10/reports.png)
 
 
 
-En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente marco los eventos de dominio que fueron implementados.  
 [Ver en Miro](https://miro.com/app/board/uXjVJKW5IPg=/?share_link_id=208743433890)
 
 ### 4.6.2. Software Architecture Context Diagram
@@ -5193,7 +5203,7 @@ La aplicación web de AgroTrack fue desarrollada con un enfoque centrado en el u
 
 ### CARRERA: Ingeniería de Software
 
-### CURSO: Aplicaciones Web
+### CURSO: Desarrollo de Aplicaciones Open Source
 ### SECCIÓN: 7349
 ### PROFESORES:  Efraín Ricardo Bautista Ubillús 
 ### AUDITOR: FloweyTech
@@ -5386,8 +5396,8 @@ Añadir colores, etiquetas y priorización visual clara para tareas atrasadas o 
 
 
 ## 5.4. Video About the Product
-![Video About The Product Sprint 3](./assets/images/screenshots/video-about-the-product/about-the-product-screenshot.png)  
-[Enlace del video About the Product del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQCh2cuRXsPIRoFmWRd0hn8rAYqRkDf2wW82aaF-qyVHGrY?e=Tqbsna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+![Video About The Product Sprint 4](./assets/images/screenshots/video-about-the-product/about-the-product-sprint-4.png)  
+[Enlace del video About the Product del Sprint 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a778_upc_edu_pe/IQB-ZXA8nWpDQb1sAoSk37EJAZvLpeMpamvOaKUL9PBLFKk?e=o7c0uh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 # Conclusiones
