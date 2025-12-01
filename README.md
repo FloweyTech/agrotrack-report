@@ -189,6 +189,17 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 ![img.png](img.png)
 
 
+**TF**
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+![img_1.png](img_1.png)
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+![img_2.png](img_2.png)
+
+
 <div style="page-break-after: always;"></div>
 
 
@@ -5031,7 +5042,7 @@ Los commits serán añadidos posteriormente.
 
 En este sprint 4, se complementaron los bounded contexts de Reports y el de Monitoring and Control con nuevos endpoints para la generación de reportes agrícolas y la gestión avanzada de tareas y lecturas ambientales.
 
-<div style="font-size:60%;">
+<div style="font-size:40%;">
 
 | Endpoint                                                                   | Método   | Descripción                                                        | Parámetros                                                                                               | Ejemplo de Request                                                                                                                                                   | Ejemplo de Response                                                                                                                                                                               | Documentación                                                                                                           |
 |----------------------------------------------------------------------------|----------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
